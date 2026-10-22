@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#070e1d"><meta name="description" content="A complete atmospheric 3D voyage through a neon world. Follow the river. Wake the city. Carry a voice into the dawn.">
+<title>AFTERLIGHT — The River Remembers</title><link rel="icon" href="./favicon.svg"><link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+<canvas id="world" aria-label="The neon river and your salvage skiff"></canvas>
+<div class="vignette" aria-hidden="true"></div><div id="flash" aria-hidden="true"></div>
+<div id="loading"><span class="sigil">⌁</span><p>LISTENING TO THE RIVER</p><small id="loading-detail">Assembling a world from lost signals…</small></div>
+<main id="title" class="screen hidden">
+  <div class="masthead"><a class="brand" href="./" aria-label="Afterlight home"><span class="logo-mark">Λ</span> QUIET SIGNAL <span class="muted">/ INTERACTIVE FICTION</span></a><button class="text-btn" id="title-settings">SETTINGS <span>→</span></button></div>
+  <div class="title-copy"><div class="eyebrow"><span class="live-dot"></span> CHAPTER 01 · A WORLD BETWEEN MOMENTS</div><h1>AFTER<span>LIGHT</span></h1><p class="subtitle">THE RIVER REMEMBERS</p><p class="intro">The city has forgotten how to wake.<br>Somewhere in its silence, a voice is waiting.</p><div class="title-actions"><button id="begin" class="primary">Enter the current <span>→</span></button><button id="continue" class="text-btn hidden">Continue voyage →</button></div><p class="small-note">A complete, unhurried journey · about 10–20 minutes</p></div>
+  <div class="title-bottom"><span><i class="line-icon">≈</i> FOLLOW THE LIGHT</span><span><i class="line-icon">◇</i> RECOVER THE VOICES</span><span><i class="line-icon">☼</i> CHOOSE THE DAWN</span><button id="title-sound" class="text-btn">SOUND ON <span>◉</span></button></div>
+  <span class="vertical-label">35° 07′ N &nbsp; / &nbsp; THE MEMORY DELTA</span>
+</main>
+<div id="hud" class="hidden">
+ <header class="hud-top"><div><span class="eyebrow">AFTERLIGHT <span class="muted">/ 01</span></span><p id="area">THE MEMORY DELTA</p></div><div class="hud-top-right"><button class="text-btn" id="journal-btn">JOURNAL <kbd>J</kbd></button><button class="text-btn" id="pause-btn">PAUSE <kbd>ESC</kbd></button></div></header>
+ <aside id="objective"><span class="eyebrow" id="objective-label">THE FIRST VOICE</span><h2 id="objective-text">Find the Bellkeeper</h2><p id="objective-sub">Follow the cyan current upstream.</p><div class="relay-marks" id="relay-marks"><span>01</span><i></i><span>02</span><i></i><span>03</span></div></aside>
+ <div id="target-marker" class="hidden"><span>◇</span><small id="target-distance"></small></div>
+ <div id="radio" class="hidden"><span class="radio-line"></span><div><small id="radio-name">MOTH / ONBOARD ARCHIVE</small><p id="radio-text"></p></div></div>
+ <div id="interaction" class="hidden"><button id="interact-btn"><kbd>E</kbd><span id="interact-text">Listen to the relay</span><span>→</span></button></div>
+ <footer class="hud-bottom"><div class="engine"><span class="eyebrow">SKIFF 07 / <span id="speed">00</span> M/S</span><div class="charge-track"><i id="charge"></i></div><small id="engine-label">HOLD SPACE TO SURGE</small></div><div class="route"><span id="route-label">DOWNSTREAM</span><div class="route-track"><i id="route-progress"></i><b style="left:19%"></b><b style="left:47%"></b><b style="left:76%"></b></div><span>DAWN</span></div><div class="hud-help"><span><kbd>W</kbd> THRUST</span><span><kbd>A</kbd><kbd>D</kbd> STEER</span><span><kbd>Q</kbd> PULSE</span></div></footer>
+ <div id="toast" class="hidden" role="status"></div>
+ <div id="chapter-card" class="hidden"><small>THE RIVER REMEMBERS</small><h2 id="chapter-title"></h2><p id="chapter-sub"></p></div>
+</div>
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-heading"><div id="modal-content" class="panel"></div></div>
+<div id="touch" class="hidden"><div id="joystick"><i></i></div><button id="touch-boost">SURGE</button><button id="touch-pulse">PULSE</button></div>
+<script type="module">
+import('./src/main.js').catch(() => {
+  const detail = document.getElementById('loading-detail');
+  if (!document.getElementById('loading').classList.contains('hidden')) {
+    detail.textContent = 'Could not start the voyage. Check that WebGL 2 is enabled and cdn.jsdelivr.net is reachable, then reload.';
+  }
+});
+</script>
+</body></html>
