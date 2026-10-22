@@ -7,3 +7,5 @@ Completed or paused projects live under `ARCHIVE/<ProjectName>/`, with their sou
 ## Archive
 
 - [Vesper — The Last Ember](ARCHIVE/Vesper/): the playable 3D exploration game, including its source, tests, screenshot, and deployment workflow. See its [README](ARCHIVE/Vesper/README.md) to run it or move it into a dedicated repository.
+
+- [Afterglow](ARCHIVE/Afterglow/): a synthwave boating voyage with three watercraft, generated sunset waterways, a seven-signal story, and endless free sailing. Includes source, the finished static `dist/` build, tests, and screenshots; no deployment workflow.

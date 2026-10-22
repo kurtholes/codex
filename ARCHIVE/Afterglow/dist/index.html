@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#110b2c" />
+    <meta
+      name="description"
+      content="Take the long way home. A synthwave boating escape across neon water and palm-lined islands."
+    />
+    <title>Afterglow — Take the long way home</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle fill='%23ffcb50' cx='32' cy='29' r='23'/%3E%3Cpath stroke='%23120c30' stroke-width='5' d='M0 36h64M0 46h64M0 56h64'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <canvas id="sea" aria-label="3D synthwave boating game"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+    <div id="loading">
+      <span class="load-sun"></span
+      ><span>Finding the last light<span class="dots">...</span></span>
+    </div>
+    <div id="fatal" hidden>
+      <h1>A little help getting afloat</h1>
+      <p id="fatalText"></p>
+      <button onclick="location.reload()">Try again</button>
+    </div>
+    <header id="brand">
+      <span class="sun-mark" aria-hidden="true">◒</span
+      ><span>AFTERGLOW<small>THE SUNSET IS YOURS.</small></span>
+    </header>
+    <div id="toolbar" hidden>
+      <button
+        id="soundBtn"
+        class="icon-button"
+        title="Toggle audio (M)"
+        aria-label="Toggle audio"
+      >
+        ♫<span id="soundState">OFF</span>
+      </button>
+      <button
+        id="cameraBtn"
+        class="icon-button"
+        title="Change camera (C)"
+        aria-label="Change camera"
+      >
+        ◉
+      </button>
+      <button
+        id="pauseBtn"
+        class="icon-button"
+        title="Pause (Escape)"
+        aria-label="Pause"
+      >
+        <svg
+          viewBox="0 0 20 20"
+          width="13"
+          height="13"
+          fill="currentColor"
+          aria-hidden="true"
+        >
+          <path d="M5 4h3v12H5zm7 0h3v12h-3z" />
+        </svg>
+      </button>
+    </div>
+    <main id="menu" class="panel">
+      <div class="eyebrow">
+        <span class="status-dot"></span> NO HURRY. NO WRONG TURNS.
+      </div>
+      <h1>Take the<br /><em>long way</em><br />home.</h1>
+      <p class="intro">
+        Somewhere between the sea and the sky,<br />there’s a little more
+        summer.
+      </p>
+      <div class="mode-tabs" role="group" aria-label="Journey mode">
+        <button data-mode="voyage" class="selected">
+          Sunset voyage <span>~12 MIN</span></button
+        ><button data-mode="free">Free sail <span>∞</span></button>
+      </div>
+      <p id="modeDescription" class="micro">
+        Seven signals. One last mixtape. Follow the light home.
+      </p>
+      <div class="field-label">01 <span>CHOOSE YOUR RIDE</span></div>
+      <div id="crafts" role="group" aria-label="Watercraft">
+        <button data-craft="runabout" class="selected">
+          <svg viewBox="0 0 100 32" aria-hidden="true">
+            <path d="M7 19 30 16 40 9 61 9 68 16 95 17 79 27 23 27Z" />
+            <path d="m42 11-8 7h30l-5-7Z" class="glass" /></svg
+          ><strong>Daydream</strong><small>SPORT BOAT</small>
+        </button>
+        <button data-craft="jetski">
+          <svg viewBox="0 0 100 32" aria-hidden="true">
+            <path d="m12 22 20-5 16-2 12-7 8 3-5 6 28 3-16 8H26Z" />
+            <path d="m40 15 12 2 8-5" class="glass" /></svg
+          ><strong>Pulse</strong><small>JET SKI</small>
+        </button>
+        <button data-craft="yacht">
+          <svg viewBox="0 0 100 32" aria-hidden="true">
+            <path d="m8 20 19-3 10-8h28l9 8 20 2-12 10H22Z" />
+            <path d="m39 11-8 8h37l-6-8Z" class="glass" />
+            <path d="M42 7h22" /></svg
+          ><strong>Slowdance</strong><small>CRUISER</small>
+        </button>
+      </div>
+      <div class="route-row">
+        <label
+          ><span class="field-label">02 <span>FIND YOUR WATER</span></span
+          ><select id="routeSelect">
+            <option value="palms">Palm Reverie</option>
+            <option value="arches">Electric Cathedrals</option>
+            <option value="islands">Velvet Archipelago</option>
+          </select></label
+        ><button
+          id="shuffleBtn"
+          aria-label="Generate a new route"
+          title="Generate a new route"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            width="17"
+            height="17"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.4"
+            aria-hidden="true"
+          >
+            <path
+              d="M3 6h4c4 0 6 12 10 12h4m-4-4 4 4-4 4M3 18h4c1 0 2-1 3-3m4-6c1-2 2-3 3-3h4m-4-4 4 4-4 4"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="seed-row">
+        <span id="seedText">CHART 0284</span
+        ><label
+          >DETAIL
+          <select id="quality">
+            <option value="low">Low</option>
+            <option value="medium" selected>Balanced</option>
+            <option value="high">High</option>
+          </select></label
+        >
+      </div>
+      <button id="startBtn" class="primary">
+        Leave the shore
+        <span
+          ><svg
+            viewBox="0 0 20 20"
+            width="17"
+            height="17"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            aria-hidden="true"
+          >
+            <path d="M4 16 16 4M4 4h12v12" /></svg
+        ></span>
+      </button>
+      <button id="resumeBtn" class="text-button" hidden>
+        Continue your last voyage →
+      </button>
+      <div class="menu-footer">
+        <span>W A S D / ARROWS TO SAIL</span
+        ><button id="helpBtn">
+          Field guide
+          <svg
+            viewBox="0 0 20 20"
+            width="8"
+            height="8"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            aria-hidden="true"
+          >
+            <path d="M4 16 16 4M4 4h12v12" />
+          </svg>
+        </button>
+      </div>
+    </main>
+    <aside id="postcard">
+      <span>EST. 1986 — SOMEWHERE, FOREVER</span>
+      <h2 id="craftName">Daydream <i>01</i></h2>
+      <p id="craftDescription">A little speed. A lot of soul.</p>
+      <div>
+        <span id="craftSpec">38 KNOTS</span><span>✦ ALL SUMMER LONG</span>
+      </div>
+    </aside>
+    <section id="hud" hidden>
+      <div id="destination">
+        <span id="signalCount">SIGNAL 01 / 07</span>
+        <h2 id="destinationName">The first light</h2>
+        <p>
+          <span id="distance">0.8</span> <span id="distanceUnit">KM</span>
+          <span class="hud-separator">/</span>
+          <span id="directionText">FOLLOW THE CYAN LIGHT</span>
+        </p>
+        <div class="journey-progress"><i id="journeyProgress"></i></div>
+      </div>
+      <div id="navArrow" aria-hidden="true">⌃</div>
+      <div id="radio" class="radio" hidden>
+        <span class="radio-label"><i></i> SUNSET FM <span>88.6</span></span>
+        <p id="radioText"></p>
+      </div>
+      <div id="hint">
+        <span id="hintText">W / ↑ to ease into the evening</span>
+      </div>
+      <div id="instruments">
+        <span class="instrument-label">GROUND SPEED</span>
+        <div><strong id="speed">00</strong><span>KN</span></div>
+        <div class="speed-bars" id="speedBars"></div>
+        <span id="cruiseLabel">SHIFT · CRUISE CONTROL</span>
+      </div>
+      <div id="chart">
+        <div class="chart-title">
+          <span>YOUR LITTLE CORNER</span><span>N ↑</span>
+        </div>
+        <canvas id="map" width="200" height="170"></canvas
+        ><span id="chartFooter">PALM REVERIE</span>
+      </div>
+      <div id="bottomKeys">
+        WASD <span>SAIL</span> &nbsp; SHIFT <span>CRUISE</span> &nbsp; C
+        <span>CAMERA</span> &nbsp; ESC <span>PAUSE</span>
+      </div>
+    </section>
+    <section id="pause" class="modal-backdrop" hidden>
+      <div class="modal">
+        <div class="eyebrow">A MOMENT TO BREATHE</div>
+        <h2>Let it drift.</h2>
+        <p>Your sunset will be right here.</p>
+        <button id="continueBtn" class="primary">
+          Back to the water
+          <span
+            ><svg
+              viewBox="0 0 20 20"
+              width="17"
+              height="17"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <path d="M4 16 16 4M4 4h12v12" /></svg
+          ></span>
+        </button>
+        <div class="settings-row">
+          <label
+            >Detail
+            <select id="pauseQuality">
+              <option value="low">Low</option>
+              <option value="medium" selected>Balanced</option>
+              <option value="high">High</option>
+            </select></label
+          ><label>Sound <input id="audioToggle" type="checkbox" /></label>
+        </div>
+        <label class="slider-label"
+          >Volume <input id="volume" type="range" min="0" max="100" value="55"
+        /></label>
+        <p class="controls-copy">
+          WASD / arrows — throttle & steer<br />Space — brake · Shift — cruise
+          control<br />Mouse drag — look around · C — camera<br />R — return to
+          the water · M — sound<br />H — hide interface · Esc — pause
+        </p>
+        <button id="returnBtn" class="text-button">Return to the shore</button>
+      </div>
+    </section>
+    <section id="guide" class="modal-backdrop" hidden>
+      <div class="modal">
+        <div class="eyebrow">THE AFTERGLOW FIELD GUIDE</div>
+        <h2>Find your own pace.</h2>
+        <p>
+          Ease forward with W or ↑. Turn with A / D or ← / →. S slows you down
+          and gently reverses. Space drops your speed. Shift holds your cruising
+          speed.
+        </p>
+        <p>
+          In <b>Sunset voyage</b>, sail close to seven cyan signals to piece
+          together a farewell broadcast. There’s no timer, no score, and no way
+          to lose. Your compass and chart lead the way. Each ride has its own
+          pace.
+        </p>
+        <p>
+          <b>Free sail</b> keeps generating islands as you go. Turn anywhere.
+          Follow nothing. Just be here.
+        </p>
+        <p>
+          Drag the mouse to look around. C changes the camera. R brings you back
+          to open water. M toggles the synthesized soundtrack. Escape pauses.
+        </p>
+        <button id="closeGuide" class="primary">
+          Got it
+          <span
+            ><svg
+              viewBox="0 0 20 20"
+              width="17"
+              height="17"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <path d="M4 16 16 4M4 4h12v12" /></svg
+          ></span>
+        </button>
+      </div>
+    </section>
+    <section id="ending" class="modal-backdrop" hidden>
+      <div class="modal ending-card">
+        <div class="eyebrow">ALL SEVEN SIGNALS FOUND</div>
+        <span class="ending-sun">◒</span>
+        <h2>Some things<br />stay with you.</h2>
+        <p>
+          The last song fades. The water keeps moving.<br />You took the long
+          way. You made it home.
+        </p>
+        <div id="voyageStats"></div>
+        <button id="sailOnBtn" class="primary">
+          Stay a little longer <span>∞</span></button
+        ><button id="anotherBtn" class="text-button">
+          A different sunset →
+        </button>
+      </div>
+    </section>
+    <div id="touch" hidden>
+      <div>
+        <button data-key="a" aria-label="Steer left">←</button
+        ><button data-key="d" aria-label="Steer right">→</button>
+      </div>
+      <div>
+        <button data-key="s" aria-label="Slow down">−</button
+        ><button data-key="w" aria-label="Accelerate">+</button>
+      </div>
+    </div>
+    <noscript>Afterglow needs JavaScript and WebGL to set sail.</noscript>
+    <script>
+      setTimeout(function () {
+        if (!document.body.dataset.ready) {
+          document.getElementById("loading").hidden = true;
+          document.getElementById("fatal").hidden = false;
+          document.getElementById("fatalText").textContent =
+            "The engine could not load. Serve this folder over HTTP and allow the pinned Three.js file from cdn.jsdelivr.net, then try again.";
+        }
+      }, 20000);
+    </script>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
