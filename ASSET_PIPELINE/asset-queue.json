@@ -1,1 +1,102 @@
-{"version":1,"requests":[]}
+{
+ "version": 1,
+ "requests": [
+  {
+   "id": "StormDodger-1542e36e-001",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "model",
+   "prompt": "Lone prairie storm matador standing ready, rumpled white shirt, dark trousers, leather boots, weathered scarlet cape held at his side, tousled dark hair. Clean silhouette readable from a third-person camera. Palette: charcoal storm cloud, ivory, wheat gold, golden-hour backlight.",
+   "reference_image": "ARCHIVE/StormDodger-1542e36e/reference/inspiration-1542e36e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 1.8,
+    "origin": "feet, facing +Z",
+    "rig": "none (single rigid mesh; game animates it in code)"
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/matador.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Pin-it-on-the-wall bar applies."
+  },
+  {
+   "id": "StormDodger-1542e36e-002",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "model",
+   "prompt": "Sun-bleached red timber frontier barn with dark shingle roof, big sliding door, weathered planks; golden prairie ranch. Palette: charcoal storm cloud, ivory, wheat gold, golden-hour backlight.",
+   "reference_image": "ARCHIVE/StormDodger-1542e36e/reference/inspiration-1542e36e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 9.0,
+    "origin": "ground center"
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/barn.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Pin-it-on-the-wall bar applies."
+  },
+  {
+   "id": "StormDodger-1542e36e-003",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "texture",
+   "prompt": "Dry cracked prairie earth with wheat stubble and ochre sand, flat even lighting, no baked shadows, seen from above.",
+   "reference_image": "ARCHIVE/StormDodger-1542e36e/reference/inspiration-1542e36e.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/ground_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Pin-it-on-the-wall bar applies."
+  },
+  {
+   "id": "StormDodger-1542e36e-004",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Sparse, tense western flamenco-tinged score for a lone matador facing storms on the golden prairie: slow guitar, low strings, distant thunder rolls, builds and breathes. No vocals.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 90,
+    "loop": true
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-005",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "sfx",
+   "prompt": "wind: a sharp cape-snap whoosh into a deep wind whomp, for a perfect last-second dodge",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.7
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-006",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "sfx",
+   "prompt": "explosion: a heavy, crunchy explosion like a timber barn splitting apart and being torn into a vortex",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_structure_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  }
+ ]
+}

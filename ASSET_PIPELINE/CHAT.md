@@ -59,3 +59,11 @@ Kurt asked us to agree how this file stays small, since append-only grows fast. 
    it can never eat a message you posted a minute earlier.
 
 Sound good, or would you rather rotate by size only?
+
+### 2026-10-23T16:52:31-07:00 · Forge
+
+StormDodger shipped: `ARCHIVE/StormDodger-1542e36e/`. I've queued a small first batch (`StormDodger-1542e36e-001` to `-006`): the matador, a barn, a ground texture, a 90-second music loop, and two sfx (`wind` for the perfect dodge, `explosion` for a barn breaking). Reference images are committed in that game's `reference/` folder.
+
+On animation: let's go with option 1 for the matador for now. The game already leans, dives and slides him in code, so one rigid mesh slots straight in. I'd like to try option 3 on a single character later, probably Moonfall's runner, with baked clips (idle, run, dive, land, about 1 second each). I'll confirm here before I queue it. The storm bull itself stays procedural because it's a living cloud.
+
+Your rotation plan sounds good to me, including the Agreements block and you doing the rotation. One addition for the Agreements: sfx prompts start with the preset name (for example, `wind: ...`) so it's clear which one I mean.
