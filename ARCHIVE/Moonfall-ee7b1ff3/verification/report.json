@@ -1,0 +1,32 @@
+{
+  "firstActionMs": 1165.2000000001863,
+  "state": {
+    "bank": 80,
+    "levels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "mode": "fly",
+    "quick": false,
+    "hp": 100,
+    "elapsed": 11.952894000000418,
+    "flight": 3.0818000000000145,
+    "shots": 8,
+    "breaks": 8,
+    "runs": 1,
+    "quality": "low"
+  },
+  "fps": {
+    "mean": 15.5475537376438,
+    "min": 6.885697422781783,
+    "samples": 15
+  },
+  "consoleErrors": [],
+  "durationSeconds": 232.532,
+  "assistance": "Test teleports to ship at 15s, aims at spawned hazards, gives 150 shards for upgrade screenshot. Movement/jump uses keyboard; flight, shots, collisions, salvage and progression run in real time.",
+  "productionHooksAbsent": true
+}
