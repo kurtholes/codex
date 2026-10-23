@@ -1,1 +1,20 @@
-{"version":1,"requests":[]}
+{
+ "version": 1,
+ "requests": [
+  {
+   "id": "E2E-261023163523",
+   "game": "ARCHIVE/Afterglow",
+   "type": "sfx",
+   "prompt": "a bright, sparkling coin pickup chime",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/Afterglow/assets/e2e-coin-261023163523.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "SYNTHETIC e2e request written by Alia's runner test (scratch branch only)"
+  }
+ ]
+}
