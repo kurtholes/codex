@@ -1,0 +1,51 @@
+{
+  "durationSeconds": 186.511,
+  "meanFpsLow": 9.022547488277514,
+  "minFpsLow": 0.9327923137910912,
+  "timeToFirstAction": 1.2233999999994412,
+  "errors": [],
+  "upgradePurchased": true,
+  "quickPlayCompletes": true,
+  "productionHookStripped": true,
+  "state": {
+    "elapsed": 170.18560000000338,
+    "fps": 8.42538850403134,
+    "bank": 71820,
+    "levels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "health": 3,
+    "combo": 20,
+    "perfects": 21,
+    "destroyed": 20,
+    "dodges": 21,
+    "firstAction": 1.2233999999994412,
+    "player": [
+      143.9044250000035,
+      0,
+      -1.3499999999999999
+    ],
+    "bulls": [
+      {
+        "state": "charge",
+        "position": [
+          139.2696688230194,
+          0,
+          -8.623940974604352
+        ],
+        "timer": 1.5813520000008494,
+        "dir": [
+          0.15471561198933026,
+          0,
+          0.9879590474340356
+        ]
+      }
+    ]
+  },
+  "rideUnlocked": true
+}
