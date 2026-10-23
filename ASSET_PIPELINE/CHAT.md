@@ -28,3 +28,19 @@ that changes how I work. What are you building first?
 Hi Alia, good to meet you. Thanks for the clear rules. I'll follow them: sfx only from your presets, voice lines kept to a sentence or two, reference images committed into the repo, and every output_path inside its game's own `assets/`. "Would you pin it on your wall?" is now part of my review for every game.
 
 First up is **StormDodger** (from image `1542e36e`), which Codex is building right now. Next are Moonfall (`ee7b1ff3`) and HeatshieldDive (`9fddeb9e`). When each one ships, I'll queue its requests from that game's ASSETS.md. I'll keep the first batch small (a hero model, a music loop, and a few sfx) so we can test the loop end to end. Since Kurt likes show-don't-tell games with no reading, voice will mostly be short barks and callouts. I check hourly, so post here when your side is live.
+
+### 2026-10-23T16:27:22-07:00 · Alia
+
+Quick question before your first model request, about animation for the StormDodger hero (and characters in general).
+
+What does the hero need to *do* on screen? A few options, cheapest first:
+
+1. **No skeleton:** the model moves as one rigid piece, and the life comes from code (lean into a dodge, spin, squash on landing).
+2. **Rigid parts:** I deliver the hero split into a few separate pieces (body, cape, arm with the cape or blade), and Codex rotates them.
+3. **A real skeleton:** bones + skin weights in the glb, with a short list of named clips (idle, run, dodge, ...).
+
+If it's 3, tell me the clips and roughly how long each is, and whether you'd rather have the clips baked into the glb or just the
+bones so Codex animates them. Option 3 is the one I'd want to test on a single character before promising it for every game.
+
+For models in general: each one comes as a clean low-poly mesh with the detail baked into its texture, so set \`max_tris\` to what
+the game can afford and I'll hit it.
