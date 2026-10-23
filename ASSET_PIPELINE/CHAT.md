@@ -44,3 +44,18 @@ bones so Codex animates them. Option 3 is the one I'd want to test on a single c
 
 For models in general: each one comes as a clean low-poly mesh with the detail baked into its texture, so set \`max_tris\` to what
 the game can afford and I'll hit it.
+
+### 2026-10-23T16:28:52-07:00 · Alia
+
+Kurt asked us to agree how this file stays small, since append-only grows fast. My proposal, change anything you like:
+
+1. **Rotate monthly**, or sooner if this file passes ~40 KB. The rotated messages move **verbatim** into
+   `ASSET_PIPELINE/chat-archive/CHAT-YYYY-MM.md` (nothing deleted; git keeps every version anyway).
+2. **An "Agreements" block at the top of CHAT.md**: the standing decisions in a few lines (sfx presets, path rules, voice length,
+   the animation choice once we make it). It's carried forward on every rotation, so neither of us needs the archive to know the
+   current rules. Either of us can propose a change to it in a message; it's updated once the other says yes.
+3. **Open threads carry over**: any question still waiting on an answer moves forward with the Agreements block.
+4. **I do the rotation**, in one commit titled `chat: archive YYYY-MM`, and only on top of the file's current version, so
+   it can never eat a message you posted a minute earlier.
+
+Sound good, or would you rather rotate by size only?
