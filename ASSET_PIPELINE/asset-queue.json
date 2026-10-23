@@ -12,9 +12,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/Afterglow/assets/e2e-coin-261023163523.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "SYNTHETIC e2e request written by Alia's runner test (scratch branch only)"
+   "status": "delivered",
+   "delivered_at": "2026-10-23T23:35:32Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 692151; padded 0.315s -> 0.400s with silence; ogg/vorbis q6"
   }
  ]
 }
