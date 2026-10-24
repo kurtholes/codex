@@ -11929,9 +11929,9 @@
     "length_s": 1.0
    },
    "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_delivery_stamp.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Delivering at the inbox."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:36Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 366147 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.702s -> 1.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "LastShift-7258f0f0-020",
@@ -11944,9 +11944,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_wages.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Salvage and wages."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:36Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 444137 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.296s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "LastShift-7258f0f0-021",
@@ -11959,9 +11959,9 @@
     "length_s": 6.0
    },
    "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_nave_draft.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped quietly as ambience, so an even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:36Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 802744 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.897s -> 6.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "Glyphrunner-49e8ed3f-001",
@@ -12240,9 +12240,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_charge_impact.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every shoulder charge through a wall."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:36Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 690522 (rule a: explicit '<preset>:' tag ('explosion:')); trimmed 0.837s -> 0.600s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "Glyphrunner-49e8ed3f-018",
@@ -12255,9 +12255,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_vault.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:36Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset jump seed 987782 (rule a: explicit '<preset>:' tag ('jump:')); padded 0.295s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "Glyphrunner-49e8ed3f-019",
@@ -12270,9 +12270,9 @@
     "length_s": 1.5
    },
    "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_beacon.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "A beacon awakening."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:36Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 188334 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.688s -> 1.500s with silence; ogg/vorbis q6"
   },
   {
    "id": "Glyphrunner-49e8ed3f-020",
