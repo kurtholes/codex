@@ -834,7 +834,7 @@
     "length_s": 3.0
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_1.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_017_2e699f_261024-062252; onset 0.940s into the 5.18s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 3s from the onset; trimmed 4.244s -> 3.000s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -15.5 -> -15.8 dB, peak -0.7 -> -1.0 dBFS (gain -0.3 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6",
    "delivered_at": "2026-10-24T13:29:34Z"
   },
@@ -849,7 +849,7 @@
     "length_s": 3.0
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_2.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_018_40e696_261024-062252; onset 0.370s into the 5.18s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 3s from the onset; trimmed 4.814s -> 3.000s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -14.4 -> -14.0 dB, peak -5.5 -> -5.1 dBFS (gain +0.4 dB; target -14 dB RMS); ogg/vorbis q6",
    "delivered_at": "2026-10-24T13:34:58Z"
   },
