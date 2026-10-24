@@ -1258,9 +1258,9 @@
     "rig": "none (single rigid mesh; the game breaks it apart with procedural debris)"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/hut.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "The village has thirty of these, so this one model sets the whole look. Pin-it-on-the-wall bar applies."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T14:22:30Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 a22f3147; Pixal3D crown 654,398 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'ground center, door facing +Z' not understood; not applied; scaled so the largest extent = 8.0 m (x8.204)"
   },
   {
    "id": "SmokeRing-5a1da71e-002",
