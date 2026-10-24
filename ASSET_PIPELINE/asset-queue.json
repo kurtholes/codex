@@ -9716,9 +9716,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_vault.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:12:13Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset jump seed 924478 (rule a: explicit '<preset>:' tag ('jump:')); padded 0.296s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "ParallaxRuins-b01eaee5-024",
@@ -9731,9 +9731,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_parchment_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Ambient bed, looped."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:12:13Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 244992 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.840s -> 4.000s with silence; ogg/vorbis q6"
   }
  ]
 }
