@@ -819,9 +819,9 @@
     "length_s": 1.7
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_seismic_shot.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": "alia-runner: reopened (was failed): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
+   "notes": "alia-runner: failed: the Spark 2 demux job codex-foley-underworldexcavator-60593e9d-016-2134ee_261024-035628 failed: FAILED codex-foley-underworldexcavator-60593e9d-016-2134ee_261024-035628: failed/1792839388_codex-foley-underworldexcavator-60593e9d-016-2134ee_261024-035628.json — read /home/silkalia/render-spool/fa"
   },
   {
    "id": "UnderworldExcavator-60593e9d-017",
