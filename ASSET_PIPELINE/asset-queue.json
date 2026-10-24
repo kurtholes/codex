@@ -79,9 +79,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T07:54:05Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-004939; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; ogg/vorbis q6"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: reopened (was delivered): our foley shipped too loud (RMS -8.6 / -10.5 dB vs the game's other sfx at -12..-20); the runner now levels foley to -14 dB RMS, peak <= -1 dBFS"
   },
   {
    "id": "StormDodger-1542e36e-006",
@@ -543,9 +543,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T08:50:37Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-014110; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; ogg/vorbis q6"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: reopened (was delivered): our foley shipped too loud (RMS -8.6 / -10.5 dB vs the game's other sfx at -12..-20); the runner now levels foley to -14 dB RMS, peak <= -1 dBFS"
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
