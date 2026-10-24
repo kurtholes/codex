@@ -528,9 +528,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_1.ogg",
-   "status": "failed",
+   "status": "open",
    "delivered_at": null,
-   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
+   "notes": "alia-runner: reopened (was failed): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
   },
   {
    "id": "Moonfall-ee7b1ff3-019",
@@ -543,9 +543,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
-   "status": "failed",
+   "status": "open",
    "delivered_at": null,
-   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
+   "notes": "alia-runner: reopened (was failed): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
@@ -558,9 +558,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_3.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T06:09:51Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 388409; padded 0.207s -> 1.400s with silence; ogg/vorbis q6"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: reopened (was delivered): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
   },
   {
    "id": "UnderworldExcavator-60593e9d-001",
@@ -819,9 +819,9 @@
     "length_s": 1.7
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_seismic_shot.ogg",
-   "status": "failed",
+   "status": "open",
    "delivered_at": null,
-   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
+   "notes": "alia-runner: reopened (was failed): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
   },
   {
    "id": "UnderworldExcavator-60593e9d-017",
@@ -834,9 +834,9 @@
     "length_s": 1.8
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_1.ogg",
-   "status": "failed",
+   "status": "open",
    "delivered_at": null,
-   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
+   "notes": "alia-runner: reopened (was failed): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
   },
   {
    "id": "UnderworldExcavator-60593e9d-018",
@@ -849,9 +849,9 @@
     "length_s": 2.0
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_2.ogg",
-   "status": "failed",
+   "status": "open",
    "delivered_at": null,
-   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
+   "notes": "alia-runner: reopened (was failed): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
   },
   {
    "id": "UnderworldExcavator-60593e9d-019",
@@ -864,9 +864,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_timber_break.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T06:10:03Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 225045; padded 0.323s -> 1.200s with silence; ogg/vorbis q6"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: reopened (was delivered): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
   },
   {
    "id": "UnderworldExcavator-60593e9d-020",
