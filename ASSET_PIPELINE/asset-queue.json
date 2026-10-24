@@ -1621,9 +1621,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/algae_bed.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Several sit inside the greenhouse."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T16:52:21Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 a0a5f563; Pixal3D crown 697,902 tris -> crowned low-poly door (decimate+bake) 1,500 tris, re-counted <= max_tris 1,500; origin 'ground center' not understood; not applied; scaled so the largest extent = 3.0 m (x3.275)"
   },
   {
    "id": "Air-22ee0ab5-003",
