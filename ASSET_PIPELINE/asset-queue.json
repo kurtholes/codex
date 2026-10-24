@@ -1570,9 +1570,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/sfx_crawler_hit.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T16:21:40Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_smokering_5a1da71e_020_b20507_261024-091043; onset 1.070s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 2.706s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -22.6 -> -23.2 dB, peak -0.4 -> -1.0 dBFS (gain -0.6 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6"
   },
   {
    "id": "SmokeRing-5a1da71e-021",
