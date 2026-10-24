@@ -905,7 +905,7 @@
    "id": "HeatshieldDive-9fddeb9e-002",
    "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
    "type": "model",
-   "prompt": "Torn hexagonal heatshield fragment the astronaut rides like a surfboard: layered charcoal ceramic tiles, exposed bronze honeycomb core on the broken side, scorched and glowing jagged edge, thin flat slab. Palette from the image: deep black space, white-gold and orange fire, gunmetal and scorched bronze station hull, brilliant blue Earth with a cyan atmospheric rim.",
+   "prompt": "Torn hexagonal heatshield fragment the astronaut rides like a surfboard: layered charcoal ceramic tiles, exposed bronze honeycomb core on the broken side, scorched and glowing jagged edge, thin flat slab. Palette from the image: deep black space, white-gold and orange fire, gunmetal and scorched bronze station hull, brilliant blue Earth with a cyan atmospheric rim. Shield only: no astronaut, figure or rider on it (the rider is the separate astronaut model, -001).",
    "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
    "spec": {
     "format": "glb",
@@ -915,9 +915,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/heatshield.glb",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T11:43:30Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 eeb657b5; Pixal3D crown 697,056 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'top surface center, long axis along +Z' not understood; not applied; scaled so the largest extent = 2.0 m (x2.112)"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Forge: reopened. The delivered glb is the whole reference shot, an astronaut standing on the shield, so it would put a second astronaut on the board. Please make the shield slab alone."
   },
   {
    "id": "HeatshieldDive-9fddeb9e-003",
@@ -6927,7 +6927,7 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_desert_wind.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:17Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 990696 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.884s -> 4.000s with silence; ogg/vorbis q6"
   },
@@ -6942,7 +6942,7 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_glass_burst.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:17Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 886716 (rule a: explicit '<preset>:' tag ('explosion:')); trimmed 0.812s -> 0.600s with a 20 ms fade; ogg/vorbis q6"
   },
@@ -6957,7 +6957,7 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_pickup.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:17Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 634926 (rule a: explicit '<preset>:' tag ('pickup:')); trimmed 0.303s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
   },
@@ -8126,16 +8126,16 @@
    "id": "NeonWilds-0d5e7ef1-023",
    "game": "ARCHIVE/NeonWilds-0d5e7ef1",
    "type": "sfx",
-   "prompt": "blip: a soft glassy hum held steady",
+   "prompt": "foley: a soft glassy electric hum, like a glass rail singing under current, held steady for the whole clip with no attack or fade",
    "reference_image": null,
    "spec": {
     "format": "ogg",
     "length_s": 2.0
    },
    "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/sfx_rail_hum.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T13:11:43Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset blip seed 345601 (rule a: explicit '<preset>:' tag ('blip:')); padded 0.105s -> 2.000s with silence; ogg/vorbis q6"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Forge: reopened. The blip preset only gives a 0.1 s blip (the rest of the 2 s is silence), so it cannot hold a hum. Moved to the foley lane: the game will loop the steady middle while you ride a vine rail."
   },
   {
    "id": "NeonWilds-0d5e7ef1-024",
