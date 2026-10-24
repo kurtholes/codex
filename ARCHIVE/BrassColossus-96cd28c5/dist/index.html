@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><title>Brass Colossus</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="loading"><span>☀</span><b>BRASS COLOSSUS</b><small>Stoking the furnace…</small></div>
+<header><div class="brand"><span class="sun">☀</span><div><b>BRASS COLOSSUS</b><small id="region">SUNFALL VALLEY</small></div></div><div class="settings"><button id="mode" title="Switch game mode">⚔ Rumble</button><select id="quality" aria-label="Graphics quality"><option value="auto">Auto</option><option value="low">Low</option><option value="med">Medium</option><option value="high">High</option></select><button id="sound" aria-label="Toggle sound">♫</button></div></header>
+<div id="compass"><span>◇</span><div id="bearing">N</div><span>◇</span></div>
+<div id="builds" hidden><button data-build="0">1 · Brawler</button><button data-build="1">2 · Runner</button><button data-build="2">3 · Bastion</button></div>
+<div id="enemyLabels"></div><div id="worldLabels"></div><div id="numbers"></div><div id="reticle"><i></i></div><div id="toast" role="status"></div>
+<aside id="status"><div class="eyebrow">KNIGHT · <span id="rank">MK I</span></div><div class="statline"><span>⬡ HULL</span><b id="healthLabel">100 / 100</b></div><div class="bar hull"><i id="hp"></i></div><div class="statline"><span>♨ PRESSURE</span><span id="guardState">● READY</span></div><div class="bar"><i id="steam"></i></div><div class="stats"><span id="kills">⚔ 0</span><span id="workshops">⚙ 0 / 4</span><span id="plate">⬡ —</span></div></aside>
+<aside id="shop"><div class="eyebrow">CHASSIS BLUEPRINT <kbd>Tab</kbd></div><div class="shopline"><b id="branch">Furnace</b><strong id="salvage">◆ 0</strong></div><div id="tierDots"></div><div class="shopline"><span id="benefit">+ Strike power</span><span id="level">I / VI</span></div><div id="choices"><button id="choice0" title="System A"></button><button id="choice1" title="System B"></button></div><button id="upgrade"><kbd>F</kbd> Fit machinery <span id="price">◆ 35</span></button><div id="unlock"></div></aside>
+<div id="hint"><span><kbd>WASD</kbd> Walk</span><span><kbd>↖</kbd> Strike</span><span><kbd>↗</kbd> Brace</span><span><kbd>Space</kbd> Charge</span><span><kbd>E</kbd> Winch / throw</span><span><kbd>R</kbd> Rip armor</span></div>
+<canvas id="radar" width="160" height="160" aria-label="Nearby rivals and foundries"></canvas><div id="vignette"></div><div id="hurt"></div>
+<div id="touch"><div id="stick"><i></i></div><div class="touchActions"><button id="touchHit">⚔</button><button id="touchBrace">⬡</button><button id="touchDash">➜</button><button id="touchWinch">⚓</button></div></div>
+<div id="result" hidden><small>FOUNDRY RUMBLE</small><b id="resultScore">0</b><span>RIVALS BROKEN</span><small id="resultBest"></small><div><button id="replay">↻ Again</button><button id="valley">↩ Valley</button></div></div>
+<script type="module" src="game.js"></script></body></html>
