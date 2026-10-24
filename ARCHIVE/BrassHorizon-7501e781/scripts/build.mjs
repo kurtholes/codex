@@ -1,0 +1,2 @@
+import {mkdir,cp,readFile,writeFile,rm} from 'node:fs/promises';
+const root=new URL('../',import.meta.url),dist=new URL('dist/',root);await rm(dist,{recursive:true,force:true});await mkdir(dist,{recursive:true});for(const p of ['index.html','src','vendor'])await cp(new URL(p,root),new URL(p,dist),{recursive:true});const p=new URL('src/main.js',dist);await writeFile(p,(await readFile(p,'utf8')).replace('/* DEV_INJECT */',''));console.log('Static build ready: dist/');
