@@ -628,9 +628,9 @@
     "rig": "pieces as separate named nodes (planks, posts, braces) so they can break apart"
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/timber_gallery.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:54:24Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 3e833404; Pixal3D crown 697,771 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'bottom center of the posts, front facing +Z' not understood; not applied; scaled so the largest extent = 4.0 m (x4.339)"
   },
   {
    "id": "UnderworldExcavator-60593e9d-005",
@@ -644,9 +644,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sandstone_albedo.png",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:54:24Z",
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
   },
   {
    "id": "UnderworldExcavator-60593e9d-006",
