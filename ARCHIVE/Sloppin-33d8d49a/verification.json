@@ -1,0 +1,66 @@
+{
+  "wallSeconds": 202.743,
+  "readyMs": 355.19999999925494,
+  "timeToFirstActionMs": 1981.699999999255,
+  "averageLowFps": 3.5171940984181607,
+  "minLowFps": 0.8450942280064311,
+  "firstState": {
+    "feed": 98,
+    "total": 98,
+    "levels": {
+      "tusks": 0,
+      "shoulders": 0,
+      "snout": 0,
+      "hide": 0,
+      "carts": 0,
+      "compost": 0
+    },
+    "firstAction": 1981.699999999255,
+    "fps": 6.086956521739131,
+    "elapsed": 6.591900000002235,
+    "position": [
+      0,
+      -0.09952430451713748,
+      -4.469949082418539
+    ],
+    "alive": 471
+  },
+  "finalState": {
+    "feed": 1281,
+    "total": 1352,
+    "levels": {
+      "tusks": 0,
+      "shoulders": 0,
+      "snout": 0,
+      "hide": 2,
+      "carts": 0,
+      "compost": 0
+    },
+    "firstAction": 1981.699999999255,
+    "fps": 4.091374019774975,
+    "elapsed": 190.96790000000217,
+    "position": [
+      8.50222284388817,
+      0.19563148626299143,
+      -31.61501421889357
+    ],
+    "alive": 241
+  },
+  "purchased": true,
+  "quick": true,
+  "productionDevStripped": true,
+  "errors": [],
+  "finalSmoke": {
+    "persistence": true,
+    "reset": true,
+    "mainRestored": true,
+    "production": {
+      "noDev": true,
+      "canvas": true,
+      "savedFeed": "475"
+    },
+    "errors": []
+  },
+  "renderer": "Chromium SwiftShader software WebGL",
+  "hardware60FpsVerified": false
+}
