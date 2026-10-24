@@ -6568,6 +6568,398 @@
    "status": "open",
    "delivered_at": null,
    "notes": "When a carriage breaks; hit first, then fall-off."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-001",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "model",
+   "prompt": "A battered late-1980s charcoal two-door coupe seen as in the image: long low body, red strip tail lamps, chrome bumpers, sun-bleached desert dust on the paint, two seated silhouettes visible through the rear window. Palette from the image: burning amber sunset, long violet shadows, rust-brown desert, charcoal asphalt, pale lavender crystal city, red tail-lamp glow.",
+   "reference_image": "ARCHIVE/TheFinalMile-2797a12a/reference/inspiration-2797a12a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 15000,
+    "scale_m": 5.4,
+    "origin": "ground center between the wheels, front facing -Z",
+    "rig": "separate named nodes for the four wheels so the game can spin them"
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/coupe.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player car, seen from behind almost all the time, so the rear and tail lamps matter most. Tail lamps emissive red."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-002",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "model",
+   "prompt": "One impossibly tall needle tower from the distant crystal city: cool lavender glass spire with luminous vertical seams and a low clustered podium at its base, catching amber sunset light. Palette from the image: burning amber sunset, long violet shadows, rust-brown desert, charcoal asphalt, pale lavender crystal city, red tail-lamp glow.",
+   "reference_image": "ARCHIVE/TheFinalMile-2797a12a/reference/inspiration-2797a12a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 180.0,
+    "origin": "base center, facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/crystal_tower.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Instanced into the skyline at the end of the road, so it reads mostly as a silhouette."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-003",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "model",
+   "prompt": "A rust-brown eroded sandstone and basalt mesa outcrop with angular broken faces and golden dust on the ledges. Palette from the image: burning amber sunset, long violet shadows, rust-brown desert, charcoal asphalt, pale lavender crystal city, red tail-lamp glow.",
+   "reference_image": "ARCHIVE/TheFinalMile-2797a12a/reference/inspiration-2797a12a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 30.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/mesa_rock.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Scattered along both sides of the highway; scaled and rotated in code."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-004",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "model",
+   "prompt": "An abandoned desert fuel stop: faded cream steel canopy on four posts, two old pumps with orange hazard stripes, a small boarded kiosk. No readable text. Palette from the image: burning amber sunset, long violet shadows, rust-brown desert, charcoal asphalt, pale lavender crystal city, red tail-lamp glow.",
+   "reference_image": "ARCHIVE/TheFinalMile-2797a12a/reference/inspiration-2797a12a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 14.0,
+    "origin": "ground center under the canopy, front facing +Z",
+    "rig": "separate named nodes for canopy, pumps, kiosk so they can break apart"
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/fuel_stop.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable roadside stop."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-005",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "model",
+   "prompt": "A bent desert highway sign post with a blank sun-faded metal panel and bullet dents, no text. Palette from the image: burning amber sunset, long violet shadows, rust-brown desert, charcoal asphalt, pale lavender crystal city, red tail-lamp glow.",
+   "reference_image": "ARCHIVE/TheFinalMile-2797a12a/reference/inspiration-2797a12a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 400,
+    "scale_m": 3.5,
+    "origin": "base of the post",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/road_sign.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable roadside clutter, many of them."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-006",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "model",
+   "prompt": "A dry round tumbleweed, tangled pale golden-brown twigs. Palette from the image: burning amber sunset, long violet shadows, rust-brown desert, charcoal asphalt, pale lavender crystal city, red tail-lamp glow.",
+   "reference_image": "ARCHIVE/TheFinalMile-2797a12a/reference/inspiration-2797a12a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 1.0,
+    "origin": "center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/tumbleweed.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Rolls across the road."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-007",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "texture",
+   "prompt": "Old cracked desert highway asphalt seen straight down: charcoal grey with sun-bleached patches, fine cracks, faded broken yellow centre line running vertically through the middle, flat lighting, no shadows. Palette from the image: burning amber sunset, long violet shadows, rust-brown desert, charcoal asphalt, pale lavender crystal city, red tail-lamp glow.",
+   "reference_image": "ARCHIVE/TheFinalMile-2797a12a/reference/inspiration-2797a12a.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/asphalt_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The road surface; the centre line should run along one axis so it tiles end to end."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-008",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "texture",
+   "prompt": "Burnt sienna desert gravel and dust seen straight down, small pebbles and dry cracked earth, flat even lighting. Palette from the image: burning amber sunset, long violet shadows, rust-brown desert, charcoal asphalt, pale lavender crystal city, red tail-lamp glow.",
+   "reference_image": "ARCHIVE/TheFinalMile-2797a12a/reference/inspiration-2797a12a.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/desert_gravel_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ground on both sides of the road."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-009",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "texture",
+   "prompt": "A burning desert sunset sky panorama: amber and gold at the horizon fading up into violet and deep blue, a few thin streaked clouds, the sun just touching the horizon, no land. Palette from the image: burning amber sunset, long violet shadows, rust-brown desert, charcoal asphalt, pale lavender crystal city, red tail-lamp glow.",
+   "reference_image": "ARCHIVE/TheFinalMile-2797a12a/reference/inspiration-2797a12a.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sunset_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Sky dome; the sun should sit at the centre of the image (straight ahead down the road)."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-010",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: engine on, the long straight road at golden hour",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-011",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: dust and heat haze, steady cruising",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-012",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: the crystal city appears on the horizon",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-013",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: foot down, the road opens up",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-014",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: a lonely gas stop, nobody around",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-015",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: sunset turns violet",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-016",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: night falls, tail lamps on the asphalt",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-017",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: wreckage and speed, driving through it",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-018",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: the last mile, the city towers close",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-019",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Final Mile score (warm desert road-trip synth and guitar: analog pads, slow baritone guitar, soft drum machine, a hint of glassy crystal shimmer, no vocals). This one: arrival, the engine ticks as it cools",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/music_finalmile_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheFinalMile-2797a12a-020",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "sfx",
+   "prompt": "foley: a car smashing through sheet metal, one hard crunch at the very start, then rattling glass and panels falling away to silence",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_metal_crunch.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every hit on a breakable; hit first, then fall-off."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-021",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "sfx",
+   "prompt": "foley: a rough old inline-six car engine at steady mid throttle, loose rattling bodywork, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 3.0
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_engine_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped under driving and pitched by speed in code, so even level with no hard start or end."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-022",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "sfx",
+   "prompt": "wind: a warm steady desert wind",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_desert_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ambient bed, looped."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-023",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "sfx",
+   "prompt": "explosion: a short sharp burst with a bright glassy tail",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_glass_burst.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Crystal shards breaking."
+  },
+  {
+   "id": "TheFinalMile-2797a12a-024",
+   "game": "ARCHIVE/TheFinalMile-2797a12a",
+   "type": "sfx",
+   "prompt": "pickup: a warm short chime as scrap is collected",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_pickup.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
   }
  ]
 }
