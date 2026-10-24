@@ -10856,6 +10856,382 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped quietly as ambience, so an even sustain."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-001",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "model",
+   "prompt": "A first-person mud ATV cockpit seen from the rider's seat: scuffed black handlebar housing, small grey LCD display, braided cables, black rubber grips, an oval right-side mirror, mud splatter on the plastics. Palette from the image: chocolate brown churned clay, silver overcast sky, dark spruce green, pale birch bark, charcoal black plastics, reflective grey puddles.",
+   "reference_image": "ARCHIVE/MudBoggin-fb7dbc82/reference/inspiration-fb7dbc82.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 15000,
+    "scale_m": 1.2,
+    "origin": "center of the handlebar clamp, rider looking toward -Z",
+    "rig": "separate named node for the handlebars (the game steers them)"
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/cockpit.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "On screen the whole time in first person, so this matters most. Keep geometry safe close to the camera."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-002",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "model",
+   "prompt": "A mud-caked charcoal utility ATV: wet black plastics, tubular steel front and rear racks, knobby tyres, coil-spring suspension, realistic backwoods proportions. Palette from the image: chocolate brown churned clay, silver overcast sky, dark spruce green, pale birch bark, charcoal black plastics, reflective grey puddles.",
+   "reference_image": "ARCHIVE/MudBoggin-fb7dbc82/reference/inspiration-fb7dbc82.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 20000,
+    "scale_m": 2.0,
+    "origin": "ground center, front facing -Z",
+    "rig": "separate named nodes for each wheel and the handlebars"
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/atv.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Chase camera view."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-003",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "model",
+   "prompt": "A dense dark spruce tree, damp and slightly ragged. Palette from the image: chocolate brown churned clay, silver overcast sky, dark spruce green, pale birch bark, charcoal black plastics, reflective grey puddles.",
+   "reference_image": "ARCHIVE/MudBoggin-fb7dbc82/reference/inspiration-fb7dbc82.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 12.0,
+    "origin": "base of the trunk",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/spruce.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Forest edge, instanced."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-004",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "model",
+   "prompt": "A slender spring birch tree with pale peeling bark and a light fresh green crown. Palette from the image: chocolate brown churned clay, silver overcast sky, dark spruce green, pale birch bark, charcoal black plastics, reflective grey puddles.",
+   "reference_image": "ARCHIVE/MudBoggin-fb7dbc82/reference/inspiration-fb7dbc82.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 9.0,
+    "origin": "base of the trunk",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/birch.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Forest edge, instanced."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-005",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "model",
+   "prompt": "A rotten grey-brown logging shed of rough boards with a sagging tin roof. Palette from the image: chocolate brown churned clay, silver overcast sky, dark spruce green, pale birch bark, charcoal black plastics, reflective grey puddles.",
+   "reference_image": "ARCHIVE/MudBoggin-fb7dbc82/reference/inspiration-fb7dbc82.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 5.0,
+    "origin": "base center, open side facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/logging_shed.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Smashable obstacle."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-006",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "model",
+   "prompt": "A damp split-rail fence section: two posts and three rough split rails. Palette from the image: chocolate brown churned clay, silver overcast sky, dark spruce green, pale birch bark, charcoal black plastics, reflective grey puddles.",
+   "reference_image": "ARCHIVE/MudBoggin-fb7dbc82/reference/inspiration-fb7dbc82.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 300,
+    "scale_m": 3.0,
+    "origin": "bottom center, running along X",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/split_rail_fence.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Smashable obstacle."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-007",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "texture",
+   "prompt": "Churned chocolate brown clay mud seen from above with fresh parallel ATV tyre tracks and wet dark aggregate, no vegetation, cloudy even lighting. Palette from the image: chocolate brown churned clay, silver overcast sky, dark spruce green, pale birch bark, charcoal black plastics, reflective grey puddles.",
+   "reference_image": "ARCHIVE/MudBoggin-fb7dbc82/reference/inspiration-fb7dbc82.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/mud_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The whole riding ground, world-space triplanar."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-008",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "texture",
+   "prompt": "A heavy grey northern storm deck with a silver horizon and low dark clouds, no blue sky, no sun disk, no ground objects. Palette from the image: chocolate brown churned clay, silver overcast sky, dark spruce green, pale birch bark, charcoal black plastics, reflective grey puddles.",
+   "reference_image": "ARCHIVE/MudBoggin-fb7dbc82/reference/inspiration-fb7dbc82.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/storm_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The sky dome; 2048x1024 equirectangular, horizon on the middle line."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-009",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: first throttle: a lazy fuzzy riff",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-010",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: the beginner bogs: stomping mid-tempo groove",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-011",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: logging ridge climb: chugging, determined",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-012",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: full send through the water: fast, loud, gleeful",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-013",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: clay quarry: heavy, grinding, low-tuned",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-014",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: grey drizzle: slower, bluesy harmonica",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-015",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: flooded swamp: murky, swampy slide guitar",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-016",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: new tyres, new gearing: punchy, upbeat",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-017",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: airtime off the ridge: soaring guitar lead",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-018",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Mud Boggin score (gritty backwoods rock: fuzzy baritone guitar, stomping drums, harmonica, driving bass, no vocals). This one: heading home muddy: warm, tired, easy groove",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/music_mudboggin_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-019",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "sfx",
+   "prompt": "splash: a heavy water splash as a tyre punches through a puddle",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/sfx_water_splash.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Water crossings."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-020",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "sfx",
+   "prompt": "splash: a thick wet mud spray",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/sfx_mud_spray.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Wheel spin and clods, with pitch variation."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-021",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "sfx",
+   "prompt": "hit: wet wood boards splintering",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/sfx_wood_smash.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Fences and sheds."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-022",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "sfx",
+   "prompt": "pickup: a bright cash chime",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/sfx_gate_cash.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Passing a route gate."
+  },
+  {
+   "id": "MudBoggin-fb7dbc82-023",
+   "game": "ARCHIVE/MudBoggin-fb7dbc82",
+   "type": "sfx",
+   "prompt": "wind: quiet damp forest wind",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/sfx_forest_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly as ambience, so an even sustain."
   }
  ]
 }
