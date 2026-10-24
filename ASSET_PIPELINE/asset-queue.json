@@ -1276,9 +1276,9 @@
     "rig": "none (single rigid mesh; game animates flight and recoil in code)"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/keeper.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "The player character. The cannon is a separate request (-003) so it can recoil on its own."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T14:31:37Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 f4c89930; Pixal3D crown 687,005 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'feet, facing +Z' not understood; not applied; scaled so the largest extent = 2.0 m (x2.249)"
   },
   {
    "id": "SmokeRing-5a1da71e-003",
