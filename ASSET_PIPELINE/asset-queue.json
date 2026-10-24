@@ -7352,6 +7352,412 @@
    "status": "open",
    "delivered_at": null,
    "notes": "The click pulse."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-001",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "model",
+   "prompt": "The black-sailed two-masted pirate frigate from the image: weathered black oak hull, charcoal canvas sails full of wind, intricate spars and rigging, warm amber stern windows, a row of gun ports. Palette from the image: slate-grey storm sea, silver fog, near-black volcanic cliffs, black sails, weathered dark oak, warm amber lantern light, white spray.",
+   "reference_image": "ARCHIVE/BlackwakeReach-a107ed12/reference/inspiration-a107ed12.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 20000,
+    "scale_m": 32.0,
+    "origin": "waterline center, bow facing -Z",
+    "rig": "separate named nodes for hull, sails and cannons"
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/frigate.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player ship, seen from behind and above most of the time. Stern windows emissive amber."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-002",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "model",
+   "prompt": "A smaller enemy pirate sloop: single mast, patched grey sails, dark tarred hull, a lantern at the bow. Palette from the image: slate-grey storm sea, silver fog, near-black volcanic cliffs, black sails, weathered dark oak, warm amber lantern light, white spray.",
+   "reference_image": "ARCHIVE/BlackwakeReach-a107ed12/reference/inspiration-a107ed12.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 18.0,
+    "origin": "waterline center, bow facing -Z",
+    "rig": "separate named nodes for hull and sail so it can break"
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/enemy_sloop.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Enemy ships; many of them."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-003",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "model",
+   "prompt": "A jagged near-black volcanic sea stack rising from the water, wet slate strata, broken overhangs, a little white foam at the base. Palette from the image: slate-grey storm sea, silver fog, near-black volcanic cliffs, black sails, weathered dark oak, warm amber lantern light, white spray.",
+   "reference_image": "ARCHIVE/BlackwakeReach-a107ed12/reference/inspiration-a107ed12.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 40.0,
+    "origin": "base center at the waterline",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sea_stack.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The canyon rocks you sail around; scaled and rotated in code."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-004",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "model",
+   "prompt": "A ruined coastal pirate battery: damp grey masonry walls, two cannon embrasures, a small lantern tower, a wooden dock out front. Palette from the image: slate-grey storm sea, silver fog, near-black volcanic cliffs, black sails, weathered dark oak, warm amber lantern light, white spray.",
+   "reference_image": "ARCHIVE/BlackwakeReach-a107ed12/reference/inspiration-a107ed12.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 30.0,
+    "origin": "ground center, front facing +Z",
+    "rig": "separate named nodes for walls, tower, dock so they can break apart"
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/coastal_fort.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Forts on the islands."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-005",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "model",
+   "prompt": "The dark captain for shore raids: tricorn hat, long charcoal coat, a pale cutlass in one hand, a brass pistol at the belt. Palette from the image: slate-grey storm sea, silver fog, near-black volcanic cliffs, black sails, weathered dark oak, warm amber lantern light, white spray.",
+   "reference_image": "ARCHIVE/BlackwakeReach-a107ed12/reference/inspiration-a107ed12.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 5000,
+    "scale_m": 1.85,
+    "origin": "feet, facing +Z",
+    "rig": "none (rigid; the game animates in code)"
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/captain.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "On-foot player during raids, seen from behind."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-006",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "model",
+   "prompt": "A splinterable wooden cargo crate bound with rusty iron bands, rope handles, salt-stained. Palette from the image: slate-grey storm sea, silver fog, near-black volcanic cliffs, black sails, weathered dark oak, warm amber lantern light, white spray.",
+   "reference_image": "ARCHIVE/BlackwakeReach-a107ed12/reference/inspiration-a107ed12.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 600,
+    "scale_m": 1.2,
+    "origin": "bottom center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/cargo_crate.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Floating wreck cargo and dock crates."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-007",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "texture",
+   "prompt": "Wind-torn slate-grey ocean surface seen straight down, streaks of white foam and thin silver spray, no sky reflection, flat lighting. Palette from the image: slate-grey storm sea, silver fog, near-black volcanic cliffs, black sails, weathered dark oak, warm amber lantern light, white spray.",
+   "reference_image": "ARCHIVE/BlackwakeReach-a107ed12/reference/inspiration-a107ed12.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/ocean_foam.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Blended over the procedural water."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-008",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "texture",
+   "prompt": "Aged dark oak ship planks seen straight on, tar seams, salt stains, silver highlights on worn edges, flat lighting. Palette from the image: slate-grey storm sea, silver fog, near-black volcanic cliffs, black sails, weathered dark oak, warm amber lantern light, white spray.",
+   "reference_image": "ARCHIVE/BlackwakeReach-a107ed12/reference/inspiration-a107ed12.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/dark_oak_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Docks, crates and hull repairs."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-009",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "texture",
+   "prompt": "Wet dark slate rock seen straight on, layered strata, faint green-grey lichen, flat lighting. Palette from the image: slate-grey storm sea, silver fog, near-black volcanic cliffs, black sails, weathered dark oak, warm amber lantern light, white spray.",
+   "reference_image": "ARCHIVE/BlackwakeReach-a107ed12/reference/inspiration-a107ed12.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/wet_slate_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Cliffs and islands."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-010",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: out of the fog canyon, sails filling",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-011",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: a lantern on the horizon",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-012",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: broadside, cannons thunder",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-013",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: the wreck field, drifting cargo",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-014",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: landing party on a black beach",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-015",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: storm rising, the deck heaving",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-016",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: the harbor is ours, quiet triumph",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-017",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: night watch under a silver moon",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-018",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: the outer water, unknown cliffs",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-019",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Blackwake Reach score (dark seafaring orchestral: low cello drones, bowed strings, deep frame drums, sparse ship bells, wind through rigging, no vocals). This one: home through the fog, bells ringing",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/music_blackwake_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-020",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "sfx",
+   "prompt": "foley: a thunderous naval cannon shot, one huge boom right at the start, then a wooden creak and a distant rolling tail fading to silence",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.5
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_cannon.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Each broadside barrel; loudest moment first."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-021",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "sfx",
+   "prompt": "foley: a ship hull plank smashed by a cannonball, a hard crack at the start then splinters falling into water",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_wood_splinter.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every hit on a ship or crate."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-022",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "sfx",
+   "prompt": "hit: a sharp steel cutlass slash",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_cutlass.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Shore raids."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-023",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "sfx",
+   "prompt": "pickup: coins and a small bell as cargo is claimed",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_gold.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-024",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "sfx",
+   "prompt": "wind: a gusting sea wind through rigging",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_sea_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ambient bed, looped, even sustain."
+  },
+  {
+   "id": "BlackwakeReach-a107ed12-025",
+   "game": "ARCHIVE/BlackwakeReach-a107ed12",
+   "type": "sfx",
+   "prompt": "splash: a heavy cannonball hitting the sea",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_splash.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Missed shots."
   }
  ]
 }
