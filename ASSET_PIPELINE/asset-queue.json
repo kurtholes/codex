@@ -1639,9 +1639,9 @@
     "rig": "none (single rigid mesh; game recoils it in code)"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/cutter.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Always on screen in the lower right, so it's the most-seen object in the game."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T17:09:18Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 6819f266; Pixal3D crown 696,228 tris -> crowned low-poly door (decimate+bake) 7,976 tris, re-counted <= max_tris 8,000; origin 'grip, nozzle pointing +Z' not understood; not applied; scaled so the largest extent = 0.7 m (x0.8249)"
   },
   {
    "id": "Air-22ee0ab5-004",
