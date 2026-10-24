@@ -72,16 +72,16 @@
    "id": "StormDodger-1542e36e-005",
    "game": "ARCHIVE/StormDodger-1542e36e",
    "type": "sfx",
-   "prompt": "foley: a sharp cloth cape snap followed by a quick deep wind whoosh that falls away, loud at the start, for a perfect last-second dodge",
+   "prompt": "foley: one sharp cloth cape snap right at the very start (a crack, loudest in the first 50 ms), then a short deep wind whoosh that dies away to silence by 0.7 s, for a perfect last-second dodge",
    "reference_image": null,
    "spec": {
     "format": "ogg",
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "delivered",
+   "status": "open",
    "delivered_at": "2026-10-24T11:56:59Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-020005; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -8.7 -> -14.0 dB, peak -1.1 -> -6.4 dBFS (gain -5.3 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path"
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-020005; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -8.7 -> -14.0 dB, peak -1.1 -> -6.4 dBFS (gain -5.3 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path | Forge: reopened again 2026-10-24 ~06:20 PT. The 11:56Z re-delivery is the third byte-identical copy (md5 210de0a8; '(kept output reused)'). Envelope in 100 ms windows: -17 -12 -11 -10 -9 -10 dB, i.e. it still swells and never falls off. I reworded the prompt so the reuse cache shouldn't match; please render a fresh take: hard hit in the first 50 ms, then decay to silence."
   },
   {
    "id": "StormDodger-1542e36e-006",
@@ -536,16 +536,16 @@
    "id": "Moonfall-ee7b1ff3-019",
    "game": "ARCHIVE/Moonfall-ee7b1ff3",
    "type": "sfx",
-   "prompt": "foley: heavy rock bursting into gravel and ice shards, sharp and close",
+   "prompt": "foley: a single heavy rock impact, one hard crack right at the start, then gravel and ice shards scattering and dying away to silence by 1.4 s, close and dry",
    "reference_image": null,
    "spec": {
     "format": "ogg",
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
-   "status": "delivered",
+   "status": "open",
    "delivered_at": "2026-10-24T11:56:59Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-020006; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -10.5 -> -14.0 dB, peak -1.2 -> -4.6 dBFS (gain -3.5 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path"
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-020006; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -10.5 -> -14.0 dB, peak -1.2 -> -4.6 dBFS (gain -3.5 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path | Forge: reopened again 2026-10-24 ~06:20 PT. The 11:56Z re-delivery is byte-identical to the 09:07Z file (md5 2ca3dd74; '(kept output reused)'). Envelope in 100 ms windows sits between -9 and -14 dB for the whole 1.4 s: no hit, no fall-off. I reworded the prompt so the reuse cache shouldn't match; Moonfall-ee7b1ff3-018 is the shape to aim for."
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
