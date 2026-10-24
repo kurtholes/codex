@@ -4639,6 +4639,401 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Cat quip pointing you at the next crystal. Same voice as the other two."
+  },
+  {
+   "id": "HectorRising-0c8672a9-001",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "model",
+   "prompt": "The Hector banner tower: a towering ocean stilt fortress of black weathered timber, diagonal cross braces and rope lashings, a railed lookout deck on top, a carved gold crest on the front, a tall mast frame for a torn banner. Strong silhouette against a sunset. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 25000,
+    "scale_m": 40.0,
+    "origin": "base center at waterline, crest facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/hector_tower.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The landmark you smash first. Please leave the banner cloth blank (dark, torn); the game paints HECTOR on it itself. Supports as clearly separate legs help the collapse read."
+  },
+  {
+   "id": "HectorRising-0c8672a9-002",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "model",
+   "prompt": "An octagonal timber hut on tall stilts: ragged thatched conical roof, plank walls with small warm-lit windows, rope rails around a narrow deck, cross-braced legs. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 14.0,
+    "origin": "base center at waterline",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/stilt_hut.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The outposts around the fort, placed many times and scaled 0.8x to 1.4x; they break apart when the supports go."
+  },
+  {
+   "id": "HectorRising-0c8672a9-003",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "model",
+   "prompt": "A stolen bronze naval siege gauntlet cannon: a heavy bronze barrel with scorched iron rings, a glowing amber core in the breech, a rope-wrapped grip. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 2.0,
+    "origin": "grip center, muzzle pointing -Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/skyguard_cannon.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player's weapon; the game grows its rings with upgrades. Amber core as emissive."
+  },
+  {
+   "id": "HectorRising-0c8672a9-004",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "model",
+   "prompt": "A small winged bronze flyer: a skyguard rider frame with two swept canvas-and-bronze wings, an ember jet at the back, dark readable silhouette. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 3.0,
+    "origin": "center of mass, nose facing -Z",
+    "rig": "none (rigid; the game banks and flaps it)"
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/skyguard_rival.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Rival skyguards that chase you; 3 m wingspan. Ember jet as emissive."
+  },
+  {
+   "id": "HectorRising-0c8672a9-005",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "model",
+   "prompt": "A sagging rope bridge section: weathered wooden planks on two thick ropes with rope hand rails and knotted verticals. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 8.0,
+    "origin": "center of the deck, running along Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/rope_bridge.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Modular 8 m bridge pieces linking towers; laid end to end along Z."
+  },
+  {
+   "id": "HectorRising-0c8672a9-006",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "model",
+   "prompt": "A lone silhouetted lookout standing on a fortress rail: a sailor in a long coat and tricorn-like hat, hands on the rail, simple readable shape. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 600,
+    "scale_m": 1.8,
+    "origin": "feet center, facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/lookout.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The crowd of figures on the decks in the photo; instanced on every tower deck, they scatter when it falls."
+  },
+  {
+   "id": "HectorRising-0c8672a9-007",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "model",
+   "prompt": "A small salvage bundle: a tarred wooden barrel lashed to a crate with rope, a brass fitting on top. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 500,
+    "scale_m": 1.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/salvage.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Salvage that streams toward you after a break."
+  },
+  {
+   "id": "HectorRising-0c8672a9-008",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "texture",
+   "prompt": "Tar-dark salt-weathered timber seen straight on: coarse parallel grain running vertically, rope scuffs, salt bloom, flat even lighting, no baked shadows. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/timber_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every beam and plank, world-space triplanar."
+  },
+  {
+   "id": "HectorRising-0c8672a9-009",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "texture",
+   "prompt": "Ragged dry thatch seen straight on: layered straw bundles running downward, dark and sun-bleached strands, flat even lighting, no baked shadows. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/thatch_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Hut roofs."
+  },
+  {
+   "id": "HectorRising-0c8672a9-010",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "texture",
+   "prompt": "A blazing sunset sky panorama over open sea: violet clouds high up, burning orange and gold near the horizon, the sun just set, no land, no structures. Palette from the image: burning orange and violet sunset sky, black timber silhouettes, molten gold sea, tar-dark weathered wood, rope, worn gold crest.",
+   "reference_image": "ARCHIVE/HectorRising-0c8672a9/reference/inspiration-0c8672a9.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/sunset_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The sky dome; 2048x1024 equirectangular, horizon on the middle line."
+  },
+  {
+   "id": "HectorRising-0c8672a9-011",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: dawn on the rope bridge: a lone fiddle over a slow sea swell",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-012",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: launch: brass swells and drums as the skyguard leaves the bridge",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-013",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: the banner tower: heroic, marching, full sunset brass",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-014",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: splinters and salvage: quick, playful jig rhythm",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-015",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: the outer bastions: darker, heavier drums, rising tension",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-016",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: chain fire: driving, relentless frame drums and low brass",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-017",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: calm water between forts: gentle, gulls in the strings, slow hurdy-gurdy",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-018",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: the tallest fort: epic, choir-less, huge timpani",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-019",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: night falls over the sea: violet, quiet, a slow sea-shanty melody",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-020",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Hector Rising score (rousing maritime orchestral score, low strings and brass, frame drums, rope-creak percussion, fiddle and hurdy-gurdy accents, no vocals). This one: the last tower falls: triumphant, then a long warm fade",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/music_hector_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HectorRising-0c8672a9-021",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "sfx",
+   "prompt": "foley: a heavy low naval cannon thump with a magical ember crackle trailing off",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.7
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/sfx_cannon_blast.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every shot; hard hit at the start."
+  },
+  {
+   "id": "HectorRising-0c8672a9-022",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "sfx",
+   "prompt": "foley: wooden supports cracking and splintering, falling debris, then a deep seawater splash",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 2.0
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/sfx_collapse_splash.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "When a platform drops."
+  },
+  {
+   "id": "HectorRising-0c8672a9-023",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "sfx",
+   "prompt": "foley: wind through rope rigging, distant gulls, gentle sea lapping under a wooden fort, quiet, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 8.0
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/sfx_sea_atmosphere.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as ambience, so an even sustain with no hard start or end."
+  },
+  {
+   "id": "HectorRising-0c8672a9-024",
+   "game": "ARCHIVE/HectorRising-0c8672a9",
+   "type": "sfx",
+   "prompt": "pickup: a warm wooden clunk and coin chime as salvage is collected",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/sfx_salvage.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
   }
  ]
 }
