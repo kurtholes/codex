@@ -1603,9 +1603,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/greenhouse.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Home base and the biggest object in view. Pin-it-on-the-wall bar applies. The game keeps its own transparent glass and beds inside, so the shell and frame matter most."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T16:40:11Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 729e3cbe; Pixal3D crown 698,530 tris -> crowned low-poly door (decimate+bake) 7,958 tris, re-counted <= max_tris 15,000; origin 'ground center, airlock facing +Z' not understood; not applied; scaled so the largest extent = 12.0 m (x12.65)"
   },
   {
    "id": "Air-22ee0ab5-002",
