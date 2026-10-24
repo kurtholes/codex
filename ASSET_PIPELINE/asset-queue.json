@@ -12639,9 +12639,9 @@
     "length_s": 0.2
    },
    "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_scan.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Scanning a trace."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:02Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset blip seed 789174 (rule a: explicit '<preset>:' tag ('blip:')); padded 0.136s -> 0.200s with silence; ogg/vorbis q6"
   },
   {
    "id": "OneOfOurOwn-fad4b971-021",
@@ -12654,9 +12654,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_exposed.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Exposing the culprit."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:02Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 412435 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.681s -> 0.800s with silence; ogg/vorbis q6"
   },
   {
    "id": "BorrowedPaws-212e00e5-001",
@@ -13005,9 +13005,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_possess.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every possession."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:02Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 855194 (rule a: explicit '<preset>:' tag ('powerup:')); trimmed 0.551s -> 0.400s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "BorrowedPaws-212e00e5-022",
@@ -13020,9 +13020,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_body_check.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Dog shoulder checks."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:02Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 222787 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.208s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "BorrowedPaws-212e00e5-023",
@@ -13035,9 +13035,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_crate_break.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Fences and crates."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:02Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 481072 (rule a: explicit '<preset>:' tag ('explosion:')); trimmed 0.804s -> 0.700s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "BorrowedPaws-212e00e5-024",
@@ -13050,9 +13050,9 @@
     "length_s": 0.5
    },
    "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_kindness.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Kindness reward and sunshine."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:02Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 349416 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.307s -> 0.500s with silence; ogg/vorbis q6"
   },
   {
    "id": "BorrowedPaws-212e00e5-025",
