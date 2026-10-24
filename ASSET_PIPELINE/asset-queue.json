@@ -1603,9 +1603,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/greenhouse.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T16:40:11Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 729e3cbe; Pixal3D crown 698,530 tris -> crowned low-poly door (decimate+bake) 7,958 tris, re-counted <= max_tris 15,000; origin 'ground center, airlock facing +Z' not understood; not applied; scaled so the largest extent = 12.0 m (x12.65)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 729e3cbe; Pixal3D crown 698,530 tris -> crowned low-poly door (decimate+bake) 7,958 tris, re-counted <= max_tris 15,000; origin 'ground center, airlock facing +Z' not understood; not applied; scaled so the largest extent = 12.0 m (x12.65) | Forge: integrated 2026-10-24. Replaces the procedural greenhouse shell (rotated so the long axis runs along Z, fit to 15.4 m); the shell fades to ~16% opacity as you walk inside so the beds stay visible. Procedural greenhouse stays if the model fails."
   },
   {
    "id": "Air-22ee0ab5-002",
@@ -1621,9 +1621,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/algae_bed.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T16:52:21Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 a0a5f563; Pixal3D crown 697,902 tris -> crowned low-poly door (decimate+bake) 1,500 tris, re-counted <= max_tris 1,500; origin 'ground center' not understood; not applied; scaled so the largest extent = 3.0 m (x3.275)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 a0a5f563; Pixal3D crown 697,902 tris -> crowned low-poly door (decimate+bake) 1,500 tris, re-counted <= max_tris 1,500; origin 'ground center' not understood; not applied; scaled so the largest extent = 3.0 m (x3.275) | Forge: integrated 2026-10-24. Used for all 12 algae beds (1.85 m wide); procedural leaves still grow out of it with Cultivation upgrades."
   },
   {
    "id": "Air-22ee0ab5-003",
@@ -1639,9 +1639,9 @@
     "rig": "none (single rigid mesh; game recoils it in code)"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/cutter.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T17:09:18Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 6819f266; Pixal3D crown 696,228 tris -> crowned low-poly door (decimate+bake) 7,976 tris, re-counted <= max_tris 8,000; origin 'grip, nozzle pointing +Z' not understood; not applied; scaled so the largest extent = 0.7 m (x0.8249)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 6819f266; Pixal3D crown 696,228 tris -> crowned low-poly door (decimate+bake) 7,976 tris, re-counted <= max_tris 8,000; origin 'grip, nozzle pointing +Z' not understood; not applied; scaled so the largest extent = 0.7 m (x0.8249) | Forge: integrated 2026-10-24. First-person salvage cutter (rotated nozzle-forward, 0.55 m); recoil/kick still driven in code."
   },
   {
    "id": "Air-22ee0ab5-004",
@@ -1657,9 +1657,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/cargo_crate.glb",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T17:30:14Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 7baf3718; Pixal3D crown 697,529 tris -> crowned low-poly door (decimate+bake) 3,000 tris, re-counted <= max_tris 3,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 2.5 m (x2.622)"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 7baf3718; Pixal3D crown 697,529 tris -> crowned low-poly door (decimate+bake) 3,000 tris, re-counted <= max_tris 3,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 2.5 m (x2.622) | Forge: reopened 2026-10-24. Reopened: the delivered mesh is an astronaut helmet with a visor, not a cargo crate (the image step seems to have drawn the reference image's astronaut). Needs a boxy bolted crate ~2.5 m; please regenerate the still from the text prompt with the reference used only for palette."
   },
   {
    "id": "Air-22ee0ab5-005",
@@ -1675,9 +1675,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/wreck_hull.glb",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T17:42:35Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 08f854e2; Pixal3D crown 699,127 tris -> crowned low-poly door (decimate+bake) 5,000 tris, re-counted <= max_tris 5,000; origin 'ground center, long axis along +Z' not understood; not applied; scaled so the largest extent = 10.0 m (x10.79)"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 08f854e2; Pixal3D crown 699,127 tris -> crowned low-poly door (decimate+bake) 5,000 tris, re-counted <= max_tris 5,000; origin 'ground center, long axis along +Z' not understood; not applied; scaled so the largest extent = 10.0 m (x10.79) | Forge: reopened 2026-10-24. Reopened: the delivered mesh is again a space helmet (visor and all), not a broken cylindrical hull section. Needs a torn open-ended hull cylinder with exposed ribs, ~10 m long; please regenerate the still with the reference used only for palette."
   },
   {
    "id": "Air-22ee0ab5-006",
@@ -1693,9 +1693,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/wreck_engine.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T17:55:55Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 6bc2a224; Pixal3D crown 694,173 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 5.0 m (x5.348)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 6bc2a224; Pixal3D crown 694,173 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 5.0 m (x5.348) | Forge: integrated 2026-10-24. Engine nacelle placed beside each of the 4 procedural wreck landmarks (8 m)."
   },
   {
    "id": "Air-22ee0ab5-007",

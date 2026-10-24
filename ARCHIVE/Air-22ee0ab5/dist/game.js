@@ -44,7 +44,7 @@ function buy(i){let c=cost(i);if(state.levels[i]>=6||state.scrap<c)return;state.
 function renderUp(){$('#funds').textContent=`▧ ${Math.floor(state.scrap)} SALVAGE`;$('#branches').innerHTML='';branches.forEach((b,i)=>{let l=state.levels[i],e=document.createElement('button');e.innerHTML=`${b[0]} ${b[1]} <strong>${l===6?'MAX':cost(i)+' ▧'}</strong><small>${'▰'.repeat(l)+'▱'.repeat(6-l)} · ${l===6?'Complete':names[i][l]}</small><small>${b[2]}</small>`;e.disabled=l===6||state.scrap<cost(i);e.onclick=()=>buy(i);$('#branches').append(e);});}
 function toggleUp(){paused=!paused;$('#upgrades').hidden=!paused;if(paused){document.exitPointerLock?.();renderUp();}else renderer.domElement.requestPointerLock?.();}
 $('#upopen').onclick=toggleUp;$('#close').onclick=toggleUp;
-function syncHome(){beds.forEach((g,i)=>{g.visible=i<Math.max(1,state.planted);g.children.slice(2).forEach(o=>o.scale.y=.6+state.levels[4]*.35);});lamp.intensity=65+state.planted*4;home.scale.setScalar(1+state.levels[5]*.035);}
+function syncHome(){beds.forEach((g,i)=>{g.visible=i<Math.max(1,state.planted);g.children.slice(2).filter(o=>!o.userData.asset).forEach(o=>o.scale.y=.6+state.levels[4]*.35);});lamp.intensity=65+state.planted*4;home.scale.setScalar(1+state.levels[5]*.035);}
 syncHome();
 $('#mode').onclick=()=>{if(quick){quick=false;state=JSON.parse(localStorage.getItem('air22-save')||'null')||fresh();$('#mode').textContent='↗ QUICK EXPEDITION';}else{persist();quick=true;state={scrap:0,levels:[2,2,2,2,2,1],planted:4,harvest:0};remaining=600;totalSalvage=0;$('#mode').textContent='⌂ MAIN HOMESTEAD';}pos.set(0,0,21);air=100;syncHome();message(quick?'10:00 / BRING HOME 400':'HOME RESUMED');};
 $('#sound').onclick=()=>{initAudio();audio.state==='running'?audio.suspend():audio.resume();};
@@ -74,5 +74,18 @@ $('#airnum').textContent=Math.ceil(air);$('#airfill').style.width=air+'%';$('#ai
 let bp=new THREE.Vector3(0,home.position.y+5,0).project(camera);$('#beacon').style.left=(bp.x*.5+.5)*innerWidth+'px';$('#beacon').style.top=(-bp.y*.5+.5)*innerHeight-30+'px';$('#beacon').style.display=bp.z<1&&Math.hypot(pos.x,pos.z)>13?'block':'none';
 if(quick){remaining-=dt;$('#location span').textContent=`${Math.floor(remaining/60)}:${String(Math.floor(remaining%60)).padStart(2,'0')} / ${totalSalvage} OF 400`;if(remaining<=0||(near&&totalSalvage>=400)){message(totalSalvage>=400?'EXPEDITION COMPLETE':'STORM ARRIVED / HOME');remaining=600;pos.set(0,0,10);try{localStorage.setItem('air22-best',Math.max(totalSalvage,+localStorage.getItem('air22-best')||0));}catch{}totalSalvage=0;}}
 }
-let last=performance.now();function frame(now){let raw=(now-last)/1000;let dt=Math.min(raw,.05);last=now;update(dt);renderer.render(scene,camera);requestAnimationFrame(frame);}requestAnimationFrame(frame);window.addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+let last=performance.now();function frame(now){let raw=(now-last)/1000;let dt=Math.min(raw,.05);last=now;update(dt);houseFade();renderer.render(scene,camera);requestAnimationFrame(frame);}requestAnimationFrame(frame);window.addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);});
+// Delivered models (ASSET_PIPELINE Air-22ee0ab5-001/002/003/006). Each loads through the vendored GLTFLoader and only then hides the procedural
+// meshes it replaces, so a missing file or loader leaves the original procedural scene untouched.
+const ASSET_BASE='../assets/';let gltfLoader;
+function loadModel(n){gltfLoader??=import('./vendor/GLTFLoader.js').then(m=>new m.GLTFLoader()).catch(()=>null);return gltfLoader.then(l=>l?new Promise(res=>l.load(ASSET_BASE+n,g=>res(g.scene),undefined,()=>res(null))):null)}
+function fitModel(m,size,axis='y',rot=[0,0,0]){const g=new THREE.Group();m.rotation.set(...rot);g.add(m);m.updateMatrixWorld(true);let b=new THREE.Box3().setFromObject(m);const s=b.getSize(new THREE.Vector3());m.scale.multiplyScalar(size/s[axis]);m.updateMatrixWorld(true);b=new THREE.Box3().setFromObject(m);const c=b.getCenter(new THREE.Vector3());m.position.sub(c);b.translate(c.negate());return {g,box:b}}
+function meshesOf(o){const a=[];o.traverse(c=>{if(c.isMesh)a.push(c)});return a}
+let houseShell=null;const homeKeep=new Set([lamp,...beds]);
+loadModel('greenhouse.glb').then(m=>{if(!m)return;const {g,box}=fitModel(m,15.4,'z',[0,-Math.PI/2,0]);g.position.y=-.15-box.min.y;home.children.forEach(c=>{if(!homeKeep.has(c))c.visible=false});home.add(g);
+ houseShell=meshesOf(g).map(o=>{o.material=o.material.clone();o.material.transparent=true;return o.material})});
+loadModel('algae_bed.glb').then(m=>{if(!m)return;const {g,box}=fitModel(m,1.85,'x');beds.forEach((b,i)=>{const c=i?g.clone():g;c.position.y=.38-box.max.y;c.userData.asset=true;b.children[0].visible=b.children[1].visible=false;b.add(c)});syncHome()});
+loadModel('cutter.glb').then(m=>{if(!m)return;const {g}=fitModel(m,.55,'z',[0,-Math.PI/2,0]);g.position.set(-.04,-.06,-.02);meshesOf(g).forEach(o=>{o.material.depthTest=true;o.renderOrder=2});tool.children.forEach(c=>c.visible=false);tool.add(g)});
+loadModel('wreck_engine.glb').then(m=>{if(!m)return;[[-65,-65],[80,-100],[-110,45],[95,70]].forEach(([x,z],i)=>{const c=i?m.clone():m;const {g,box}=fitModel(c,8,'x',[0,0,0]);const ex=x+(i%2?-13:13),ez=z+(i<2?11:-11);g.position.set(ex,terrain(ex,ez)-box.min.y-1.5,ez);g.rotation.set(0,i*1.7+.4,.12);scene.add(g)})});
+function houseFade(){if(!houseShell)return;const d=Math.hypot(pos.x-home.position.x,pos.z-home.position.z),o=Math.max(.16,Math.min(1,(d-8.5)/5));for(const m of houseShell){m.opacity=o;m.depthWrite=o>.98}}
 
