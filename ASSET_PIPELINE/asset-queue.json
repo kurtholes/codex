@@ -306,9 +306,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/ground_moon_albedo.png",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T07:35:47Z",
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
   },
   {
    "id": "Moonfall-ee7b1ff3-005",
