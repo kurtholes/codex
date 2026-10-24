@@ -1675,9 +1675,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/wreck_hull.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Larger salvage wrecks in the distant wreck fields."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T17:42:35Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 08f854e2; Pixal3D crown 699,127 tris -> crowned low-poly door (decimate+bake) 5,000 tris, re-counted <= max_tris 5,000; origin 'ground center, long axis along +Z' not understood; not applied; scaled so the largest extent = 10.0 m (x10.79)"
   },
   {
    "id": "Air-22ee0ab5-006",
