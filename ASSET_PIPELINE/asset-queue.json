@@ -819,9 +819,9 @@
     "length_s": 1.7
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_seismic_shot.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": ""
+   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
   },
   {
    "id": "UnderworldExcavator-60593e9d-017",
@@ -834,9 +834,9 @@
     "length_s": 1.8
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_1.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": ""
+   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
   },
   {
    "id": "UnderworldExcavator-60593e9d-018",
@@ -849,9 +849,9 @@
     "length_s": 2.0
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_2.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": ""
+   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
   },
   {
    "id": "UnderworldExcavator-60593e9d-019",
@@ -864,9 +864,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_timber_break.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:10:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 225045; padded 0.323s -> 1.200s with silence; ogg/vorbis q6"
   },
   {
    "id": "UnderworldExcavator-60593e9d-020",
@@ -879,9 +879,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_stone_pickup.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:10:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 221300; padded 0.289s -> 0.400s with silence; ogg/vorbis q6"
   }
  ]
 }
