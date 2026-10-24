@@ -1083,9 +1083,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_03.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:02:10Z",
+   "notes": "alia-runner: YuE2 crown, full length 116.7s, 3s fade out (length_s 100 was a hint only)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-013",
