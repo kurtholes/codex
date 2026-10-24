@@ -10499,6 +10499,363 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped quietly as ambience, so an even sustain."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-001",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "model",
+   "prompt": "An ornate octagonal Victorian library lantern: blackened brass cage, warm amber glass panes, a turned finial and a short aged chain at the top. Palette from the image: dark walnut, warm amber lantern light, blackened brass, smoky golden haze, deep brown and oxblood leather book spines.",
+   "reference_image": "ARCHIVE/InfiniteLibrarian-bdb16bea/reference/inspiration-bdb16bea.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 6.0,
+    "origin": "center of the lantern body",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/great_lantern.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The central landmark you navigate by. Amber glass as emissive."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-002",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "model",
+   "prompt": "A tiny faceless archive keeper: a smooth brass mask, a long black waxed coat, small gloved hands, standing ready to push. Palette from the image: dark walnut, warm amber lantern light, blackened brass, smoky golden haze, deep brown and oxblood leather book spines.",
+   "reference_image": "ARCHIVE/InfiniteLibrarian-bdb16bea/reference/inspiration-bdb16bea.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 1.5,
+    "origin": "feet center, facing +Z",
+    "rig": "none (rigid; the game animates it in code)"
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/librarian.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-003",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "model",
+   "prompt": "A wheeled walnut book trolley with a brass cage rail, four small brass wheels and a push handle, a few leather books stacked inside. Palette from the image: dark walnut, warm amber lantern light, blackened brass, smoky golden haze, deep brown and oxblood leather book spines.",
+   "reference_image": "ARCHIVE/InfiniteLibrarian-bdb16bea/reference/inspiration-bdb16bea.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 1.4,
+    "origin": "bottom center, handle facing -Z",
+    "rig": "separate named node for the brass cage (the game expands it)"
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/trolley.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Always in front of the player."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-004",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "model",
+   "prompt": "A tall aged walnut bookcase packed with leather books, an inset brass heraldic category plaque at the top (blank, no lettering). Palette from the image: dark walnut, warm amber lantern light, blackened brass, smoky golden haze, deep brown and oxblood leather book spines.",
+   "reference_image": "ARCHIVE/InfiniteLibrarian-bdb16bea/reference/inspiration-bdb16bea.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 5.0,
+    "origin": "bottom center, front facing +Z",
+    "rig": "separate named nodes for each shelf plank"
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/bookcase.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Placed by the hundreds; shoved into cascading wreckage."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-005",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "model",
+   "prompt": "A single closed old leather book, worn gilt edges, slightly bent cover. Palette from the image: dark walnut, warm amber lantern light, blackened brass, smoky golden haze, deep brown and oxblood leather book spines.",
+   "reference_image": "ARCHIVE/InfiniteLibrarian-bdb16bea/reference/inspiration-bdb16bea.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 120,
+    "scale_m": 0.3,
+    "origin": "center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/book.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Runaway books, instanced in huge numbers."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-006",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "texture",
+   "prompt": "Dark polished walnut wood grain seen straight on, warm desaturated brown, flat even lighting, no baked shadows. Palette from the image: dark walnut, warm amber lantern light, blackened brass, smoky golden haze, deep brown and oxblood leather book spines.",
+   "reference_image": "ARCHIVE/InfiniteLibrarian-bdb16bea/reference/inspiration-bdb16bea.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/walnut_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Shelves, balconies and floors, world-space triplanar."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-007",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "texture",
+   "prompt": "A shelf of old leather book spines seen straight on: varied brown, oxblood, green and black bindings with faded gilt bands, no readable lettering, flat even lighting. Palette from the image: dark walnut, warm amber lantern light, blackened brass, smoky golden haze, deep brown and oxblood leather book spines.",
+   "reference_image": "ARCHIVE/InfiniteLibrarian-bdb16bea/reference/inspiration-bdb16bea.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/book_spines_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Fills every shelf face; tiles horizontally."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-008",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: lamps lit in the endless stacks: a gentle celesta theme",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-009",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: the first book eruption: busy pizzicato chase",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-010",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: rail grinding the balconies: quick harpsichord runs",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-011",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: sorting by colour: playful ticking clockwork",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-012",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: the hanging archive: high, airy, dizzy heights",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-013",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: the basement: low clarinet, dusty and mysterious",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-014",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: clockwork arms whir to life: mechanical, bustling",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-015",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: a whole trolley flung home: bright, triumphant",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-016",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: the inverted gallery: dreamy, slightly upside-down waltz",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-017",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Infinite Librarian score (warm clockwork chamber music: harpsichord, celesta, pizzicato strings, ticking percussion, soft clarinet, no vocals). This one: closing time: slow, warm, the lantern dims",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/music_librarian_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-018",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "sfx",
+   "prompt": "pickup: a soft wooden book clack with a little chime",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/sfx_book_scoop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every book scooped, with pitch variation."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-019",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "sfx",
+   "prompt": "powerup: a bright brass chime flourish",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/sfx_shelf_sorted.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "A load lands in the matching shelf."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-020",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "sfx",
+   "prompt": "explosion: a wooden bookcase toppling, books scattering",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.5
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/sfx_shelf_collapse.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-021",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "sfx",
+   "prompt": "jump: a light quick hop",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/sfx_jump.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Jumps and ladder vaults."
+  },
+  {
+   "id": "InfiniteLibrarian-bdb16bea-022",
+   "game": "ARCHIVE/InfiniteLibrarian-bdb16bea",
+   "type": "sfx",
+   "prompt": "wind: soft warm air drifting through a vast hall",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/sfx_archive_air.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly as ambience, so an even sustain."
   }
  ]
 }
