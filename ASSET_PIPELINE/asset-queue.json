@@ -879,9 +879,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_stone_pickup.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:10:03Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 221300; padded 0.289s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 221300; padded 0.289s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24 as the stone pickup chime (the game had no pickup sound before). Plays as the stones from a broken block fly into you, slightly varied pitch, rate-limited so a burst of stones twinkles instead of stacking. Silent fallback if missing."
   },
   {
    "id": "HeatshieldDive-9fddeb9e-001",
