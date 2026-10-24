@@ -575,9 +575,9 @@
     "origin": "feet, back of slab on the wall plane, facing +Z"
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/relief_figure.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:24:41Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 a5328d3a; Pixal3D crown 699,700 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'feet, back of slab on the wall plane, facing +Z' not understood; not applied; scaled so the largest extent = 2.0 m (x2.145)"
   },
   {
    "id": "UnderworldExcavator-60593e9d-002",
