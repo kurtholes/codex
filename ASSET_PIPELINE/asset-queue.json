@@ -5394,6 +5394,413 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped as ambience, so an even sustain with no hard start or end."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-001",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "model",
+   "prompt": "A floating mirrored chrome heart: beveled smooth heart-symbol shape, polished like liquid metal reflecting a dark teal sky, a thin mechanical split seam down the middle, a small red glowing slash emitter on the front. Palette from the image: blue-black rain-stained concrete, dark teal dusk sky, a dying orange sun on the horizon, mirrored chrome, vivid red laser light.",
+   "reference_image": "ARCHIVE/Heartbreaker-9e39585f/reference/inspiration-9e39585f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 1.2,
+    "origin": "center, front facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/chrome_heart.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The enemy drones, instanced in formations. A very glossy metallic material (metalness 1, low roughness); the red emitter as emissive. Two separate halves along the seam would let them split when cut."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-002",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "model",
+   "prompt": "A slim laser sword held in first person: an industrial black ribbed grip with a small guard, and a straight glowing vivid red blade. Palette from the image: blue-black rain-stained concrete, dark teal dusk sky, a dying orange sun on the horizon, mirrored chrome, vivid red laser light.",
+   "reference_image": "ARCHIVE/Heartbreaker-9e39585f/reference/inspiration-9e39585f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 1.2,
+    "origin": "center of the grip, blade pointing -Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/laser_blade.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Always on screen in the right hand. Blade as a separate emissive part so the game can lengthen and recolour it with upgrades."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-003",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "model",
+   "prompt": "An angular chrome offhand pistol: compact, faceted, dark grip, a small red sight light. Palette from the image: blue-black rain-stained concrete, dark teal dusk sky, a dying orange sun on the horizon, mirrored chrome, vivid red laser light.",
+   "reference_image": "ARCHIVE/Heartbreaker-9e39585f/reference/inspiration-9e39585f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 0.3,
+    "origin": "center of the grip, muzzle pointing -Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sidearm.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Always on screen in the left hand."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-004",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "model",
+   "prompt": "A brutalist prison block: a four-storey rain-stained blue-black concrete building, rows of small barred windows, horizontal casting seams, a few rooftop vents, no markings. Palette from the image: blue-black rain-stained concrete, dark teal dusk sky, a dying orange sun on the horizon, mirrored chrome, vivid red laser light.",
+   "reference_image": "ARCHIVE/Heartbreaker-9e39585f/reference/inspiration-9e39585f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 18.0,
+    "origin": "base center, barred face facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/prison_block.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The courtyard walls; placed and stretched many times, and the facades are destructible."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-005",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "model",
+   "prompt": "A heart-shaped metal floor grate set into a pale concrete diamond-shaped floor pad, a fine grille in the middle. Palette from the image: blue-black rain-stained concrete, dark teal dusk sky, a dying orange sun on the horizon, mirrored chrome, vivid red laser light.",
+   "reference_image": "ARCHIVE/Heartbreaker-9e39585f/reference/inspiration-9e39585f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 3.0,
+    "origin": "center at floor level, point of the heart facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/heart_vent.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The healing vent in the floor; the game lights it red from beneath, so the grille should be open/dark."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-006",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "model",
+   "prompt": "A broken chunk of reinforced concrete with a couple of bent rebar ends sticking out. Palette from the image: blue-black rain-stained concrete, dark teal dusk sky, a dying orange sun on the horizon, mirrored chrome, vivid red laser light.",
+   "reference_image": "ARCHIVE/Heartbreaker-9e39585f/reference/inspiration-9e39585f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 300,
+    "scale_m": 1.0,
+    "origin": "center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/concrete_chunk.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Debris when a facade breaks; instanced."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-007",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "texture",
+   "prompt": "Rain-stained blue-black prison concrete seen straight on: horizontal casting seams, water streaks, fine pores, no markings, flat even lighting, no baked shadows. Palette from the image: blue-black rain-stained concrete, dark teal dusk sky, a dying orange sun on the horizon, mirrored chrome, vivid red laser light.",
+   "reference_image": "ARCHIVE/Heartbreaker-9e39585f/reference/inspiration-9e39585f.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/concrete_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Buildings, world-space triplanar."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-008",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "texture",
+   "prompt": "Teal-grey rain-wet stone floor slabs seen from above: large square slabs, small puddles, subtle wet sheen, flat even lighting, no baked shadows. Palette from the image: blue-black rain-stained concrete, dark teal dusk sky, a dying orange sun on the horizon, mirrored chrome, vivid red laser light.",
+   "reference_image": "ARCHIVE/Heartbreaker-9e39585f/reference/inspiration-9e39585f.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/wet_paving_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The courtyard floor."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-009",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "texture",
+   "prompt": "A dusk sky panorama: heavy dark teal clouds overhead, a thin band of orange glow on the horizon with a small dying sun, no buildings, no land. Palette from the image: blue-black rain-stained concrete, dark teal dusk sky, a dying orange sun on the horizon, mirrored chrome, vivid red laser light.",
+   "reference_image": "ARCHIVE/Heartbreaker-9e39585f/reference/inspiration-9e39585f.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/dusk_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The sky dome; 2048x1024 equirectangular, horizon on the middle line, sun near the centre."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-010",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: the compound at dusk: long sub drone, the sun almost gone",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-011",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: first cut: a slow pulse wakes, metallic ticks",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-012",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: formations: tense, rising arpeggio, cold",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-013",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: red light: a heavy heartbeat kick and distorted bass",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-014",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: empty courtyards: almost silent, wind in the synths",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-015",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: breach: driving industrial rhythm, fastest track",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-016",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: chrome rain: shimmering, glassy, mournful",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-017",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: the rooftops: wide, lonely, slow synth melody",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-018",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: wave five: relentless, pounding, full intensity",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-019",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Heartbreaker score (slow dark ambient synth score, brutalist and lonely, deep sub drones, distant metallic percussion, sparse pulsing synths, no vocals). This one: after: the sun sets, a soft fading pad",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/music_heartbreaker_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Heartbreaker-9e39585f-020",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "sfx",
+   "prompt": "laser: a sharp electrical blade slash",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_blade_slash.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every swing."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-021",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "sfx",
+   "prompt": "foley: a mirrored metal shell snapping apart with a bright chrome ring and glassy scatter",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.7
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_heart_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "When a heart is cut; hard hit at the start."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-022",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "sfx",
+   "prompt": "foley: heavy concrete crumbling and chunks falling",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_concrete_crumble.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Facade breaks."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-023",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "sfx",
+   "prompt": "laser: a rising reflected zap",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_reflect.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "When you knock a shot back."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-024",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "sfx",
+   "prompt": "heartbeat: a slow deep heartbeat pulse",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.0
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_vent_heal.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Pulses while you stand on the healing vent."
+  },
+  {
+   "id": "Heartbreaker-9e39585f-025",
+   "game": "ARCHIVE/Heartbreaker-9e39585f",
+   "type": "sfx",
+   "prompt": "foley: an empty concrete compound at dusk, distant wind, low subsonic machinery hum, no voices, no melody, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 8.0
+   },
+   "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_compound_ambience.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as ambience, so an even sustain with no hard start or end."
   }
  ]
 }
