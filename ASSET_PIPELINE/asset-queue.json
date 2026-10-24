@@ -969,9 +969,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/salvage_fragment.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Used instanced, dozens at once, so keep it light."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T12:16:41Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 17015d31; Pixal3D crown 698,597 tris -> crowned low-poly door (decimate+bake) 500 tris, re-counted <= max_tris 500; scaled so the largest extent = 1.0 m (x1.08); origin = centre"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-006",
