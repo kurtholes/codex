@@ -8558,6 +8558,400 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Ambient bed, looped."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-001",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "model",
+   "prompt": "An expedition snowmobile with a rider leaning forward: pearl-white faceted cowling, charcoal rubber track, twin curved skis, exposed orange coil shocks, smoked windshield, rider in black helmet and dark cold-weather suit. No branding. Palette from the image: blue-white blizzard, pale icy blue shadows, dark snow-laden conifers, charcoal and black riders and sleds, a hint of orange.",
+   "reference_image": "ARCHIVE/WhiteoutRiders-e2f28e37/reference/inspiration-e2f28e37.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 18000,
+    "scale_m": 3.2,
+    "origin": "ground center between skis and track, front facing -Z",
+    "rig": "separate named nodes for skis, rider and track"
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/snowmobile.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind. Draw it from the original image first."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-002",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "model",
+   "prompt": "A snow-loaded alpine fir tree: narrow irregular dark silhouette, drooping branches with blue-white snow clumps, wind-battered. Palette from the image: blue-white blizzard, pale icy blue shadows, dark snow-laden conifers, charcoal and black riders and sleds, a hint of orange.",
+   "reference_image": "ARCHIVE/WhiteoutRiders-e2f28e37/reference/inspiration-e2f28e37.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1600,
+    "scale_m": 12.0,
+    "origin": "base of the trunk",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/fir_tree.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Instanced across the basin (hundreds), so keep it lean."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-003",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "model",
+   "prompt": "A small abandoned alpine logging hut of weathered charcoal timber with a thick snow roof and a small orange emergency marker on the door. No text. Palette from the image: blue-white blizzard, pale icy blue shadows, dark snow-laden conifers, charcoal and black riders and sleds, a hint of orange.",
+   "reference_image": "ARCHIVE/WhiteoutRiders-e2f28e37/reference/inspiration-e2f28e37.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 6.0,
+    "origin": "ground center, door facing +Z",
+    "rig": "separate named nodes for walls and roof so it can break apart"
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/logging_hut.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-004",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "model",
+   "prompt": "A stack of cut logs dusted with snow, held by two posts. Palette from the image: blue-white blizzard, pale icy blue shadows, dark snow-laden conifers, charcoal and black riders and sleds, a hint of orange.",
+   "reference_image": "ARCHIVE/WhiteoutRiders-e2f28e37/reference/inspiration-e2f28e37.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1200,
+    "scale_m": 4.0,
+    "origin": "ground center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/timber_stack.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable; logs scatter."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-005",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "model",
+   "prompt": "A weathered charcoal timber fence section, three rails, snow on top. Palette from the image: blue-white blizzard, pale icy blue shadows, dark snow-laden conifers, charcoal and black riders and sleds, a hint of orange.",
+   "reference_image": "ARCHIVE/WhiteoutRiders-e2f28e37/reference/inspiration-e2f28e37.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 400,
+    "scale_m": 4.0,
+    "origin": "ground center, along X",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/fence_section.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable fences."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-006",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "model",
+   "prompt": "A small orange rescue sled trailer with a tarp-covered stretcher, tow bar at the front. Palette from the image: blue-white blizzard, pale icy blue shadows, dark snow-laden conifers, charcoal and black riders and sleds, a hint of orange.",
+   "reference_image": "ARCHIVE/WhiteoutRiders-e2f28e37/reference/inspiration-e2f28e37.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2500,
+    "scale_m": 2.5,
+    "origin": "ground center, tow bar facing -Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/rescue_sled.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Towed behind the snowmobile on rescue jobs."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-007",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "model",
+   "prompt": "An orange expedition beacon pole with a blinking lamp on top and a small flag. Palette from the image: blue-white blizzard, pale icy blue shadows, dark snow-laden conifers, charcoal and black riders and sleds, a hint of orange.",
+   "reference_image": "ARCHIVE/WhiteoutRiders-e2f28e37/reference/inspiration-e2f28e37.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 500,
+    "scale_m": 3.0,
+    "origin": "base",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/beacon.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Job markers; lamp emissive orange."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-008",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "texture",
+   "prompt": "Wind-scoured fine powder snow seen straight down, subtle drifts and grain, icy pale blue shadows, no large features, flat lighting. Palette from the image: blue-white blizzard, pale icy blue shadows, dark snow-laden conifers, charcoal and black riders and sleds, a hint of orange.",
+   "reference_image": "ARCHIVE/WhiteoutRiders-e2f28e37/reference/inspiration-e2f28e37.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/powder_snow_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The whole terrain."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-009",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "texture",
+   "prompt": "A curling translucent blue-white powder snow plume on transparent background, soft edges, no dark fringes. Palette from the image: blue-white blizzard, pale icy blue shadows, dark snow-laden conifers, charcoal and black riders and sleds, a hint of orange.",
+   "reference_image": "ARCHIVE/WhiteoutRiders-e2f28e37/reference/inspiration-e2f28e37.jpg",
+   "spec": {
+    "format": "png",
+    "size": 512,
+    "tileable": false,
+    "alpha": true
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/snow_plume.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Spray sprite behind the sled."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-010",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: engine running in falling snow",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-011",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: first carve through deep powder",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-012",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: the storm closes in, whiteout",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-013",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: a beacon in the distance, a job to do",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-014",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: the frozen lake, wide and silent",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-015",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: full throttle down the pass",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-016",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: rescue tow, heavy and steady",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-017",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: clear skies, ridges revealed",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-018",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: the old ski jumps, airborne",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-019",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Whiteout Riders score (cold expansive glacial ambient with a driving pulse: icy granular pads, deep sub bass, muted toms, soft synth arpeggios, no vocals). This one: back at camp, snow settling",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/music_whiteout_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-020",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "sfx",
+   "prompt": "foley: a powerful two-stroke snowmobile engine at steady mid throttle, gritty rumble, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 3.0
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_engine_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped and pitched by speed in code, so even level with no hard start or end."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-021",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "sfx",
+   "prompt": "foley: a timber fence or hut splintering under a sled, a sharp wood crack at the start then pieces thudding into snow",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_timber_crack.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Hit first, then fall-off."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-022",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "sfx",
+   "prompt": "hit: a heavy soft thump into deep snow",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_snow_thump.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Landings and collisions."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-023",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "sfx",
+   "prompt": "pickup: a short warm metallic reward chime",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_payout.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Job complete / credits."
+  },
+  {
+   "id": "WhiteoutRiders-e2f28e37-024",
+   "game": "ARCHIVE/WhiteoutRiders-e2f28e37",
+   "type": "sfx",
+   "prompt": "wind: a mountain whiteout wind gust",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_blizzard.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ambient bed, looped."
   }
  ]
 }
