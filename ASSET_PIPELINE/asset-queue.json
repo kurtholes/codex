@@ -9734,6 +9734,398 @@
    "status": "integrated",
    "delivered_at": "2026-10-24T13:12:13Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 244992 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.840s -> 4.000s with silence; ogg/vorbis q6"
+  },
+  {
+   "id": "BrassColossus-96cd28c5-001",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "model",
+   "prompt": "A towering tarnished brass knight mech: huge layered curved pauldrons engraved with worn sun emblems, rivets, black exposed pistons at the joints, thin glowing electric-blue conduits, an industrial cathedral silhouette. Standing ready, fists low. Palette from the image: peach and amber sunset clouds, mauve cloud banks, olive green plains, a silver winding river, tarnished gold brass, black iron, thin electric-blue conduits.",
+   "reference_image": "ARCHIVE/BrassColossus-96cd28c5/reference/inspiration-96cd28c5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 25000,
+    "scale_m": 10.0,
+    "origin": "feet center, facing +Z",
+    "rig": "separate named nodes for torso, head, each upper arm, forearm, thigh and shin (the game swings them in code)"
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/brass_knight.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, always on screen from behind with the huge shoulder in the foreground. The shoulder plate and blue conduits matter most. Blue conduits as emissive."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-002",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "model",
+   "prompt": "A walking citadel fortress-knight: a black-iron mechanical knight carrying stepped stone shoulder battlements, small spires and two smoking smokestacks on its back, a brass-trimmed visor glowing faintly red. Palette from the image: peach and amber sunset clouds, mauve cloud banks, olive green plains, a silver winding river, tarnished gold brass, black iron, thin electric-blue conduits.",
+   "reference_image": "ARCHIVE/BrassColossus-96cd28c5/reference/inspiration-96cd28c5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 20000,
+    "scale_m": 12.0,
+    "origin": "feet center, facing +Z",
+    "rig": "separate named nodes for torso, each arm and each leg"
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/fortress_knight.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The rivals you brawl and throw; the game scales it from warden to sovereign."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-003",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "model",
+   "prompt": "A curved riveted brass shoulder plate torn off a fortress-knight, engraved sun rays, bent and torn rivet holes along one edge, a black iron strap on the inside to grip. Palette from the image: peach and amber sunset clouds, mauve cloud banks, olive green plains, a silver winding river, tarnished gold brass, black iron, thin electric-blue conduits.",
+   "reference_image": "ARCHIVE/BrassColossus-96cd28c5/reference/inspiration-96cd28c5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1000,
+    "scale_m": 3.0,
+    "origin": "grip point on the inside strap",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/ripped_plate.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The ripped armor used as a shield or club."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-004",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "model",
+   "prompt": "A weathered stone river-valley foundry wall section with brass crenellations along the top, an iron-barred window glowing warm inside, a buttress on one side. Palette from the image: peach and amber sunset clouds, mauve cloud banks, olive green plains, a silver winding river, tarnished gold brass, black iron, thin electric-blue conduits.",
+   "reference_image": "ARCHIVE/BrassColossus-96cd28c5/reference/inspiration-96cd28c5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 500,
+    "scale_m": 4.0,
+    "origin": "bottom center, outer face toward +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/foundry_wall.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Modular 4 m wall pieces the game builds foundries from and breaks apart."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-005",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "model",
+   "prompt": "A tall foundry chimney tower of soot-stained stone and iron bands, brass crown at the top, smoke-blackened lip. Palette from the image: peach and amber sunset clouds, mauve cloud banks, olive green plains, a silver winding river, tarnished gold brass, black iron, thin electric-blue conduits.",
+   "reference_image": "ARCHIVE/BrassColossus-96cd28c5/reference/inspiration-96cd28c5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 20.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/foundry_chimney.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The towers that topple on a charge."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-006",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "model",
+   "prompt": "A dense distant cathedral foundry city silhouette: layered towers, iron pinnacles and one impossibly tall central smokestack. Palette from the image: peach and amber sunset clouds, mauve cloud banks, olive green plains, a silver winding river, tarnished gold brass, black iron, thin electric-blue conduits.",
+   "reference_image": "ARCHIVE/BrassColossus-96cd28c5/reference/inspiration-96cd28c5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 150.0,
+    "origin": "base center, front facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/citadel_silhouette.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Far-off landmark on the horizon, seen against the sunset."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-007",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "texture",
+   "prompt": "Olive green valley grass blended with damp grey river gravel and patches of worn grey rock, seen from above, flat even lighting, no baked shadows. Palette from the image: peach and amber sunset clouds, mauve cloud banks, olive green plains, a silver winding river, tarnished gold brass, black iron, thin electric-blue conduits.",
+   "reference_image": "ARCHIVE/BrassColossus-96cd28c5/reference/inspiration-96cd28c5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/valley_ground_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The whole valley floor, world-space triplanar."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-008",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "texture",
+   "prompt": "Tarnished brass plate seen straight on: tiny scratches, dark dents, fine engraved sun rays, warm worn edges, flat even lighting. Palette from the image: peach and amber sunset clouds, mauve cloud banks, olive green plains, a silver winding river, tarnished gold brass, black iron, thin electric-blue conduits.",
+   "reference_image": "ARCHIVE/BrassColossus-96cd28c5/reference/inspiration-96cd28c5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/tarnished_brass_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Knight armor and machinery."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-009",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "texture",
+   "prompt": "A vast peach sunset sky panorama: amber horizon glow on the left, mauve cloud banks, soft smoky depth, no land, no structures. Palette from the image: peach and amber sunset clouds, mauve cloud banks, olive green plains, a silver winding river, tarnished gold brass, black iron, thin electric-blue conduits.",
+   "reference_image": "ARCHIVE/BrassColossus-96cd28c5/reference/inspiration-96cd28c5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sunset_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The sky dome; 2048x1024 equirectangular, horizon on the middle line."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-010",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: sunset over the valley: slow low brass, the knight wakes",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-011",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: first blows: a stomping mechanical pulse",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-012",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: the winch: tense rising strings over grinding percussion",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-013",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: fortress-knights on the ridge: heroic, march-like brass",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-014",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: the foundry burns: fast anvil rhythm, full drums",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-015",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: river crossing: calm, wide, a lone horn over the water",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-016",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: the sovereign walks: the darkest, heaviest track",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-017",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: new armor fitted: proud, rising, triumphant chords",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-018",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: towers fall: relentless percussion, brass stabs",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-019",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Brass Colossus score (heavy industrial orchestral score: anvil and piston percussion, huge low brass, taiko-like drums, deep strings, no vocals). This one: dusk after the brawl: warm, slow, steam settling",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/music_colossus_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassColossus-96cd28c5-020",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "sfx",
+   "prompt": "hit: a heavy metallic punch, iron fist crumpling a brass plate",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_metal_hit.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every punch that lands, with pitch variation."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-021",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "sfx",
+   "prompt": "explosion: a heavy stone tower crumbling",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.5
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_tower_collapse.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Foundry towers and walls falling."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-022",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "sfx",
+   "prompt": "footstep: an enormous heavy iron footfall on wet gravel",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_giant_step.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Each planted step of the knight."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-023",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "sfx",
+   "prompt": "powerup: a rising furnace surge as new armor locks in",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_tier_fit.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Fitting a chassis tier."
+  },
+  {
+   "id": "BrassColossus-96cd28c5-024",
+   "game": "ARCHIVE/BrassColossus-96cd28c5",
+   "type": "sfx",
+   "prompt": "wind: a soft evening wind through a wide grass valley",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_valley_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly under everything, so an even sustain."
   }
  ]
 }
