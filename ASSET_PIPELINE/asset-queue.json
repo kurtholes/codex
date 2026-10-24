@@ -1019,9 +1019,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/earth_ocean.png",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Replaces the procedural Earth surface below the dive. A plain tileable top-down view is fine (not an equirect map); the game keeps its own atmosphere rim."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T12:37:57Z",
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 2048x2048; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-009",
@@ -1035,9 +1035,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/island_basalt.png",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Island terrain after landing (triplanar)."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T12:37:57Z",
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-010",
