@@ -12285,9 +12285,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_wisp.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every wisp, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:48Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 396446 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.291s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "Glyphrunner-49e8ed3f-021",
@@ -12300,9 +12300,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_guardian_hit.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "A guardian hitting you."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:48Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 425837 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.171s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "Glyphrunner-49e8ed3f-022",
@@ -12315,9 +12315,9 @@
     "length_s": 6.0
    },
    "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_cavern_air.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped quietly as ambience, so an even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:48Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 638474 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.765s -> 6.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "OneOfOurOwn-fad4b971-001",
@@ -12594,9 +12594,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_boot_step.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Your steps and the chase, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:48Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset footstep seed 729773 (rule a: explicit '<preset>:' tag ('footstep:')); padded 0.110s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "OneOfOurOwn-fad4b971-018",
@@ -12609,9 +12609,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_cuffs.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "An arrest."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:48Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 825122 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.204s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "OneOfOurOwn-fad4b971-019",
@@ -12624,9 +12624,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_glass_break.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Breakable glass."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:48Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 216529 (rule a: explicit '<preset>:' tag ('explosion:')); trimmed 0.841s -> 0.800s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "OneOfOurOwn-fad4b971-020",
