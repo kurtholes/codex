@@ -1258,9 +1258,9 @@
     "rig": "none (single rigid mesh; the game breaks it apart with procedural debris)"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/hut.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T14:22:30Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 a22f3147; Pixal3D crown 654,398 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'ground center, door facing +Z' not understood; not applied; scaled so the largest extent = 8.0 m (x8.204)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 a22f3147; Pixal3D crown 654,398 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'ground center, door facing +Z' not understood; not applied; scaled so the largest extent = 8.0 m (x8.204) | Forge: integrated 2026-10-24. All 36 huts, one InstancedMesh (fit 7 m tall); collapse/repair toggles each instance."
   },
   {
    "id": "SmokeRing-5a1da71e-002",
@@ -1276,9 +1276,9 @@
     "rig": "none (single rigid mesh; game animates flight and recoil in code)"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/keeper.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T14:31:37Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 f4c89930; Pixal3D crown 687,005 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'feet, facing +Z' not understood; not applied; scaled so the largest extent = 2.0 m (x2.249)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 f4c89930; Pixal3D crown 687,005 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'feet, facing +Z' not understood; not applied; scaled so the largest extent = 2.0 m (x2.249) | Forge: integrated 2026-10-24. Player keeper (2.3 m, turned to face the aim direction); jet rig cones kept for flight."
   },
   {
    "id": "SmokeRing-5a1da71e-003",
@@ -1294,9 +1294,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/siege_cannon.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T14:48:34Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 0d23756b; Pixal3D crown 697,393 tris -> crowned low-poly door (decimate+bake) 2,500 tris, re-counted <= max_tris 2,500; origin 'grip, barrel pointing +Z' not understood; not applied; scaled so the largest extent = 1.8 m (x2.029)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 0d23756b; Pixal3D crown 697,393 tris -> crowned low-poly door (decimate+bake) 2,500 tris, re-counted <= max_tris 2,500; origin 'grip, barrel pointing +Z' not understood; not applied; scaled so the largest extent = 1.8 m (x2.029) | Forge: integrated 2026-10-24. Shoulder cannon (barrel turned forward, 1.9 m), lengthens with Ember Core tiers."
   },
   {
    "id": "SmokeRing-5a1da71e-004",
@@ -1312,9 +1312,9 @@
     "rig": "none (single rigid mesh; game bobs and tilts it in code)"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/crawler.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T14:57:40Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 360ead32; Pixal3D crown 694,494 tris -> crowned low-poly door (decimate+bake) 2,000 tris, re-counted <= max_tris 2,000; origin 'ground center between the legs, head facing +Z' not understood; not applied; scaled so the largest extent = 3.0 m (x3.334)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 360ead32; Pixal3D crown 694,494 tris -> crowned low-poly door (decimate+bake) 2,000 tris, re-counted <= max_tris 2,000; origin 'ground center between the legs, head facing +Z' not understood; not applied; scaled so the largest extent = 3.0 m (x3.334) | Forge: integrated 2026-10-24. Every crawler (3.2 m; brutes 6.4 m, the Hollow King x3), head turned to face its walk direction."
   },
   {
    "id": "SmokeRing-5a1da71e-005",
@@ -1330,9 +1330,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/chimney.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:12:54Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 886a4f2c; Pixal3D crown 698,181 tris -> crowned low-poly door (decimate+bake) 3,000 tris, re-counted <= max_tris 3,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 6.0 m (x6.788)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 886a4f2c; Pixal3D crown 698,181 tris -> crowned low-poly door (decimate+bake) 3,000 tris, re-counted <= max_tris 3,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 6.0 m (x6.788) | Forge: integrated 2026-10-24. Central hearth chimney (6 m); the mesh leans, so it is offset to put its ember bowl under the smoke column."
   },
   {
    "id": "SmokeRing-5a1da71e-006",
@@ -1348,9 +1348,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/palisade.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:19:22Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 3d3d9ffc; Pixal3D crown 698,716 tris -> crowned low-poly door (decimate+bake) 1,500 tris, re-counted <= max_tris 1,500; origin 'ground center, length along X, front facing +Z' not understood; not applied; scaled so the largest extent = 6.0 m (x7.186)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 3d3d9ffc; Pixal3D crown 698,716 tris -> crowned low-poly door (decimate+bake) 1,500 tris, re-counted <= max_tris 1,500; origin 'ground center, length along X, front facing +Z' not understood; not applied; scaled so the largest extent = 6.0 m (x7.186) | Forge: integrated 2026-10-24. Destructible palisade sections on the two outer walkway rings (100 instances, stretched to each 4-5 m gap); inner rings keep procedural rails where a section would be under 2.5 m."
   },
   {
    "id": "SmokeRing-5a1da71e-007",
@@ -1364,9 +1364,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/timber_albedo.png",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:14:53Z",
-   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost) | Forge: integrated 2026-10-24. World-space triplanar on all timber (walkways, posts, rails, towers), keeping the original tint."
   },
   {
    "id": "SmokeRing-5a1da71e-008",
@@ -1380,9 +1380,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/forest_mud_albedo.png",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:19:22Z",
-   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost) | Forge: integrated 2026-10-24. World-space triplanar on the forest floor and village disc."
   },
   {
    "id": "SmokeRing-5a1da71e-009",
@@ -1396,9 +1396,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_01.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:27:38Z",
-   "notes": "alia-runner: YuE2 crown, full length 87.2s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 87.2s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-010",
@@ -1412,9 +1412,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_02.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:33:52Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-011",
@@ -1428,9 +1428,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_03.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:38:35Z",
-   "notes": "alia-runner: YuE2 crown, full length 114.4s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 114.4s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-012",
@@ -1444,9 +1444,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_04.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:45:19Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-013",
@@ -1460,9 +1460,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_05.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:50:01Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-014",
@@ -1476,9 +1476,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_06.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T15:53:13Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-015",
@@ -1492,9 +1492,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_07.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T16:01:27Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-016",
@@ -1508,9 +1508,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_08.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T16:04:11Z",
-   "notes": "alia-runner: YuE2 crown, full length 98.9s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 98.9s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-017",
@@ -1524,9 +1524,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_09.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T16:09:54Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-018",
@@ -1540,9 +1540,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_10.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T16:10:37Z",
-   "notes": "alia-runner: YuE2 crown, full length 49.4s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 49.4s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. 10-track shuffle, loudness-levelled, 3 s fade-in, follows the sound switch."
   },
   {
    "id": "SmokeRing-5a1da71e-019",
@@ -1555,9 +1555,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/sfx_ember_launch.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T16:13:55Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_smokering_5a1da71e_019_42f7a7_261024-091002; onset 0.260s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.6s from the onset; trimmed 3.516s -> 0.600s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -9.1 -> -14.0 dB, peak -4.9 -> -9.8 dBFS (gain -4.9 dB; target -14 dB RMS); ogg/vorbis q6"
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_smokering_5a1da71e_019_42f7a7_261024-091002; onset 0.260s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.6s from the onset; trimmed 3.516s -> 0.600s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -9.1 -> -14.0 dB, peak -4.9 -> -9.8 dBFS (gain -4.9 dB; target -14 dB RMS); ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every keeper cannon shot (synth fallback)."
   },
   {
    "id": "SmokeRing-5a1da71e-020",
@@ -1570,9 +1570,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/sfx_crawler_hit.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T16:21:40Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_smokering_5a1da71e_020_b20507_261024-091043; onset 1.070s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 2.706s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -22.6 -> -23.2 dB, peak -0.4 -> -1.0 dBFS (gain -0.6 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6"
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_smokering_5a1da71e_020_b20507_261024-091043; onset 1.070s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 2.706s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -22.6 -> -23.2 dB, peak -0.4 -> -1.0 dBFS (gain -0.6 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays when a shell damages a crawler (synth fallback)."
   },
   {
    "id": "SmokeRing-5a1da71e-021",
@@ -1585,9 +1585,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/sfx_jet_burst.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T16:27:40Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_smokering_5a1da71e_021_41b555_261024-091400; onset 0.330s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.8s from the onset; trimmed 3.446s -> 0.800s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -22.0 -> -14.0 dB, peak -10.3 -> -2.3 dBFS (gain +8.0 dB; target -14 dB RMS); ogg/vorbis q6"
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_smokering_5a1da71e_021_41b555_261024-091400; onset 0.330s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.8s from the onset; trimmed 3.446s -> 0.800s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -22.0 -> -14.0 dB, peak -10.3 -> -2.3 dBFS (gain +8.0 dB; target -14 dB RMS); ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on Shift dash (synth fallback) and, softer, on lift-off."
   },
   {
    "id": "Air-22ee0ab5-001",

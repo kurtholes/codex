@@ -20,3 +20,7 @@ The automated captures are in ignored `test-output/`: `00s.png`, `30s.png`, `180
 ## Limits
 
 60 FPS on integrated graphics is a target, not a verified result. The ten-minute final boss, thirty-minute economy, every upgrade tier, canopy unlock, refresh persistence, audible sound quality, touch, and gamepad were not covered by the three-minute automation. Gamepad and the flooded hollow are not implemented. The initial interrupted run is retained here as a failed attempt, not counted as completed three-minute coverage.
+
+## Asset integration rerun (2026-10-24)
+
+With Alia's delivered assets wired in (models, timber/mud textures, 10-track score, three foley sfx): `node test.mjs` simulated 181.7 s, 73 kills, wave four, Ember Core tier three, **zero console errors**, production test API absent. Low-preset SwiftShader average 4.55 FPS (min 2.1) on a shared, heavily loaded host; the software rasteriser pays for the textured models and triplanar textures, so the Low preset drops model normal/roughness maps and huts/palisades are instanced. With every asset blocked, the game falls back to the original procedural village and synth sounds with no page errors.
