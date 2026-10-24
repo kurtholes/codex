@@ -12318,6 +12318,345 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped quietly as ambience, so an even sustain."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-001",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "model",
+   "prompt": "A tired internal affairs officer: charcoal utility uniform, a worn shield badge, desaturated skin, a realistic tired face, standing. Palette from the image: sickly fluorescent green light, olive institutional paint, deep green shadows, charcoal uniforms, grey concrete, cold scratched steel.",
+   "reference_image": "ARCHIVE/OneOfOurOwn-fad4b971/reference/inspiration-fad4b971.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 1.8,
+    "origin": "feet center, facing +Z",
+    "rig": "separate named nodes for head, each arm and each leg"
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/officer.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Seated suspects and the officer who runs. Draw from the original image first."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-002",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "model",
+   "prompt": "A scratched rolled-edge steel interrogation table with exposed welds and four square legs. Palette from the image: sickly fluorescent green light, olive institutional paint, deep green shadows, charcoal uniforms, grey concrete, cold scratched steel.",
+   "reference_image": "ARCHIVE/OneOfOurOwn-fad4b971/reference/inspiration-fad4b971.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 1.8,
+    "origin": "floor center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/steel_table.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The room's anchor; evidence goes here."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-003",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "model",
+   "prompt": "A bent grey metal folding chair with scuffed paint. Palette from the image: sickly fluorescent green light, olive institutional paint, deep green shadows, charcoal uniforms, grey concrete, cold scratched steel.",
+   "reference_image": "ARCHIVE/OneOfOurOwn-fad4b971/reference/inspiration-fad4b971.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1000,
+    "scale_m": 0.9,
+    "origin": "floor center, seat facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/folding_chair.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Loose furniture you can knock around."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-004",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "model",
+   "prompt": "A clear police evidence pouch with a red seal strip containing a brass bullet casing, no readable text. Palette from the image: sickly fluorescent green light, olive institutional paint, deep green shadows, charcoal uniforms, grey concrete, cold scratched steel.",
+   "reference_image": "ARCHIVE/OneOfOurOwn-fad4b971/reference/inspiration-fad4b971.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1000,
+    "scale_m": 0.25,
+    "origin": "center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/evidence_pouch.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The proof you carry."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-005",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "texture",
+   "prompt": "Stained olive institutional wall paint above a dark green dado band, scuffs and grime, seen straight on, flat even lighting, no baked shadows. Palette from the image: sickly fluorescent green light, olive institutional paint, deep green shadows, charcoal uniforms, grey concrete, cold scratched steel.",
+   "reference_image": "ARCHIVE/OneOfOurOwn-fad4b971/reference/inspiration-fad4b971.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/precinct_wall_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Precinct walls, world-space triplanar."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-006",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "texture",
+   "prompt": "Grimy grey concrete floor seen from above, cracks, stains, worn paths, flat even lighting, no baked shadows. Palette from the image: sickly fluorescent green light, olive institutional paint, deep green shadows, charcoal uniforms, grey concrete, cold scratched steel.",
+   "reference_image": "ARCHIVE/OneOfOurOwn-fad4b971/reference/inspiration-fad4b971.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/concrete_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Floors and courtyard."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-007",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: the interrogation room: a low drone and a slow bass walk",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-008",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: clocking the evidence: careful, ticking brushes",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-009",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: a trace under the lamp: tense, quiet trumpet",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-010",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: something doesn't add up: rising unease",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-011",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: the culprit runs: fast, driving drums",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-012",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: alley chase: urgent bass and stabbing brass",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-013",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: cornered: tight, pulsing, holding breath",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-014",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: cuffs on: a heavy, satisfying resolve",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-015",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: the upper gallery: cool, lonely, late-night jazz",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-016",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the One of Our Own score (tense noir crime score: brushed drums, upright bass, muted trumpet, dark synth drones, no vocals). This one: end of shift: weary, smoky, slow fade",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/music_ownown_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-017",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "sfx",
+   "prompt": "footstep: a dry heavy boot step on concrete",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_boot_step.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Your steps and the chase, with pitch variation."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-018",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "sfx",
+   "prompt": "hit: a sharp metallic handcuff ratchet click",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_cuffs.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "An arrest."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-019",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "sfx",
+   "prompt": "explosion: a pane of glass shattering",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_glass_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable glass."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-020",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "sfx",
+   "prompt": "blip: a short scanner beep",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.2
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_scan.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Scanning a trace."
+  },
+  {
+   "id": "OneOfOurOwn-fad4b971-021",
+   "game": "ARCHIVE/OneOfOurOwn-fad4b971",
+   "type": "sfx",
+   "prompt": "powerup: a tense rising reveal tone",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/OneOfOurOwn-fad4b971/assets/sfx_exposed.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Exposing the culprit."
   }
  ]
 }
