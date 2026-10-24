@@ -610,9 +610,9 @@
     "rig": "rigid parts as separate named nodes: barrel, chamber, rings, grip (the game grows the barrel and spins the rings in code)"
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/cannon.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:45:44Z",
+   "notes": "alia-runner: still (Qwen t2i) md5 9d04afbc; Pixal3D crown 698,754 tris -> crowned low-poly door (decimate+bake) 7,980 tris, re-counted <= max_tris 15,000; origin 'grip, barrel pointing +Z' not understood; not applied; scaled so the largest extent = 1.2 m (x1.34)"
   },
   {
    "id": "UnderworldExcavator-60593e9d-004",
