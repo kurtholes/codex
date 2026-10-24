@@ -1,0 +1,51 @@
+{
+  "durationSeconds": 180.017,
+  "loadToObservedFirstShotSeconds": 4.732,
+  "gameFirstActionSeconds": 0.386100000000745,
+  "lowPreset": {
+    "viewport": "1280x800",
+    "pixelRatio": 0.7,
+    "renderer": "Chromium SwiftShader software GPU",
+    "averageFps": 3.614242777334884,
+    "frames": 652,
+    "wallSeconds": 180.39740000000222
+  },
+  "final": {
+    "frameCount": 652,
+    "elapsed": 33.67345000000061,
+    "wallTime": 180.39740000000222,
+    "drawCalls": 142,
+    "triangles": 102044,
+    "energy": 94.5,
+    "levels": [
+      2,
+      0,
+      0,
+      1,
+      0,
+      5,
+      0,
+      3
+    ],
+    "shotCount": 23,
+    "destroyCount": 20,
+    "firstAction": 0.386100000000745,
+    "fps": 7.430328111676669,
+    "averageFps": 3.614242777334884,
+    "position": [
+      18.38541427320051,
+      4,
+      -414
+    ],
+    "quick": false,
+    "score": 921,
+    "shells": 1
+  },
+  "checks": {
+    "naturalUpgrade": true,
+    "quickPickups": true,
+    "mainSaveRestored": true,
+    "productionHooksStripped": true
+  },
+  "consoleErrors": []
+}

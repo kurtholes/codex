@@ -1,0 +1,10 @@
+import {mkdir,readFile,writeFile} from 'node:fs/promises';
+const dev=process.argv.includes('--dev');
+const out=dev?'dev-dist':'dist';
+await mkdir(out,{recursive:true});
+await writeFile(`${out}/index.html`,await readFile('src/index.html','utf8'));
+let js=await readFile('src/game.js','utf8');
+const start=js.indexOf('/* DEV_START */'),end=js.indexOf('/* DEV_END */');
+if(!dev) js=js.slice(0,start)+js.slice(end+'/* DEV_END */'.length);
+await writeFile(`${out}/game.js`,js);
+console.log(`Built ${out}`);
