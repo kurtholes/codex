@@ -434,9 +434,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_06.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T08:26:44Z",
+   "notes": "alia-runner: YuE2 crown, full length 119.4s, 3s fade out (length_s 100 was a hint only)"
   },
   {
    "id": "Moonfall-ee7b1ff3-013",
