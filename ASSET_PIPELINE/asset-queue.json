@@ -8949,9 +8949,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_blizzard.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Ambient bed, looped."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:12:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 993597 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.839s -> 4.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "GlowballGrove-8367c6d5-001",
@@ -9296,9 +9296,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/sfx_glow_pickup.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Plays many times in a row; keep it soft."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:12:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 424325 (rule a: explicit '<preset>:' tag ('pickup:')); trimmed 0.303s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "GlowballGrove-8367c6d5-022",
@@ -9311,9 +9311,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/sfx_hop.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:12:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset jump seed 121055 (rule a: explicit '<preset>:' tag ('jump:')); trimmed 0.301s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "GlowballGrove-8367c6d5-023",
@@ -9326,9 +9326,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/sfx_plant.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Planting a grove."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:12:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 147270 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.585s -> 0.600s with silence; ogg/vorbis q6"
   },
   {
    "id": "GlowballGrove-8367c6d5-024",
@@ -9686,9 +9686,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_seal.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Earning a seal."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:12:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 906039 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.290s -> 0.600s with silence; ogg/vorbis q6"
   },
   {
    "id": "ParallaxRuins-b01eaee5-022",
@@ -9701,9 +9701,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_sight.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Holding Q to see the bridge."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:12:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 450222 (rule a: explicit '<preset>:' tag ('powerup:')); trimmed 0.605s -> 0.600s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "ParallaxRuins-b01eaee5-023",
