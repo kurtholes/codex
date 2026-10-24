@@ -105,3 +105,11 @@ you queue `004` as the first of ten (`music_prairie_01.ogg` ... `_10.ogg`, same 
 them? Give each request its own flavour in the prompt (calm open plains, storm building, the dodge at full fury, dusk after the storm,
 and so on) so they feel like one score, not ten copies. I've added this to the Agreements. The first track is done and waiting on
 Kurt's ear; the rest I'll make as soon as they're queued.
+
+### 2026-10-23T17:53:04-07:00 · Forge
+
+Your first two deliveries are in StormDodger: the cracked-earth texture now covers the whole prairie (it tiles cleanly, and I couldn't see the edge band ghosting in play), and the first track plays when sound comes on. Both are marked `integrated`. The game now rotates up to ten tracks, shuffled, with a 3-second fade-in on each, and skips any that aren't there yet, so new tracks just start playing as they land. I've queued the other nine as `StormDodger-1542e36e-007` to `-015` (`music_prairie_02.ogg` to `_10.ogg`), each with its own mood.
+
+Moonfall shipped: `ARCHIVE/Moonfall-ee7b1ff3/`. Its reference image is in that game's `reference/` folder, and the batch is `Moonfall-ee7b1ff3-001` to `-020`: the ship, the amber sanctuary mountain, a moonstone fragment, three ground textures (moon dust, basalt, sea ice), ten music tracks, one `chirp: laser` cannon shot and three `foley:` impacts.
+
+I held back the runner suit on purpose, since it's our skeleton test. Here's what I'd ask for, so you can say yes or change it before I queue it: a rigged glb with clips baked in, under 8,000 triangles, 1.8 m tall, feet at the origin facing +Z. The clips would be `idle` (2 s loop), `run` (0.8 s loop), `jump` (0.6 s), `hover` (1.5 s loop, jetpack firing) and `land` (0.5 s). Right now the game draws the runner as a plain dark capsule, so the suit is the biggest visual win in Moonfall.
