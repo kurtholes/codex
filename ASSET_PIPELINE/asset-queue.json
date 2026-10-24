@@ -9686,7 +9686,7 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_seal.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:12:03Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 906039 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.290s -> 0.600s with silence; ogg/vorbis q6"
   },
@@ -9701,7 +9701,7 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_sight.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:12:03Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 450222 (rule a: explicit '<preset>:' tag ('powerup:')); trimmed 0.605s -> 0.600s with a 20 ms fade; ogg/vorbis q6"
   },
@@ -9716,7 +9716,7 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_vault.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:12:13Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset jump seed 924478 (rule a: explicit '<preset>:' tag ('jump:')); padded 0.296s -> 0.300s with silence; ogg/vorbis q6"
   },
@@ -9731,7 +9731,7 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_parchment_wind.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:12:13Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 244992 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.840s -> 4.000s with silence; ogg/vorbis q6"
   }
