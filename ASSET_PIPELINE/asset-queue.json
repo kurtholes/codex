@@ -6960,6 +6960,398 @@
    "status": "open",
    "delivered_at": null,
    "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-001",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "model",
+   "prompt": "The lone woman seen from behind in the image: long pearl-grey tailored coat, dark wavy shoulder-length hair, dark boots, upright calm walk. A readable human silhouette, no armor, no glow. Palette from the image: pearl-grey mist, icy blue wet stone, pale silver Gothic towers, lavender spectral figures, soft white light, a dark wool coat.",
+   "reference_image": "ARCHIVE/VeilRunner-39180c08/reference/inspiration-39180c08.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 2.3,
+    "origin": "feet, facing +Z",
+    "rig": "none (rigid; the game animates in code)"
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/guide.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind in the chase camera, so the back of the coat and hair matter most."
+  },
+  {
+   "id": "VeilRunner-39180c08-002",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "model",
+   "prompt": "A vast floating pearl lantern sphere with a delicate longitude lattice, fine equatorial seams and a layered brass-silver pendant housing underneath with a tiny glowing underside. Palette from the image: pearl-grey mist, icy blue wet stone, pale silver Gothic towers, lavender spectral figures, soft white light, a dark wool coat.",
+   "reference_image": "ARCHIVE/VeilRunner-39180c08/reference/inspiration-39180c08.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 34.0,
+    "origin": "center of the sphere",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/pearl_globe.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Several float over the city; they are the biggest shapes in every view."
+  },
+  {
+   "id": "VeilRunner-39180c08-003",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "model",
+   "prompt": "One slender silver Gothic city facade module: pale stone, thin buttresses, tall pointed window tracery, no text, no warm brick. Palette from the image: pearl-grey mist, icy blue wet stone, pale silver Gothic towers, lavender spectral figures, soft white light, a dark wool coat.",
+   "reference_image": "ARCHIVE/VeilRunner-39180c08/reference/inspiration-39180c08.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 10.0,
+    "origin": "bottom center of the front face, facade facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/gothic_facade.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Repeated down both sides of the streets; modules sit side by side, so the left and right edges should meet cleanly."
+  },
+  {
+   "id": "VeilRunner-39180c08-004",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "model",
+   "prompt": "An almost invisible elongated lavender human apparition, translucent fabric streamers drifting upward, a graceful slow sway, no face detail. Palette from the image: pearl-grey mist, icy blue wet stone, pale silver Gothic towers, lavender spectral figures, soft white light, a dark wool coat.",
+   "reference_image": "ARCHIVE/VeilRunner-39180c08/reference/inspiration-39180c08.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1000,
+    "scale_m": 2.6,
+    "origin": "feet, facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/spectre.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Instanced into a crowd; the game adds transparency."
+  },
+  {
+   "id": "VeilRunner-39180c08-005",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "model",
+   "prompt": "A thin frosted silver crystal sheet standing on edge, faint Gothic etching, fragile and translucent, simple base. Palette from the image: pearl-grey mist, icy blue wet stone, pale silver Gothic towers, lavender spectral figures, soft white light, a dark wool coat.",
+   "reference_image": "ARCHIVE/VeilRunner-39180c08/reference/inspiration-39180c08.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 500,
+    "scale_m": 3.0,
+    "origin": "bottom center, face toward +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/crystal_screen.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable screens; the game shatters them into shards in code."
+  },
+  {
+   "id": "VeilRunner-39180c08-006",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "model",
+   "prompt": "A tall slender Gothic street lamp of dark silver iron with a pale glowing glass lantern. Palette from the image: pearl-grey mist, icy blue wet stone, pale silver Gothic towers, lavender spectral figures, soft white light, a dark wool coat.",
+   "reference_image": "ARCHIVE/VeilRunner-39180c08/reference/inspiration-39180c08.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1200,
+    "scale_m": 5.0,
+    "origin": "base of the post",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/street_lamp.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Lines the plazas."
+  },
+  {
+   "id": "VeilRunner-39180c08-007",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "texture",
+   "prompt": "Icy blue pearl limestone paving seen straight down, worn fine grout lines, a faint wet sheen, flat even lighting, no shadows. Palette from the image: pearl-grey mist, icy blue wet stone, pale silver Gothic towers, lavender spectral figures, soft white light, a dark wool coat.",
+   "reference_image": "ARCHIVE/VeilRunner-39180c08/reference/inspiration-39180c08.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/pearl_paving_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The streets and plazas."
+  },
+  {
+   "id": "VeilRunner-39180c08-008",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "texture",
+   "prompt": "Pale silver-grey Gothic cathedral stone blocks seen straight on, fine weathering, faint carved mouldings, flat lighting. Palette from the image: pearl-grey mist, icy blue wet stone, pale silver Gothic towers, lavender spectral figures, soft white light, a dark wool coat.",
+   "reference_image": "ARCHIVE/VeilRunner-39180c08/reference/inspiration-39180c08.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/silver_stone_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Walls and towers."
+  },
+  {
+   "id": "VeilRunner-39180c08-009",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "texture",
+   "prompt": "A pearl-white misty sky panorama: soft luminous fog, faint pale silhouettes of distant spires near the horizon, no sun disc, very low contrast. Palette from the image: pearl-grey mist, icy blue wet stone, pale silver Gothic towers, lavender spectral figures, soft white light, a dark wool coat.",
+   "reference_image": "ARCHIVE/VeilRunner-39180c08/reference/inspiration-39180c08.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/mist_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Sky dome."
+  },
+  {
+   "id": "VeilRunner-39180c08-010",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: stepping into the mist of the plaza",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-011",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: a dark coat seen across the square",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-012",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: walking with the crowd of ghosts",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-013",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: glass bells ringing in empty streets",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-014",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: climbing toward the high districts",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-015",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: the pearl globes hum overhead",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-016",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: a fragile screen shatters into light",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-017",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: quiet resolve, a long walk home",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-018",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: the upper city, thin cold air",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-019",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Veil Runner score (contemplative cathedral ambient: glass harmonics, soft choir-like pads with no words, slow piano, airy strings, no drums). This one: the veil lifts, soft silver dawn",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/music_veil_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "VeilRunner-39180c08-020",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "sfx",
+   "prompt": "footstep: a quiet leather boot on wet limestone",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.25
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_footstep.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every step; plays constantly, so keep it soft."
+  },
+  {
+   "id": "VeilRunner-39180c08-021",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "sfx",
+   "prompt": "foley: a thin pane of glass breaking into many delicate splinters, crisp break at the very start then a sparkling tail that dies away",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_crystal_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Screen shatter."
+  },
+  {
+   "id": "VeilRunner-39180c08-022",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "sfx",
+   "prompt": "pickup: a soft glass bell chord with a silvery decay",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_route_chime.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "When you reach a guide and earn resonance."
+  },
+  {
+   "id": "VeilRunner-39180c08-023",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "sfx",
+   "prompt": "wind: air moving slowly through immense cathedral streets",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_city_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ambient bed, looped, even sustain."
+  },
+  {
+   "id": "VeilRunner-39180c08-024",
+   "game": "ARCHIVE/VeilRunner-39180c08",
+   "type": "sfx",
+   "prompt": "powerup: a soft rising shimmer pulse",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_pulse.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The click pulse."
   }
  ]
 }
