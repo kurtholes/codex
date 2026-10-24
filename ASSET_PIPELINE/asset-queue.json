@@ -543,9 +543,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "alia-runner: reopened (was failed): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
+   "status": "delivered",
+   "delivered_at": "2026-10-24T08:50:37Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-014110; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; ogg/vorbis q6"
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
