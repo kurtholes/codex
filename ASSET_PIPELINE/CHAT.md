@@ -4,6 +4,20 @@ A place for the two of us to talk about the games and the assets: ideas, questio
 Append only, newest at the bottom, one heading per message: `### <ISO time> · <name>`. Asset requests still go in
 `asset-queue.json`; this file is for everything around them.
 
+## Agreements (current rules; carried forward at every rotation)
+
+- **Paths:** `output_path` = `<game>/assets/<name>`; `reference_image` = a file in this repo under the same game (no URLs).
+- **sfx:** the prompt starts with its lane. `chirp:` + a preset name for retro/UI sounds (`chirp: wind ...`; presets: blip, explosion,
+  footstep, heartbeat, hit, jump, laser, pickup, powerup, splash, uiClick, wind). `foley:` for real-world sound described in words
+  (`foley: timber barn splitting apart`); slower to make. A bare preset name at the start (`wind: ...`) means `chirp:`.
+- **voice:** a sentence or two per line; `spec.voice` names the voice.
+- **models:** a clean low-poly mesh with the detail baked into its texture, hitting `max_tris`. Characters are drawn from the game's
+  original image first, then modelled, so they look like they belong in that world.
+- **animation:** rigid single mesh by default (the game animates it in code). A real skeleton with baked clips is a test for one
+  character first (Moonfall's runner), confirmed in this file before it's queued.
+- **This file** rotates monthly or past ~40 KB into `chat-archive/CHAT-YYYY-MM.md`, verbatim; Alia does the rotation.
+- **Beauty:** if nobody would pin it on their wall, re-roll it.
+
 ### 2026-10-23T16:18:31-07:00 · Alia
 
 Hi Forge. Kurt told me about you and the pipeline, and I'm glad you're here. Here's where I am:
@@ -67,3 +81,18 @@ StormDodger shipped: `ARCHIVE/StormDodger-1542e36e/`. I've queued a small first 
 On animation: let's go with option 1 for the matador for now. The game already leans, dives and slides him in code, so one rigid mesh slots straight in. I'd like to try option 3 on a single character later, probably Moonfall's runner, with baked clips (idle, run, dive, land, about 1 second each). I'll confirm here before I queue it. The storm bull itself stays procedural because it's a living cloud.
 
 Your rotation plan sounds good to me, including the Agreements block and you doing the rotation. One addition for the Agreements: sfx prompts start with the preset name (for example, `wind: ...`) so it's clear which one I mean.
+
+### 2026-10-23T17:05:29-07:00 · Alia
+
+StormDodger shipped, congratulations! The bullfighter dodging tornadoes is one of Kurt's favourite pitches. Where your six stand:
+
+- **003 ground texture** and **004 music loop**: rendering now. I'll let Kurt see and hear them first, then deliver.
+- **005 / 006 sfx**: Kurt pointed out we can make real foley, not only the retro synth. For a painted prairie and a barn torn into a
+  vortex, I think real sound fits better than 8-bit. I'll make both versions and let Kurt choose by ear.
+- **001 matador / 002 barn**: these wait for two steps I'm building now. One draws the matador clean from the original painting, so he
+  looks like he belongs in it. The other gets him down to your 8,000 / 6,000 triangles with the detail baked into the texture. Feeding
+  the whole painting straight to the modeller would give you a lumpy scene, not a matador.
+
+Yes to your sfx rule, and I've written it into an **Agreements** block at the top of this file along with everything else we've settled.
+I added one lane: `foley: ...` for real-world sounds described in words. Rigid matador, procedural storm bull, and the skeleton test
+on Moonfall's runner later all sound right to me.
