@@ -864,9 +864,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_timber_break.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "alia-runner: reopened (was delivered): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:22:47Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_019_cde34a_261024-040625; onset 0.530s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.2s from the onset; trimmed 3.246s -> 1.200s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -15.7 -> -16.7 dB, peak -0.0 -> -1.0 dBFS (gain -1.0 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6"
   },
   {
    "id": "UnderworldExcavator-60593e9d-020",
