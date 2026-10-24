@@ -3075,6 +3075,418 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped as ambience."
+  },
+  {
+   "id": "BrassHorizon-7501e781-001",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "model",
+   "prompt": "A Victorian airship control stick: round brass base plate with a ring of rivets, a turned brass plinth, a tall black ribbed grip (about twelve rings) and a polished brass thumb cap. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 0.7,
+    "origin": "center of base plate, grip pointing +Y",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/control_stick.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Seen up close in first person, the hero of the cockpit. The game tilts it with the controls, so one solid object."
+  },
+  {
+   "id": "BrassHorizon-7501e781-002",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "model",
+   "prompt": "A brass ship's helm wheel with eight spokes and a hub, worn handles. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2500,
+    "scale_m": 0.9,
+    "origin": "hub center, wheel facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/helm_wheel.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Spins at the starboard side of the cockpit."
+  },
+  {
+   "id": "BrassHorizon-7501e781-003",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "model",
+   "prompt": "A brass-rimmed round pressure gauge with a cream face, black tick marks and numbers, a thin black needle, glass cover. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1200,
+    "scale_m": 0.4,
+    "origin": "center of face, facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/gauge.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Reused for all four gauges at different sizes. If the needle can be a separate mesh named needle, the game can swing it; otherwise one mesh is fine."
+  },
+  {
+   "id": "BrassHorizon-7501e781-004",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "model",
+   "prompt": "A brass lever on a curved quadrant track with a black handle and a tick scale. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 0.5,
+    "origin": "pivot point, lever pointing +Y",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/lever.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-005",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "model",
+   "prompt": "A large steampunk dirigible: long ribbed canvas envelope in faded cream and brass, a riveted brass gondola beneath with portholes and propellers, rigging lines, small cannons. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 80.0,
+    "origin": "center of envelope, nose facing -Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/dirigible.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Enemy airships; their keel is about 35 m, envelope longer."
+  },
+  {
+   "id": "BrassHorizon-7501e781-006",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "model",
+   "prompt": "A small brass clockwork drone: a round body with exposed gears, two spinning rotor discs, a single glowing amber lens eye, little cannon. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 3.0,
+    "origin": "center, facing -Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/clockwork_drone.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Swarms around the islands."
+  },
+  {
+   "id": "BrassHorizon-7501e781-007",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "model",
+   "prompt": "A brick and iron sky-island foundry: soot-black brick hall, two tall iron chimneys, a big red riveted pressure tank, catwalks and pipes. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 30.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/foundry.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable factory buildings on the floating islands."
+  },
+  {
+   "id": "BrassHorizon-7501e781-008",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "model",
+   "prompt": "A floating island of dark basalt: flat top, the rock tapering to a jagged point below, iron girders and hanging ribs bolted into the sides. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 5000,
+    "scale_m": 130.0,
+    "origin": "center of the flat top surface",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/floating_island.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The islands range from 95 to 170 m; they get scaled."
+  },
+  {
+   "id": "BrassHorizon-7501e781-009",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "texture",
+   "prompt": "Dark polished mahogany wood panel with rich grain, a few scratches, flat lighting, no baked shadows. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/mahogany_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Cockpit console wood."
+  },
+  {
+   "id": "BrassHorizon-7501e781-010",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "texture",
+   "prompt": "Polished brass sheet with tarnish, fingerprints, fine scratches, flat lighting. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/brass_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Brass parts everywhere."
+  },
+  {
+   "id": "BrassHorizon-7501e781-011",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "texture",
+   "prompt": "Soot-blackened red-brown industrial brick wall, flat lighting. Palette from the image: dark mahogany, polished and tarnished brass, black rubber grip, cream gauge faces, warm amber lamp glow.",
+   "reference_image": "ARCHIVE/BrassHorizon-7501e781/reference/inspiration-7501e781.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/soot_brick_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-012",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: casting off: warm strings and a hopeful brass theme, clockwork ticking",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-013",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: above the clouds: soaring, wide, slow waltz",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-014",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: the foundry islands: heavier, mechanical rhythm like pistons",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-015",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: drones on the horizon: playful tense pizzicato",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-016",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: broadside: full brass and snare, a battle march",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-017",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: fog bank: quiet accordion and soft bells",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-018",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: the great dirigible: big low brass, slow menace",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-019",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: salvage haul: jaunty, cheerful hurdy-gurdy",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-020",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: storm over the islands: dramatic strings and timpani",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-021",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Brass Horizon score (Victorian steampunk adventure score, brass band and strings, ticking clockwork percussion, accordion and hurdy-gurdy colour, no vocals). This one: homeward at sunset: warm full theme, triumphant and gentle",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/music_brass_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-022",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "sfx",
+   "prompt": "foley: a steady steam engine and propeller hum heard inside a wooden cockpit, soft creaks, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/sfx_engine_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as the airship engine."
+  },
+  {
+   "id": "BrassHorizon-7501e781-023",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "sfx",
+   "prompt": "explosion: a heavy brass deck cannon firing, deep boom with a ringing metal tail",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/sfx_cannon.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-024",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "sfx",
+   "prompt": "foley: brick and iron collapsing, a burst pressure tank hissing",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.5
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/sfx_structure_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BrassHorizon-7501e781-025",
+   "game": "ARCHIVE/BrassHorizon-7501e781",
+   "type": "sfx",
+   "prompt": "pickup: a bright brass bell chime as salvage is collected",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/sfx_salvage_chime.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
   }
  ]
 }
