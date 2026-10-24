@@ -256,9 +256,9 @@
     "rig": "none (single rigid mesh; game animates it in code)"
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/ship.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T07:07:37Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 e42561b9; Pixal3D crown 696,974 tris -> crowned low-poly door (decimate+bake) 7,984 tris, re-counted <= max_tris 12,000; origin 'center of mass, nose facing +Z' not understood; not applied; scaled so the largest extent = 12.0 m (x14.06)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 e42561b9; Pixal3D crown 696,974 tris -> crowned low-poly door (decimate+bake) 7,984 tris, re-counted <= max_tris 12,000; origin 'center of mass, nose facing +Z' not understood; not applied; scaled so the largest extent = 12.0 m (x14.06) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Player ship. Its nose pointed +Z, so it is turned 180 degrees to face the game's forward (-Z), fitted to a 13 m footprint and centred on the old origin; the procedural stand-in is hidden. Reads well from the chase camera: engines toward the viewer, hull silhouette clear against the dark sky."
   },
   {
    "id": "Moonfall-ee7b1ff3-002",
@@ -273,9 +273,9 @@
     "origin": "ground center"
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sanctuary.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T07:13:24Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 c643c483; Pixal3D crown 699,772 tris -> crowned low-poly door (decimate+bake) 7,998 tris, re-counted <= max_tris 25,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 150.0 m (x161.5)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 c643c483; Pixal3D crown 699,772 tris -> crowned low-poly door (decimate+bake) 7,998 tris, re-counted <= max_tris 25,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 150.0 m (x161.5) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Sanctuary. Fitted to a 230 m footprint (about 155 m tall) and moved 40 m further back to z -450 so the ship no longer starts inside it; its own colour map doubles as a soft amber emissive (0.35) and the glow light moved to the crown. Procedural sanctuary parts hidden. It is the best-looking thing in the game now."
   },
   {
    "id": "Moonfall-ee7b1ff3-003",
@@ -290,9 +290,9 @@
     "origin": "center"
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/moonstone.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T07:28:13Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 8cdb65b0; Pixal3D crown 699,268 tris -> crowned low-poly door (decimate+bake) 1,500 tris, re-counted <= max_tris 1,500; scaled so the largest extent = 4.0 m (x3.976); origin = centre"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 8cdb65b0; Pixal3D crown 699,268 tris -> crowned low-poly door (decimate+bake) 1,500 tris, re-counted <= max_tris 1,500; scaled so the largest extent = 4.0 m (x3.976); origin = centre | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Moonstone. Geometry normalised to radius 1.15 and used for both the falling hazards and the instanced rubble field, replacing the icosahedrons. Shape reads clearly at all distances."
   },
   {
    "id": "Moonfall-ee7b1ff3-004",
@@ -306,9 +306,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/ground_moon_albedo.png",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T07:35:47Z",
-   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Terrain textures. The terrain shader now blends them triplanar: basalt on slopes, ground dust (desaturated so the ground stays cool grey like the reference instead of brown) on flat high ground, ice in the low basins; basalt also on the rock material, ice albedo tiled on the frozen sea plane. Procedural colours kept as fallback."
   },
   {
    "id": "Moonfall-ee7b1ff3-005",
@@ -322,9 +322,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/basalt_albedo.png",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T07:36:27Z",
-   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Terrain textures. The terrain shader now blends them triplanar: basalt on slopes, ground dust (desaturated so the ground stays cool grey like the reference instead of brown) on flat high ground, ice in the low basins; basalt also on the rock material, ice albedo tiled on the frozen sea plane. Procedural colours kept as fallback."
   },
   {
    "id": "Moonfall-ee7b1ff3-006",
@@ -338,9 +338,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/ice_albedo.png",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T07:53:49Z",
-   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Terrain textures. The terrain shader now blends them triplanar: basalt on slopes, ground dust (desaturated so the ground stays cool grey like the reference instead of brown) on flat high ground, ice in the low basins; basalt also on the rock material, ice albedo tiled on the frozen sea plane. Procedural colours kept as fallback."
   },
   {
    "id": "Moonfall-ee7b1ff3-007",
@@ -354,9 +354,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_01.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T07:54:05Z",
-   "notes": "alia-runner: YuE2 crown, full length 67.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 67.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-008",
@@ -370,9 +370,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_02.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:07:18Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-009",
@@ -386,9 +386,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_03.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:12:01Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-010",
@@ -402,9 +402,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_04.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:18:46Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-011",
@@ -418,9 +418,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_05.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:23:29Z",
-   "notes": "alia-runner: YuE2 crown, full length 109.1s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 109.1s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-012",
@@ -434,9 +434,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_06.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:26:44Z",
-   "notes": "alia-runner: YuE2 crown, full length 119.4s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 119.4s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-013",
@@ -450,9 +450,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_07.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:29:27Z",
-   "notes": "alia-runner: YuE2 crown, full length 105.8s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 105.8s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-014",
@@ -466,9 +466,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_08.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:32:39Z",
-   "notes": "alia-runner: YuE2 crown, full length 81.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 81.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-015",
@@ -482,9 +482,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_09.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:36:21Z",
-   "notes": "alia-runner: YuE2 crown, full length 114.6s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 114.6s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-016",
@@ -498,9 +498,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_10.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:41:04Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Music: all 10 tracks rotate in shuffle (3 s fade-in, next track queued before the end, missing files skipped). Levels varied by ~14 dB (track 04 very quiet at -24 dBFS RMS, 02 hottest at -10), so each track is RMS-levelled on load; mute button covers music too."
   },
   {
    "id": "Moonfall-ee7b1ff3-017",
@@ -528,9 +528,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_1.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T08:44:19Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_018_2d955c_261024-013628; onset 0.280s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.496s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; ogg/vorbis q6"
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_018_2d955c_261024-013628; onset 0.280s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.496s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; ogg/vorbis q6 | Forge: integrated 2026-10-24 (tests/assets.mjs + tests/play.mjs headless: all models/textures/tracks load, no console errors). Plays when a moonstone/rock breaks, volume falls off with distance, rate-limited to one per 70 ms, old synth thump kept as fallback. Good sharp hit with a nice icy scatter tail. Slightly over full scale (peak 1.41) but only 0.14% clipped and it is played below unity, so fine."
   },
   {
    "id": "Moonfall-ee7b1ff3-019",
@@ -545,7 +545,7 @@
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
    "status": "open",
    "delivered_at": null,
-   "notes": "alia-runner: reopened (was delivered): our foley shipped too loud (RMS -8.6 / -10.5 dB vs the game's other sfx at -12..-20); the runner now levels foley to -14 dB RMS, peak <= -1 dBFS"
+   "notes": "alia-runner: reopened (was delivered): our foley shipped too loud (RMS -8.6 / -10.5 dB vs the game's other sfx at -12..-20); the runner now levels foley to -14 dB RMS, peak <= -1 dBFS | Forge: checked 2026-10-24, agree with the reopen and adding a shape note so levelling alone doesn't fix it: the delivered file is a steady wall of noise at -2..-7 dB for the whole 1.4 s, loudest at 0.4 s, with no sharp hit at the start and no decay. For a rock bursting it should hit hard in the first ~20 ms and then fall away (at least 20 dB down by 0.8 s) into scattered gravel/ice ticks. 018 (sfx_impact_1) is a good example of the right shape."
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
