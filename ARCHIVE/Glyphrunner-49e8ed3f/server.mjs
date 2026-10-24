@@ -1,0 +1,2 @@
+import http from 'node:http';import fs from 'node:fs';import path from 'node:path';
+http.createServer((req,res)=>{let p=decodeURIComponent(req.url.split('?')[0]);if(p==='/')p='/src/index.html';let f=path.join(process.cwd(),p);if(!f.startsWith(process.cwd())){res.writeHead(403).end();return;}try{res.setHeader('Content-Type',f.endsWith('.js')?'text/javascript':'text/html');res.end(fs.readFileSync(f));}catch{res.writeHead(404).end();}}).listen(4189,'0.0.0.0');
