@@ -48,9 +48,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/ground_albedo.png",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Pin-it-on-the-wall bar applies."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T00:50:24Z",
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost); (kept output reused)"
   },
   {
    "id": "StormDodger-1542e36e-004",
@@ -64,9 +64,9 @@
     "loop": true
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_loop.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T00:50:24Z",
+   "notes": "alia-runner: YuE2 crown, full length 116.0s, 3s fade out (length_s 90 was a hint only); loop=true was requested and ignored: the game rotates several tracks, so no loop crossfade; (re-finished from the kept song.flac under music rule full+fade3; no re-render)"
   },
   {
    "id": "StormDodger-1542e36e-005",
