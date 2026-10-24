@@ -2344,9 +2344,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sfx_plank_step.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:17Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset footstep seed 590874 (rule a: explicit '<preset>:' tag ('footstep:')); padded 0.106s -> 0.300s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset footstep seed 590874 (rule a: explicit '<preset>:' tag ('footstep:')); padded 0.106s -> 0.300s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Footsteps on the bridge planks use it (±10% pitch, quiet); off the bridge the old synth step plays."
   },
   {
    "id": "TheBridgekeeper-127d4570-025",
@@ -2359,9 +2359,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sfx_salvage.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:17Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 288202 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.312s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 288202 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.312s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every salvage pickup (±6% pitch, rate-limited to one per 70 ms)."
   },
   {
    "id": "BassRevenant-dfc51149-001",
@@ -2686,9 +2686,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/sfx_demolition.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:17Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 497247 (rule a: explicit '<preset>:' tag ('explosion:')); padded 1.042s -> 1.200s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 497247 (rule a: explicit '<preset>:' tag ('explosion:')); padded 1.042s -> 1.200s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every tower demolition (slight pitch variation), layered over the synth; procedural sound stays as the fallback."
   },
   {
    "id": "BassRevenant-dfc51149-021",
@@ -2701,9 +2701,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/sfx_capture.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:17Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 84041 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.692s -> 0.800s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 84041 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.692s -> 0.800s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays when a rooftop rig is captured (SIGNAL CAPTURED), over the synth chord."
   },
   {
    "id": "BassRevenant-dfc51149-022",
@@ -3027,9 +3027,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/sfx_plasma_cannon.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:17Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 457149 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.337s -> 0.600s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 457149 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.337s -> 0.600s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Replaces the synth on every plasma cannon shot (±4% pitch); synth stays as the fallback."
   },
   {
    "id": "DowntownDownfall-baf136c8-020",
@@ -3454,9 +3454,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/sfx_cannon.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:17Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 286585 (rule a: explicit '<preset>:' tag ('explosion:')); trimmed 0.867s -> 0.800s with a 20 ms fade; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 286585 (rule a: explicit '<preset>:' tag ('explosion:')); trimmed 0.867s -> 0.800s with a 20 ms fade; ogg/vorbis q6 | Forge: integrated 2026-10-24. Replaces the synth boom on full-strength deck cannon shots (±5% pitch); weak/auto shots keep the synth."
   },
   {
    "id": "BrassHorizon-7501e781-024",
@@ -3484,9 +3484,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/sfx_salvage_chime.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:28Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 694388 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.300s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 694388 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.300s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every salvage pickup (±4% pitch, rate-limited to one per 80 ms so a big haul doesn't stack)."
   },
   {
    "id": "UnderTheRedSky-195f7cae-001",
@@ -3842,9 +3842,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/sfx_desert_wind.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:28Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 769940 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.888s -> 4.000s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 769940 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.888s -> 4.000s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Used as a continuous wind bed: overlapping takes of the first 2.85 s (the file fades out at ~2.9 s, then silence) at varied pitch/level with 0.5 s crossfades, so it never sounds like a loop."
   },
   {
    "id": "UnderTheRedSky-195f7cae-023",
@@ -3857,9 +3857,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/sfx_scrap.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:28Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 647141 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.325s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 647141 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.325s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every scrap pickup (±6% pitch), replacing the synth ping."
   },
   {
    "id": "TodoTitan-f4cf4ff2-001",
@@ -4230,9 +4230,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/sfx_seal_pickup.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:19:28Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 560541 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.309s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 560541 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.309s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every seal pickup (±5% pitch, rate-limited to one per 70 ms); synth tick is the fallback."
   },
   {
    "id": "NeonRoot-6170a9ab-001",
