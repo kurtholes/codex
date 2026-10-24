@@ -5376,9 +5376,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/sfx_coins.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Coins magnetising to you, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:41Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 173424 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.305s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "HatHavoc-a5d8e4f8-022",
@@ -5723,9 +5723,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_blade_slash.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every swing."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:41Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 100234 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.360s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "Heartbreaker-9e39585f-021",
@@ -5768,9 +5768,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_reflect.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "When you knock a shot back."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:41Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 401548 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.300s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "Heartbreaker-9e39585f-024",
@@ -5783,9 +5783,9 @@
     "length_s": 1.0
    },
    "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_vent_heal.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Pulses while you stand on the healing vent."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:41Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset heartbeat seed 696135 (rule a: explicit '<preset>:' tag ('heartbeat:')); padded 0.888s -> 1.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "Heartbreaker-9e39585f-025",
@@ -6144,9 +6144,9 @@
     "length_s": 0.5
    },
    "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sfx_swim_burst.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Shift burst."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:41Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset splash seed 674380 (rule a: explicit '<preset>:' tag ('splash:')); trimmed 0.548s -> 0.500s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "RippleBeast-350d9041-022",
@@ -6159,9 +6159,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sfx_bite.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every bite of a shoal, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:41Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 34345 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.291s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "RippleBeast-350d9041-023",
