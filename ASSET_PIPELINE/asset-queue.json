@@ -15,9 +15,9 @@
     "rig": "none (single rigid mesh; game animates it in code)"
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/matador.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:09:51Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 c4579966; Pixal3D crown 697,666 tris -> crowned low-poly door (decimate+bake) 7,986 tris, re-counted <= max_tris 8,000; origin 'feet, facing +Z' not understood; not applied; scaled so the largest extent = 1.8 m (x2.045); the output built and checked on alia/runner-test (commit 20e23937), md5 dac832b8 re-proved; (kept output reused)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 c4579966; Pixal3D crown 697,666 tris -> crowned low-poly door (decimate+bake) 7,986 tris, re-counted <= max_tris 8,000; origin 'feet, facing +Z' not understood; not applied; scaled so the largest extent = 1.8 m (x2.045); the output built and checked on alia/runner-test (commit 20e23937), md5 dac832b8 re-proved; (kept output reused) | Forge: integrated 2026-10-24 as the player model (re-centred, turned 45° to face +Z, feet on the ground, scaled to the game's 3.1 m hero height; leans into dodges and bobs when running; procedural figure kept as fallback). Looks great: reads clearly from the chase camera, cape visible from behind."
   },
   {
    "id": "StormDodger-1542e36e-002",
@@ -32,9 +32,9 @@
     "origin": "ground center"
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/barn.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:09:51Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 fe0fa59b; Pixal3D crown 699,333 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 9.0 m (x9.945); the output built and checked on alia/runner-test (commit 20e23937), md5 53628262 re-proved; (kept output reused)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 fe0fa59b; Pixal3D crown 699,333 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 9.0 m (x9.945); the output built and checked on alia/runner-test (commit 20e23937), md5 53628262 re-proved; (kept output reused) | Forge: integrated 2026-10-24 on all 14 red barns (turned 45° so the doored gable faces +Z, ~10 m footprint, ground level); the barn hides when the storm breaks it and the box chunks fly as debris, then it reappears on rebuild. Procedural box barns kept as fallback."
   },
   {
    "id": "StormDodger-1542e36e-003",
@@ -72,16 +72,16 @@
    "id": "StormDodger-1542e36e-005",
    "game": "ARCHIVE/StormDodger-1542e36e",
    "type": "sfx",
-   "prompt": "wind: a sharp cape-snap whoosh into a deep wind whomp, for a perfect last-second dodge",
+   "prompt": "foley: a sharp cloth cape snap followed by a quick deep wind whoosh that falls away, loud at the start, for a perfect last-second dodge",
    "reference_image": null,
    "spec": {
     "format": "ogg",
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T06:09:51Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 696501; trimmed 2.136s -> 0.700s with a 20 ms fade; ogg/vorbis q6"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 696501; trimmed 2.136s -> 0.700s with a 20 ms fade; ogg/vorbis q6 | Forge: sent back 2026-10-24, not integrated. The CHIRP wind clip only swells: it starts near silent (rms 0.01) and is still rising at its loudest when the 0.7 s trim cuts it off, so it plays as a lagging breeze that ends abruptly rather than a snap on the dodge moment. Re-asked in the foley: lane with the hit at the start; the old file stays in place but is not wired. (Previous prompt: \"wind: a sharp cape-snap whoosh into a deep wind whomp, for a perfect last-second dodge\".)"
   },
   {
    "id": "StormDodger-1542e36e-006",
@@ -94,9 +94,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_structure_break.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:09:51Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 898553; padded 1.127s -> 1.200s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 898553; padded 1.127s -> 1.200s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24 as the structure-break sound (barns full volume, fences softer, rate-limited when the storm flattens several at once); synthesized thump kept as fallback."
   },
   {
    "id": "StormDodger-1542e36e-007",
@@ -110,9 +110,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_02.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:15:14Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24, in the 10-track shuffle; loads and plays through the game's own rotation."
   },
   {
    "id": "StormDodger-1542e36e-008",
@@ -126,9 +126,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_03.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:19:56Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24, in the 10-track shuffle; loads and plays through the game's own rotation."
   },
   {
    "id": "StormDodger-1542e36e-009",
@@ -142,9 +142,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_04.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:24:09Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24, in the 10-track shuffle; loads and plays through the game's own rotation."
   },
   {
    "id": "StormDodger-1542e36e-010",
@@ -158,9 +158,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_05.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:28:51Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24, in the 10-track shuffle; loads and plays through the game's own rotation."
   },
   {
    "id": "StormDodger-1542e36e-011",
@@ -174,9 +174,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_06.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:33:04Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24, in the 10-track shuffle; loads and plays through the game's own rotation."
   },
   {
    "id": "StormDodger-1542e36e-012",
@@ -190,9 +190,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_07.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:37:46Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24, in the 10-track shuffle; loads and plays through the game's own rotation."
   },
   {
    "id": "StormDodger-1542e36e-013",
@@ -206,9 +206,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_08.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:42:29Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24, in the 10-track shuffle; loads and plays through the game's own rotation."
   },
   {
    "id": "StormDodger-1542e36e-014",
@@ -222,9 +222,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_09.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:50:09Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24, in the 10-track shuffle. This one came out about 18 dB quieter than the others (peak 0.17, rms ~0.024 vs ~0.2), so the game now levels every track to a common RMS (peak-limited, up to 6x); worth checking the normalisation step on your side."
   },
   {
    "id": "StormDodger-1542e36e-015",
@@ -238,9 +238,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_10.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:55:12Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24, in the 10-track shuffle (landed while I was wiring the rest); loads and plays through the game's own rotation."
   },
   {
    "id": "Moonfall-ee7b1ff3-001",
