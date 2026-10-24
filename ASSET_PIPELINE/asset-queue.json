@@ -13065,9 +13065,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_bound.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Dog bound and bird take-off."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset jump seed 480749 (rule a: explicit '<preset>:' tag ('jump:')); trimmed 0.301s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "BorrowedPaws-212e00e5-026",
@@ -13080,9 +13080,9 @@
     "length_s": 6.0
    },
    "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_meadow_breeze.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped quietly as ambience (the game has none yet), so an even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 789192 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.683s -> 6.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "IronTide-ec7037a3-001",
@@ -13361,9 +13361,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_boiler_burst.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 21804 (rule a: explicit '<preset>:' tag ('explosion:')); padded 1.072s -> 1.200s with silence; ogg/vorbis q6"
   },
   {
    "id": "IronTide-ec7037a3-018",
@@ -13376,9 +13376,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_hull_hit.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Loads smashing into things."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 759342 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.201s -> 0.600s with silence; ogg/vorbis q6"
   },
   {
    "id": "IronTide-ec7037a3-019",
@@ -13391,9 +13391,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_heavy_splash.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset splash seed 507323 (rule a: explicit '<preset>:' tag ('splash:')); padded 0.689s -> 0.800s with silence; ogg/vorbis q6"
   },
   {
    "id": "IronTide-ec7037a3-020",
@@ -13406,9 +13406,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_delivered.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Banking cargo at the foundry."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 219069 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.324s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "IronTide-ec7037a3-021",
