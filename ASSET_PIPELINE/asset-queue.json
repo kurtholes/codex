@@ -11962,6 +11962,362 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped quietly as ambience, so an even sustain."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-001",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "model",
+   "prompt": "A rear-facing hooded wanderer: a flared heavy charcoal cloak covered in tiny weathered glyphs, a deep faceless hood, holding a pale green luminous scroll forward. Palette from the image: charcoal black engraved stone, teal haze, bioluminescent cyan fungi, pale green luminous scroll light, moss green seams, storm-white lightning.",
+   "reference_image": "ARCHIVE/Glyphrunner-49e8ed3f/reference/inspiration-49e8ed3f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 1.8,
+    "origin": "feet center, facing +Z",
+    "rig": "none (rigid; the game animates it in code)"
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/wanderer.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind. The scroll as emissive. Draw from the original image first."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-002",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "model",
+   "prompt": "An ancient black stone labyrinth wall section: chipped edges, engraved lost script, green moss in the seams, a broken cap stone. Palette from the image: charcoal black engraved stone, teal haze, bioluminescent cyan fungi, pale green luminous scroll light, moss green seams, storm-white lightning.",
+   "reference_image": "ARCHIVE/Glyphrunner-49e8ed3f/reference/inspiration-49e8ed3f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 4.0,
+    "origin": "bottom center, running along X",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/maze_wall.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Modular 4 m wall pieces that make up the maze and break on a charge."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-003",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "model",
+   "prompt": "A heavy angular stone sentinel: a floating carved torso, fractured stone arms, a narrow glowing turquoise eye slit. Palette from the image: charcoal black engraved stone, teal haze, bioluminescent cyan fungi, pale green luminous scroll light, moss green seams, storm-white lightning.",
+   "reference_image": "ARCHIVE/Glyphrunner-49e8ed3f/reference/inspiration-49e8ed3f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 3.5,
+    "origin": "bottom of the torso, facing +Z",
+    "rig": "separate named nodes for torso and each arm"
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/guardian.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The guardians that chase you. Eye slit as emissive."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-004",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "model",
+   "prompt": "A cluster of bioluminescent cyan mushrooms with delicate translucent caps on a mossy stone base. Palette from the image: charcoal black engraved stone, teal haze, bioluminescent cyan fungi, pale green luminous scroll light, moss green seams, storm-white lightning.",
+   "reference_image": "ARCHIVE/Glyphrunner-49e8ed3f/reference/inspiration-49e8ed3f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 500,
+    "scale_m": 1.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/mushroom_cluster.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Lines every corridor; instanced. Caps as emissive."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-005",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "model",
+   "prompt": "A tall slender carved stone beacon spire with a glass crown at the top, engraved glyph bands. Palette from the image: charcoal black engraved stone, teal haze, bioluminescent cyan fungi, pale green luminous scroll light, moss green seams, storm-white lightning.",
+   "reference_image": "ARCHIVE/Glyphrunner-49e8ed3f/reference/inspiration-49e8ed3f.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 14.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/beacon_spire.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The distant goals you awaken; the crown lights up in code."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-006",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "texture",
+   "prompt": "Charcoal rough slate seen straight on with tiny mineral flecks, shallow incised glyphs and sparse moss, flat even lighting, no baked shadows. Palette from the image: charcoal black engraved stone, teal haze, bioluminescent cyan fungi, pale green luminous scroll light, moss green seams, storm-white lightning.",
+   "reference_image": "ARCHIVE/Glyphrunner-49e8ed3f/reference/inspiration-49e8ed3f.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/glyph_slate_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "All masonry, world-space triplanar."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-007",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: into the maze: low cello and a single glassy bell",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-008",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: first sprint: frame drums kick in",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-009",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: shouldering through stone: heavy, driving percussion",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-010",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: the guardians wake: tense ostinato, dark strings",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-011",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: a beacon awakens: luminous swelling chord",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-012",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: mushroom groves: soft, glowing, curious",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-013",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: lightning over the walls: thunderous, fast",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-014",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: the constellation grows: wide, rising, hopeful",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-015",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: the far reaches: lonely, echoing, vast",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-016",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Glyphrunner score (dark mysterious adventure score: deep frame drums, low cello ostinato, glassy synth bells, cavern reverb, no vocals). This one: the whole maze lit: triumphant, glowing finale",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/music_glyphrunner_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-017",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "sfx",
+   "prompt": "explosion: a deep stone wall bursting apart",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_charge_impact.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every shoulder charge through a wall."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-018",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "sfx",
+   "prompt": "jump: a quick light vault",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_vault.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-019",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "sfx",
+   "prompt": "powerup: a resonant glowing bloom",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.5
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_beacon.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "A beacon awakening."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-020",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "sfx",
+   "prompt": "pickup: a soft glassy wisp collect",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_wisp.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every wisp, with pitch variation."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-021",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "sfx",
+   "prompt": "hit: a heavy stone strike",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_guardian_hit.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "A guardian hitting you."
+  },
+  {
+   "id": "Glyphrunner-49e8ed3f-022",
+   "game": "ARCHIVE/Glyphrunner-49e8ed3f",
+   "type": "sfx",
+   "prompt": "wind: deep cavern air moving through a maze",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/Glyphrunner-49e8ed3f/assets/sfx_cavern_air.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly as ambience, so an even sustain."
   }
  ]
 }
