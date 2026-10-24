@@ -933,9 +933,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/station_core.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Horizon centerpiece: the burning station fills the sky behind you at the start. Emissive orange in the torn end if you can."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:56:50Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 24179ebb; Pixal3D crown 697,822 tris -> crowned low-poly door (decimate+bake) 7,986 tris, re-counted <= max_tris 15,000; origin 'center, long axis along +Z' not understood; not applied; scaled so the largest extent = 30.0 m (x33.72)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-004",
