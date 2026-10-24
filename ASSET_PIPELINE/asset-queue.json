@@ -1675,9 +1675,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/wreck_hull.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 08f854e2; Pixal3D crown 699,127 tris -> crowned low-poly door (decimate+bake) 5,000 tris, re-counted <= max_tris 5,000; origin 'ground center, long axis along +Z' not understood; not applied; scaled so the largest extent = 10.0 m (x10.79) | Forge: reopened 2026-10-24. Reopened: the delivered mesh is again a space helmet (visor and all), not a broken cylindrical hull section. Needs a torn open-ended hull cylinder with exposed ribs, ~10 m long; please regenerate the still with the reference used only for palette."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:50Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 08f854e2; Pixal3D crown 699,127 tris -> crowned low-poly door (decimate+bake) 5,000 tris, re-counted <= max_tris 5,000; origin 'ground center, long axis along +Z' not understood; not applied; scaled so the largest extent = 10.0 m (x10.79); (kept output reused); identical bytes were already at the path"
   },
   {
    "id": "Air-22ee0ab5-006",
@@ -11199,9 +11199,9 @@
     "length_s": 0.5
    },
    "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/sfx_wood_smash.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Fences and sheds."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:50Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 498653 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.188s -> 0.500s with silence; ogg/vorbis q6"
   },
   {
    "id": "MudBoggin-fb7dbc82-022",
@@ -11214,9 +11214,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/sfx_gate_cash.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Passing a route gate."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:50Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 270322 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.279s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "MudBoggin-fb7dbc82-023",
@@ -11229,9 +11229,9 @@
     "length_s": 6.0
    },
    "output_path": "ARCHIVE/MudBoggin-fb7dbc82/assets/sfx_forest_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped quietly as ambience, so an even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:50Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 971114 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.900s -> 6.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "Overboard-0869347a-001",
@@ -11546,9 +11546,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_swim_stroke.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every stroke, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:50Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset splash seed 479752 (rule a: explicit '<preset>:' tag ('splash:')); trimmed 0.521s -> 0.400s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "Overboard-0869347a-020",
@@ -11561,9 +11561,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_grab.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Grabbing and lashing salvage."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:50Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 630640 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.207s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "Overboard-0869347a-021",
@@ -11576,9 +11576,9 @@
     "length_s": 0.5
    },
    "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_plank_break.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Breaking wreck pieces."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:50Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 517243 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.209s -> 0.500s with silence; ogg/vorbis q6"
   },
   {
    "id": "Overboard-0869347a-022",
