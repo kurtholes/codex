@@ -1,0 +1,1 @@
+{"name":"moonfall","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node tests/play.mjs","dev":"python3 -m http.server 8080"},"devDependencies":{"playwright":"1.56.1"}}

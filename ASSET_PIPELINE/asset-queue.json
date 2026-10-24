@@ -2,19 +2,565 @@
  "version": 1,
  "requests": [
   {
-   "id": "E2E-261023163523",
-   "game": "ARCHIVE/Afterglow",
-   "type": "sfx",
-   "prompt": "a bright, sparkling coin pickup chime",
+   "id": "StormDodger-1542e36e-001",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "model",
+   "prompt": "Lone prairie storm matador standing ready, rumpled white shirt, dark trousers, leather boots, weathered scarlet cape held at his side, tousled dark hair. Clean silhouette readable from a third-person camera. Palette: charcoal storm cloud, ivory, wheat gold, golden-hour backlight.",
+   "reference_image": "ARCHIVE/StormDodger-1542e36e/reference/inspiration-1542e36e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 1.8,
+    "origin": "feet, facing +Z",
+    "rig": "none (single rigid mesh; game animates it in code)"
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/matador.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Pin-it-on-the-wall bar applies."
+  },
+  {
+   "id": "StormDodger-1542e36e-002",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "model",
+   "prompt": "Sun-bleached red timber frontier barn with dark shingle roof, big sliding door, weathered planks; golden prairie ranch. Palette: charcoal storm cloud, ivory, wheat gold, golden-hour backlight.",
+   "reference_image": "ARCHIVE/StormDodger-1542e36e/reference/inspiration-1542e36e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 9.0,
+    "origin": "ground center"
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/barn.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Pin-it-on-the-wall bar applies."
+  },
+  {
+   "id": "StormDodger-1542e36e-003",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "texture",
+   "prompt": "Dry cracked prairie earth with wheat stubble and ochre sand, flat even lighting, no baked shadows, seen from above.",
+   "reference_image": "ARCHIVE/StormDodger-1542e36e/reference/inspiration-1542e36e.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/ground_albedo.png",
+   "status": "integrated",
+   "delivered_at": "2026-10-24T00:50:24Z",
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost); (kept output reused) | Forge: integrated 2026-10-23 (ground texture on terrain, repeat 90x; music plays in a shuffled rotation with 3 s fade-in)."
+  },
+  {
+   "id": "StormDodger-1542e36e-004",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Sparse, tense western flamenco-tinged score for a lone matador facing storms on the golden prairie: slow guitar, low strings, distant thunder rolls, builds and breathes. No vocals.",
    "reference_image": null,
    "spec": {
     "format": "ogg",
-    "length_s": 0.4
+    "length_s": 90,
+    "loop": true
    },
-   "output_path": "ARCHIVE/Afterglow/assets/e2e-coin-261023163523.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-23T23:35:32Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 692151; padded 0.315s -> 0.400s with silence; ogg/vorbis q6"
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_loop.ogg",
+   "status": "integrated",
+   "delivered_at": "2026-10-24T00:50:24Z",
+   "notes": "alia-runner: YuE2 crown, full length 116.0s, 3s fade out (length_s 90 was a hint only); loop=true was requested and ignored: the game rotates several tracks, so no loop crossfade; (re-finished from the kept song.flac under music rule full+fade3; no re-render) | Forge: integrated 2026-10-23 (ground texture on terrain, repeat 90x; music plays in a shuffled rotation with 3 s fade-in)."
+  },
+  {
+   "id": "StormDodger-1542e36e-005",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "sfx",
+   "prompt": "wind: a sharp cape-snap whoosh into a deep wind whomp, for a perfect last-second dodge",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.7
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-006",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "sfx",
+   "prompt": "explosion: a heavy, crunchy explosion like a timber barn splitting apart and being torn into a vortex",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_structure_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-007",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the StormDodger score (same world as music_prairie_loop.ogg: western, flamenco-tinged, guitar and strings, no vocals). This one: storm building on the horizon, wind rising through the wheat, guitar tightening.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-008",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the StormDodger score (same world as music_prairie_loop.ogg: western, flamenco-tinged, guitar and strings, no vocals). This one: the dodge at full fury: driving flamenco rhythm, stamping palmas, thunder hits.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-009",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the StormDodger score (same world as music_prairie_loop.ogg: western, flamenco-tinged, guitar and strings, no vocals). This one: dusk after the storm: warm, tired, a lone guitar over settling dust.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-010",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the StormDodger score (same world as music_prairie_loop.ogg: western, flamenco-tinged, guitar and strings, no vocals). This one: wide open plains at golden hour, calm and hopeful, soft strings.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-011",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the StormDodger score (same world as music_prairie_loop.ogg: western, flamenco-tinged, guitar and strings, no vocals). This one: a duel of nerves: sparse, suspended, heartbeat-slow tension before the charge.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-012",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the StormDodger score (same world as music_prairie_loop.ogg: western, flamenco-tinged, guitar and strings, no vocals). This one: the ride: galloping rhythm, trumpets far off, a victory lap across the prairie.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-013",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the StormDodger score (same world as music_prairie_loop.ogg: western, flamenco-tinged, guitar and strings, no vocals). This one: night prairie under a clearing sky, crickets-and-guitar lullaby, slow.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-014",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the StormDodger score (same world as music_prairie_loop.ogg: western, flamenco-tinged, guitar and strings, no vocals). This one: the biggest storm yet: low brass and strings swelling, dark and enormous.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "StormDodger-1542e36e-015",
+   "game": "ARCHIVE/StormDodger-1542e36e",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the StormDodger score (same world as music_prairie_loop.ogg: western, flamenco-tinged, guitar and strings, no vocals). This one: morning after: bright, playful guitar, the farm rebuilt, ready again.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-001",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "model",
+   "prompt": "Escape ship: arctic salvage spacecraft with swept, broken-slate fins, twin engines, a faceted amber crystal cockpit and a heavy underslung cannon. Reads clearly from a chase camera. Palette from the image: lavender dusk sky, peach-lit crescent moons, dark slate-blue rock, glowing amber crystal.",
+   "reference_image": "ARCHIVE/Moonfall-ee7b1ff3/reference/inspiration-ee7b1ff3.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 12.0,
+    "origin": "center of mass, nose facing +Z",
+    "rig": "none (single rigid mesh; game animates it in code)"
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/ship.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Pin-it-on-the-wall bar applies. This is the hero object the player flies."
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-002",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "model",
+   "prompt": "Amber Sanctuary: a jagged obsidian island mountain crowned with split, glowing amber crystal spires; serrated asymmetrical silhouette, no buildings. The focal point of the image, seen from kilometres away and up close. Palette from the image: lavender dusk sky, peach-lit crescent moons, dark slate-blue rock, glowing amber crystal.",
+   "reference_image": "ARCHIVE/Moonfall-ee7b1ff3/reference/inspiration-ee7b1ff3.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 25000,
+    "scale_m": 150.0,
+    "origin": "ground center"
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sanctuary.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Pin-it-on-the-wall bar applies. Crystal faces emissive in the texture if you can."
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-003",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "model",
+   "prompt": "Falling moonstone fragment: a chunky, cratered peach-and-slate moon rock, faceted and broken on one side so it reads as a piece torn off a moon. Palette from the image: lavender dusk sky, peach-lit crescent moons, dark slate-blue rock, glowing amber crystal.",
+   "reference_image": "ARCHIVE/Moonfall-ee7b1ff3/reference/inspiration-ee7b1ff3.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 4.0,
+    "origin": "center"
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/moonstone.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Used instanced, many at once, so keep it light."
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-004",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "texture",
+   "prompt": "Peach limestone moon ground with small impact craters and fine dusty ridges, flat even lighting, no baked shadows, seen from above.",
+   "reference_image": "ARCHIVE/Moonfall-ee7b1ff3/reference/inspiration-ee7b1ff3.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/ground_moon_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-005",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "texture",
+   "prompt": "Dark slate-blue fractured basalt rock face, sharp cracks, faint frost in the seams, flat even lighting, no baked shadows.",
+   "reference_image": "ARCHIVE/Moonfall-ee7b1ff3/reference/inspiration-ee7b1ff3.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/basalt_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-006",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "texture",
+   "prompt": "Lavender frozen tidal flats: smooth cracked sea ice with pale pressure ridges and trapped bubbles, flat even lighting, seen from above.",
+   "reference_image": "ARCHIVE/Moonfall-ee7b1ff3/reference/inspiration-ee7b1ff3.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/ice_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-007",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: the tidal plain at dusk: spacious cold wind, low orbital rumble, sparse glass harmonics, calm wonder.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-008",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: the run to the ship: pulse quickening, glassy arpeggios over a deep drone.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-009",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: launch: rising synth swell into soaring wide pads, the ground falling away.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-010",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: gravity wake: warped, slow-swinging bass, moons drifting past, uneasy.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-011",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: the shattered belt: urgent, rhythmic, crystalline percussion under danger.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-012",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: salvage drift: weightless and serene between fights, soft choir-like pads.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-013",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: moonfall: the sky coming down, huge low brass-like synths, rising danger without percussion overload.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-014",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: lunar wake: high, thin, eerie and beautiful, far from home.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-015",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: the amber sanctuary: warm amber tones breaking through the cold, hopeful.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-016",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Moonfall score (ambient sci-fi, cold and vast, synths, glass and drones, no vocals). This one: escape: triumphant but lonely, a final ascent through peach-lit crescents.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-017",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "sfx",
+   "prompt": "laser: a slow, enormous electromagnetic cannon shot with a sub-bass punch and crystal splinters, short tail",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.7
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_cannon.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-018",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "sfx",
+   "prompt": "foley: a boulder of moonstone smashing into frozen basalt, bass crack and scattering ice",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.4
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_1.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-019",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "sfx",
+   "prompt": "foley: heavy rock bursting into gravel and ice shards, sharp and close",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.4
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Moonfall-ee7b1ff3-020",
+   "game": "ARCHIVE/Moonfall-ee7b1ff3",
+   "type": "sfx",
+   "prompt": "foley: a distant moonstone impact on sea ice, deep thud with a long ice-crack shimmer",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.4
+   },
+   "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_3.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
   }
  ]
 }
