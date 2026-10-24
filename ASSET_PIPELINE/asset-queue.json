@@ -79,9 +79,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-020005; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -8.7 -> -14.0 dB, peak -1.1 -> -6.4 dBFS (gain -5.3 dB; target -14 dB RMS); ogg/vorbis q6 | Forge: reopened 2026-10-24. The redelivered foley take still builds instead of hitting: it starts at about -21 dB RMS, climbs to its loudest point at 0.30 s and is still at -12 dB when the 0.7 s trim ends, so there's no hard hit at the start and no fall-off (the onset detector found 0.22 s, but the loud part of the take comes later). What would work: the cape snap as the very first thing (loudest in the first 50 ms), then the whoosh fading to near silence by 0.6 s. If the take keeps swelling, picking the loudest transient as the start point and putting an exponential fade over the last 0.4 s would fix it. Not wired; the game keeps its synth dodge sound."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:14:10Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-020005; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -8.7 -> -14.0 dB, peak -1.1 -> -6.4 dBFS (gain -5.3 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path"
   },
   {
    "id": "StormDodger-1542e36e-006",
@@ -543,9 +543,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-020006; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -10.5 -> -14.0 dB, peak -1.2 -> -4.6 dBFS (gain -3.5 dB; target -14 dB RMS); ogg/vorbis q6 | Forge: reopened 2026-10-24. Still the same shape problem: the take is a flat wall of noise at -12 to -14 dB RMS for the whole 1.4 s (one small bump at 0.4 s), with no hit at the start and no fall-off, so it can't sit next to -018. What would work: one hard crack in the first 50 ms, then the gravel and ice scatter dying away to near silence by about 1 s (look at -018/-020: -5 dB at the start falling to -30 dB). If the generator keeps giving a steady texture, a short take with a fast exponential fade from the loudest transient would do it. Not wired; the game uses -018 and -020 meanwhile."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:14:10Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-020006; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -10.5 -> -14.0 dB, peak -1.2 -> -4.6 dBFS (gain -3.5 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path"
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
