@@ -7758,6 +7758,414 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Missed shots."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-001",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "model",
+   "prompt": "The tiny explorer from the image: a white bell-shaped raincoat, a scarlet cap and scarf, a black visor, riding a turquoise leaf-shaped skateboard. Flat graphic illustration look, bold simple shapes. Palette from the image: black negative space, turquoise and teal plant shapes, vermilion and orange petals, golden yellow leaves and sun, mint neon map lines, hot pink pins, fine black etched lines. Flat graphic illustration style.",
+   "reference_image": "ARCHIVE/NeonWilds-0d5e7ef1/reference/inspiration-0d5e7ef1.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 1.6,
+    "origin": "bottom of the board, facing +Z",
+    "rig": "none (rigid; the game leans and tilts it in code)"
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/explorer.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind and above."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-002",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "model",
+   "prompt": "A monumental curling turquoise botanical arch with a teardrop-shaped hollow opening, black etched branch lines, an asymmetrical illustrated silhouette. Palette from the image: black negative space, turquoise and teal plant shapes, vermilion and orange petals, golden yellow leaves and sun, mint neon map lines, hot pink pins, fine black etched lines. Flat graphic illustration style.",
+   "reference_image": "ARCHIVE/NeonWilds-0d5e7ef1/reference/inspiration-0d5e7ef1.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 30.0,
+    "origin": "base center, opening facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/turquoise_trunk.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The big landmark shapes; flat-coloured, should read like the illustration."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-003",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "model",
+   "prompt": "A giant flower with eleven broad vermilion-orange petals around a densely stippled golden disk, a curved golden stem, black engraved veins on the petals. Palette from the image: black negative space, turquoise and teal plant shapes, vermilion and orange petals, golden yellow leaves and sun, mint neon map lines, hot pink pins, fine black etched lines. Flat graphic illustration style.",
+   "reference_image": "ARCHIVE/NeonWilds-0d5e7ef1/reference/inspiration-0d5e7ef1.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 18.0,
+    "origin": "base of the stem",
+    "rig": "separate named nodes for each petal so they can break off"
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/orange_flower.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Prunable; petals scatter when cut."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-004",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "model",
+   "prompt": "A long curled golden leaf like a springy sculptural ribbon, fine black botanical veins, near-flat graphic colour. Palette from the image: black negative space, turquoise and teal plant shapes, vermilion and orange petals, golden yellow leaves and sun, mint neon map lines, hot pink pins, fine black etched lines. Flat graphic illustration style.",
+   "reference_image": "ARCHIVE/NeonWilds-0d5e7ef1/reference/inspiration-0d5e7ef1.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 14.0,
+    "origin": "base of the leaf",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/golden_leaf.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Used as a ramp and rail; the top surface should be smooth."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-005",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "model",
+   "prompt": "A floating rounded mint-green cartographic frame with thin branching glowing green route lines and two hot-pink teardrop map pins. Palette from the image: black negative space, turquoise and teal plant shapes, vermilion and orange petals, golden yellow leaves and sun, mint neon map lines, hot pink pins, fine black etched lines. Flat graphic illustration style.",
+   "reference_image": "ARCHIVE/NeonWilds-0d5e7ef1/reference/inspiration-0d5e7ef1.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 5000,
+    "scale_m": 12.0,
+    "origin": "center of the frame, face toward +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/neon_map.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Floating landmark; route lines and pins emissive."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-006",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "model",
+   "prompt": "A tall vermilion-orange flame-shaped plant spire with a black etched outline, flat graphic colour. Palette from the image: black negative space, turquoise and teal plant shapes, vermilion and orange petals, golden yellow leaves and sun, mint neon map lines, hot pink pins, fine black etched lines. Flat graphic illustration style.",
+   "reference_image": "ARCHIVE/NeonWilds-0d5e7ef1/reference/inspiration-0d5e7ef1.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 20.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/orange_spire.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable overgrowth; falls into low bridges."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-007",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "model",
+   "prompt": "A small golden-orange songbird perched, flat graphic illustration shapes. Palette from the image: black negative space, turquoise and teal plant shapes, vermilion and orange petals, golden yellow leaves and sun, mint neon map lines, hot pink pins, fine black etched lines. Flat graphic illustration style.",
+   "reference_image": "ARCHIVE/NeonWilds-0d5e7ef1/reference/inspiration-0d5e7ef1.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 0.4,
+    "origin": "feet",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/songbird.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ambient life on branches."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-008",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "texture",
+   "prompt": "A subtle handmade paper and ink grain, fine fibres and tiny stipple marks, mid-grey, no directional lighting. Palette from the image: black negative space, turquoise and teal plant shapes, vermilion and orange petals, golden yellow leaves and sun, mint neon map lines, hot pink pins, fine black etched lines. Flat graphic illustration style.",
+   "reference_image": "ARCHIVE/NeonWilds-0d5e7ef1/reference/inspiration-0d5e7ef1.jpg",
+   "spec": {
+    "format": "png",
+    "size": 512,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/paper_grain.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Multiplied over all the flat colours to give an illustrated feel."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-009",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "texture",
+   "prompt": "Black ground with fine dark-teal etched grass lines and tiny golden speckles, flat graphic illustration, no lighting. Palette from the image: black negative space, turquoise and teal plant shapes, vermilion and orange petals, golden yellow leaves and sun, mint neon map lines, hot pink pins, fine black etched lines. Flat graphic illustration style.",
+   "reference_image": "ARCHIVE/NeonWilds-0d5e7ef1/reference/inspiration-0d5e7ef1.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/night_garden_ground.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ground plane."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-010",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: rolling out under the golden sun",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-011",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: carving down a golden leaf",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-012",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: shears out, pruning the orange spires",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-013",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: grinding a neon rail",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-014",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: the map glows, pins light up",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-015",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: midnight bloom, slow and dreamy",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-016",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: a high jump, floating over petals",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-017",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: the turquoise arches, echoing",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-018",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: a new district, busier groove",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-019",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Neon Wilds score (playful nocturnal garden lo-fi: warm plucked synths, soft mallets, skateboard-groove drums, little bird-like flute motifs, no vocals). This one: winding down, bird song and soft keys",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/music_neonwilds_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-020",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "sfx",
+   "prompt": "hit: a crisp woody snip",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.2
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/sfx_shear_snip.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every shear cut; plays a lot, slight pitch variation in code."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-021",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "sfx",
+   "prompt": "pickup: a bright sparkly sap collect",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/sfx_sap_pickup.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-022",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "sfx",
+   "prompt": "jump: a springy leaf launch",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/sfx_launch.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Space launch."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-023",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "sfx",
+   "prompt": "blip: a soft glassy hum held steady",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 2.0
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/sfx_rail_hum.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped while riding a rail, so even level."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-024",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "sfx",
+   "prompt": "foley: a big woody plant stalk cracking and toppling, a sharp crack at the start then a soft thud and rustle fading away",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.0
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/sfx_spire_fall.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "When a spire falls into a bridge."
+  },
+  {
+   "id": "NeonWilds-0d5e7ef1-025",
+   "game": "ARCHIVE/NeonWilds-0d5e7ef1",
+   "type": "sfx",
+   "prompt": "wind: a minimal soft night breeze",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/sfx_garden_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ambient bed, looped."
   }
  ]
 }
