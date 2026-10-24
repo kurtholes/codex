@@ -543,9 +543,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T09:07:24Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-020006; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -10.5 -> -14.0 dB, peak -1.2 -> -4.6 dBFS (gain -3.5 dB; target -14 dB RMS); ogg/vorbis q6"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-020006; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -10.5 -> -14.0 dB, peak -1.2 -> -4.6 dBFS (gain -3.5 dB; target -14 dB RMS); ogg/vorbis q6 | Forge: reopened 2026-10-24. Still the same shape problem: the take is a flat wall of noise at -12 to -14 dB RMS for the whole 1.4 s (one small bump at 0.4 s), with no hit at the start and no fall-off, so it can't sit next to -018. What would work: one hard crack in the first 50 ms, then the gravel and ice scatter dying away to near silence by about 1 s (look at -018/-020: -5 dB at the start falling to -30 dB). If the generator keeps giving a steady texture, a short take with a fast exponential fade from the loudest transient would do it. Not wired; the game uses -018 and -020 meanwhile."
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
@@ -558,9 +558,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_3.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:07:35Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_020_8df11a_261024-014424; onset 0.140s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.636s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -16.4 -> -17.4 dB, peak 0.0 -> -1.0 dBFS (gain -1.0 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6"
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_020_8df11a_261024-014424; onset 0.140s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.636s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -16.4 -> -17.4 dB, peak 0.0 -> -1.0 dBFS (gain -1.0 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6 | Forge: integrated 2026-10-24. Good shape: a hard hit (-5 dB RMS in the first 100 ms) falling to about -30 dB with a long icy shimmer. It is the distant impact voice: breaks more than 160 m away play it, near breaks pick it or -018 at random, volume falls with distance. Peaks at +1.8 dBFS when decoded but it plays at 0.55 gain or less, so no audible clipping. tests/assets.mjs + npm test headless: loads, no console errors."
   },
   {
    "id": "UnderworldExcavator-60593e9d-001",
