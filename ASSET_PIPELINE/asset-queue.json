@@ -1585,9 +1585,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/sfx_jet_burst.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Played when the keeper lifts off or dashes."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T16:27:40Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_smokering_5a1da71e_021_41b555_261024-091400; onset 0.330s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.8s from the onset; trimmed 3.446s -> 0.800s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -22.0 -> -14.0 dB, peak -10.3 -> -2.3 dBFS (gain +8.0 dB; target -14 dB RMS); ogg/vorbis q6"
   },
   {
    "id": "Air-22ee0ab5-001",
