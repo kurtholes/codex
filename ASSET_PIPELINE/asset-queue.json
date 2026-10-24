@@ -79,9 +79,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "failed",
+   "status": "open",
    "delivered_at": null,
-   "notes": "alia-runner: failed: music suspect: loud 87% of the clip with a steady beat (envelope autocorrelation 0.63 > 0.6)"
+   "notes": "alia-runner: reopened (was failed): our foley music check false-positived on a decaying sub-bass whoosh (raw-envelope autocorrelation); fixed to onset strength, 0.63 -> 0.28"
   },
   {
    "id": "StormDodger-1542e36e-006",
