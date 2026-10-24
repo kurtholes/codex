@@ -8952,6 +8952,398 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Ambient bed, looped."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-001",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "model",
+   "prompt": "A tiny friendly gardener beetle: copper-coloured wings, six springy midnight-blue legs, gold eyes, delicate glowing antennae. Palette from the image: deep indigo and violet night sky with swirling purple clouds, a big pale-gold moon, cobalt-blue grass, a luminous turquoise-lime tree, a glowing golden path, amber cottage windows, fireflies. Painterly storybook style.",
+   "reference_image": "ARCHIVE/GlowballGrove-8367c6d5/reference/inspiration-8367c6d5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 1.5,
+    "origin": "feet, facing +Z",
+    "rig": "none (rigid; the game animates in code)"
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/beetle.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, pushing the glow ball; seen from behind."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-002",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "model",
+   "prompt": "The ancient tree from the image: a twisting midnight-blue oak trunk with flared roots and a huge luminous turquoise and lime canopy, hand-painted look. Palette from the image: deep indigo and violet night sky with swirling purple clouds, a big pale-gold moon, cobalt-blue grass, a luminous turquoise-lime tree, a glowing golden path, amber cottage windows, fireflies. Painterly storybook style.",
+   "reference_image": "ARCHIVE/GlowballGrove-8367c6d5/reference/inspiration-8367c6d5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 25.0,
+    "origin": "base of the trunk",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/mint_tree.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Landmark; canopy emissive soft turquoise."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-003",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "model",
+   "prompt": "The tiny gardener cottage from the image: plaster walls, a steep uneven violet slate roof, a copper chimney, warm amber mullioned windows, painterly fairy-tale style. Palette from the image: deep indigo and violet night sky with swirling purple clouds, a big pale-gold moon, cobalt-blue grass, a luminous turquoise-lime tree, a glowing golden path, amber cottage windows, fireflies. Painterly storybook style.",
+   "reference_image": "ARCHIVE/GlowballGrove-8367c6d5/reference/inspiration-8367c6d5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 7.0,
+    "origin": "ground center, front door facing +Z",
+    "rig": "separate named nodes for roof, windows and chimney"
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/cottage.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Landmark; windows emissive amber."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-004",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "model",
+   "prompt": "A brittle hollow fallen log, dry grey-brown bark, cracked open at one end. Palette from the image: deep indigo and violet night sky with swirling purple clouds, a big pale-gold moon, cobalt-blue grass, a luminous turquoise-lime tree, a glowing golden path, amber cottage windows, fireflies. Painterly storybook style.",
+   "reference_image": "ARCHIVE/GlowballGrove-8367c6d5/reference/inspiration-8367c6d5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 4.0,
+    "origin": "ground center, long axis along X",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/dry_log.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The timber you smash with the ball; many of them."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-005",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "model",
+   "prompt": "A small moonflower plant: mint leaves, gold pollen bells, violet stems, blue-hour fairy-garden look. Palette from the image: deep indigo and violet night sky with swirling purple clouds, a big pale-gold moon, cobalt-blue grass, a luminous turquoise-lime tree, a glowing golden path, amber cottage windows, fireflies. Painterly storybook style.",
+   "reference_image": "ARCHIVE/GlowballGrove-8367c6d5/reference/inspiration-8367c6d5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1000,
+    "scale_m": 1.2,
+    "origin": "base of the stem",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/moonflower.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Planted groves; the game scales it to grow."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-006",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "model",
+   "prompt": "A crooked little wooden garden fence section with a violet-painted post cap. Palette from the image: deep indigo and violet night sky with swirling purple clouds, a big pale-gold moon, cobalt-blue grass, a luminous turquoise-lime tree, a glowing golden path, amber cottage windows, fireflies. Painterly storybook style.",
+   "reference_image": "ARCHIVE/GlowballGrove-8367c6d5/reference/inspiration-8367c6d5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 500,
+    "scale_m": 3.0,
+    "origin": "ground center, along X",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/garden_fence.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-007",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "texture",
+   "prompt": "Cobalt-blue grass and painterly navy soil seen straight down, broad brush marks, no directional lighting. Palette from the image: deep indigo and violet night sky with swirling purple clouds, a big pale-gold moon, cobalt-blue grass, a luminous turquoise-lime tree, a glowing golden path, amber cottage windows, fireflies. Painterly storybook style.",
+   "reference_image": "ARCHIVE/GlowballGrove-8367c6d5/reference/inspiration-8367c6d5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/cobalt_grass_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The valley floor."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-008",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "texture",
+   "prompt": "A glowing golden cobblestone path seen straight down, warm light between the stones, painterly. Palette from the image: deep indigo and violet night sky with swirling purple clouds, a big pale-gold moon, cobalt-blue grass, a luminous turquoise-lime tree, a glowing golden path, amber cottage windows, fireflies. Painterly storybook style.",
+   "reference_image": "ARCHIVE/GlowballGrove-8367c6d5/reference/inspiration-8367c6d5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/golden_path_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The trail."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-009",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "texture",
+   "prompt": "A deep indigo night sky panorama with swirling violet nebula clouds and a narrow pink band on the horizon, low-contrast stars, no moon (the game draws the moon). Palette from the image: deep indigo and violet night sky with swirling purple clouds, a big pale-gold moon, cobalt-blue grass, a luminous turquoise-lime tree, a glowing golden path, amber cottage windows, fireflies. Painterly storybook style.",
+   "reference_image": "ARCHIVE/GlowballGrove-8367c6d5/reference/inspiration-8367c6d5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/night_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Sky dome."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-010",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: first roll down the golden trail",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-011",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: fireflies gathering",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-012",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: a cosy cottage in the moonlight",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-013",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: the ball grows big and heavy",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-014",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: smashing a dry log, playful",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-015",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: planting a grove, quiet care",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-016",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: the mint tree glows overhead",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-017",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: into the violet wetlands",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-018",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: wings unfold, a little glide",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-019",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Glowball Grove score (gentle moonlit garden music: soft celesta, warm pads, plucked harp, a slow music-box lilt, light woodwinds, no vocals). This one: goodnight to the garden",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/music_glowball_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-020",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "sfx",
+   "prompt": "foley: a brittle hollow log bursting, a crunchy woody crack at the start, then splinters and a soft shimmer fading away",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/sfx_log_burst.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every timber hit; hit first, then fall-off."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-021",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "sfx",
+   "prompt": "pickup: a soft twinkly firefly collect",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/sfx_glow_pickup.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Plays many times in a row; keep it soft."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-022",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "sfx",
+   "prompt": "jump: a light springy hop",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/sfx_hop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-023",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "sfx",
+   "prompt": "powerup: a gentle rising bloom",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/sfx_plant.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Planting a grove."
+  },
+  {
+   "id": "GlowballGrove-8367c6d5-024",
+   "game": "ARCHIVE/GlowballGrove-8367c6d5",
+   "type": "sfx",
+   "prompt": "foley: a soft textured ball rolling through dry grass, even and steady",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 2.0
+   },
+   "output_path": "ARCHIVE/GlowballGrove-8367c6d5/assets/sfx_roll_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped while rolling, pitched by speed; even level, no hard start or end."
   }
  ]
 }
