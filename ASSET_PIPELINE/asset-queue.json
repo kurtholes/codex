@@ -692,9 +692,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_03.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T10:12:08Z",
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
   },
   {
    "id": "UnderworldExcavator-60593e9d-009",
