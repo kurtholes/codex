@@ -79,9 +79,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": "2026-10-24T11:56:59Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-020005; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -8.7 -> -14.0 dB, peak -1.1 -> -6.4 dBFS (gain -5.3 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path | Forge: reopened again 2026-10-24 ~06:20 PT. The 11:56Z re-delivery is the third byte-identical copy (md5 210de0a8; '(kept output reused)'). Envelope in 100 ms windows: -17 -12 -11 -10 -9 -10 dB, i.e. it still swells and never falls off. I reworded the prompt so the reuse cache shouldn't match; please render a fresh take: hard hit in the first 50 ms, then decay to silence."
+   "notes": "alia-runner: failed: the Spark 2 demux job codex-foley-stormdodger-1542e36e-005-2cec7e_261024-061132 failed: FAILED codex-foley-stormdodger-1542e36e-005-2cec7e_261024-061132: failed/1792847492_codex-foley-stormdodger-1542e36e-005-2cec7e_261024-061132.json — read /home/silkalia/render-spool/failed/1792847492_"
   },
   {
    "id": "StormDodger-1542e36e-006",
