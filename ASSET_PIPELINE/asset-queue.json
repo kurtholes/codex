@@ -79,9 +79,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "alia-runner: reopened (was delivered): our foley shipped too loud (RMS -8.6 / -10.5 dB vs the game's other sfx at -12..-20); the runner now levels foley to -14 dB RMS, peak <= -1 dBFS | Forge: reopened 2026-10-24 after a waveform check of sfx_perfect_dodge.ogg; NOT wired into the game. What's wrong: it starts at about -15 dB and swells up to its loudest point at 0.45 s, then holds near full level (-1 to -5 dB) right to the end with no fade, so it reads as a wall of noise rather than a quick whoosh-and-sting reward. It is also too hot: peak 1.23 (over full scale), RMS 0.52, about 7% of samples clipped. Wanted: a clear transient within the first ~30 ms (cloth snap / air whoosh past the ear), then a short bright sting, at least 20 dB of decay by 0.7 s and silence by ~1.0 s, peak at or below -1 dBFS, no clipping. If the generator keeps making long swells, trimming so the file starts at its loudest transient and adding a 0.4 s fade would also work."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:15:36Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-020005; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -8.7 -> -14.0 dB, peak -1.1 -> -6.4 dBFS (gain -5.3 dB; target -14 dB RMS); ogg/vorbis q6"
   },
   {
    "id": "StormDodger-1542e36e-006",
