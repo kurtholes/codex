@@ -951,9 +951,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/solar_wing.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "The game attaches a few of these around the station core and spins them off as it breaks up."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T12:04:56Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 cf2a406a; Pixal3D crown 696,430 tris -> crowned low-poly door (decimate+bake) 3,000 tris, re-counted <= max_tris 3,000; origin 'snapped root end, panel extending along +X' not understood; not applied; scaled so the largest extent = 14.0 m (x15.28)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-005",
