@@ -4233,6 +4233,412 @@
    "status": "delivered",
    "delivered_at": "2026-10-24T09:19:28Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 560541 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.309s -> 0.400s with silence; ogg/vorbis q6"
+  },
+  {
+   "id": "NeonRoot-6170a9ab-001",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "model",
+   "prompt": "The obsidian spellcaster: a tall sculpted figure of glossy black obsidian anatomy with fine molten-orange fissures, a furnace-bright anatomical heart glowing through an open chest, an angular grey face with gold glowing eyes, wild windswept ivory-white hair. Standing tall, arms slightly away from the body, clean silhouette readable from a chase camera. Palette from the image: midnight indigo void, violet crystal light, molten orange heartfire, glossy obsidian black, ivory white hair, magenta-and-coral striped synthwave sun.",
+   "reference_image": "ARCHIVE/NeonRoot-6170a9ab/reference/inspiration-6170a9ab.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 15000,
+    "scale_m": 4.0,
+    "origin": "feet center, facing +Z",
+    "rig": "none (rigid; the game sways and leans it)"
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/caster.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind and above. The heart and eyes as emissive. Draw him from the original image first so he looks like he belongs in it."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-002",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "model",
+   "prompt": "A sleek black cat sitting alert, glossy dark fur with a faint violet rim light, luminous gold eyes, a long curled expressive tail. Palette from the image: midnight indigo void, violet crystal light, molten orange heartfire, glossy obsidian black, ivory white hair, magenta-and-coral striped synthwave sun.",
+   "reference_image": "ARCHIVE/NeonRoot-6170a9ab/reference/inspiration-6170a9ab.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 1.2,
+    "origin": "feet center, facing +Z",
+    "rig": "none (rigid; the game bobs and turns it)"
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/cat.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The familiar that follows you and gathers embers; it's oversized (1.2 m) so it reads next to a 4 m caster. Gold eyes as emissive."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-003",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "model",
+   "prompt": "A fractured basalt column ruin, three or four hexagonal columns of black basalt broken at different heights, strangled by gnarled black roots, thin glowing purple crystal seams in the cracks. Palette from the image: midnight indigo void, violet crystal light, molten orange heartfire, glossy obsidian black, ivory white hair, magenta-and-coral striped synthwave sun.",
+   "reference_image": "ARCHIVE/NeonRoot-6170a9ab/reference/inspiration-6170a9ab.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2500,
+    "scale_m": 8.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/ruin_columns.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Destructible tower ruins; the game breaks them into instanced fragments, so one clean solid piece."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-004",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "model",
+   "prompt": "A jagged cluster of translucent amethyst crystals growing from a dark rock base, sharp faceted points, thin ember-orange veins glowing inside. Palette from the image: midnight indigo void, violet crystal light, molten orange heartfire, glossy obsidian black, ivory white hair, magenta-and-coral striped synthwave sun.",
+   "reference_image": "ARCHIVE/NeonRoot-6170a9ab/reference/inspiration-6170a9ab.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1200,
+    "scale_m": 3.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/crystal_cluster.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The breakable crystal growths (the first one teaches shooting). A glassy/emissive material is ideal."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-005",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "model",
+   "prompt": "A single large floating shard of pale translucent glass, thin and sharp-edged like the shards hanging in the air around the sorcerer, faint violet edge glow. Palette from the image: midnight indigo void, violet crystal light, molten orange heartfire, glossy obsidian black, ivory white hair, magenta-and-coral striped synthwave sun.",
+   "reference_image": "ARCHIVE/NeonRoot-6170a9ab/reference/inspiration-6170a9ab.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 300,
+    "scale_m": 1.6,
+    "origin": "center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/glass_shard.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Floating fragments drifting overhead; instanced many times."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-006",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "model",
+   "prompt": "A tangle of gnarled black roots spreading out flat from a centre, glowing orange embers and molten cracks along the roots, like the burning roots at the sorcerer's feet. Palette from the image: midnight indigo void, violet crystal light, molten orange heartfire, glossy obsidian black, ivory white hair, magenta-and-coral striped synthwave sun.",
+   "reference_image": "ARCHIVE/NeonRoot-6170a9ab/reference/inspiration-6170a9ab.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 4.0,
+    "origin": "center of the tangle at ground level",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/burning_roots.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Grows under the caster when you root and heal, and stays as a healing mark. Emissive embers."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-007",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "texture",
+   "prompt": "A synthwave sun: a big glowing disc with horizontal coral, pink and magenta stripes and long thin magenta rays radiating out, on pure black.",
+   "reference_image": "ARCHIVE/NeonRoot-6170a9ab/reference/inspiration-6170a9ab.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/striped_sun.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Drawn as an additive billboard in the sky, so pure black background (black = transparent)."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-008",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "texture",
+   "prompt": "Navy-black volcanic earth seen from above: fine dark ash, violet mineral dust, tiny warm orange cracks, flat even lighting, no baked shadows. Palette from the image: midnight indigo void, violet crystal light, molten orange heartfire, glossy obsidian black, ivory white hair, magenta-and-coral striped synthwave sun.",
+   "reference_image": "ARCHIVE/NeonRoot-6170a9ab/reference/inspiration-6170a9ab.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/volcanic_earth_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The whole grove floor, world-space triplanar."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-009",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "texture",
+   "prompt": "Glossy black basalt stone with fine purple crystal seams and thin black root fibres pressed into it, flat even lighting, no baked shadows. Palette from the image: midnight indigo void, violet crystal light, molten orange heartfire, glossy obsidian black, ivory white hair, magenta-and-coral striped synthwave sun.",
+   "reference_image": "ARCHIVE/NeonRoot-6170a9ab/reference/inspiration-6170a9ab.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/basalt_rootstone_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ruins and columns."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-010",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: the grove at midnight: slow pads, a heartbeat kick, the pink sun low",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-011",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: first heartfire: warm bass enters, steady drive",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-012",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: crystal basins: glassy arpeggios over a rolling bassline",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-013",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: guardians close in: tense, pulsing, darker filter sweeps",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-014",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: roots drink: calm, breathing, warm low drones and soft chimes",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-015",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: the ruins north: big gated drums, heroic minor chords",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-016",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: ember storm: fastest track, bright lead, full energy",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-017",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: the cat watches: playful, sly, sparse plucks",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-018",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: ascension: soaring, wide pads, the body takes flight",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-019",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Neon Root score (92 BPM dark synthwave, warm analog bass, distant magenta pads, slow arpeggios, no vocals). This one: dawn never comes: wistful, slow fade, the sun still striped",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/music_neonroot_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "NeonRoot-6170a9ab-020",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "sfx",
+   "prompt": "foley: a heavy magical bass detonation, a sharp glass crack, then a molten hiss trailing off",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/sfx_heartfire_impact.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every heartfire hit; a hard hit at the start, then the hiss falls away."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-021",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "sfx",
+   "prompt": "foley: slow organic wood creaking with a warm rising electrical hum, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 3.0
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/sfx_root_heal_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped while rooting, so an even sustain with no hard start or end."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-022",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "sfx",
+   "prompt": "pickup: a soft warm ember collect, a tiny bright crackle",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/sfx_ember_pickup.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Plays as the cat gathers embers into you, with pitch variation."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-023",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "voice",
+   "prompt": "Again.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "voice": "soft, dry, amused low voice (a cat that has seen it all)"
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/voice_cat_again.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Cat quip after a big break. Pick the closest voice you have; keep it under a second."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-024",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "voice",
+   "prompt": "Hungry?",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "voice": "soft, dry, amused low voice (a cat that has seen it all)"
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/voice_cat_hungry.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Cat quip when health is low. Same voice as the other two."
+  },
+  {
+   "id": "NeonRoot-6170a9ab-025",
+   "game": "ARCHIVE/NeonRoot-6170a9ab",
+   "type": "voice",
+   "prompt": "There.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "voice": "soft, dry, amused low voice (a cat that has seen it all)"
+   },
+   "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/voice_cat_there.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Cat quip pointing you at the next crystal. Same voice as the other two."
   }
  ]
 }
