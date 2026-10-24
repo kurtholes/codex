@@ -273,9 +273,9 @@
     "origin": "ground center"
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sanctuary.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Pin-it-on-the-wall bar applies. Crystal faces emissive in the texture if you can."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T07:13:24Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 c643c483; Pixal3D crown 699,772 tris -> crowned low-poly door (decimate+bake) 7,998 tris, re-counted <= max_tris 25,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 150.0 m (x161.5)"
   },
   {
    "id": "Moonfall-ee7b1ff3-003",
