@@ -7289,9 +7289,9 @@
     "length_s": 0.25
    },
    "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_footstep.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:33Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset footstep seed 931138 (rule a: explicit '<preset>:' tag ('footstep:')); padded 0.104s -> 0.250s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset footstep seed 931138 (rule a: explicit '<preset>:' tag ('footstep:')); padded 0.104s -> 0.250s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every footstep (pitch varied), synth tick fallback."
   },
   {
    "id": "VeilRunner-39180c08-021",
@@ -7319,9 +7319,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_route_chime.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:33Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 846947 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.319s -> 0.800s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 846947 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.319s -> 0.800s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every route reached, replacing the synth bell (kept as fallback)."
   },
   {
    "id": "VeilRunner-39180c08-023",
@@ -7334,9 +7334,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_city_wind.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:33Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 971851 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.905s -> 4.000s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 971851 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.905s -> 4.000s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Quiet continuous city-wind bed built from overlapping takes of its steady 0.5-2.1 s stretch; follows the sound switch."
   },
   {
    "id": "VeilRunner-39180c08-024",
@@ -7349,9 +7349,9 @@
     "length_s": 0.5
    },
    "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_pulse.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:33Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 478655 (rule a: explicit '<preset>:' tag ('powerup:')); trimmed 0.539s -> 0.500s with a 20 ms fade; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 478655 (rule a: explicit '<preset>:' tag ('powerup:')); trimmed 0.539s -> 0.500s with a 20 ms fade; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every pulse (E / click), synth thump fallback."
   },
   {
    "id": "BlackwakeReach-a107ed12-001",
