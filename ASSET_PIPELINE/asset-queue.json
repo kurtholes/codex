@@ -8166,6 +8166,398 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Ambient bed, looped."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-001",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "model",
+   "prompt": "A colossal floating sourdough boule: deeply split scored crust with charred peaks, a glowing warm honey crumb showing through the cracks, twisted dough roots hanging underneath. No background. Palette from the image: blood-red sky and scarlet floodwater, a huge golden-brown sourdough loaf glowing amber, black silhouetted figures and jagged black skyscrapers, ember reflections.",
+   "reference_image": "ARCHIVE/CarbsOfDestiny-d397f2e8/reference/inspiration-d397f2e8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 20000,
+    "scale_m": 120.0,
+    "origin": "center of the loaf",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/sourdough.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The landmark in the sky; crust cracks emissive amber."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-002",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "model",
+   "prompt": "The antler-crowned scavenger from the image: a tall figure in black tattered clothes with a branching deer-antler crown, a leather backpack, and elastic glowing dough gauntlets on both arms. Palette from the image: blood-red sky and scarlet floodwater, a huge golden-brown sourdough loaf glowing amber, black silhouetted figures and jagged black skyscrapers, ember reflections.",
+   "reference_image": "ARCHIVE/CarbsOfDestiny-d397f2e8/reference/inspiration-d397f2e8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 2.2,
+    "origin": "feet, facing +Z",
+    "rig": "none (rigid; the game stretches the arms in code)"
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/scavenger.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind. Gauntlets emissive amber."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-003",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "model",
+   "prompt": "One floor module of a brutalist flood-damaged black concrete skyscraper: jagged broken edges, sparse amber-lit windows, exposed rebar. Palette from the image: blood-red sky and scarlet floodwater, a huge golden-brown sourdough loaf glowing amber, black silhouetted figures and jagged black skyscrapers, ember reflections.",
+   "reference_image": "ARCHIVE/CarbsOfDestiny-d397f2e8/reference/inspiration-d397f2e8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 4.0,
+    "origin": "bottom center, front facing +Z (module is 16 m wide)",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/tower_floor.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Stacked in code into towers that get yanked apart."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-004",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "model",
+   "prompt": "A silhouetted wanderer in a long ragged cloak carrying a staff, standing in shallow water, as in the image. Palette from the image: blood-red sky and scarlet floodwater, a huge golden-brown sourdough loaf glowing amber, black silhouetted figures and jagged black skyscrapers, ember reflections.",
+   "reference_image": "ARCHIVE/CarbsOfDestiny-d397f2e8/reference/inspiration-d397f2e8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 2.0,
+    "origin": "feet, facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/wanderer.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Background figures and rival scavengers."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-005",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "model",
+   "prompt": "A rusted radio antenna mast with cross braces and a red warning light, slightly bent. Palette from the image: blood-red sky and scarlet floodwater, a huge golden-brown sourdough loaf glowing amber, black silhouetted figures and jagged black skyscrapers, ember reflections.",
+   "reference_image": "ARCHIVE/CarbsOfDestiny-d397f2e8/reference/inspiration-d397f2e8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 25.0,
+    "origin": "base",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/antenna_mast.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The antenna forest; breakable."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-006",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "model",
+   "prompt": "A thick twisted hanging dough root, glossy golden-brown, with a glowing amber tip. Palette from the image: blood-red sky and scarlet floodwater, a huge golden-brown sourdough loaf glowing amber, black silhouetted figures and jagged black skyscrapers, ember reflections.",
+   "reference_image": "ARCHIVE/CarbsOfDestiny-d397f2e8/reference/inspiration-d397f2e8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 20.0,
+    "origin": "top end (where it hangs from the loaf)",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/dough_root.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Climbable roots hanging from the loaf."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-007",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "texture",
+   "prompt": "Toasted sourdough crust seen straight on: irregular pores, amber fissures and blackened scoring, flat lighting. Palette from the image: blood-red sky and scarlet floodwater, a huge golden-brown sourdough loaf glowing amber, black silhouetted figures and jagged black skyscrapers, ember reflections.",
+   "reference_image": "ARCHIVE/CarbsOfDestiny-d397f2e8/reference/inspiration-d397f2e8.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/crust_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The loaf and crust chunks."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-008",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "texture",
+   "prompt": "Flood-stained black brutalist concrete seen straight on, water lines, cracks, faint red reflections, flat lighting. Palette from the image: blood-red sky and scarlet floodwater, a huge golden-brown sourdough loaf glowing amber, black silhouetted figures and jagged black skyscrapers, ember reflections.",
+   "reference_image": "ARCHIVE/CarbsOfDestiny-d397f2e8/reference/inspiration-d397f2e8.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/black_concrete_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Towers."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-009",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "texture",
+   "prompt": "A blood-red apocalyptic sky panorama: a huge pale red sun low on the horizon, scarlet haze, darker crimson overhead, no land. Palette from the image: blood-red sky and scarlet floodwater, a huge golden-brown sourdough loaf glowing amber, black silhouetted figures and jagged black skyscrapers, ember reflections.",
+   "reference_image": "ARCHIVE/CarbsOfDestiny-d397f2e8/reference/inspiration-d397f2e8.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/red_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Sky dome; sun at the centre."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-010",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: wading into the scarlet flood",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-011",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: the loaf rises over the city",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-012",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: the first hook, tension building",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-013",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: a tower bends and bursts",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-014",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: grain streaks home, a moment of awe",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-015",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: the antenna forest at dusk",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-016",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: mutation, the gauntlets swell",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-017",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: climbing the roots toward the crust",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-018",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: the whole waterfront collapsing",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-019",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Carbs of Destiny score (ominous industrial doom-folk: deep bowed bass, slow taiko, distorted cello, a subsonic fermentation pulse, sparse ritual bells, no vocals). This one: under the red sun, an eerie calm",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/music_carbs_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-020",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "sfx",
+   "prompt": "foley: sticky dough stretched taut, then a wet elastic snap, the snap loudest and fading quickly",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/sfx_dough_snap.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The yank; the snap should land right at the start."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-021",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "sfx",
+   "prompt": "foley: a concrete slab crashing into shallow water, one heavy impact at the start, then splash and rubble dying away to silence",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/sfx_concrete_collapse.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every floor that falls."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-022",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "sfx",
+   "prompt": "pickup: a soft warm grain collect",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/sfx_grain_pickup.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-023",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "sfx",
+   "prompt": "laser: a short elastic zip",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/sfx_hook.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Firing the hook."
+  },
+  {
+   "id": "CarbsOfDestiny-d397f2e8-024",
+   "game": "ARCHIVE/CarbsOfDestiny-d397f2e8",
+   "type": "sfx",
+   "prompt": "wind: an ominous distant city wind",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/sfx_flood_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ambient bed, looped."
   }
  ]
 }
