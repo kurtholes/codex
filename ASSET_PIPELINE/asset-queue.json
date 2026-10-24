@@ -2344,9 +2344,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sfx_plank_step.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:19:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset footstep seed 590874 (rule a: explicit '<preset>:' tag ('footstep:')); padded 0.106s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "TheBridgekeeper-127d4570-025",
@@ -2359,9 +2359,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sfx_salvage.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:19:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 288202 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.312s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "BassRevenant-dfc51149-001",
@@ -2686,9 +2686,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/sfx_demolition.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:19:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 497247 (rule a: explicit '<preset>:' tag ('explosion:')); padded 1.042s -> 1.200s with silence; ogg/vorbis q6"
   },
   {
    "id": "BassRevenant-dfc51149-021",
@@ -2701,9 +2701,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/sfx_capture.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:19:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 84041 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.692s -> 0.800s with silence; ogg/vorbis q6"
   },
   {
    "id": "BassRevenant-dfc51149-022",
@@ -3027,9 +3027,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/sfx_plasma_cannon.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:19:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 457149 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.337s -> 0.600s with silence; ogg/vorbis q6"
   },
   {
    "id": "DowntownDownfall-baf136c8-020",
@@ -3454,9 +3454,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/BrassHorizon-7501e781/assets/sfx_cannon.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:19:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 286585 (rule a: explicit '<preset>:' tag ('explosion:')); trimmed 0.867s -> 0.800s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "BrassHorizon-7501e781-024",
