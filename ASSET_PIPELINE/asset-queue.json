@@ -1294,9 +1294,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/siege_cannon.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Held by the keeper; the game recoils and grows it per upgrade tier."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T14:48:34Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 0d23756b; Pixal3D crown 697,393 tris -> crowned low-poly door (decimate+bake) 2,500 tris, re-counted <= max_tris 2,500; origin 'grip, barrel pointing +Z' not understood; not applied; scaled so the largest extent = 1.8 m (x2.029)"
   },
   {
    "id": "SmokeRing-5a1da71e-004",
