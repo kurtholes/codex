@@ -1330,9 +1330,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/chimney.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "The game keeps its own rising smoke column."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T15:12:54Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 886a4f2c; Pixal3D crown 698,181 tris -> crowned low-poly door (decimate+bake) 3,000 tris, re-counted <= max_tris 3,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 6.0 m (x6.788)"
   },
   {
    "id": "SmokeRing-5a1da71e-006",
