@@ -1693,9 +1693,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/wreck_engine.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Adds variety to the wreck fields."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T17:55:55Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 6bc2a224; Pixal3D crown 694,173 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 5.0 m (x5.348)"
   },
   {
    "id": "Air-22ee0ab5-007",
