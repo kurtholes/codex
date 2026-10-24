@@ -987,9 +987,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/rescue_mast.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "The goal you trek toward on the island, visible from far away."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T12:27:47Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 1f6f4532; Pixal3D crown 697,453 tris -> crowned low-poly door (decimate+bake) 7,984 tris, re-counted <= max_tris 8,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 24.0 m (x25.52)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-007",
@@ -1003,9 +1003,9 @@
     "tileable": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/fire_burst.png",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Replaces the noise-generated fire on the station blast and the re-entry plasma trail (blended additively, so black = transparent)."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T12:27:47Z",
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-008",
