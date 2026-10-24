@@ -1,0 +1,23 @@
+{
+  "timeToFirstActionMs": 503,
+  "meanFpsLow": 25.87517837949551,
+  "minFps": 25.162102003289995,
+  "consoleErrors": [],
+  "state": {
+    "x": -220,
+    "z": -1379.5866915999675,
+    "speed": 27.890267974977288,
+    "y": 0,
+    "vy": 0,
+    "heading": 0.0033800192600845955,
+    "health": 100,
+    "boost": 100,
+    "score": 276.77680287764525,
+    "time": 42.02812199999937,
+    "quick": false,
+    "finished": false,
+    "crossing": 1,
+    "fps": 26.390382171829803,
+    "quality": "LOW"
+  }
+}
