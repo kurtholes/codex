@@ -592,9 +592,9 @@
     "origin": "ground center of the opening, opening facing +Z (12 m span, 17 m rise)"
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/arch.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T09:29:13Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 6f2019b6; Pixal3D crown 699,536 tris -> crowned low-poly door (decimate+bake) 7,992 tris, re-counted <= max_tris 12,000; origin 'ground center of the opening, opening facing +Z (12 m span, 17 m rise)' not understood; not applied; scaled so the largest extent = 17.0 m (x21.3)"
   },
   {
    "id": "UnderworldExcavator-60593e9d-003",
