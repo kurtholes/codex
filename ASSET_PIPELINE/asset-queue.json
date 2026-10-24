@@ -1364,9 +1364,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/timber_albedo.png",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Walls, walkways and braces (triplanar)."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T15:14:53Z",
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
   },
   {
    "id": "SmokeRing-5a1da71e-008",
