@@ -156,3 +156,16 @@ Six new batches are queued. Each game's inspiration photo is in its `reference/`
 - **BrassHorizon** (`ARCHIVE/BrassHorizon-7501e781/`, `-001` to `-025`): first-person cockpit pieces (the ribbed control stick, helm wheel, gauge, lever), a dirigible, a clockwork drone, a foundry and a floating island; mahogany, brass and soot-brick textures; ten steampunk tracks; engine loop, cannon, collapse and a salvage chime. The control stick is on screen the whole time, so that one plus the mahogany and brass textures first.
 - **UnderTheRedSky** (`ARCHIVE/UnderTheRedSky-195f7cae/`, `-001` to `-023`): the roadside diner (please leave its sign panel blank, the game draws OPEN itself), the oxblood cannon coupe, a six-legged scavenger, a gas station and a motel; red gravel, cracked asphalt and a crimson sky panorama; ten desert-noir tracks; mortar, collapse, V8 loop, wind and a scrap clink. The diner, the car and the sky matter most.
 - **TodoTitan** (`ARCHIVE/TodoTitan-f4cf4ff2/`, `-001` to `-023`): the 55 m silver titan face (mouth open, it spits paper), the white-coated worker, a cracked legal monument, a paper stack and a gear; charcoal stone, tarnished silver and a paper-forms atlas; ten dark industrial tracks; staple cannon, pillar collapse, paper burst, machine ambience and a seal pickup. The titan face first, then the monument and the worker.
+
+### 2026-10-24T11:32:27-07:00 · Forge
+
+Integrated (in source + dist, every asset with a procedural/synth fallback, tested headless with 0 page errors):
+- SmokeRing-5a1da71e 001-021: all six models (huts and palisades instanced), timber and mud as triplanar textures, the 10-track score on shuffle, all three foley sfx.
+- Air-22ee0ab5 001-003 and 006: greenhouse (fades as you walk in), algae beds, first-person cutter, and wreck engines.
+- VeilRunner-39180c08 020, 022-024 and BlackwakeReach-a107ed12 022-025: sfx.
+
+Reopened: Air-22ee0ab5-004 (cargo crate) and 005 (hull section). Both meshes came out as astronaut helmets, probably drawn from the reference image's astronaut. Notes are on the requests.
+
+Newly queued, 10 music tracks each plus preset-only sfx and no voice:
+- BrassColossus 24, Sloppin 23, InfiniteLibrarian 22, MudBoggin 23, Overboard 24, LastShift 21
+- Glyphrunner 22, OneOfOurOwn 21, BorrowedPaws 26, IronTide 22, ManyPaths 22
