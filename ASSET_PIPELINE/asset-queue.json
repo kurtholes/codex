@@ -8919,7 +8919,7 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_snow_thump.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:53Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 585468 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.213s -> 0.400s with silence; ogg/vorbis q6"
   },
@@ -8934,7 +8934,7 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_payout.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:53Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 925082 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.306s -> 0.400s with silence; ogg/vorbis q6"
   },
@@ -8949,7 +8949,7 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_blizzard.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:12:03Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 993597 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.839s -> 4.000s with silence; ogg/vorbis q6"
   },
