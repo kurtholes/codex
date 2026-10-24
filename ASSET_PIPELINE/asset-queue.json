@@ -882,6 +882,1077 @@
    "status": "delivered",
    "delivered_at": "2026-10-24T06:10:03Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 221300; padded 0.289s -> 0.400s with silence; ogg/vorbis q6"
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-001",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "model",
+   "prompt": "Lone EVA astronaut in a worn white spacesuit, gold-black mirrored visor, ribbed articulated sleeves and knees, compact life-support backpack, scorch marks and small orange utility accents; standing in a low, wide surfing stance, knees bent, arms slightly out for balance. Clean silhouette readable from a chase camera behind and above. Palette from the image: deep black space, white-gold and orange fire, gunmetal and scorched bronze station hull, brilliant blue Earth with a cyan atmospheric rim.",
+   "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 1.8,
+    "origin": "feet, facing +Z",
+    "rig": "none (single rigid mesh; game leans and tilts it in code)"
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/astronaut.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Hero character, seen from behind the whole run. Pin-it-on-the-wall bar applies. The game adds oxygen tanks and wings per upgrade tier in code, so leave those off."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-002",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "model",
+   "prompt": "Torn hexagonal heatshield fragment the astronaut rides like a surfboard: layered charcoal ceramic tiles, exposed bronze honeycomb core on the broken side, scorched and glowing jagged edge, thin flat slab. Palette from the image: deep black space, white-gold and orange fire, gunmetal and scorched bronze station hull, brilliant blue Earth with a cyan atmospheric rim.",
+   "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 2.0,
+    "origin": "top surface center, long axis along +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/heatshield.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Flat board about 2 x 1 m and roughly 0.15 m thick. The game scales it up per shield tier."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-003",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "model",
+   "prompt": "Exploded cylindrical orbital station module: gunmetal pressure hull with exposed pressure rings, ripped gold-silver thermal blankets, bent trusses sticking out, one end torn open with a glowing orange molten interior. Long horizontal silhouette like the station in the image. Palette from the image: deep black space, white-gold and orange fire, gunmetal and scorched bronze station hull, brilliant blue Earth with a cyan atmospheric rim.",
+   "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 15000,
+    "scale_m": 30.0,
+    "origin": "center, long axis along +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/station_core.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Horizon centerpiece: the burning station fills the sky behind you at the start. Emissive orange in the torn end if you can."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-004",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "model",
+   "prompt": "Broken orbital solar array wing: a long panel of deep blue photovoltaic cells on a bent silver truss, a few cells shattered and missing, frayed cables at the snapped root. Palette from the image: deep black space, white-gold and orange fire, gunmetal and scorched bronze station hull, brilliant blue Earth with a cyan atmospheric rim.",
+   "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 14.0,
+    "origin": "snapped root end, panel extending along +X",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/solar_wing.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The game attaches a few of these around the station core and spins them off as it breaks up."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-005",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "model",
+   "prompt": "Shattered satellite debris chunk: crumpled aluminum panel folded over a piece of copper and gold foil insulation, a few rivets and a torn edge, irregular tumbling shape. Palette from the image: deep black space, white-gold and orange fire, gunmetal and scorched bronze station hull, brilliant blue Earth with a cyan atmospheric rim.",
+   "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 500,
+    "scale_m": 1.0,
+    "origin": "center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/salvage_fragment.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Used instanced, dozens at once, so keep it light."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-006",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "model",
+   "prompt": "Weathered coastal emergency radio transmitter: tall open steel lattice antenna tower painted faded red and white, a small equipment hut and solar panel at its base, guy wires, a beacon light on top. On a windswept island. Palette from the image: deep black space, white-gold and orange fire, gunmetal and scorched bronze station hull, brilliant blue Earth with a cyan atmospheric rim.",
+   "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 24.0,
+    "origin": "ground center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/rescue_mast.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The goal you trek toward on the island, visible from far away."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-007",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "texture",
+   "prompt": "Turbulent orbital fuel fire filling the frame: white-gold hot pockets, orange flame filaments, coal-dark smoke curls, sparks; fading to pure black at the edges so it can be blended additively over space. Seen face-on, no background objects.",
+   "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/fire_burst.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Replaces the noise-generated fire on the station blast and the re-entry plasma trail (blended additively, so black = transparent)."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-008",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "texture",
+   "prompt": "Earth from orbit, looking straight down: deep North Atlantic blue ocean with thin white cloud filaments and soft swirls, a hint of slate-grey coastline, flat even lighting, no stars, no horizon, no curvature.",
+   "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/earth_ocean.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Replaces the procedural Earth surface below the dive. A plain tileable top-down view is fine (not an equirect map); the game keeps its own atmosphere rim."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-009",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "texture",
+   "prompt": "Wind-worn coastal basalt ground with patches of low green-grey scrub and pale sand drifts, cold dawn light, flat even lighting, no baked shadows, seen from above.",
+   "reference_image": "ARCHIVE/HeatshieldDive-9fddeb9e/reference/inspiration-9fddeb9e.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/island_basalt.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Island terrain after landing (triplanar)."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-010",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: the station tears open: an urgent analog pulse, alarms melted into synth, debris spinning past.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-011",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: freefall above the blue: vast and slow, cold shimmering pads, awe at the curve of the Earth.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-012",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: plasma burn: warm distorted bass and a driving pulse as the shield glows, heat and danger.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-013",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: carving the salvage line: playful, rhythmic, quick arpeggios for near misses and skims.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-014",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: through the cloud deck: release, airy pads opening up, the noise falling away.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-015",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: chute open at dawn: hopeful and warm, slow swells over a wide ocean.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-016",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: the island trek: a steady walking pulse, wind and grounded low synths.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-017",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: the mast in sight: rising and determined, the pulse building toward the goal.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-018",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: a harder orbit: darker, faster and more intense, the stakes going up.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-019",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Heatshield Dive score (minimal tense analog synth pulse around 100 BPM, cold space ambience, warm tape distortion during atmospheric entry, no vocals). This one: rescue signal: restrained triumph, warm analog chords, quiet relief.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-020",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "sfx",
+   "prompt": "foley: a muffled rumble heard from inside a space helmet, rising into a hissing plasma roar of atmospheric re-entry, steady sustain, no voices",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/sfx_reentry_roar.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The game loops this and raises its volume with speed, so an even sustain without a hard start or end is ideal."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-021",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "sfx",
+   "prompt": "foley: a ceramic heat tile shattering with a sharp metal snap, muffled as if heard through a helmet, short and dry",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/sfx_shield_crack.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Collisions with debris."
+  },
+  {
+   "id": "HeatshieldDive-9fddeb9e-022",
+   "game": "ARCHIVE/HeatshieldDive-9fddeb9e",
+   "type": "sfx",
+   "prompt": "pickup: a bright glassy ping as a piece of salvage metal is collected",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/sfx_salvage_ping.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-001",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "model",
+   "prompt": "Crooked six-sided woodland stilt hut: steep pointed roof of overlapping weathered slate-grey shingles, rough timber plank walls and braces, an open dark doorway, short stilts lifting it off wet ground; slightly leaning and hand-built like the huts in the image. Palette from the image: blue-black moonlit night, weathered silver-grey timber, near-black teal woodland, pale rising smoke, glowing amber embers.",
+   "reference_image": "ARCHIVE/SmokeRing-5a1da71e/reference/inspiration-5a1da71e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 8.0,
+    "origin": "ground center, door facing +Z",
+    "rig": "none (single rigid mesh; the game breaks it apart with procedural debris)"
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/hut.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The village has thirty of these, so this one model sets the whole look. Pin-it-on-the-wall bar applies."
+  },
+  {
+   "id": "SmokeRing-5a1da71e-002",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "model",
+   "prompt": "Soot-cloaked woodland engineer, the village keeper: long ragged charcoal cloak, iron mask with a glowing slit, leather harness with twin small ember burst jets on the back glowing amber; standing, empty hands ready to hold a big cannon. Palette from the image: blue-black moonlit night, weathered silver-grey timber, near-black teal woodland, pale rising smoke, glowing amber embers.",
+   "reference_image": "ARCHIVE/SmokeRing-5a1da71e/reference/inspiration-5a1da71e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 2.0,
+    "origin": "feet, facing +Z",
+    "rig": "none (single rigid mesh; game animates flight and recoil in code)"
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/keeper.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player character. The cannon is a separate request (-003) so it can recoil on its own."
+  },
+  {
+   "id": "SmokeRing-5a1da71e-003",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "model",
+   "prompt": "Huge cylindrical hand-built ember siege cannon: banded blackened iron barrel, riveted wooden stock, glowing amber coals visible in the breech and muzzle. Palette from the image: blue-black moonlit night, weathered silver-grey timber, near-black teal woodland, pale rising smoke, glowing amber embers.",
+   "reference_image": "ARCHIVE/SmokeRing-5a1da71e/reference/inspiration-5a1da71e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2500,
+    "scale_m": 1.8,
+    "origin": "grip, barrel pointing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/siege_cannon.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Held by the keeper; the game recoils and grows it per upgrade tier."
+  },
+  {
+   "id": "SmokeRing-5a1da71e-004",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "model",
+   "prompt": "Low six-legged woodland horror made of bark and insect chitin: armoured overlapping bark plates, spindly jointed legs, glowing amber eyes, sharp readable silhouette. Menacing but not gory. Palette from the image: blue-black moonlit night, weathered silver-grey timber, near-black teal woodland, pale rising smoke, glowing amber embers.",
+   "reference_image": "ARCHIVE/SmokeRing-5a1da71e/reference/inspiration-5a1da71e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 3.0,
+    "origin": "ground center between the legs, head facing +Z",
+    "rig": "none (single rigid mesh; game bobs and tilts it in code)"
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/crawler.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The enemy; also scaled up to 8 m for the giant at the end of a siege."
+  },
+  {
+   "id": "SmokeRing-5a1da71e-005",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "model",
+   "prompt": "Tall hand-stacked irregular stone hearth chimney: uneven grey fieldstones, iron rings around the mouth, a glowing coal bowl at the top, a little moss at the base. The heart of the village that the player protects. Palette from the image: blue-black moonlit night, weathered silver-grey timber, near-black teal woodland, pale rising smoke, glowing amber embers.",
+   "reference_image": "ARCHIVE/SmokeRing-5a1da71e/reference/inspiration-5a1da71e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 6.0,
+    "origin": "ground center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/chimney.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The game keeps its own rising smoke column."
+  },
+  {
+   "id": "SmokeRing-5a1da71e-006",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "model",
+   "prompt": "Leaning palisade wall section: a row of rough sharpened timber stakes lashed together with rope, a horizontal brace rail, uneven heights, weathered silver-grey wood. Palette from the image: blue-black moonlit night, weathered silver-grey timber, near-black teal woodland, pale rising smoke, glowing amber embers.",
+   "reference_image": "ARCHIVE/SmokeRing-5a1da71e/reference/inspiration-5a1da71e.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 6.0,
+    "origin": "ground center, length along X, front facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/palisade.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Repeated around the concentric walkways, like the fences in the image."
+  },
+  {
+   "id": "SmokeRing-5a1da71e-007",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "texture",
+   "prompt": "Rough weathered waterlogged timber planks, cold grey-brown with silver weathering, visible grain and a few nail holes, flat even lighting, no baked shadows.",
+   "reference_image": "ARCHIVE/SmokeRing-5a1da71e/reference/inspiration-5a1da71e.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/timber_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Walls, walkways and braces (triplanar)."
+  },
+  {
+   "id": "SmokeRing-5a1da71e-008",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "texture",
+   "prompt": "Wet woodland mud with tangled roots, fallen needles and sparse moss, near-black teal and dark brown, flat even lighting, no baked shadows, seen from above.",
+   "reference_image": "ARCHIVE/SmokeRing-5a1da71e/reference/inspiration-5a1da71e.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/forest_mud_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Village ground (triplanar)."
+  },
+  {
+   "id": "SmokeRing-5a1da71e-009",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: moonrise over the stilt village: quiet and eerie, a low drone, a single plucked string.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-010",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: the crawlers come: creeping hollow wood percussion and clicking textures, unease building.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-011",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: ember barrage: heavy frame drums and low strings, sparks and fire.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-012",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: lift-off: smoky soaring strings over the rooftops, airborne and free.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-013",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: rebuilding before dawn: warm hearth tones, calm, gentle plucked folk melody.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-014",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: the giant: huge low brass-like drone, slow heavy steps, dread.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-015",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: holding the line: steady martial frame drum and bowed strings, resolve.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-016",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: hearth song: gentle and firelit, a quiet folk lullaby for the village.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-017",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: the flooded hollow: watery, mysterious, dripping textures and soft drones.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-018",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the SmokeRing score (slow ominous moonlit-forest score, low drones, bowed and plucked folk strings, hollow wooden percussion, distant insect clicks, no vocals). This one: the siege breaks: dark but triumphant, full drums and rising strings.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/music_smokering_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-019",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "sfx",
+   "prompt": "foley: a heavy mortar launch with a deep soft thump and a metallic chuff, crackling embers, no speech",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/sfx_ember_launch.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-020",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "sfx",
+   "prompt": "foley: chunky wood splintering and an insect shell cracking with a bass thud",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.7
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/sfx_crawler_hit.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "SmokeRing-5a1da71e-021",
+   "game": "ARCHIVE/SmokeRing-5a1da71e",
+   "type": "sfx",
+   "prompt": "foley: a smoky compressed burst of ember jets igniting, short whoosh with an airy crackling tail",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/sfx_jet_burst.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Played when the keeper lifts off or dashes."
+  },
+  {
+   "id": "Air-22ee0ab5-001",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "model",
+   "prompt": "Frost-encrusted arched industrial pressure greenhouse on an icy alien plain: charcoal ribbed steel arches, scratched frosted glass panels, a heavy amber-lit airlock door at one end, pipes and tanks along the sides. The warm centre of a lonely homestead. Palette from the image: blue-grey fog, frost-silver ice, charcoal metal, warm amber glass light, luminous lime-green algae.",
+   "reference_image": "ARCHIVE/Air-22ee0ab5/reference/inspiration-22ee0ab5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 15000,
+    "scale_m": 12.0,
+    "origin": "ground center, airlock facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/greenhouse.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Home base and the biggest object in view. Pin-it-on-the-wall bar applies. The game keeps its own transparent glass and beds inside, so the shell and frame matter most."
+  },
+  {
+   "id": "Air-22ee0ab5-002",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "model",
+   "prompt": "Raised hydroponic algae bed: a rectangular charcoal metal tank with frosted edges, filled with glowing lime-green oxygen algae and bubbles, small pipes and a valve. Palette from the image: blue-grey fog, frost-silver ice, charcoal metal, warm amber glass light, luminous lime-green algae.",
+   "reference_image": "ARCHIVE/Air-22ee0ab5/reference/inspiration-22ee0ab5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 3.0,
+    "origin": "ground center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/algae_bed.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Several sit inside the greenhouse."
+  },
+  {
+   "id": "Air-22ee0ab5-003",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "model",
+   "prompt": "Heavy first-person salvage cutter held in an insulated astronaut glove: charcoal tool body with silver wear, amber pressure strips, a short plasma nozzle, chunky frosted glove gripping it. Palette from the image: blue-grey fog, frost-silver ice, charcoal metal, warm amber glass light, luminous lime-green algae.",
+   "reference_image": "ARCHIVE/Air-22ee0ab5/reference/inspiration-22ee0ab5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 0.7,
+    "origin": "grip, nozzle pointing +Z",
+    "rig": "none (single rigid mesh; game recoils it in code)"
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/cutter.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Always on screen in the lower right, so it's the most-seen object in the game."
+  },
+  {
+   "id": "Air-22ee0ab5-004",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "model",
+   "prompt": "Bolted armoured spacecraft cargo box crash-landed on ice: blue-black metal panels, silver frost in the seams, amber hazard strips, a cracked corner leaking vapour. Palette from the image: blue-grey fog, frost-silver ice, charcoal metal, warm amber glass light, luminous lime-green algae.",
+   "reference_image": "ARCHIVE/Air-22ee0ab5/reference/inspiration-22ee0ab5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 2.5,
+    "origin": "ground center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/cargo_crate.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The first thing in front of you when the game starts; you cut it open."
+  },
+  {
+   "id": "Air-22ee0ab5-005",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "model",
+   "prompt": "Broken cylindrical spacecraft hull section half-buried in snow: torn blue-black metal skin, exposed ribs, bent panels, silver frost over everything. Palette from the image: blue-grey fog, frost-silver ice, charcoal metal, warm amber glass light, luminous lime-green algae.",
+   "reference_image": "ARCHIVE/Air-22ee0ab5/reference/inspiration-22ee0ab5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 5000,
+    "scale_m": 10.0,
+    "origin": "ground center, long axis along +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/wreck_hull.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Larger salvage wrecks in the distant wreck fields."
+  },
+  {
+   "id": "Air-22ee0ab5-006",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "model",
+   "prompt": "Wrecked spacecraft engine nacelle lying on its side: a big frosted thruster bell, crumpled housing, dangling pipes, blue-black metal and silver frost. Palette from the image: blue-grey fog, frost-silver ice, charcoal metal, warm amber glass light, luminous lime-green algae.",
+   "reference_image": "ARCHIVE/Air-22ee0ab5/reference/inspiration-22ee0ab5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 5.0,
+    "origin": "ground center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/wreck_engine.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Adds variety to the wreck fields."
+  },
+  {
+   "id": "Air-22ee0ab5-007",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "model",
+   "prompt": "Luminous alien oxygen fern: a cluster of broad frosted fronds with glowing lime-green veins rising from a small dark root, delicate and hopeful against the cold. Palette from the image: blue-grey fog, frost-silver ice, charcoal metal, warm amber glass light, luminous lime-green algae.",
+   "reference_image": "ARCHIVE/Air-22ee0ab5/reference/inspiration-22ee0ab5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1000,
+    "scale_m": 1.2,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/fern_plant.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Harvestable flora; the game scales it for growth stages."
+  },
+  {
+   "id": "Air-22ee0ab5-008",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "model",
+   "prompt": "Alien bubble-sac plant: a clump of pale green translucent bubble sacs on short stems, glowing faintly from inside, frost on the leaves. Palette from the image: blue-grey fog, frost-silver ice, charcoal metal, warm amber glass light, luminous lime-green algae.",
+   "reference_image": "ARCHIVE/Air-22ee0ab5/reference/inspiration-22ee0ab5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 0.8,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/bubble_plant.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-009",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "texture",
+   "prompt": "Wind-scoured frozen basalt ground: dark blue-grey rock with veins of grey-blue ice and drifts of powdery frost, flat even lighting, no baked shadows, seen from above.",
+   "reference_image": "ARCHIVE/Air-22ee0ab5/reference/inspiration-22ee0ab5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/basalt_ice_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Terrain across the whole world (triplanar)."
+  },
+  {
+   "id": "Air-22ee0ab5-010",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: first breath on the ice: cold, sparse, a single frosted synth pad and slow piano notes.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-011",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: cutting salvage: a rhythmic metallic pulse, focused and physical.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-012",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: greenhouse warmth: tender amber swells, slow piano, safety.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-013",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: the long walk: vast and lonely, wind-like textures and a distant melody.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-014",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: storm coming: tense low pulse, breath-like textures, oxygen running short.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-015",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: algae blooms: hopeful growing arpeggios, things coming alive.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-016",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: the wreck field: mysterious and metallic, slow drones and echoes.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-017",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: geothermal basin: a warm drone and shimmering wonder.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-018",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: rover across the plateau: moving and driving, steady synth bass.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-019",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Air score (cold, intimate sci-fi survival score, frosted analog synth pads, slow piano, breath-like textures, warm amber swells, no vocals). This one: a home against the cold: full, warm resolution, the homestead finally green.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/music_air_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-020",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "sfx",
+   "prompt": "foley: a pneumatic plasma cutter thump with a short searing hiss, heard through a helmet",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/sfx_cutter.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-021",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "sfx",
+   "prompt": "foley: brittle icy metal cracking apart with scattering frozen shards",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/sfx_ice_fracture.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Air-22ee0ab5-022",
+   "game": "ARCHIVE/Air-22ee0ab5",
+   "type": "sfx",
+   "prompt": "foley: low polar wind heard from inside a pressure helmet, muffled, distant metal groans, no voices, steady sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/Air-22ee0ab5/assets/sfx_polar_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The game loops this as ambience, so an even sustain without a hard start or end is ideal."
   }
  ]
 }
