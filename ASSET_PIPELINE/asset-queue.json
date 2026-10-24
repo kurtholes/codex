@@ -15,9 +15,9 @@
     "rig": "none (single rigid mesh; game animates it in code)"
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/matador.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Pin-it-on-the-wall bar applies."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:09:51Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 c4579966; Pixal3D crown 697,666 tris -> crowned low-poly door (decimate+bake) 7,986 tris, re-counted <= max_tris 8,000; origin 'feet, facing +Z' not understood; not applied; scaled so the largest extent = 1.8 m (x2.045); the output built and checked on alia/runner-test (commit 20e23937), md5 dac832b8 re-proved; (kept output reused)"
   },
   {
    "id": "StormDodger-1542e36e-002",
@@ -32,9 +32,9 @@
     "origin": "ground center"
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/barn.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Pin-it-on-the-wall bar applies."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:09:51Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 fe0fa59b; Pixal3D crown 699,333 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 9.0 m (x9.945); the output built and checked on alia/runner-test (commit 20e23937), md5 53628262 re-proved; (kept output reused)"
   },
   {
    "id": "StormDodger-1542e36e-003",
@@ -79,9 +79,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:09:51Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 696501; trimmed 2.136s -> 0.700s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "StormDodger-1542e36e-006",
@@ -94,9 +94,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_structure_break.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:09:51Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 898553; padded 1.127s -> 1.200s with silence; ogg/vorbis q6"
   },
   {
    "id": "StormDodger-1542e36e-007",
@@ -513,9 +513,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_cannon.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:09:51Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 539288; padded 0.362s -> 0.700s with silence; ogg/vorbis q6"
   },
   {
    "id": "Moonfall-ee7b1ff3-018",
@@ -528,9 +528,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_1.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": ""
+   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
   },
   {
    "id": "Moonfall-ee7b1ff3-019",
@@ -543,9 +543,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": ""
+   "notes": "alia-runner: failed: no preset matches; presets: pickup, laser, explosion, powerup, hit, jump, blip, footstep, splash, wind, heartbeat, uiClick"
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
@@ -558,9 +558,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_3.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:09:51Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 388409; padded 0.207s -> 1.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "UnderworldExcavator-60593e9d-001",
