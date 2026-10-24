@@ -1,0 +1,1 @@
+{"name":"hector-rising","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node test.mjs"},"devDependencies":{"playwright":"1.51.1"}}
