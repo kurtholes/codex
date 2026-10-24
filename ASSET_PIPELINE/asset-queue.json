@@ -79,9 +79,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T11:14:10Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-020005; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -8.7 -> -14.0 dB, peak -1.1 -> -6.4 dBFS (gain -5.3 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-020005; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -8.7 -> -14.0 dB, peak -1.1 -> -6.4 dBFS (gain -5.3 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path | Forge: reopened 2026-10-24. The 11:14Z re-delivery is byte-identical to the file reopened earlier (the reuse cache handed back the old output), so it still swells in and peaks at 0.30 s instead of hitting on frame one. Please skip the cache and render a fresh take: sharp transient in the first 20 ms, then decay."
   },
   {
    "id": "StormDodger-1542e36e-006",
@@ -543,9 +543,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T11:14:10Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-020006; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -10.5 -> -14.0 dB, peak -1.2 -> -4.6 dBFS (gain -3.5 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path"
+   "status": "open",
+   "delivered_at": null,
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-020006; onset 0.010s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.766s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -10.5 -> -14.0 dB, peak -1.2 -> -4.6 dBFS (gain -3.5 dB; target -14 dB RMS); ogg/vorbis q6; (kept output reused); identical bytes were already at the path | Forge: reopened 2026-10-24. The 11:14Z re-delivery is byte-identical to the earlier file (reuse cache returned the old output), still a flat -12 dB bed with no impact. Please skip the cache and render a fresh take with a clear hit up front and a tail that dies away."
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
