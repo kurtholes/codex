@@ -1953,6 +1953,415 @@
    "status": "open",
    "delivered_at": null,
    "notes": "The game loops this as ambience, so an even sustain without a hard start or end is ideal."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-001",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "model",
+   "prompt": "The bridgekeeper: a hooded figure in a heavy oilskin coat, battered gas respirator with two round amber goggle lenses, leather straps and buckles, thick gloves and sea boots, a rope coil and tool pouches on the belt. Stoic, weathered, made for storms. Palette from the image: violet-black storm sky, bruised purple sea, wet rust-brown timber, corroded iron, warm amber lantern light, pale sea foam.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 2.4,
+    "origin": "feet center, facing -Z",
+    "rig": "none (rigid; the game sways and bobs it)"
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/keeper.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player character, seen from behind in third person most of the time, so the back of the coat and hood should read well. No lantern in the hand: the lantern is a separate model (002) because it grows with upgrades."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-002",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "model",
+   "prompt": "A heavy storm lantern: riveted iron cage, thick amber glass chimney with a bright flame core, brass handle ring, salt-crusted. Palette from the image: violet-black storm sky, bruised purple sea, wet rust-brown timber, corroded iron, warm amber lantern light, pale sea foam.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 0.5,
+    "origin": "handle ring at top center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/lantern.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Hangs from the keeper's hand and scales up with lantern upgrades, so a clean single object. A glowing glass/emissive part is ideal."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-003",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "model",
+   "prompt": "A drowned sea horror climbing out of the waves: a barnacled crustacean-like creature with a hunched armoured shell, long jointed claws, dripping weed, a cluster of pale glowing eyes. Menacing but readable at a distance. Palette from the image: violet-black storm sky, bruised purple sea, wet rust-brown timber, corroded iron, warm amber lantern light, pale sea foam.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 3.6,
+    "origin": "belly center at waterline, facing +Z",
+    "rig": "none (rigid)"
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sea_horror.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Main enemy, spawned many times and scaled x1 to x1.5 (bosses x2.5). Silhouette matters more than fine detail."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-004",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "model",
+   "prompt": "A waterlogged wooden cargo crate bound with rusted iron straps, stencilled marks worn away, ropes and a little seaweed. Palette from the image: violet-black storm sky, bruised purple sea, wet rust-brown timber, corroded iron, warm amber lantern light, pale sea foam.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 600,
+    "scale_m": 1.4,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/cargo_crate.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Salvage you break open on the bridge; 36 of them in the world."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-005",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "model",
+   "prompt": "A rusted iron signal tower rising out of the sea: lattice legs, a small railed platform with a dead signal lamp, ladders, chains hanging into the water. Palette from the image: violet-black storm sky, bruised purple sea, wet rust-brown timber, corroded iron, warm amber lantern light, pale sea foam.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 12.0,
+    "origin": "base center at waterline",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/watchtower.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Iron towers along the route; the game stretches them between 8 and 14 m tall, so a tower that looks fine scaled in height is best."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-006",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "model",
+   "prompt": "A ruined round sea fort: a squat drum of stone and riveted iron plates, broken battlements, a collapsed walkway and a few glowing amber windows. Palette from the image: violet-black storm sky, bruised purple sea, wet rust-brown timber, corroded iron, warm amber lantern light, pale sea foam.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 24.0,
+    "origin": "base center at waterline",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sea_fort.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Fort drums are 16 to 32 m across in the game (scaled to fit)."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-007",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "model",
+   "prompt": "A tall jagged sea stack: dark wet basalt column with ledges, cracks and streaks of pale guano, foam at the base. Palette from the image: violet-black storm sky, bruised purple sea, wet rust-brown timber, corroded iron, warm amber lantern light, pale sea foam.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2500,
+    "scale_m": 40.0,
+    "origin": "base center at waterline",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sea_stack.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Instanced about 65 times between 25 and 80 m tall, so a tall, slightly tapering shape works best."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-008",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "texture",
+   "prompt": "Wet weathered bridge planks seen from above: dark rust-brown timber boards running in one direction, iron nails and bolt heads, salt stains, a sheen of rain, flat even lighting, no baked shadows. Palette from the image: violet-black storm sky, bruised purple sea, wet rust-brown timber, corroded iron, warm amber lantern light, pale sea foam.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/timber_planks_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Bridge deck (tiles along the plank length)."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-009",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "texture",
+   "prompt": "Heavily corroded riveted iron plate: orange-brown rust blooms over dark grey steel, rivet rows, salt streaks, flat even lighting, no baked shadows. Palette from the image: violet-black storm sky, bruised purple sea, wet rust-brown timber, corroded iron, warm amber lantern light, pale sea foam.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/rusted_iron_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Towers, fort plates, railings."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-010",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "texture",
+   "prompt": "Sea foam pattern seen from above: white lacy foam streaks and bubbles on pure black, no water colour, high contrast.",
+   "reference_image": "ARCHIVE/TheBridgekeeper-127d4570/reference/inspiration-127d4570.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sea_foam.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Mixed into the sea shader as a foam mask (white = foam), so pure black background please."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-011",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: night watch begins: low drone and a slow cello line, the lantern just lit",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-012",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: rain rolls in: brushed percussion like rain on oilskin, steady and patient",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-013",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: the first horrors: deeper pulse, bowed metal scrapes, quiet menace",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-014",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: holding the line: driving tom-tom rhythm, cello ostinato, rising tension",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-015",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: salvage run: lighter, a little hopeful, plucked strings over the sea",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-016",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: the storm peaks: full drums, foghorn chords, the bridge shaking",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-017",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: eye of the storm: almost still, a lone low whistle melody",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-018",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: something huge below: sub-bass swells, slow and enormous",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-019",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: lantern blazing: triumphant heavy brass and drums, the keeper wins the night",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-020",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Bridgekeeper score (brooding maritime storm score, low cello and bowed metal, distant foghorn drones, slow heavy drums like waves on pilings, no vocals). This one: dawn over the bridge: warm, tired resolution, waves calming",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/music_bridgekeeper_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-021",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "sfx",
+   "prompt": "foley: steady storm at sea from a wooden bridge: heavy rain, gusting wind, waves slapping on timber pilings, no thunder cracks, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sfx_storm_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as ambience, so an even sustain with no hard start or end."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-022",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "sfx",
+   "prompt": "foley: a heavy lantern flare: a deep whoomph of igniting oil followed by a short bright crackle and hiss",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sfx_lantern_bolt.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player's main attack."
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-023",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "sfx",
+   "prompt": "foley: a heavy blow cracking a crab shell, wet crunch and splash",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sfx_horror_hit.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-024",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "sfx",
+   "prompt": "footstep: a heavy boot on a wet wooden plank",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sfx_plank_step.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheBridgekeeper-127d4570-025",
+   "game": "ARCHIVE/TheBridgekeeper-127d4570",
+   "type": "sfx",
+   "prompt": "pickup: a low warm clank and chime as salvage is collected",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/TheBridgekeeper-127d4570/assets/sfx_salvage.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
   }
  ]
 }
