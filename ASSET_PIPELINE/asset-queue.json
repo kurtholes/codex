@@ -543,9 +543,9 @@
     "length_s": 1.4
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_impact_2.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:01Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-060221; onset 0.380s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.396s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -18.5 -> -19.5 dB, peak 0.0 -> -1.0 dBFS (gain -1.0 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6"
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_moonfall_ee7b1ff3_019_dd43ed_261024-060221; onset 0.380s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.4s from the onset; trimmed 3.396s -> 1.400s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -18.5 -> -19.5 dB, peak 0.0 -> -1.0 dBFS (gain -1.0 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6 | Forge: integrated 2026-10-24. This redelivery is a genuinely new take (md5 0c15d60c, was 2ca3dd74): hard crack in the first 0.15 s, then scattered rubble knocks that fade out. It joins sfx_impact_1/_3 in the near-impact pool (random pick, distance-scaled volume, 70 ms gap)."
   },
   {
    "id": "Moonfall-ee7b1ff3-020",
