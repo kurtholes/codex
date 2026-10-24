@@ -1348,9 +1348,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/palisade.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Repeated around the concentric walkways, like the fences in the image."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T15:19:22Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 3d3d9ffc; Pixal3D crown 698,716 tris -> crowned low-poly door (decimate+bake) 1,500 tris, re-counted <= max_tris 1,500; origin 'ground center, length along X, front facing +Z' not understood; not applied; scaled so the largest extent = 6.0 m (x7.186)"
   },
   {
    "id": "SmokeRing-5a1da71e-007",
@@ -1380,9 +1380,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/forest_mud_albedo.png",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Village ground (triplanar)."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T15:19:22Z",
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
   },
   {
    "id": "SmokeRing-5a1da71e-009",
