@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>OVERBOARD — Amber ocean survival</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="sea"></canvas>
+    <div id="vignette"></div>
+    <div id="spray"></div>
+    <header>
+      <div class="brand">
+        <span class="mark">≈</span>
+        <div>OVERBOARD<small>A SEA OF POSSIBILITY</small></div>
+      </div>
+      <div class="modes">
+        <button id="voyage" class="active">Voyage</button
+        ><button id="rescue">Quick rescue ↗</button>
+      </div>
+      <button id="settings" aria-label="Quality settings">
+        ◒ <span id="qualityLabel">AUTO</span>
+      </button>
+    </header>
+    <section id="leftHud">
+      <div class="eyebrow" id="modeLabel">OPEN WATER / DAY 01</div>
+      <h1 id="area">The Amber Reach</h1>
+      <p id="objective">A foothold in the endless.</p>
+      <div class="coordinates" id="coordinates">34° N &nbsp; 08° W</div>
+    </section>
+    <div id="reticle"><span></span><span></span></div>
+    <div id="interaction"></div>
+    <div id="numbers"></div>
+    <div id="toast"></div>
+    <aside id="compass">
+      <div>N</div>
+      <span>W ─── ◆ ─── E</span>
+      <div>S</div>
+    </aside>
+    <section id="bottom">
+      <div class="vitals">
+        <div class="meterlabel">
+          <span>STAMINA</span><span id="staminaText">100</span>
+        </div>
+        <div class="track"><i id="stamina"></i></div>
+        <div class="meterlabel exposurelabel">
+          <span>EXPOSURE</span><span id="exposureText">0%</span>
+        </div>
+        <div class="track exposure"><i id="exposure"></i></div>
+      </div>
+      <div id="actionbar">
+        <span><kbd>W A S D</kbd> Swim</span><span><kbd>SHIFT</kbd> Surge</span
+        ><span><kbd>E</kbd> Grab / board</span
+        ><span><kbd>SPACE</kbd> Lash / ram</span><span><kbd>B</kbd> Build</span
+        ><span><kbd>Q</kbd> Dive</span>
+      </div>
+      <button id="salvage" title="Open raft upgrades">
+        <span class="resourceIcon">▰</span><b id="wood">0</b
+        ><small>SALVAGE</small><span class="buildHint">B ↗</span>
+      </button>
+    </section>
+    <div id="build" class="panel hidden">
+      <div class="panelhead">
+        <div>
+          <div class="eyebrow">YOUR MOVING ISLAND</div>
+          <h2>Lash. Grow. Go.</h2>
+        </div>
+        <button id="closeBuild">✕</button>
+      </div>
+      <div id="upgrades"></div>
+      <p class="panelnote">Driftwood becomes possibility.</p>
+    </div>
+    <div id="finish" class="panel hidden">
+      <div class="eyebrow" id="resultLabel">RESCUED</div>
+      <h2 id="resultTitle">Another sunrise.</h2>
+      <p id="resultStats"></p>
+      <button id="again">Out to sea ↗</button>
+    </div>
+    <div id="quality" class="panel hidden">
+      <h2>Sea & light</h2>
+      <div class="qualitybuttons">
+        <button data-quality="low">Low</button
+        ><button data-quality="medium">Medium</button
+        ><button data-quality="high">High</button
+        ><button data-quality="auto">Auto</button>
+      </div>
+      <button id="mute">Sound: on</button>
+    </div>
+    <div id="touch">
+      <button data-key="w">↑</button><button data-key="a">←</button
+      ><button data-key="s">↓</button><button data-key="d">→</button
+      ><button data-key="e">E</button><button data-key=" ">◇</button>
+    </div>
+    <div id="fps" class="hidden"></div>
+    <script type="module" src="game.js"></script>
+  </body>
+</html>

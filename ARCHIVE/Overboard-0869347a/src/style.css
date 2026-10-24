@@ -1,0 +1,495 @@
+:root {
+  --cream: #f6e5bd;
+  --dim: #c9b88e;
+  --gold: #f6c96c;
+  --ink: #29271e;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #9f7542;
+  color: var(--cream);
+  font-family: Arial, sans-serif;
+}
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border: 1px solid #f1dbac33;
+  background: #29271e66;
+  border-radius: 4px;
+  padding: 12px 17px;
+  transition: 0.2s;
+}
+button:hover {
+  background: #e6c07833;
+  border-color: #f4d59b;
+}
+button:focus-visible {
+  outline: 2px solid var(--gold);
+}
+#sea,
+#vignette,
+#spray {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+#vignette {
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at 50% 40%,
+    transparent 40%,
+    #201b1740 100%
+  );
+}
+#spray {
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(ellipse at 18% 65%, #f7dc9d55, transparent 18%),
+    radial-gradient(ellipse at 85% 30%, #f7dc9d33, transparent 13%);
+  filter: blur(5px);
+}
+header {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  top: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  font-size: 21px;
+  letter-spacing: 6px;
+  font-weight: 600;
+  text-shadow: 0 2px 15px #4d361c;
+}
+.mark {
+  font-size: 48px;
+  line-height: 36px;
+  font-weight: 100;
+}
+.brand small {
+  display: block;
+  font-size: 8px;
+  letter-spacing: 3.2px;
+  margin-top: 8px;
+  color: var(--dim);
+}
+.modes {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 4px;
+  border: 1px solid #f1dbac22;
+  border-radius: 5px;
+  background: #392f2033;
+}
+.modes button {
+  border: 0;
+  background: none;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 9px 19px;
+}
+.modes .active {
+  background: #efd6a325;
+  color: #fff1d0;
+}
+#settings {
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: 0;
+  background: none;
+}
+#leftHud {
+  position: absolute;
+  left: 43px;
+  top: 142px;
+  text-shadow: 0 2px 20px #35261870;
+}
+.eyebrow {
+  font-size: 9px;
+  letter-spacing: 3px;
+  color: #e9d5a5;
+}
+h1 {
+  font-family: Georgia, serif;
+  font-size: 38px;
+  font-weight: 400;
+  margin: 13px 0 9px;
+  letter-spacing: -1px;
+}
+#objective {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+  color: #e2ceaa;
+  margin: 0;
+}
+.coordinates {
+  font-size: 9px;
+  letter-spacing: 3px;
+  opacity: 0.5;
+  margin-top: 27px;
+}
+#compass {
+  position: absolute;
+  right: 44px;
+  top: 148px;
+  text-align: center;
+  font-size: 9px;
+  line-height: 23px;
+  letter-spacing: 4px;
+  color: #eedab4aa;
+}
+#compass span {
+  font-size: 10px;
+}
+#reticle {
+  position: absolute;
+  left: 50%;
+  top: 49%;
+  width: 5px;
+  height: 5px;
+  border: 1px solid #ffefc788;
+  border-radius: 50%;
+  pointer-events: none;
+}
+#interaction {
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 7px #000;
+  text-align: center;
+}
+kbd {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 10px;
+  border: 1px solid #f4deb355;
+  padding: 4px 6px;
+  border-radius: 3px;
+  color: #f5e2bc;
+  margin-right: 7px;
+  background: #352c2233;
+}
+#bottom {
+  position: absolute;
+  bottom: 29px;
+  left: 42px;
+  right: 42px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 25px;
+}
+.vitals {
+  width: 162px;
+  flex-shrink: 0;
+}
+.meterlabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+.track {
+  height: 3px;
+  background: #f6dfb522;
+}
+.track i {
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #f2dfb5;
+  transition: width 0.15s;
+}
+.exposurelabel {
+  margin-top: 14px;
+  opacity: 0.6;
+}
+.exposure i {
+  background: #d1955a;
+  width: 0;
+}
+#actionbar {
+  display: flex;
+  gap: 17px;
+  font-size: 10px;
+  color: #e1d1b0;
+  align-items: center;
+  padding-bottom: 7px;
+}
+#actionbar span {
+  white-space: nowrap;
+}
+#salvage {
+  display: grid;
+  grid-template-columns: 30px 60px 25px;
+  align-items: center;
+  text-align: left;
+  padding: 10px 13px;
+  min-width: 152px;
+  border-color: #e4c58b33;
+  background: #2c281e88;
+}
+#salvage b {
+  font-size: 24px;
+  font-weight: 400;
+}
+#salvage small {
+  grid-column: 2;
+  font-size: 7px;
+  letter-spacing: 2px;
+  color: #cdbc96;
+}
+.resourceIcon {
+  font-size: 26px;
+  color: #d9b678;
+  grid-row: span 2;
+}
+.buildHint {
+  grid-column: 3;
+  grid-row: 1/3;
+  font-size: 10px;
+  color: #c6b48d;
+}
+.panel {
+  position: absolute;
+  right: 34px;
+  top: 105px;
+  width: 390px;
+  padding: 25px;
+  background: linear-gradient(140deg, #2b2a23f2, #353024f0);
+  border: 1px solid #e8ce9733;
+  box-shadow: 0 20px 80px #211b1740;
+  backdrop-filter: blur(18px);
+  border-radius: 6px;
+}
+.hidden {
+  display: none !important;
+}
+.panelhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.panelhead button {
+  padding: 6px;
+  background: none;
+  border: 0;
+}
+h2 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px 0 20px;
+}
+.upgrade {
+  display: grid;
+  grid-template-columns: 37px 1fr 65px;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 0;
+  border-bottom: 1px solid #efd4a91a;
+}
+.upgrade .icon {
+  font-size: 25px;
+  color: #e8c87e;
+}
+.upgrade strong {
+  font-weight: 400;
+  font-size: 13px;
+}
+.upgrade small {
+  display: block;
+  color: #c6b48c;
+  font-size: 9px;
+  margin-top: 5px;
+}
+.upgrade button {
+  padding: 9px 7px;
+  font-size: 11px;
+}
+.upgrade button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+.tiers {
+  letter-spacing: 3px;
+  color: #daba70;
+  font-size: 8px;
+  margin-top: 5px;
+}
+.panelnote {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 12px;
+  color: #baaa8b;
+  margin: 20px 0 0;
+}
+#toast {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 3px;
+  font-size: 11px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background: #30291e77;
+  padding: 12px 20px;
+  border-radius: 3px;
+}
+#numbers {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.float {
+  position: absolute;
+  left: 50%;
+  top: 49%;
+  color: #ffe1a2;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  animation: rise 1.2s forwards;
+  text-shadow: 0 2px 10px #46321d;
+}
+@keyframes rise {
+  to {
+    transform: translateY(-90px);
+    opacity: 0;
+  }
+}
+#finish {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#resultStats {
+  font-size: 13px;
+  color: var(--dim);
+  line-height: 1.8;
+}
+#again {
+  width: 100%;
+  margin-top: 15px;
+}
+#quality {
+  width: 290px;
+}
+.qualitybuttons {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+.qualitybuttons button {
+  padding: 9px;
+}
+#fps {
+  position: absolute;
+  bottom: 130px;
+  left: 40px;
+  font: 12px monospace;
+}
+#touch {
+  display: none;
+}
+@media (max-width: 900px) {
+  header {
+    left: 20px;
+    right: 20px;
+  }
+  .brand {
+    font-size: 15px;
+    letter-spacing: 3px;
+  }
+  .brand small {
+    font-size: 6px;
+  }
+  .modes {
+    top: 60px;
+  }
+  .modes button {
+    padding: 8px 12px;
+  }
+  #leftHud {
+    left: 22px;
+    top: 145px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  #actionbar {
+    display: none;
+  }
+  #bottom {
+    left: 22px;
+    right: 22px;
+  }
+  .panel {
+    right: 15px;
+    width: 350px;
+    max-height: 75vh;
+    overflow: auto;
+  }
+  #compass {
+    right: 20px;
+  }
+}
+@media (pointer: coarse) {
+  #touch {
+    display: flex;
+    position: absolute;
+    bottom: 130px;
+    left: 20px;
+    gap: 7px;
+  }
+  #touch button {
+    background: #30291e88;
+    padding: 16px;
+  }
+  #interaction {
+    top: 54%;
+  }
+}
+
+#beacon {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  color: #f1da9d;
+  border: 1px solid #e4ca8c55;
+  background: #38302366;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  line-height: 33px;
+  text-align: center;
+  pointer-events: none;
+  font-size: 23px;
+  text-shadow: 0 2px 5px #4b321d;
+}
+#beacon small {
+  display: block;
+  font-size: 9px;
+  letter-spacing: 1px;
+  line-height: 22px;
+}
