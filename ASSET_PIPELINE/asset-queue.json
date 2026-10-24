@@ -3860,6 +3860,379 @@
    "status": "open",
    "delivered_at": null,
    "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-001",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "model",
+   "prompt": "A monumental tarnished silver mechanical human face: stern brow, wide oval screaming mouth, layered orbital rings and bearings around two glowing white eyes, a round seal on the forehead, gears and cables around the edges like a broken machine cathedral. Palette from the image: pure black void, charcoal stone, tarnished silver, chalk-white paper, cold white eye glow, near-monochrome.",
+   "reference_image": "ARCHIVE/TodoTitan-f4cf4ff2/reference/inspiration-f4cf4ff2.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 30000,
+    "scale_m": 55.0,
+    "origin": "bottom center of the chin, face looking +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/titan_face.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The giant boss and backdrop, 55 m tall. The game spits paper from the mouth, so keep the mouth open and hollow. Glowing eyes as emissive."
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-002",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "model",
+   "prompt": "A faceless demolition worker in a long chalk-white coat seen from behind, dark hair, two small industrial hover engines at the hips glowing pale, a heavy silver staple cannon on the right arm. Palette from the image: pure black void, charcoal stone, tarnished silver, chalk-white paper, cold white eye glow, near-monochrome.",
+   "reference_image": "ARCHIVE/TodoTitan-f4cf4ff2/reference/inspiration-f4cf4ff2.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 2.2,
+    "origin": "feet center, facing -Z",
+    "rig": "none (rigid)"
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/worker.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player; the hover engines should glow."
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-003",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "model",
+   "prompt": "A tall cracked black stone legal monument pillar on a stepped base, recessed scales-of-justice relief on one face, a laurel wreath on another, fractures. Palette from the image: pure black void, charcoal stone, tarnished silver, chalk-white paper, cold white eye glow, near-monochrome.",
+   "reference_image": "ARCHIVE/TodoTitan-f4cf4ff2/reference/inspiration-f4cf4ff2.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 12.0,
+    "origin": "base center, scales relief facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/monument.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The destructible pillars."
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-004",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "model",
+   "prompt": "A messy stack of white paper forms and files with a few loose sheets on top, slightly curled. Palette from the image: pure black void, charcoal stone, tarnished silver, chalk-white paper, cold white eye glow, near-monochrome.",
+   "reference_image": "ARCHIVE/TodoTitan-f4cf4ff2/reference/inspiration-f4cf4ff2.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 1.5,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/paper_stack.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Paper targets on the floor."
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-005",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "model",
+   "prompt": "A heavy tarnished silver cog wheel with worn teeth. Palette from the image: pure black void, charcoal stone, tarnished silver, chalk-white paper, cold white eye glow, near-monochrome.",
+   "reference_image": "ARCHIVE/TodoTitan-f4cf4ff2/reference/inspiration-f4cf4ff2.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 2.0,
+    "origin": "center, axle along Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/gear.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Gear targets."
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-006",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "texture",
+   "prompt": "Fractured charcoal limestone floor slabs seen from above, fine cracks, a little dust, flat lighting, no baked shadows. Palette from the image: pure black void, charcoal stone, tarnished silver, chalk-white paper, cold white eye glow, near-monochrome.",
+   "reference_image": "ARCHIVE/TodoTitan-f4cf4ff2/reference/inspiration-f4cf4ff2.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/charcoal_stone_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-007",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "texture",
+   "prompt": "Tarnished brushed silver metal, dark patina in recesses, fine scratches, flat lighting. Palette from the image: pure black void, charcoal stone, tarnished silver, chalk-white paper, cold white eye glow, near-monochrome.",
+   "reference_image": "ARCHIVE/TodoTitan-f4cf4ff2/reference/inspiration-f4cf4ff2.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/tarnished_silver_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-008",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "texture",
+   "prompt": "Chalk-white unfinished forms with fine grey printed rules and boxes, abstract illegible stamps, no readable text, four sheets in a 2x2 atlas.",
+   "reference_image": "ARCHIVE/TodoTitan-f4cf4ff2/reference/inspiration-f4cf4ff2.jpg",
+   "spec": {
+    "format": "png",
+    "size": 512,
+    "tileable": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/paper_forms.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Applied to the paper waterfall sheets; each quarter is one sheet."
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-009",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: the cathedral wakes: slow organ drone and distant machine breath",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-010",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: paper falls: ticking typewriter rhythm over low strings",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-011",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: first stapler shots: punchy industrial percussion",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-012",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: eyes open: cold shimmering high strings, tension",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-013",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: rail surf: fast, driving, metallic pulse",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-014",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: the shredder: aggressive, grinding synth bass",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-015",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: between the pillars: quiet, echoing, lonely piano",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-016",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: the titan screams: massive brass and organ, overwhelming",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-017",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: inbox zero: playful, almost cheerful clockwork",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-018",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the To Do / Titan score (dark industrial orchestral score, huge machine breathing, ticking typewriter percussion, choir-less pipe organ drones, monochrome and cold, no vocals). This one: the machine stops: grand calm resolution, paper settling",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/music_titan_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-019",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "sfx",
+   "prompt": "foley: a heavy slow industrial staple discharge, compressed metallic thump and a hot mechanical ring",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/sfx_staple_cannon.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-020",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "sfx",
+   "prompt": "foley: a stone column buckling with a low rumble, masonry scattering and paper fluttering",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 2.0
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/sfx_pillar_collapse.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-021",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "sfx",
+   "prompt": "foley: a big burst of paper sheets flapping and scattering",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/sfx_paper_burst.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-022",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "sfx",
+   "prompt": "foley: a huge dark machine breathing slowly behind a rushing waterfall of paper, restrained industrial drone, no melody, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/sfx_machine_ambience.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as ambience."
+  },
+  {
+   "id": "TodoTitan-f4cf4ff2-023",
+   "game": "ARCHIVE/TodoTitan-f4cf4ff2",
+   "type": "sfx",
+   "prompt": "pickup: a crisp stamp thunk and small chime as a seal is collected",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/TodoTitan-f4cf4ff2/assets/sfx_seal_pickup.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
   }
  ]
 }
