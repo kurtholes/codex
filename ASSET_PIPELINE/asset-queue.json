@@ -7289,9 +7289,9 @@
     "length_s": 0.25
    },
    "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_footstep.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every step; plays constantly, so keep it soft."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:33Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset footstep seed 931138 (rule a: explicit '<preset>:' tag ('footstep:')); padded 0.104s -> 0.250s with silence; ogg/vorbis q6"
   },
   {
    "id": "VeilRunner-39180c08-021",
@@ -7319,9 +7319,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_route_chime.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "When you reach a guide and earn resonance."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:33Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 846947 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.319s -> 0.800s with silence; ogg/vorbis q6"
   },
   {
    "id": "VeilRunner-39180c08-023",
@@ -7334,9 +7334,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_city_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Ambient bed, looped, even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:33Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 971851 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.905s -> 4.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "VeilRunner-39180c08-024",
@@ -7349,9 +7349,9 @@
     "length_s": 0.5
    },
    "output_path": "ARCHIVE/VeilRunner-39180c08/assets/sfx_pulse.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "The click pulse."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:33Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 478655 (rule a: explicit '<preset>:' tag ('powerup:')); trimmed 0.539s -> 0.500s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "BlackwakeReach-a107ed12-001",
@@ -7710,9 +7710,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_cutlass.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Shore raids."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:33Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 911433 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.209s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "BlackwakeReach-a107ed12-023",
@@ -7725,9 +7725,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_gold.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:33Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 655903 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.284s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "BlackwakeReach-a107ed12-024",
