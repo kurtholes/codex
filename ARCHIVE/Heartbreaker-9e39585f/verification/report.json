@@ -1,0 +1,27 @@
+{
+  "state": {
+    "cores": 196,
+    "levels": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "kills": 15,
+    "wave": 2,
+    "hp": 250,
+    "quick": false,
+    "started": true,
+    "weapon": 0,
+    "time": 13.787425999999096,
+    "fps": 5.516135741458888,
+    "firstAction": 7979.9000000003725
+  },
+  "enemies": 1,
+  "persisted": "{\"cores\":195,\"levels\":[1,0,0,0,0,0]}",
+  "durationSeconds": 188.856,
+  "averageFPS": 5.001791931300256,
+  "errors": []
+}
