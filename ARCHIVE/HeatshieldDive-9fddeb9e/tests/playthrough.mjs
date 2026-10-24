@@ -3,7 +3,7 @@ import fs from 'node:fs';
 fs.mkdirSync('test-output',{recursive:true});
 const browser=await chromium.launch({executablePath:process.env.CHROME_PATH||'/usr/bin/google-chrome',headless:true,env:{...process.env,DISPLAY:process.env.TEST_DISPLAY||':1'},args:['--no-sandbox','--ozone-platform=x11','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-gpu-sandbox']});
 const page=await browser.newPage({viewport:{width:1280,height:720}}),errors=[],logs=[],fps=[],events=[];
-page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());else if(m.type()==='warning')logs.push(m.text())});
+page.on('pageerror',e=>errors.push(e.message));let leaving=false;page.on('console',m=>{if(m.type()==='error'){if(leaving&&/GLTFLoader: Couldn't load texture blob:/.test(m.text()))return;errors.push(m.text())}else if(m.type()==='warning')logs.push(m.text())});
 await page.goto('http://127.0.0.1:8080/src/?test=1');await page.waitForFunction(()=>window.__HEAT_TEST__);
 await page.selectOption('#quality','low');
 await page.screenshot({path:'test-output/00s.png'});
@@ -29,5 +29,6 @@ const report={durationSeconds:(performance.now()-start)/1000,timeToFirstAction:f
 fs.writeFileSync('test-output/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
 // Reload verifies saved progression; production verifies stripped dev switch and offline requests.
 await page.reload();await page.waitForFunction(()=>window.__HEAT_TEST__);report.persistence=await page.evaluate(()=>window.__HEAT_TEST__.save.levels[0]>0);
-const requests=[];page.on('request',r=>requests.push(r.url()));await page.goto('http://127.0.0.1:8080/dist/?test=1');await page.waitForTimeout(1500);report.productionHookAbsent=await page.evaluate(()=>!('__HEAT_TEST__'in window));report.externalRequests=requests.filter(u=>!u.startsWith('http://127.0.0.1:8080/'));await page.screenshot({path:'test-output/production.png'});fs.writeFileSync('test-output/report.json',JSON.stringify(report,null,2));
+const requests=[];page.on('request',r=>requests.push(r.url()));// Navigating away aborts the reloaded page's in-flight GLB texture decodes; GLTFLoader logs that abort as an error, which is noise.
+leaving=true;await page.goto('http://127.0.0.1:8080/dist/?test=1');leaving=false;await page.waitForTimeout(1500);report.productionHookAbsent=await page.evaluate(()=>!('__HEAT_TEST__'in window));report.externalRequests=requests.filter(u=>!u.startsWith('http://127.0.0.1:8080/'));await page.screenshot({path:'test-output/production.png'});fs.writeFileSync('test-output/report.json',JSON.stringify(report,null,2));
 await browser.close();if(errors.length||!rescued||!report.persistence||!report.productionHookAbsent)process.exitCode=1;

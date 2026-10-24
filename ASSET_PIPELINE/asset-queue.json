@@ -897,7 +897,7 @@
     "rig": "none (single rigid mesh; game leans and tilts it in code)"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/astronaut.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:34:28Z",
    "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 c87afb9d; Pixal3D crown 697,193 tris -> crowned low-poly door (decimate+bake) 7,982 tris, re-counted <= max_tris 12,000; origin 'feet, facing +Z' not understood; not applied; scaled so the largest extent = 1.8 m (x2.111)"
   },
@@ -933,7 +933,7 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/station_core.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:56:50Z",
    "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 24179ebb; Pixal3D crown 697,822 tris -> crowned low-poly door (decimate+bake) 7,986 tris, re-counted <= max_tris 15,000; origin 'center, long axis along +Z' not understood; not applied; scaled so the largest extent = 30.0 m (x33.72)"
   },
@@ -951,7 +951,7 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/solar_wing.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T12:04:56Z",
    "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 cf2a406a; Pixal3D crown 696,430 tris -> crowned low-poly door (decimate+bake) 3,000 tris, re-counted <= max_tris 3,000; origin 'snapped root end, panel extending along +X' not understood; not applied; scaled so the largest extent = 14.0 m (x15.28)"
   },
@@ -969,7 +969,7 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/salvage_fragment.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T12:16:41Z",
    "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 17015d31; Pixal3D crown 698,597 tris -> crowned low-poly door (decimate+bake) 500 tris, re-counted <= max_tris 500; scaled so the largest extent = 1.0 m (x1.08); origin = centre"
   },
@@ -987,7 +987,7 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/rescue_mast.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T12:27:47Z",
    "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 1f6f4532; Pixal3D crown 697,453 tris -> crowned low-poly door (decimate+bake) 7,984 tris, re-counted <= max_tris 8,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 24.0 m (x25.52)"
   },
@@ -1003,7 +1003,7 @@
     "tileable": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/fire_burst.png",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T12:27:47Z",
    "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024"
   },
@@ -1019,7 +1019,7 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/earth_ocean.png",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T12:37:57Z",
    "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 2048x2048; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
   },
@@ -1035,7 +1035,7 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/island_basalt.png",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T12:37:57Z",
    "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
   },
@@ -1051,7 +1051,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_01.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T12:44:11Z",
    "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1067,7 +1067,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_02.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T12:48:55Z",
    "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1083,7 +1083,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_03.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:02:10Z",
    "notes": "alia-runner: YuE2 crown, full length 116.7s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1099,7 +1099,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_04.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:17Z",
    "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1115,7 +1115,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_05.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:17:01Z",
    "notes": "alia-runner: YuE2 crown, full length 107.6s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1131,7 +1131,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_06.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:22:43Z",
    "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1147,7 +1147,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_07.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:29:45Z",
    "notes": "alia-runner: YuE2 crown, full length 80.0s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1163,7 +1163,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_08.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:40:10Z",
    "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1179,7 +1179,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_09.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:44:23Z",
    "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1195,7 +1195,7 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_10.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:47:06Z",
    "notes": "alia-runner: YuE2 crown, full length 64.8s, 3s fade out (length_s 100 was a hint only)"
   },
@@ -1210,7 +1210,7 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/sfx_reentry_roar.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:51:25Z",
    "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_heatshielddive_9fddeb9e_020_aebe14_261024-064430; onset 0.610s into the 6.59s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 4s from the onset; trimmed 5.982s -> 4.000s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -12.1 -> -14.0 dB, peak -5.0 -> -6.9 dBFS (gain -1.9 dB; target -14 dB RMS); ogg/vorbis q6"
   },
@@ -1225,7 +1225,7 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/sfx_shield_crack.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:57:33Z",
    "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_heatshielddive_9fddeb9e_021_22e637_261024-064712; onset 0.620s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.6s from the onset; trimmed 3.156s -> 0.600s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -24.3 -> -19.4 dB, peak -5.8 -> -1.0 dBFS (gain +4.8 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6"
   },
