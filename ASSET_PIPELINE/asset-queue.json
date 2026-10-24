@@ -915,9 +915,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/heatshield.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Flat board about 2 x 1 m and roughly 0.15 m thick. The game scales it up per shield tier."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:43:30Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 eeb657b5; Pixal3D crown 697,056 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'top surface center, long axis along +Z' not understood; not applied; scaled so the largest extent = 2.0 m (x2.112)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-003",
