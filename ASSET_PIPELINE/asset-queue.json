@@ -1099,9 +1099,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/music_heatshield_04.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:17Z",
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-014",
@@ -6520,9 +6520,9 @@
     "length_s": 0.35
    },
    "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_energy_pickup.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Plays many times in a row, so it should be soft."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 532446 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.326s -> 0.350s with silence; ogg/vorbis q6"
   },
   {
    "id": "TheSleepingOnes-3fbe3bda-021",
@@ -6535,9 +6535,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_shell_launch.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Firing a dream shell."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 244202 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.334s -> 0.600s with silence; ogg/vorbis q6"
   },
   {
    "id": "TheSleepingOnes-3fbe3bda-022",
@@ -6550,9 +6550,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_night_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped as an ambient bed, so an even sustain with no hard start or end."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 598585 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.740s -> 4.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "TheSleepingOnes-3fbe3bda-023",
@@ -6927,9 +6927,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_desert_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Ambient bed, looped."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 990696 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.884s -> 4.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "TheFinalMile-2797a12a-023",
@@ -6942,9 +6942,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_glass_burst.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Crystal shards breaking."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 886716 (rule a: explicit '<preset>:' tag ('explosion:')); trimmed 0.812s -> 0.600s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "TheFinalMile-2797a12a-024",
@@ -6957,9 +6957,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/TheFinalMile-2797a12a/assets/sfx_pickup.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:17Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 634926 (rule a: explicit '<preset>:' tag ('pickup:')); trimmed 0.303s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "VeilRunner-39180c08-001",
