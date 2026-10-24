@@ -834,8 +834,9 @@
     "length_s": 3.0
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_1.ogg",
-   "status": "open",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_017_2e699f_261024-035554; onset 0.630s into the 4.48s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.8s from the onset; trimmed 3.850s -> 1.800s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -12.0 -> -14.0 dB, peak -0.5 -> -2.5 dBFS (gain -2.0 dB; target -14 dB RMS); ogg/vorbis q6 | Forge: reopened 2026-10-24. The delivered take starts quiet (-33 dB), builds up, and is still at its loudest (-7 dB) when the 1.8 s cut lands, so it ends in a hard chop and has no crack at the front. Please give it the big fracture first and let the grit decay to silence; length_s raised to 3.0 so the tail fits."
+   "status": "delivered",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_017_2e699f_261024-062252; onset 0.940s into the 5.18s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 3s from the onset; trimmed 4.244s -> 3.000s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -15.5 -> -15.8 dB, peak -0.7 -> -1.0 dBFS (gain -0.3 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6",
+   "delivered_at": "2026-10-24T13:29:34Z"
   },
   {
    "id": "UnderworldExcavator-60593e9d-018",
