@@ -79,9 +79,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "alia-runner: reopened (was failed): our foley music check false-positived on a decaying sub-bass whoosh (raw-envelope autocorrelation); fixed to onset strength, 0.63 -> 0.28"
+   "status": "delivered",
+   "delivered_at": "2026-10-24T07:54:05Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_stormdodger_1542e36e_005_2cec7e_261024-004939; onset 0.220s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.7s from the onset; trimmed 3.556s -> 0.700s with a 20 ms fade; speech check: STT heard 0 words; ogg/vorbis q6"
   },
   {
    "id": "StormDodger-1542e36e-006",
@@ -354,9 +354,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/music_moonfall_01.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T07:54:05Z",
+   "notes": "alia-runner: YuE2 crown, full length 67.0s, 3s fade out (length_s 100 was a hint only)"
   },
   {
    "id": "Moonfall-ee7b1ff3-008",
