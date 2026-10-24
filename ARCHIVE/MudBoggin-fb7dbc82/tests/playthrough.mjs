@@ -1,0 +1,30 @@
+import {chromium} from 'playwright';
+import {createServer} from 'node:http';
+import {readFileSync,mkdirSync,writeFileSync} from 'node:fs';
+import {resolve,extname} from 'node:path';
+const root=resolve('.');
+const server=createServer((req,res)=>{try{const path=resolve(root,'.'+decodeURIComponent(req.url.split('?')[0]));if(!path.startsWith(root+'/'))throw Error();res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css'})[extname(path)]||'application/octet-stream');res.end(readFileSync(path));}catch{res.statusCode=404;res.end('missing')}}).listen(4178);
+mkdirSync('test-output',{recursive:true});
+const browser=await chromium.launch({headless:true,args:['--no-sandbox','--enable-webgl','--use-gl=angle','--use-angle=swiftshader','--disable-dev-shm-usage']});
+const page=await browser.newPage({viewport:{width:1280,height:800}});const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+try {
+const loadStarted=Date.now();await page.goto('http://localhost:4178/src/index.html?dev');await page.waitForFunction(()=>window.__mud);await page.selectOption('#quality','low');await page.screenshot({path:'test-output/00-start.png'});await page.keyboard.down('w');
+const started=Date.now();const samples=[];let shot30=false,upgraded=false,upgradeAttempted=false,logAt=0;const route=[{x:0,z:-45},{x:32,z:-92},{x:95,z:-110},{x:115,z:-30},{x:52,z:45},{x:-40,z:55},{x:-100,z:-25},{x:-95,z:-130},{x:-20,z:-170}];
+while(Date.now()-started<180000){await page.waitForTimeout(350);const wall=(Date.now()-started)/1000;const s=await page.evaluate(()=>window.__mud.state);samples.push(s);
+const p=route[s.gate];const desired=Math.atan2(-(p.x-s.x),-(p.z-s.z));const err=Math.atan2(Math.sin(desired-s.yaw),Math.cos(desired-s.yaw));await page.evaluate(({left,right,brake})=>{window.__mud.keys.a=left;window.__mud.keys.d=right;window.__mud.keys[' ']=brake},{left:err>.13,right:err<-.13,brake:Math.abs(err)>1.4&&s.speed>5});
+if(wall>=30&&!shot30){await page.screenshot({path:'test-output/30-seconds.png'});shot30=true;}
+if(wall>=42&&!upgradeAttempted&&s.cash>=245){upgradeAttempted=true;await page.keyboard.up('w');await page.click('#garageBtn');await page.evaluate(()=>{window.__mud.keys.a=false;window.__mud.keys.d=false;window.__mud.keys[' ']=false;window.__mud.buy(2);window.__mud.buy(2)});upgraded=await page.evaluate(()=>window.__mud.state.levels[2]===2);await page.screenshot({path:'test-output/first-upgrade.png'});await page.click('#close');await page.keyboard.press('c');await page.waitForTimeout(250);await page.screenshot({path:'test-output/first-upgrade-rig.png'});await page.keyboard.press('c');await page.keyboard.down('w');}
+if(wall-logAt>=30){console.log('Playthrough '+wall.toFixed(0)+'s · '+s.fps.toFixed(1)+' FPS · gates '+s.gates+' · $'+s.cash.toFixed(0));logAt=wall;}}
+await page.keyboard.up('w');await page.evaluate(()=>{window.__mud.keys.a=false;window.__mud.keys.d=false;window.__mud.keys[' ']=false});await page.screenshot({path:'test-output/180-seconds.png'});const final=await page.evaluate(()=>window.__mud.state);
+await page.reload();await page.waitForFunction(()=>window.__mud);const saved=await page.evaluate(()=>window.__mud.state);const saveRestored=saved.levels[2]===final.levels[2]&&Math.abs(saved.cash-final.cash)<25;
+// Dev currency exercises later branches independently of the earned upgrade loop.
+await page.evaluate(()=>{window.__mud.give(100000);for(let i=0;i<3;i++)window.__mud.buy(0);for(let i=0;i<3;i++)window.__mud.buy(5)});
+const prerequisiteHeld=await page.evaluate(()=>window.__mud.buy(0)===false);
+await page.evaluate(()=>{window.__mud.teleport(-10,-20);window.__mud.keys.shift=true});await page.waitForTimeout(800);const differential=(await page.locator('#ability').textContent()).includes('DIFF LOCKED');
+await page.evaluate(()=>{window.__mud.keys.shift=false;window.__mud.keys.e=true});const beforeWinch=await page.evaluate(()=>window.__mud.state.z);await page.waitForTimeout(1000);const winch=await page.evaluate(z=>window.__mud.state.z<z-.1,beforeWinch);await page.evaluate(()=>window.__mud.keys.e=false);await page.waitForTimeout(500);const paddles=(await page.locator('#ability').textContent()).includes('PADDLE');
+await page.click('#quick');await page.keyboard.down('w');await page.waitForTimeout(1500);const quick=await page.evaluate(()=>window.__mud.state.quick&&window.__mud.state.speed>0);await page.keyboard.up('w');await page.evaluate(()=>window.__mud.teleport(0,-155));await page.waitForFunction(()=>!document.getElementById('result').hidden);const quickFinished=await page.locator('#result').isVisible();await page.click('#retry');const retried=await page.evaluate(()=>window.__mud.state.quick&&window.__mud.state.z>0);
+await page.goto('http://localhost:4178/dist/index.html?dev');await page.waitForTimeout(2500);const productionHooks=await page.evaluate(()=>typeof window.__mud);await page.keyboard.down('w');await page.waitForTimeout(1200);const productionMotion=+(await page.locator('#speed').textContent())>0;await page.keyboard.up('w');
+const report={durationSeconds:180,timeToFirstAction:samples.find(s=>s.firstAction!==null)?.firstAction,loadToThrottleSeconds:(started-loadStarted)/1000,averageFps:samples.reduce((n,s)=>n+s.fps,0)/samples.length,minFps:Math.min(...samples.filter(s=>s.elapsed>3).map(s=>s.fps)),renderer:'Chromium headless SwiftShader; 1280×800 low',errors,upgraded,saveRestored,saved,prerequisiteHeld,differential,winch,paddles,quick,quickFinished,retried,productionHooks,productionMotion,final};
+report.passed=errors.length===0&&upgraded&&saveRestored&&prerequisiteHeld&&differential&&winch&&paddles&&quick&&quickFinished&&retried&&productionHooks==='undefined'&&productionMotion&&final.gates>0&&final.broken>0&&final.ruts>0;
+writeFileSync('test-output/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));if(!report.passed)process.exitCode=1;
+} finally {await browser.close();server.close();}
