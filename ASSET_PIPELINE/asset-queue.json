@@ -9344,6 +9344,396 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped while rolling, pitched by speed; even level, no hard start or end."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-001",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "model",
+   "prompt": "A monumental interlocked ancient wooden cross (an X of two beams), chipped endgrain, black ink fibre lines, ochre parchment palette, copper pegs, no symbols. Palette from the image: weathered golden-ochre parchment, charcoal ink lines and stipple, black-and-white checker pattern, warm wood grain, a rust-red cloak accent, dark stone around the edges.",
+   "reference_image": "ARCHIVE/ParallaxRuins-b01eaee5/reference/inspiration-b01eaee5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 30.0,
+    "origin": "at the hinge point where it tips (bottom of the cross), facing +Z",
+    "rig": "separate named nodes for the two beams"
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/cross_timber.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The first thing you push; it tips into a walkable causeway."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-002",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "model",
+   "prompt": "A hollow striated cliff segment of black-and-cream vertical stripes, like wooden basalt columns drawn in ink, with an open central doorway. Palette from the image: weathered golden-ochre parchment, charcoal ink lines and stipple, black-and-white checker pattern, warm wood grain, a rust-red cloak accent, dark stone around the edges.",
+   "reference_image": "ARCHIVE/ParallaxRuins-b01eaee5/reference/inspiration-b01eaee5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 25.0,
+    "origin": "ground center, doorway facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/striped_cathedral.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Modular; several placed side by side."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-003",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "model",
+   "prompt": "The tiny mapmaker: a rust-red cloak, a black bob-shaped hood framing an ivory face (as in the portrait in the image), a wooden staff. Palette from the image: weathered golden-ochre parchment, charcoal ink lines and stipple, black-and-white checker pattern, warm wood grain, a rust-red cloak accent, dark stone around the edges.",
+   "reference_image": "ARCHIVE/ParallaxRuins-b01eaee5/reference/inspiration-b01eaee5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 5000,
+    "scale_m": 1.5,
+    "origin": "feet, facing +Z",
+    "rig": "none (rigid; the game animates in code)"
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/mapmaker.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-004",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "model",
+   "prompt": "A twisted leafless ink-black tree with irregular branching on a small rocky parchment-coloured island. Palette from the image: weathered golden-ochre parchment, charcoal ink lines and stipple, black-and-white checker pattern, warm wood grain, a rust-red cloak accent, dark stone around the edges.",
+   "reference_image": "ARCHIVE/ParallaxRuins-b01eaee5/reference/inspiration-b01eaee5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 10.0,
+    "origin": "base of the island",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/bare_tree.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Landmark at the Bare Tree."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-005",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "model",
+   "prompt": "A thick square tile with a black-and-cream checker face and ink-drawn edges, slightly chipped. Palette from the image: weathered golden-ochre parchment, charcoal ink lines and stipple, black-and-white checker pattern, warm wood grain, a rust-red cloak accent, dark stone around the edges.",
+   "reference_image": "ARCHIVE/ParallaxRuins-b01eaee5/reference/inspiration-b01eaee5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 200,
+    "scale_m": 2.0,
+    "origin": "center of the top face",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/checker_tile.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Hundreds of them make the fractured checker paths."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-006",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "model",
+   "prompt": "A brittle wall of stacked inked parchment slabs with charcoal hatching. Palette from the image: weathered golden-ochre parchment, charcoal ink lines and stipple, black-and-white checker pattern, warm wood grain, a rust-red cloak accent, dark stone around the edges.",
+   "reference_image": "ARCHIVE/ParallaxRuins-b01eaee5/reference/inspiration-b01eaee5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 4.0,
+    "origin": "bottom center, face toward +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/ink_wall.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable walls."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-007",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "texture",
+   "prompt": "Weathered golden-ochre parchment seen straight on, fibrous grain, tiny charcoal stipple, stains, no lettering, flat lighting. Palette from the image: weathered golden-ochre parchment, charcoal ink lines and stipple, black-and-white checker pattern, warm wood grain, a rust-red cloak accent, dark stone around the edges.",
+   "reference_image": "ARCHIVE/ParallaxRuins-b01eaee5/reference/inspiration-b01eaee5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/parchment_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The world surface."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-008",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "texture",
+   "prompt": "Ancient engraved wood fibres in black ink etching on dry warm ochre, chipped grain, flat lighting. Palette from the image: weathered golden-ochre parchment, charcoal ink lines and stipple, black-and-white checker pattern, warm wood grain, a rust-red cloak accent, dark stone around the edges.",
+   "reference_image": "ARCHIVE/ParallaxRuins-b01eaee5/reference/inspiration-b01eaee5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/inked_wood_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The cross and timber."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-009",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: waking inside the parchment",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-010",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: the great cross tips over",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-011",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: closing one eye, the path appears",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-012",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: the striped cathedral, echoing",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-013",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: checker gardens, curious and light",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-014",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: the hollow cliffs, a long climb",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-015",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: a seal earned, a warm chord",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-016",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: wind across the dry parchment",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-017",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: the bare tree on its island",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-018",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Parallax Ruins score (warm mysterious chamber music: wooden marimba, plucked cello, soft woodwinds, distant breathy flute, a faint paper-rustle texture, no vocals). This one: the whole map at once, gentle resolve",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/music_parallax_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-019",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "sfx",
+   "prompt": "foley: heavy dry timber grinding over stone, a hard knock at the start then a scraping slide that fades",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.0
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_timber_scrape.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Pushing the cross."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-020",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "sfx",
+   "prompt": "foley: brittle ceramic and paper slabs cascading, a sharp crack at the start, then papery grit falling away to silence",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_collapse.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ink walls breaking."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-021",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "sfx",
+   "prompt": "pickup: delicate resonant wood chimes",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_seal.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Earning a seal."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-022",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "sfx",
+   "prompt": "powerup: a soft inhaling shimmer",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_sight.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Holding Q to see the bridge."
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-023",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "sfx",
+   "prompt": "jump: a light quick vault",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_vault.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ParallaxRuins-b01eaee5-024",
+   "game": "ARCHIVE/ParallaxRuins-b01eaee5",
+   "type": "sfx",
+   "prompt": "wind: a quiet warm wind across dry cliffs",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/ParallaxRuins-b01eaee5/assets/sfx_parchment_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ambient bed, looped."
   }
  ]
 }
