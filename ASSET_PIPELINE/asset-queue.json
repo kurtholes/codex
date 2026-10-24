@@ -11232,6 +11232,398 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped quietly as ambience, so an even sustain."
+  },
+  {
+   "id": "Overboard-0869347a-001",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "model",
+   "prompt": "An exhausted sea survivor swimming: dark wet canvas vest, short hair, warm umber skin, a rope belt, arms forward mid-stroke. Palette from the image: honey amber sunlight through sea haze, smoky umber shadow, pale ochre foam, warm straw rim light, salt-worn driftwood.",
+   "reference_image": "ARCHIVE/Overboard-0869347a/reference/inspiration-0869347a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 1.7,
+    "origin": "chest center, head facing -Z",
+    "rig": "separate named nodes for each arm and leg"
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/swimmer.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, a tiny figure in huge swells; silhouette matters most."
+  },
+  {
+   "id": "Overboard-0869347a-002",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "model",
+   "prompt": "A square salt-worn driftwood raft deck module: split planks lashed with frayed hemp rope over two barrel floats. Palette from the image: honey amber sunlight through sea haze, smoky umber shadow, pale ochre foam, warm straw rim light, salt-worn driftwood.",
+   "reference_image": "ARCHIVE/Overboard-0869347a/reference/inspiration-0869347a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 2.0,
+    "origin": "center of the deck top",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/raft_module.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Tiled on a 2 m grid as the raft grows."
+  },
+  {
+   "id": "Overboard-0869347a-003",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "model",
+   "prompt": "A small floating salvage bundle: a weathered crate lashed to a barrel with rope. Palette from the image: honey amber sunlight through sea haze, smoky umber shadow, pale ochre foam, warm straw rim light, salt-worn driftwood.",
+   "reference_image": "ARCHIVE/Overboard-0869347a/reference/inspiration-0869347a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 500,
+    "scale_m": 1.0,
+    "origin": "center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/salvage_crate.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The glinting salvage you swim toward."
+  },
+  {
+   "id": "Overboard-0869347a-004",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "model",
+   "prompt": "A broken wooden coastal cutter wreck: a fractured hull with exposed ribs, a crooked broken mast, hanging torn canvas. Palette from the image: honey amber sunlight through sea haze, smoky umber shadow, pale ochre foam, warm straw rim light, salt-worn driftwood.",
+   "reference_image": "ARCHIVE/Overboard-0869347a/reference/inspiration-0869347a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 18.0,
+    "origin": "center at the waterline, bow facing +Z",
+    "rig": "separate named nodes for hull, ribs, mast and canvas so they can break off"
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/wreck_cutter.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Smashed and salvaged in the ship graveyard."
+  },
+  {
+   "id": "Overboard-0869347a-005",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "model",
+   "prompt": "A modest old coastal steamer: long dark hull, cream wheelhouse, railings, short funnel, a mast with a signal flag. Palette from the image: honey amber sunlight through sea haze, smoky umber shadow, pale ochre foam, warm straw rim light, salt-worn driftwood.",
+   "reference_image": "ARCHIVE/Overboard-0869347a/reference/inspiration-0869347a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 27.0,
+    "origin": "center at the waterline, bow facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/rescue_steamer.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The rescue ship."
+  },
+  {
+   "id": "Overboard-0869347a-006",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "model",
+   "prompt": "A handmade bronze diving bell: riveted bronze dome, a circular dark porthole, brass rings, rope fittings on top. Palette from the image: honey amber sunlight through sea haze, smoky umber shadow, pale ochre foam, warm straw rim light, salt-worn driftwood.",
+   "reference_image": "ARCHIVE/Overboard-0869347a/reference/inspiration-0869347a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 2.5,
+    "origin": "bottom center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/diving_bell.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The depth upgrade."
+  },
+  {
+   "id": "Overboard-0869347a-007",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "model",
+   "prompt": "A jagged smoothed sea basalt rock, eroded layered forms, smoky umber. Palette from the image: honey amber sunlight through sea haze, smoky umber shadow, pale ochre foam, warm straw rim light, salt-worn driftwood.",
+   "reference_image": "ARCHIVE/Overboard-0869347a/reference/inspiration-0869347a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 8.0,
+    "origin": "base center at the waterline",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/sea_rock.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Reef and volcanic shallows, instanced and scaled."
+  },
+  {
+   "id": "Overboard-0869347a-008",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "texture",
+   "prompt": "Salt-worn driftwood planks seen straight on, warm umber and pale ochre grain, frayed rope marks, flat even lighting, no baked shadows. Palette from the image: honey amber sunlight through sea haze, smoky umber shadow, pale ochre foam, warm straw rim light, salt-worn driftwood.",
+   "reference_image": "ARCHIVE/Overboard-0869347a/reference/inspiration-0869347a.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/driftwood_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Raft and wreck planks."
+  },
+  {
+   "id": "Overboard-0869347a-009",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: alone in the swells: a slow lonely cello",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-010",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: the first plank: a hopeful marimba figure",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-011",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: lashing the raft: busy, rope-creak rhythm",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-012",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: sailing at last: wide, lilting, warm",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-013",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: the reef: calm, shimmering, shallow water",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-014",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: the ship graveyard: low, eerie bowed bronze",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-015",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: storm belt: driving, urgent, tall waves",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-016",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: volcanic shallows: dark, smoky, rumbling drones",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-017",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: diving bell descent: muffled, deep, wondrous",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-018",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Overboard score (gentle seafaring score: warm marimba, low cello, bowed bronze, soft wooden flute, a slow swell-like pulse, no vocals). This one: the rescue ship on the horizon: soaring, tender resolve",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/music_overboard_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-019",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "sfx",
+   "prompt": "splash: a close wet swimming stroke",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_swim_stroke.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every stroke, with pitch variation."
+  },
+  {
+   "id": "Overboard-0869347a-020",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "sfx",
+   "prompt": "hit: a solid timber thunk",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_grab.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Grabbing and lashing salvage."
+  },
+  {
+   "id": "Overboard-0869347a-021",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "sfx",
+   "prompt": "hit: a crisp plank fracture",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_plank_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breaking wreck pieces."
+  },
+  {
+   "id": "Overboard-0869347a-022",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "sfx",
+   "prompt": "pickup: a warm salvage chime",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_salvage.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Overboard-0869347a-023",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "sfx",
+   "prompt": "powerup: a brief hopeful rising shimmer",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.7
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_upgrade.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Each upgrade."
+  },
+  {
+   "id": "Overboard-0869347a-024",
+   "game": "ARCHIVE/Overboard-0869347a",
+   "type": "sfx",
+   "prompt": "wind: a warm wind over open sea",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_sea_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly over the synth surf, so an even sustain."
   }
  ]
 }
