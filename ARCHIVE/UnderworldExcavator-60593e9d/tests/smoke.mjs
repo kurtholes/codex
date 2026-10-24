@@ -1,0 +1,17 @@
+import {chromium} from 'playwright';
+import {writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({headless:true,args:['--no-sandbox','--disable-dev-shm-usage','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:960,height:600}}),errors=[],warnings=[],requests=[];
+page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());if(m.type()==='warning')warnings.push(m.text());});
+page.on('request',r=>requests.push(r.url()));
+await page.goto('http://localhost:8000/src/index.html?dev');await page.waitForFunction(()=>window.__excavator);
+await page.evaluate(()=>{__excavator.quality('low');__excavator.teleport(0,2,-5);__excavator.aim(0,-.04);__excavator.fire(1);});
+await page.waitForFunction(()=>__excavator.state.broken>0,{timeout:30000});
+const destroyed=await page.evaluate(()=>__excavator.state.broken);
+await page.evaluate(()=>{__excavator.teleport(0,-2.5,-75);__excavator.save();});
+await page.goto('http://localhost:8000/dist/index.html?dev');await page.waitForTimeout(4000);
+const hooksAbsent=await page.evaluate(()=>typeof window.__excavator==='undefined');
+await page.screenshot({path:'test-output/production-final.png'});
+const report={destroyed,hooksAbsent,errors,warnings,externalRequests:[...new Set(requests.filter(u=>!u.startsWith('http://localhost:8000'))) ]};
+await writeFile('test-output/smoke.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));
+await browser.close();if(errors.length||warnings.length||!hooksAbsent||destroyed<1)process.exitCode=1;
