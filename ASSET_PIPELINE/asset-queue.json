@@ -2719,6 +2719,362 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped as ambience."
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-001",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "model",
+   "prompt": "The hooded pilot: a figure in a long dark hooded raincoat and heavy boots, with two compact orange-glowing thruster packs on the back and a chunky plasma cannon on one arm. Lonely and calm. Palette from the image: night blue-grey haze, wet black asphalt, molten orange and electric violet cracks, huge copper-orange planet, neon red signs, charcoal brick.",
+   "reference_image": "ARCHIVE/DowntownDownfall-baf136c8/reference/inspiration-baf136c8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 5.0,
+    "origin": "feet center, facing -Z",
+    "rig": "none (rigid)"
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/pilot.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Player character seen from behind; the thrusters should glow orange (emissive)."
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-002",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "model",
+   "prompt": "A sleek flying saucer: dark gunmetal disc with a raised central dome, a ring of violet and white running lights underneath, panel lines. Palette from the image: night blue-grey haze, wet black asphalt, molten orange and electric violet cracks, huge copper-orange planet, neon red signs, charcoal brick.",
+   "reference_image": "ARCHIVE/DowntownDownfall-baf136c8/reference/inspiration-baf136c8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 36.0,
+    "origin": "center of disc",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/saucer.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Boss / sky enemy, 36 m wide."
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-003",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "model",
+   "prompt": "One 9 m tall floor segment of a cyberpunk skyscraper: dark concrete and steel frame, rows of dim windows, a few glowing red and violet signs (no readable text), ledges and pipes. Must stack cleanly top to bottom. Palette from the image: night blue-grey haze, wet black asphalt, molten orange and electric violet cracks, huge copper-orange planet, neon red signs, charcoal brick.",
+   "reference_image": "ARCHIVE/DowntownDownfall-baf136c8/reference/inspiration-baf136c8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 9.0,
+    "origin": "bottom center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/tower_segment.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Towers are built by stacking these and they break floor by floor, so a flat top and bottom that line up matter."
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-004",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "model",
+   "prompt": "A cluster of street rubble: broken concrete chunks, a bent street sign, rebar, a dumpster lid. Palette from the image: night blue-grey haze, wet black asphalt, molten orange and electric violet cracks, huge copper-orange planet, neon red signs, charcoal brick.",
+   "reference_image": "ARCHIVE/DowntownDownfall-baf136c8/reference/inspiration-baf136c8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 3.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/street_debris.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Scattered and thrown when towers fall."
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-005",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "texture",
+   "prompt": "The giant copper planet: equirectangular map of a rusty orange-copper world with darker bands, craters and pale dust storms, no stars, no background.",
+   "reference_image": "ARCHIVE/DowntownDownfall-baf136c8/reference/inspiration-baf136c8.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/planet_equirect.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Wrapped on the radius-245 planet sphere. 2048x1024 equirectangular is ideal."
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-006",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "texture",
+   "prompt": "Cyberpunk building facade: charcoal concrete with grid of windows, some lit warm orange, some violet, grime and rain streaks, flat lighting, no baked shadows. Palette from the image: night blue-grey haze, wet black asphalt, molten orange and electric violet cracks, huge copper-orange planet, neon red signs, charcoal brick.",
+   "reference_image": "ARCHIVE/DowntownDownfall-baf136c8/reference/inspiration-baf136c8.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/facade_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Tower walls; tiles both ways."
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-007",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "texture",
+   "prompt": "Wet black asphalt seen from above with branching cracks, the cracks filled with glowing molten orange and violet light, puddles, flat lighting. Palette from the image: night blue-grey haze, wet black asphalt, molten orange and electric violet cracks, huge copper-orange planet, neon red signs, charcoal brick.",
+   "reference_image": "ARCHIVE/DowntownDownfall-baf136c8/reference/inspiration-baf136c8.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/cracked_asphalt_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The street; the glow can be used as emissive."
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-008",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "texture",
+   "prompt": "Stained grey concrete, poster scraps and graffiti marks (no readable words), flat lighting. Palette from the image: night blue-grey haze, wet black asphalt, molten orange and electric violet cracks, huge copper-orange planet, neon red signs, charcoal brick.",
+   "reference_image": "ARCHIVE/DowntownDownfall-baf136c8/reference/inspiration-baf136c8.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/concrete_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-009",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: alone downtown: slow pad and a lonely arpeggio under the planet",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-010",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: thrusters on: driving bass line, the city lights blurring",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-011",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: first tower falls: heavier drums, gritty synth bass",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-012",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: saucer overhead: alien warble, tense pulsing",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-013",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: violet rain: dreamy, wide, slow chords",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-014",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: copper planet rising: big, cinematic, steady build",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-015",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: street chase: fast arpeggios, punchy drums",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-016",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: the skyline crumbles: dark, distorted, relentless",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-017",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: calm between waves: soft keys and rain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-018",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Downtown Downfall score (moody neon synthwave noir, slow analog bass, glassy arpeggios, rain-soaked reverb, distant city hum, no vocals). This one: last light downtown: warm bittersweet resolution",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/music_downtown_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-019",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "sfx",
+   "prompt": "laser: a heavy slow plasma cannon blast with a deep thump and a hissing orange tail",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/sfx_plasma_cannon.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-020",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "sfx",
+   "prompt": "foley: a concrete tower floor collapsing, deep rumble, glass shattering and debris scattering",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 2.0
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/sfx_tower_collapse.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-021",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "sfx",
+   "prompt": "foley: a steady jet thruster hum and soft roar, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 3.0
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/sfx_thruster_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped while flying."
+  },
+  {
+   "id": "DowntownDownfall-baf136c8-022",
+   "game": "ARCHIVE/DowntownDownfall-baf136c8",
+   "type": "sfx",
+   "prompt": "foley: an empty rainy city at night, distant sirens, electric neon buzz, wind between towers, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/DowntownDownfall-baf136c8/assets/sfx_city_ambience.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as ambience."
   }
  ]
 }
