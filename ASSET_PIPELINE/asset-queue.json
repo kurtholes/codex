@@ -8163,9 +8163,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/NeonWilds-0d5e7ef1/assets/sfx_garden_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Ambient bed, looped."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:53Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 976200 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.870s -> 4.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "CarbsOfDestiny-d397f2e8-001",
@@ -8525,9 +8525,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/sfx_grain_pickup.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:53Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 39918 (rule a: explicit '<preset>:' tag ('pickup:')); trimmed 0.301s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "CarbsOfDestiny-d397f2e8-023",
@@ -8540,9 +8540,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/sfx_hook.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Firing the hook."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:53Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 173313 (rule a: explicit '<preset>:' tag ('laser:')); trimmed 0.307s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "CarbsOfDestiny-d397f2e8-024",
@@ -8555,9 +8555,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/CarbsOfDestiny-d397f2e8/assets/sfx_flood_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Ambient bed, looped."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:53Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 323266 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.852s -> 4.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "WhiteoutRiders-e2f28e37-001",
@@ -8919,9 +8919,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_snow_thump.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Landings and collisions."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:53Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 585468 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.213s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "WhiteoutRiders-e2f28e37-023",
@@ -8934,9 +8934,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/WhiteoutRiders-e2f28e37/assets/sfx_payout.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Job complete / credits."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:11:53Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 925082 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.306s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "WhiteoutRiders-e2f28e37-024",
