@@ -6192,6 +6192,382 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped as ambience, so an even sustain with no hard start or end."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-001",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "model",
+   "prompt": "A serene sleeping giant: a huge smooth pale-cyan moon face with closed eyes, delicately carved eyelids and tiny lips, an irregular round skull, standing on a tall trunk of interwoven hollow roots like a mushroom stalk. No ornament. Palette from the image: midnight cobalt and violet night, luminous pale-cyan moon faces, rust-orange rail carriage, pearl-white gown, wet charcoal ballast, faint stars.",
+   "reference_image": "ARCHIVE/TheSleepingOnes-3fbe3bda/reference/inspiration-3fbe3bda.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 100.0,
+    "origin": "base of the root trunk at ground level, face looking +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sleeping_giant.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The landmark of every horizon; several stand around the rail yard. The face should glow softly by itself (emissive cyan). Draw it from the original image first."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-002",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "model",
+   "prompt": "The slender white traveler seen in the image: short dark hair, a luminous backless white gown that divides into long flowing fabric ribbons trailing behind her, an elegant quiet silhouette, bare arms. Palette from the image: midnight cobalt and violet night, luminous pale-cyan moon faces, rust-orange rail carriage, pearl-white gown, wet charcoal ballast, faint stars.",
+   "reference_image": "ARCHIVE/TheSleepingOnes-3fbe3bda/reference/inspiration-3fbe3bda.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 1.9,
+    "origin": "feet, facing +Z",
+    "rig": "none (rigid; the game sways the ribbons in code)"
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/traveler.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind in the chase camera most of the time, so the back and the ribbon train matter most."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-003",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "model",
+   "prompt": "A derelict 1930s rail carriage: rust-orange body with faded cobalt paint bands, broken windows with a dim warm glow inside, exposed wheel bogies, dented roof. Palette from the image: midnight cobalt and violet night, luminous pale-cyan moon faces, rust-orange rail carriage, pearl-white gown, wet charcoal ballast, faint stars.",
+   "reference_image": "ARCHIVE/TheSleepingOnes-3fbe3bda/reference/inspiration-3fbe3bda.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 17.0,
+    "origin": "bottom center between the bogies, long axis along Z",
+    "rig": "separate named nodes for roof, left side, right side, bogies so they can break apart"
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/rail_carriage.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The main breakable target; 20+ along the tracks."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-004",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "model",
+   "prompt": "An interwoven arch of pale-cyan deadwood roots spanning a gap, an organic load-bearing lattice with knotted intersections. Palette from the image: midnight cobalt and violet night, luminous pale-cyan moon faces, rust-orange rail carriage, pearl-white gown, wet charcoal ballast, faint stars.",
+   "reference_image": "ARCHIVE/TheSleepingOnes-3fbe3bda/reference/inspiration-3fbe3bda.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 5000,
+    "scale_m": 35.0,
+    "origin": "ground center under the arch, span along X",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/root_bridge.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable arch over the tracks."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-005",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "model",
+   "prompt": "A straight 10 m section of old railway track: two rusted rails on dark wooden sleepers over charcoal ballast, a few weeds. Palette from the image: midnight cobalt and violet night, luminous pale-cyan moon faces, rust-orange rail carriage, pearl-white gown, wet charcoal ballast, faint stars.",
+   "reference_image": "ARCHIVE/TheSleepingOnes-3fbe3bda/reference/inspiration-3fbe3bda.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 10.0,
+    "origin": "center of the section at ground level, rails along Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/rail_track.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Tiled end to end along the lines, so the ends should meet cleanly."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-006",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "model",
+   "prompt": "An old railway signal post with a round lamp glowing pale cyan, rusted iron ladder, small hooded lamp housing. Palette from the image: midnight cobalt and violet night, luminous pale-cyan moon faces, rust-orange rail carriage, pearl-white gown, wet charcoal ballast, faint stars.",
+   "reference_image": "ARCHIVE/TheSleepingOnes-3fbe3bda/reference/inspiration-3fbe3bda.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 6.0,
+    "origin": "base of the post, lamp facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/signal_lamp.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Scattered along the tracks as light sources."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-007",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "texture",
+   "prompt": "Railway ground seen straight down: basalt rubble and fine rust gravel over wet charcoal soil, cobalt-tinted shadows between stones, flat even lighting, no baked shadows. Palette from the image: midnight cobalt and violet night, luminous pale-cyan moon faces, rust-orange rail carriage, pearl-white gown, wet charcoal ballast, faint stars.",
+   "reference_image": "ARCHIVE/TheSleepingOnes-3fbe3bda/reference/inspiration-3fbe3bda.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/ground_ballast_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The whole yard floor."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-008",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "texture",
+   "prompt": "A deep midnight sky panorama: violet and cobalt gradient, a soft band of thin violet fog low on the horizon, sparse faint stars, no moon, no land. Palette from the image: midnight cobalt and violet night, luminous pale-cyan moon faces, rust-orange rail carriage, pearl-white gown, wet charcoal ballast, faint stars.",
+   "reference_image": "ARCHIVE/TheSleepingOnes-3fbe3bda/reference/inspiration-3fbe3bda.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/night_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Sky dome."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-009",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: the first step onto the tracks under the sleeping faces",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-010",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: floating up into violet fog",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-011",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: a slow shell arcing toward a carriage",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-012",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: quiet after thunder, energy drifting home",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-013",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: a lullaby for giants who never wake",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-014",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: the far yard, stranger silhouettes on the horizon",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-015",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: ribbons in the wind at high altitude",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-016",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: rust and starlight, a gentle pulse",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-017",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: a vast slow swell as the giants loom close",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-018",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Sleeping Ones score (wordless midnight dream music: slow cobalt drones, bowed metal, soft celesta, distant railway hums, no percussion, no vocals). This one: dawn that never comes, the dream fades",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/music_sleeping_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-019",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "sfx",
+   "prompt": "foley: one enormous distant thunder crack with buckling steel right at the start, then debris and a long dreamy rumble dying away to silence",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.5
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_shell_impact.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every shell impact. Loudest in the first 100 ms, then falls away."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-020",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "sfx",
+   "prompt": "pickup: a delicate glass harmonic chime as cyan energy is absorbed",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.35
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_energy_pickup.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Plays many times in a row, so it should be soft."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-021",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "sfx",
+   "prompt": "laser: a soft descending dreamy launch, low and rounded",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_shell_launch.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Firing a dream shell."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-022",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "sfx",
+   "prompt": "wind: a low soft night wind across open rail yards",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_night_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as an ambient bed, so an even sustain with no hard start or end."
+  },
+  {
+   "id": "TheSleepingOnes-3fbe3bda-023",
+   "game": "ARCHIVE/TheSleepingOnes-3fbe3bda",
+   "type": "sfx",
+   "prompt": "foley: a rusted steel rail carriage panel tearing and crumpling, a hard metal crunch at the start then rattling pieces falling away",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_carriage_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "When a carriage breaks; hit first, then fall-off."
   }
  ]
 }
