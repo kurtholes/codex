@@ -1,0 +1,1 @@
+{"name":"todo-titan","private":true,"type":"module","scripts":{"build":"node build.mjs","serve":"python3 -m http.server 8000","test":"node tests/playthrough.mjs"},"devDependencies":{"playwright":"1.55.1"}}
