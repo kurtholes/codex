@@ -12657,6 +12657,432 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Exposing the culprit."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-001",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "model",
+   "prompt": "A shaggy medium-sized shepherd mix dog: honey russet fur, a charcoal saddle, cream chest and muzzle, soft floppy ears, expressive dark eyes, standing. Stylized painterly 3D. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 2.0,
+    "origin": "feet center, nose facing +Z",
+    "rig": "separate named nodes for head, tail and each leg"
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/dog.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The first body you possess, seen from behind; 2 m nose to tail at game scale. Draw from the original image first."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-002",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "model",
+   "prompt": "A small red-haired boy with spiky orange hair and a red flower in it, a red t-shirt, green shorts, a green backpack, standing hopeful. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 2.3,
+    "origin": "feet center, facing +Z",
+    "rig": "none (rigid; the game animates it in code)"
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/kid.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The kid you're making the afternoon better for; on screen most of the time."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-003",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "model",
+   "prompt": "A small mint and deep teal swallow with a cream breast, long wings spread in a glide and a forked tail. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 1.5,
+    "origin": "center of mass, beak facing +Z",
+    "rig": "separate named nodes for each wing"
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/swallow.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The flying body; 1.5 m wingspan at game scale."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-004",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "model",
+   "prompt": "A kindly neighbourhood gardener: teal shirt, warm brown shorts, comfortable shoes, warm skin, an approachable rounded silhouette. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 3.0,
+    "origin": "feet center, facing +Z",
+    "rig": "none (rigid; the game animates it in code)"
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/neighbor.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The building body."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-005",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "model",
+   "prompt": "An ethereal elongated amber humanoid made of glowing golden fibres: a huge gentle smooth head, long delicate hands, the lower body dissolving into loose filaments. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 4.0,
+    "origin": "center of the lowest filaments, facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/guardian.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "You, the guardian, hovering behind each body. Fully emissive amber; the game draws it additive and translucent."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-006",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "model",
+   "prompt": "A mint-hazed small garden house with warm weathered wood trim, a pitched roof, flower boxes under the windows. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 8.0,
+    "origin": "base center, front facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/garden_house.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Neighbourhood homes, placed several times."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-007",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "model",
+   "prompt": "A warm weathered wooden crate with slightly loose boards. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 300,
+    "scale_m": 1.0,
+    "origin": "bottom center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/crate.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Crates and carts you smash; instanced."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-008",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "model",
+   "prompt": "A handmade kickabout football goal of wooden poles and a loose rope net. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 3.0,
+    "origin": "bottom center, mouth facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/kickabout_goal.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The kid's goal."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-009",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "texture",
+   "prompt": "Golden-green summer meadow grass seen from above, soft painterly variation, a few small wildflowers, flat even lighting, no baked shadows. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/meadow_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The meadow, world-space triplanar."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-010",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "texture",
+   "prompt": "A dusty cream footpath seen from above, fine gravel and packed earth, flat even lighting, no baked shadows. Palette from the image: golden-green summer grass, warm honey sunlight, mint-teal hazy sky and city, russet and cream dog fur, a red shirt, glowing amber guardian filaments.",
+   "reference_image": "ARCHIVE/BorrowedPaws-212e00e5/reference/inspiration-212e00e5.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/footpath_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Paths."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-011",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: a sunny afternoon: gentle ukulele and glockenspiel",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-012",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: the dog bounds off: playful, bouncy guitar",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-013",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: fetch!: quick, cheerful, hand claps",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-014",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: flying as the swallow: airy flute, soaring strings",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-015",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: the neighbour's garden: warm, cosy, easy strum",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-016",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: the kid kicks the ball: bright, joyful lift",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-017",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: the workshop: busy, plucky, building rhythm",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-018",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: riverside: calm, sparkling, slow",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-019",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: golden threads: dreamy, magical shimmer",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-020",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Borrowed Paws score (warm hopeful acoustic score: ukulele, acoustic guitar, glockenspiel, soft strings, light hand percussion, gentle flute, no vocals). This one: sunset walk home: tender, warm finish",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/music_borrowedpaws_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-021",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "sfx",
+   "prompt": "powerup: an airy golden rush",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_possess.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every possession."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-022",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "sfx",
+   "prompt": "hit: a soft strong thump",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_body_check.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Dog shoulder checks."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-023",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "sfx",
+   "prompt": "explosion: a small dry wooden crate bursting",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.7
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_crate_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Fences and crates."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-024",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "sfx",
+   "prompt": "pickup: a warm rising four-note sparkle",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_kindness.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Kindness reward and sunshine."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-025",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "sfx",
+   "prompt": "jump: a light bouncy hop",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_bound.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Dog bound and bird take-off."
+  },
+  {
+   "id": "BorrowedPaws-212e00e5-026",
+   "game": "ARCHIVE/BorrowedPaws-212e00e5",
+   "type": "sfx",
+   "prompt": "wind: a soft summer breeze over a meadow",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/BorrowedPaws-212e00e5/assets/sfx_meadow_breeze.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly as ambience (the game has none yet), so an even sustain."
   }
  ]
 }
