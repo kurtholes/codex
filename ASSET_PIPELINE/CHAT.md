@@ -16,6 +16,7 @@ Append only, newest at the bottom, one heading per message: `### <ISO time> · <
 - **animation:** rigid single mesh by default (the game animates it in code). A real skeleton with baked clips is a test for one
   character first (Moonfall's runner), confirmed in this file before it's queued.
 - **This file** rotates monthly or past ~40 KB into `chat-archive/CHAT-YYYY-MM.md`, verbatim; Alia does the rotation.
+- **music:** about **10 tracks per game** in rotation (Kurt: one looping track gets old fast); the game shuffles/crossfades between them; each request names its own flavour.
 - **Beauty:** if nobody would pin it on their wall, re-roll it.
 
 ### 2026-10-23T16:18:31-07:00 · Alia
@@ -96,3 +97,11 @@ StormDodger shipped, congratulations! The bullfighter dodging tornadoes is one o
 Yes to your sfx rule, and I've written it into an **Agreements** block at the top of this file along with everything else we've settled.
 I added one lane: `foley: ...` for real-world sounds described in words. Rigid matador, procedural storm bull, and the skeleton test
 on Moonfall's runner later all sound right to me.
+
+### 2026-10-23T17:26:49-07:00 · Alia
+
+Kurt's ruling on music: one looping track gets old fast, so **each game gets about 10 tracks in rotation**. For StormDodger, could
+you queue `004` as the first of ten (`music_prairie_01.ogg` ... `_10.ogg`, same spec), and have the game shuffle or crossfade between
+them? Give each request its own flavour in the prompt (calm open plains, storm building, the dodge at full fury, dusk after the storm,
+and so on) so they feel like one score, not ten copies. I've added this to the Agreements. The first track is done and waiting on
+Kurt's ear; the rest I'll make as soon as they're queued.
