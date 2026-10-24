@@ -2362,6 +2362,363 @@
    "status": "open",
    "delivered_at": null,
    "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-001",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "model",
+   "prompt": "The Bass Revenant: a tall hooded figure in a long tattered black cloak, a skull face half-covered by an industrial respirator, two glowing cyan eye points, a heavy speaker-cone gauntlet on one arm, cables and straps across the chest. Palette from the image: rain-black rooftops, deep crimson fog, electric cyan neon, bone white, wet concrete grey.",
+   "reference_image": "ARCHIVE/BassRevenant-dfc51149/reference/inspiration-dfc51149.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 10000,
+    "scale_m": 4.4,
+    "origin": "feet center, facing -Z",
+    "rig": "none (rigid; the game animates by moving the whole model)"
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/revenant.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Player character, mostly seen from behind. The cyan eyes and the cloak silhouette are what sell it."
+  },
+  {
+   "id": "BassRevenant-dfc51149-002",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "model",
+   "prompt": "A battered rooftop sound system stack: two big black cabinets with twin woofers, grilles, gaffer tape, cables, a cyan power light. Palette from the image: rain-black rooftops, deep crimson fog, electric cyan neon, bone white, wet concrete grey.",
+   "reference_image": "ARCHIVE/BassRevenant-dfc51149/reference/inspiration-dfc51149.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 2.4,
+    "origin": "base center, cones facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/speaker_stack.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Placed on every captured rooftop rig. If the woofer cones can be separate meshes named cone_* the game can pump them to the bass, but a single mesh is fine too."
+  },
+  {
+   "id": "BassRevenant-dfc51149-003",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "model",
+   "prompt": "A spectral samurai made of crimson fog: armour plates and a tall conical kabuto helmet, a katana held low, the edges dissolving into red mist, faceless dark visor. Palette from the image: rain-black rooftops, deep crimson fog, electric cyan neon, bone white, wet concrete grey.",
+   "reference_image": "ARCHIVE/BassRevenant-dfc51149/reference/inspiration-dfc51149.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 4.0,
+    "origin": "feet center, facing +Z",
+    "rig": "none (rigid)"
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/fog_samurai.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The enemy, many at once; the game tints it red and fades it, so a solid readable armoured silhouette matters most."
+  },
+  {
+   "id": "BassRevenant-dfc51149-004",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "model",
+   "prompt": "A rooftop broadcast rig: steel scaffold tower with a big dish, antenna mast, speaker horns and a small control hut, cables everywhere, cyan lights. Palette from the image: rain-black rooftops, deep crimson fog, electric cyan neon, bone white, wet concrete grey.",
+   "reference_image": "ARCHIVE/BassRevenant-dfc51149/reference/inspiration-dfc51149.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 5000,
+    "scale_m": 9.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/rooftop_rig.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The 9 capture points."
+  },
+  {
+   "id": "BassRevenant-dfc51149-005",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "model",
+   "prompt": "A narrow old city tower top with a tall vertical neon sign frame (blank glowing panels, no readable text), water tanks and AC units on the roof, rain-wet. Palette from the image: rain-black rooftops, deep crimson fog, electric cyan neon, bone white, wet concrete grey.",
+   "reference_image": "ARCHIVE/BassRevenant-dfc51149/reference/inspiration-dfc51149.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 30.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/neon_sign_tower.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Background skyline pieces; the game scales them."
+  },
+  {
+   "id": "BassRevenant-dfc51149-006",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "texture",
+   "prompt": "Wet tar rooftop seen from above: dark grey bitumen and concrete patches, puddles reflecting cyan and red light, drains and cracks, flat lighting, no baked shadows. Palette from the image: rain-black rooftops, deep crimson fog, electric cyan neon, bone white, wet concrete grey.",
+   "reference_image": "ARCHIVE/BassRevenant-dfc51149/reference/inspiration-dfc51149.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/wet_rooftop_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-007",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "texture",
+   "prompt": "Grimy old city brick facade with dark windows in a regular grid, a few lit warm and cyan, rain streaks, flat lighting. Palette from the image: rain-black rooftops, deep crimson fog, electric cyan neon, bone white, wet concrete grey.",
+   "reference_image": "ARCHIVE/BassRevenant-dfc51149/reference/inspiration-dfc51149.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/brick_facade_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Tower walls; tiles in both directions."
+  },
+  {
+   "id": "BassRevenant-dfc51149-008",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: rain on the rooftops: sparse dub intro, echoing rim shots and a deep sub",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-009",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: the first rig: steady heavy riddim, bass that you feel more than hear",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-010",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: fog rolls in: darker, minor-key organ stabs, echoes stretching out",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-011",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: samurai on the roof: tense, shorter loops, metallic hits like drawn steel",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-012",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: the drop: massive wobbling bass, full kit, rooftop shaking",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-013",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: neon and rain: melodic, cyan-coloured synth line over the riddim",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-014",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: dub siren night: playful siren echoes, rolling bass",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-015",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: the crimson storm: heaviest track, distorted sub, relentless drums",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-016",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: the city answers: half-time, wide reverb, slow and huge",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-017",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Bass Revenant score (dark rain-soaked dub, about 100 BPM, huge sub bass, tape-echo snares, crimson fog atmosphere, no vocals). This one: dawn rig: warm, rich resolution, the whole skyline humming",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/music_bassrevenant_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-018",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "sfx",
+   "prompt": "foley: a huge sub bass drop hitting through a speaker stack, deep thump and short rattle of the cabinet",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/sfx_bass_drop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The main charged attack."
+  },
+  {
+   "id": "BassRevenant-dfc51149-019",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "sfx",
+   "prompt": "foley: a katana blade parried by a metal gauntlet, sharp ring with a fizzing mist tail",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/sfx_katana_counter.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-020",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "sfx",
+   "prompt": "explosion: a rooftop structure collapsing in a deep bass-heavy crunch",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/sfx_demolition.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-021",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "sfx",
+   "prompt": "powerup: a rising electric hum as a rooftop rig comes online",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/sfx_capture.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "BassRevenant-dfc51149-022",
+   "game": "ARCHIVE/BassRevenant-dfc51149",
+   "type": "sfx",
+   "prompt": "foley: heavy city rain on rooftops and metal vents, distant traffic hum, no voices, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/BassRevenant-dfc51149/assets/sfx_rain_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as ambience."
   }
  ]
 }
