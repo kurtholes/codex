@@ -1240,9 +1240,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/sfx_salvage_ping.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:58:18Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 521182 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.291s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 521182 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.291s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24 as the salvage pickup sound (every reward(): debris salvage, near-miss skims, collisions). Bright and clean, hits at sample 0 and is gone by 0.3 s; pitch rises ~6% per combo step (capped at 1.6x) with a little random detune so a chain sings upward instead of repeating; rate-limited to one per 45 ms. Falls back to the old sine blip if the file is missing. Tested headless: decodes (0.41 s), no console errors, tests/smoke.mjs passes (36 purchases, 60 s quick run)."
   },
   {
    "id": "SmokeRing-5a1da71e-001",
