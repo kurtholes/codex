@@ -13439,6 +13439,361 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped quietly as ambience, so an even sustain."
+  },
+  {
+   "id": "ManyPaths-01e1599d-001",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "model",
+   "prompt": "A faceless lone traveller in a long midnight-blue coat with glowing gold seams and an elegant wind-swept hem, mid-stride. Palette from the image: deep navy cosmos, a peach sunrise horizon, mirror-calm silver water, electric blue light trails, lavender mist, warm gold seams.",
+   "reference_image": "ARCHIVE/ManyPaths-01e1599d/reference/inspiration-01e1599d.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 1.8,
+    "origin": "feet center, facing +Z",
+    "rig": "separate named nodes for torso, each arm and each leg"
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/traveler.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind against the sunrise; silhouette and gold seams (emissive) matter most."
+  },
+  {
+   "id": "ManyPaths-01e1599d-002",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "model",
+   "prompt": "A jagged alien alpine peak of navy basalt with intricate craggy ridges and lavender mist at its base. Palette from the image: deep navy cosmos, a peach sunrise horizon, mirror-calm silver water, electric blue light trails, lavender mist, warm gold seams.",
+   "reference_image": "ARCHIVE/ManyPaths-01e1599d/reference/inspiration-01e1599d.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 5000,
+    "scale_m": 120.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/mountain_peak.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Distant mountains, placed and rotated many times."
+  },
+  {
+   "id": "ManyPaths-01e1599d-003",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "model",
+   "prompt": "A fan-shaped cluster of fragile translucent ice shards, pale blue with a warm-white inner glow. Palette from the image: deep navy cosmos, a peach sunrise horizon, mirror-calm silver water, electric blue light trails, lavender mist, warm gold seams.",
+   "reference_image": "ARCHIVE/ManyPaths-01e1599d/reference/inspiration-01e1599d.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 3.0,
+    "origin": "base center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/crystal_fan.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Shatter targets along the route; instanced. Glassy, emissive core."
+  },
+  {
+   "id": "ManyPaths-01e1599d-004",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "model",
+   "prompt": "A monumental ancient basalt arch with fractured voussoirs and thin luminous gold seams. Palette from the image: deep navy cosmos, a peach sunrise horizon, mirror-calm silver water, electric blue light trails, lavender mist, warm gold seams.",
+   "reference_image": "ARCHIVE/ManyPaths-01e1599d/reference/inspiration-01e1599d.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 30.0,
+    "origin": "base center, opening facing +Z",
+    "rig": "separate named nodes for each voussoir block"
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/basalt_arch.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Landmarks and sunken ruins; slams break them."
+  },
+  {
+   "id": "ManyPaths-01e1599d-005",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "texture",
+   "prompt": "Weathered blue-black basalt seen straight on with pale lavender mineral veins, flat even lighting, no baked shadows. Palette from the image: deep navy cosmos, a peach sunrise horizon, mirror-calm silver water, electric blue light trails, lavender mist, warm gold seams.",
+   "reference_image": "ARCHIVE/ManyPaths-01e1599d/reference/inspiration-01e1599d.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/basalt_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "All rock, world-space triplanar."
+  },
+  {
+   "id": "ManyPaths-01e1599d-006",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "texture",
+   "prompt": "An impossible cratered moon surface map: dark navy and grey craters, no stars, no background. Palette from the image: deep navy cosmos, a peach sunrise horizon, mirror-calm silver water, electric blue light trails, lavender mist, warm gold seams.",
+   "reference_image": "ARCHIVE/ManyPaths-01e1599d/reference/inspiration-01e1599d.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/moon_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Wrapped on the big moon in the sky; the game adds the peach crescent rim light."
+  },
+  {
+   "id": "ManyPaths-01e1599d-007",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: first light on the mirror sea: soft pads and a glass bell",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-008",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: running: a gentle arpeggio picks up",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-009",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: the gold wake: brighter, flowing, steady pulse",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-010",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: crystal fans shatter: sparkling, quick",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-011",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: the crossroads halo: warm swelling chord",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-012",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: moon shores: low gravity, floating, slow",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-013",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: the cloud ridges: soaring strings, wide",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-014",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: ghost travellers: dreamy, echoing, distant",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-015",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: full speed to the horizon: the fastest, most euphoric track",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-016",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the The Many Paths score (luminous ambient electronica: shimmering pads, glass bells, soft pulsing arpeggios, swelling strings, no vocals). This one: the line behind you: calm, reflective, gentle resolve",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/music_manypaths_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-017",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "sfx",
+   "prompt": "jump: an airy bright leap",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_leap.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "ManyPaths-01e1599d-018",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "sfx",
+   "prompt": "hit: a crisp glassy fracture",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_crystal_shatter.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Crystal fans shattering, with pitch variation."
+  },
+  {
+   "id": "ManyPaths-01e1599d-019",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "sfx",
+   "prompt": "explosion: an immense warm low slam",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_slam.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Slam landings."
+  },
+  {
+   "id": "ManyPaths-01e1599d-020",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "sfx",
+   "prompt": "powerup: a luminous rising chime",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.7
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_bank.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Banking at a crossroads halo."
+  },
+  {
+   "id": "ManyPaths-01e1599d-021",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "sfx",
+   "prompt": "pickup: a soft glass energy tick",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_energy.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Route energy."
+  },
+  {
+   "id": "ManyPaths-01e1599d-022",
+   "game": "ARCHIVE/ManyPaths-01e1599d",
+   "type": "sfx",
+   "prompt": "wind: a soft high wind over open water",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_sky_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly as ambience, so an even sustain."
   }
  ]
 }
