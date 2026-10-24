@@ -575,9 +575,9 @@
     "origin": "feet, back of slab on the wall plane, facing +Z"
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/relief_figure.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:24:41Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 a5328d3a; Pixal3D crown 699,700 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'feet, back of slab on the wall plane, facing +Z' not understood; not applied; scaled so the largest extent = 2.0 m (x2.145)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 a5328d3a; Pixal3D crown 699,700 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'feet, back of slab on the wall plane, facing +Z' not understood; not applied; scaled so the largest extent = 2.0 m (x2.145) | Forge: integrated 2026-10-24. Carved figure replaces the procedural reliefs: 5.6 m tall on the left wall and 5.3 m on the right (x=±12.6, facing the nave), plus one figure in each arch niche; old relief groups, trims and left-wall lumps are hidden."
   },
   {
    "id": "UnderworldExcavator-60593e9d-002",
@@ -592,9 +592,9 @@
     "origin": "ground center of the opening, opening facing +Z (12 m span, 17 m rise)"
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/arch.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:29:13Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 6f2019b6; Pixal3D crown 699,536 tris -> crowned low-poly door (decimate+bake) 7,992 tris, re-counted <= max_tris 12,000; origin 'ground center of the opening, opening facing +Z (12 m span, 17 m rise)' not understood; not applied; scaled so the largest extent = 17.0 m (x21.3)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 6f2019b6; Pixal3D crown 699,536 tris -> crowned low-poly door (decimate+bake) 7,992 tris, re-counted <= max_tris 12,000; origin 'ground center of the opening, opening facing +Z (12 m span, 17 m rise)' not understood; not applied; scaled so the largest extent = 17.0 m (x21.3) | Forge: integrated 2026-10-24. One niche arch per bay along the left wall (14 bays, 9.7 m tall, depth trimmed to the wall face), set on the floor slope; a stray timber bar baked into the mesh is trimmed out at load."
   },
   {
    "id": "UnderworldExcavator-60593e9d-003",
@@ -610,9 +610,9 @@
     "rig": "rigid parts as separate named nodes: barrel, chamber, rings, grip (the game grows the barrel and spins the rings in code)"
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/cannon.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:45:44Z",
-   "notes": "alia-runner: still (Qwen t2i) md5 9d04afbc; Pixal3D crown 698,754 tris -> crowned low-poly door (decimate+bake) 7,980 tris, re-counted <= max_tris 15,000; origin 'grip, barrel pointing +Z' not understood; not applied; scaled so the largest extent = 1.2 m (x1.34)"
+   "notes": "alia-runner: still (Qwen t2i) md5 9d04afbc; Pixal3D crown 698,754 tris -> crowned low-poly door (decimate+bake) 7,980 tris, re-counted <= max_tris 15,000; origin 'grip, barrel pointing +Z' not understood; not applied; scaled so the largest extent = 1.2 m (x1.34) | Forge: integrated 2026-10-24. Replaces the procedural gun body in the first-person view: auto-aligned along its long axis, barrel forward, 1.05 m long; metalness capped at .45 since the scene has no env map (it read black otherwise). Tier rings and muzzle flare stay procedural."
   },
   {
    "id": "UnderworldExcavator-60593e9d-004",
@@ -628,9 +628,9 @@
     "rig": "pieces as separate named nodes (planks, posts, braces) so they can break apart"
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/timber_gallery.glb",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:54:24Z",
-   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 3e833404; Pixal3D crown 697,771 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'bottom center of the posts, front facing +Z' not understood; not applied; scaled so the largest extent = 4.0 m (x4.339)"
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 3e833404; Pixal3D crown 697,771 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'bottom center of the posts, front facing +Z' not understood; not applied; scaled so the largest extent = 4.0 m (x4.339) | Forge: integrated 2026-10-24. Placed at the 10 balcony spots (x ±9.5, 3.9 m tall, back against the wall, right side turned 180°); procedural balconies hidden."
   },
   {
    "id": "UnderworldExcavator-60593e9d-005",
@@ -644,9 +644,9 @@
     "tileable": true
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sandstone_albedo.png",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T09:54:24Z",
-   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost)"
+   "notes": "alia-runner: reference_image ignored (not used for texture); Qwen-Image crown still, centre-crop + LANCZOS to 1024x1024; tileable: prompt hint + half-offset cross-blend (edges wrap seamlessly; a 12% edge band can ghost) | Forge: integrated 2026-10-24. Triplanar sandstone detail on all stone: 4 m tiles plus a rotated 14 m layer on medium/high, normalised to the mean colour so the palette and lighting stay the same (x0.82-1.18 variation). Anisotropy capped at 4."
   },
   {
    "id": "UnderworldExcavator-60593e9d-006",
@@ -660,9 +660,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_01.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:03:39Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-007",
@@ -676,9 +676,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_02.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:07:55Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-008",
@@ -692,9 +692,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_03.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:12:08Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-009",
@@ -708,9 +708,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_04.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:18:23Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-010",
@@ -724,9 +724,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_05.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:23:38Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-011",
@@ -740,9 +740,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_06.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:31:53Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-012",
@@ -756,9 +756,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_07.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:37:35Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-013",
@@ -772,9 +772,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_08.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:42:49Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-014",
@@ -788,9 +788,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_09.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:48:34Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-015",
@@ -804,9 +804,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_10.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T10:55:48Z",
-   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only) | Forge: integrated 2026-10-24. In the 10-track shuffle (no repeats back to back) with per-track loudness levelling (target RMS .2, peak-safe), 3 s fade-in and 3 s overlap; music bus follows the mute toggle."
   },
   {
    "id": "UnderworldExcavator-60593e9d-016",
