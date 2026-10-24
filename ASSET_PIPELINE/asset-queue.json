@@ -5801,6 +5801,397 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped as ambience, so an even sustain with no hard start or end."
+  },
+  {
+   "id": "RippleBeast-350d9041-001",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "model",
+   "prompt": "The head and neck of a small eel-like lake creature rising out of the water: smooth near-black wet teal hide with intricate skin folds, one huge luminous amber-gold eye on each side of the head, a curious rounded silhouette. Palette from the image: black teal water, deep blue-green murk, luminous amber-gold light, near-black wet hide, wrinkled bronze skin, silver hair.",
+   "reference_image": "ARCHIVE/RippleBeast-350d9041/reference/inspiration-350d9041.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 5000,
+    "scale_m": 1.2,
+    "origin": "base of the neck, facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/creature_head.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player's head. The body is built from a chain of segments in code (see -002), so this is just the head and neck. Eyes as emissive. Draw it from the original image first."
+  },
+  {
+   "id": "RippleBeast-350d9041-002",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "model",
+   "prompt": "One short body segment of the same eel-like creature: a thick rounded tube of near-black wet teal hide with skin folds, open at both ends so segments chain smoothly. Palette from the image: black teal water, deep blue-green murk, luminous amber-gold light, near-black wet hide, wrinkled bronze skin, silver hair.",
+   "reference_image": "ARCHIVE/RippleBeast-350d9041/reference/inspiration-350d9041.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 0.7,
+    "origin": "center, body axis along Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/creature_segment.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Chained about 20 times behind the head so the body can coil around trunks (rigid parts instead of a skeleton)."
+  },
+  {
+   "id": "RippleBeast-350d9041-003",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "model",
+   "prompt": "An enormous ancient human hand reaching down with the index finger extended toward the water: deeply wrinkled bronze skin, silver hairs on the back of the hand and wrist, a softly glowing gold fingertip. Palette from the image: black teal water, deep blue-green murk, luminous amber-gold light, near-black wet hide, wrinkled bronze skin, silver hair.",
+   "reference_image": "ARCHIVE/RippleBeast-350d9041/reference/inspiration-350d9041.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 15000,
+    "scale_m": 24.0,
+    "origin": "fingertip, wrist rising up and back toward -Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/ancient_hand.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The giant's hand that guides you; it's huge (about 24 m from fingertip to wrist). Fingertip glow as emissive."
+  },
+  {
+   "id": "RippleBeast-350d9041-004",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "model",
+   "prompt": "A kind ancient giant's face half-submerged in a drowned woodland: root-bound stone and wrinkled skin, closed eyes with golden lashes, roots and moss growing over the brow and cheeks. Palette from the image: black teal water, deep blue-green murk, luminous amber-gold light, near-black wet hide, wrinkled bronze skin, silver hair.",
+   "reference_image": "ARCHIVE/RippleBeast-350d9041/reference/inspiration-350d9041.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 20000,
+    "scale_m": 30.0,
+    "origin": "bottom center at the waterline, face looking +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sleeping_giant.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The final goal at the centre of the lake; you break six root bonds to free it. Let the roots read as separate strands across the face."
+  },
+  {
+   "id": "RippleBeast-350d9041-005",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "model",
+   "prompt": "A broken drowned tree trunk: twisted black-teal wet wood with forked branches above and grasping roots below, splintered top. Palette from the image: black teal water, deep blue-green murk, luminous amber-gold light, near-black wet hide, wrinkled bronze skin, silver hair.",
+   "reference_image": "ARCHIVE/RippleBeast-350d9041/reference/inspiration-350d9041.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1000,
+    "scale_m": 10.0,
+    "origin": "base center at the lake floor",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/drowned_trunk.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The timber you coil around and wrench apart; placed many times and scaled 0.7x to 1.5x."
+  },
+  {
+   "id": "RippleBeast-350d9041-006",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "model",
+   "prompt": "An ancient stone sluice gate fragment: mossy blue-green stone blocks with a broken arch opening, invaded by roots, mineral deposits, no symbols. Palette from the image: black teal water, deep blue-green murk, luminous amber-gold light, near-black wet hide, wrinkled bronze skin, silver hair.",
+   "reference_image": "ARCHIVE/RippleBeast-350d9041/reference/inspiration-350d9041.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2000,
+    "scale_m": 6.0,
+    "origin": "base center, arch facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sluice_ruin.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Stone ruins to smash in the deeper groves."
+  },
+  {
+   "id": "RippleBeast-350d9041-007",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "texture",
+   "prompt": "Wet dark lake sediment seen from above: black-teal silt, scattered drowned twigs and bark fragments, a few muted bronze pebbles, flat even lighting, no baked shadows. Palette from the image: black teal water, deep blue-green murk, luminous amber-gold light, near-black wet hide, wrinkled bronze skin, silver hair.",
+   "reference_image": "ARCHIVE/RippleBeast-350d9041/reference/inspiration-350d9041.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sediment_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The lake floor, world-space triplanar."
+  },
+  {
+   "id": "RippleBeast-350d9041-008",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "texture",
+   "prompt": "Drowned bark seen straight on: deeply grooved black-teal wet wood grain with pale mineral streaks, flat even lighting, no baked shadows. Palette from the image: black teal water, deep blue-green murk, luminous amber-gold light, near-black wet hide, wrinkled bronze skin, silver hair.",
+   "reference_image": "ARCHIVE/RippleBeast-350d9041/reference/inspiration-350d9041.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/drowned_bark_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Trunks and roots."
+  },
+  {
+   "id": "RippleBeast-350d9041-009",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "texture",
+   "prompt": "Underwater caustic light pattern: soft bright wavy web of light lines on pure black.",
+   "reference_image": "ARCHIVE/RippleBeast-350d9041/reference/inspiration-350d9041.jpg",
+   "spec": {
+    "format": "png",
+    "size": 512,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/caustics.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Scrolled over the lake floor as a light mask (white = light), so pure black background."
+  },
+  {
+   "id": "RippleBeast-350d9041-010",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: the first ripple: a single amber note on dark water",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-011",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: the hand reaches down: warm low strings, wonder",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-012",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: swimming the drowned forest: gentle flowing pulse",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-013",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: the coil: tension tightening, wooden knocks",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-014",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: snap: a burst of resonant percussion, then release",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-015",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: feeding shoals: shimmering, playful bubbles of melody",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-016",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: deeper groves: colder, slower, vast",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-017",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: the root bonds: heavy pulses, building strength",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-018",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: the giant stirs: huge, slow, golden swell",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-019",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Ripple Beast score (slow submerged ambient score, dark teal, resonant wood pulses, warm amber shimmers, soft low strings, no vocals). This one: freed: a calm, warm resolution as the light rises",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/music_ripple_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-020",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "sfx",
+   "prompt": "foley: a deep stressed timber creak, then an explosive splinter crack and a muffled underwater bass thump",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.9
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sfx_wrench_snap.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "When a trunk breaks; the crack is the loudest moment."
+  },
+  {
+   "id": "RippleBeast-350d9041-021",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "sfx",
+   "prompt": "splash: a muffled liquid rush as a creature bursts forward underwater",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sfx_swim_burst.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Shift burst."
+  },
+  {
+   "id": "RippleBeast-350d9041-022",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "sfx",
+   "prompt": "pickup: a bubble pop and small feeding chirp",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sfx_bite.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every bite of a shoal, with pitch variation."
+  },
+  {
+   "id": "RippleBeast-350d9041-023",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "sfx",
+   "prompt": "foley: a heavy underwater tail sweep, a deep whoosh of displaced water",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sfx_tail_surge.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "RippleBeast-350d9041-024",
+   "game": "ARCHIVE/RippleBeast-350d9041",
+   "type": "sfx",
+   "prompt": "foley: a submerged dark lake, slow resonant water movement, faint distant wood creaks, very quiet, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 8.0
+   },
+   "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sfx_lake_ambience.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as ambience, so an even sustain with no hard start or end."
   }
  ]
 }
