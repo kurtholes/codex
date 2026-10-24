@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const dev=process.argv.includes('--dev');
+fs.mkdirSync('dist',{recursive:true});
+let html=fs.readFileSync('src/index.html','utf8');
+if(!dev)html=html.replace('<div id="fps" hidden></div>','');
+fs.writeFileSync('dist/index.html',html);
+fs.copyFileSync('src/style.css','dist/style.css');
+let js=fs.readFileSync('src/game.js','utf8');
+js=js.replace('/*DEV*/',dev?`window.__game={state:s,teleport:(x,z)=>{s.x=x;s.z=z},give:n=>s.gold+=n}; document.querySelector('#fps').hidden=false;`:'');
+if(!dev)js=js.replace(/frames\+\+;fpsT\+=rawDt;if\(fpsT>1\)\{.*?fpsT=0\}/,'');
+fs.writeFileSync('dist/game.js',js);
