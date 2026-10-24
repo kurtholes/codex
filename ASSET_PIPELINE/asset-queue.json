@@ -7710,9 +7710,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_cutlass.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:33Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 911433 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.209s -> 0.300s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 911433 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.209s -> 0.300s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every cutlass slash on land, synth fallback."
   },
   {
    "id": "BlackwakeReach-a107ed12-023",
@@ -7725,9 +7725,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_gold.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:33Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 655903 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.284s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 655903 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.284s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays on every cargo pickup (pitch varied) and, a little lower, on claiming a harbor; synth fallback."
   },
   {
    "id": "BlackwakeReach-a107ed12-024",
@@ -7740,9 +7740,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_sea_wind.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:43Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 109557 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.744s -> 4.000s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 109557 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.744s -> 4.000s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Quiet continuous sea-wind bed built from overlapping takes of its steady 0.5-2.1 s stretch; follows the sound switch."
   },
   {
    "id": "BlackwakeReach-a107ed12-025",
@@ -7755,9 +7755,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/BlackwakeReach-a107ed12/assets/sfx_splash.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:43Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset splash seed 916347 (rule a: explicit '<preset>:' tag ('splash:')); padded 0.592s -> 0.600s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset splash seed 916347 (rule a: explicit '<preset>:' tag ('splash:')); padded 0.592s -> 0.600s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. Plays when a cannonball lands in the sea (misses), quieter with distance."
   },
   {
    "id": "NeonWilds-0d5e7ef1-001",
