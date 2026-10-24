@@ -1,0 +1,9 @@
+{
+  "productionHookAbsent": true,
+  "quickPlay": true,
+  "fireAndMove": true,
+  "upgradePanel": true,
+  "settings": true,
+  "externalRequests": [],
+  "pageErrors": []
+}
