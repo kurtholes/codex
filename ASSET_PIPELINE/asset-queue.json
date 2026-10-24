@@ -4591,9 +4591,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/sfx_ember_pickup.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Plays as the cat gathers embers into you, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:27Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 296942 (rule a: explicit '<preset>:' tag ('pickup:')); trimmed 0.302s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "NeonRoot-6170a9ab-023",
@@ -4606,9 +4606,9 @@
     "voice": "soft, dry, amused low voice (a cat that has seen it all)"
    },
    "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/voice_cat_again.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": "Cat quip after a big break. Pick the closest voice you have; keep it under a second."
+   "notes": "alia-runner: failed: expected exactly one voice named 'soft, dry, amused low voice (a cat that has seen it all)', found 0"
   },
   {
    "id": "NeonRoot-6170a9ab-024",
@@ -4621,9 +4621,9 @@
     "voice": "soft, dry, amused low voice (a cat that has seen it all)"
    },
    "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/voice_cat_hungry.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": "Cat quip when health is low. Same voice as the other two."
+   "notes": "alia-runner: failed: expected exactly one voice named 'soft, dry, amused low voice (a cat that has seen it all)', found 0"
   },
   {
    "id": "NeonRoot-6170a9ab-025",
@@ -4636,9 +4636,9 @@
     "voice": "soft, dry, amused low voice (a cat that has seen it all)"
    },
    "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/voice_cat_there.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": "Cat quip pointing you at the next crystal. Same voice as the other two."
+   "notes": "alia-runner: failed: expected exactly one voice named 'soft, dry, amused low voice (a cat that has seen it all)', found 0"
   },
   {
    "id": "HectorRising-0c8672a9-001",
@@ -5031,9 +5031,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/sfx_salvage.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:27Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 215936 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.314s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "HatHavoc-a5d8e4f8-001",
@@ -5361,9 +5361,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/sfx_bloom.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Bloom cascades and upgrades."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:27Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 792892 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.630s -> 0.800s with silence; ogg/vorbis q6"
   },
   {
    "id": "HatHavoc-a5d8e4f8-021",
