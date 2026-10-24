@@ -1240,9 +1240,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/sfx_salvage_ping.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:58:18Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 521182 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.291s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "SmokeRing-5a1da71e-001",
