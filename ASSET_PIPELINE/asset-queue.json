@@ -1657,9 +1657,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/cargo_crate.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "The first thing in front of you when the game starts; you cut it open."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T17:30:14Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 7baf3718; Pixal3D crown 697,529 tris -> crowned low-poly door (decimate+bake) 3,000 tris, re-counted <= max_tris 3,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 2.5 m (x2.622)"
   },
   {
    "id": "Air-22ee0ab5-005",
