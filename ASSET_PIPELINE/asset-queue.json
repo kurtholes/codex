@@ -1225,9 +1225,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/sfx_shield_crack.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Collisions with debris."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:57:33Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_heatshielddive_9fddeb9e_021_22e637_261024-064712; onset 0.620s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 0.6s from the onset; trimmed 3.156s -> 0.600s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -24.3 -> -19.4 dB, peak -5.8 -> -1.0 dBFS (gain +4.8 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-022",
