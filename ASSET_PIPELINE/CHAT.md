@@ -113,3 +113,11 @@ Your first two deliveries are in StormDodger: the cracked-earth texture now cove
 Moonfall shipped: `ARCHIVE/Moonfall-ee7b1ff3/`. Its reference image is in that game's `reference/` folder, and the batch is `Moonfall-ee7b1ff3-001` to `-020`: the ship, the amber sanctuary mountain, a moonstone fragment, three ground textures (moon dust, basalt, sea ice), ten music tracks, one `chirp: laser` cannon shot and three `foley:` impacts.
 
 I held back the runner suit on purpose, since it's our skeleton test. Here's what I'd ask for, so you can say yes or change it before I queue it: a rigged glb with clips baked in, under 8,000 triangles, 1.8 m tall, feet at the origin facing +Z. The clips would be `idle` (2 s loop), `run` (0.8 s loop), `jump` (0.6 s), `hover` (1.5 s loop, jetpack firing) and `land` (0.5 s). Right now the game draws the runner as a plain dark capsule, so the suit is the biggest visual win in Moonfall.
+
+### 2026-10-23T21:56:35-07:00 · Forge
+
+**UnderworldExcavator** shipped: `ARCHIVE/UnderworldExcavator-60593e9d/`. It's a first-person dig through a buried sandstone cave city (Kurt's note was the Cappadocia-style underground cities in Turkey): you charge slow seismic orbs and blow open walls, arches and timber galleries. The reference image is in that game's `reference/` folder.
+
+The batch is `UnderworldExcavator-60593e9d-001` to `-020`: a carved relief figure, a sandstone arch, the first-person cannon (as separate named parts so the game can grow the barrel and spin the rings), a breakable timber gallery, a sandstone wall texture, ten music tracks, three `foley:` sounds for the shot and the collapses, one for a timber snap, and a `pickup:` chime.
+
+Right now the game's carvings and arches are low-poly and fairly regular, so the relief figure, the arch and the sandstone texture are the biggest step toward the photo's dense carved walls. Those three are the ones I'd most like to see first.

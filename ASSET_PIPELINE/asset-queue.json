@@ -561,6 +561,327 @@
    "status": "open",
    "delivered_at": null,
    "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-001",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "model",
+   "prompt": "Weathered standing relief figure carved out of a sandstone cave wall: long robe, arms folded, rounded headdress, eroded chisel marks, the back fused into a slab of rock so it sits flush on a wall. Fictional ancient underground city, no writing. Palette from the image: warm ochre and honey sandstone, umber shadows, weathered dark timber, golden dusty daylight shafts.",
+   "reference_image": "ARCHIVE/UnderworldExcavator-60593e9d/reference/inspiration-60593e9d.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 2.0,
+    "origin": "feet, back of slab on the wall plane, facing +Z"
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/relief_figure.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-002",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "model",
+   "prompt": "Hand-hewn sandstone arch: tall, slightly asymmetrical horseshoe vault with imperfect shoulders and eroded carved relief bands running up both piers, soft organic cave-city silhouette. Palette from the image: warm ochre and honey sandstone, umber shadows, weathered dark timber, golden dusty daylight shafts.",
+   "reference_image": "ARCHIVE/UnderworldExcavator-60593e9d/reference/inspiration-60593e9d.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 17.0,
+    "origin": "ground center of the opening, opening facing +Z (12 m span, 17 m rise)"
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/arch.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-003",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "model",
+   "prompt": "First-person seismic excavation cannon: heavy brass and blackened iron barrel, ceramic resonance chamber with concentric glowing amber rings, worn leather grip. A utilitarian archaeology tool, not a military gun. Palette from the image: warm ochre and honey sandstone, umber shadows, weathered dark timber, golden dusty daylight shafts.",
+   "reference_image": null,
+   "spec": {
+    "format": "glb",
+    "max_tris": 15000,
+    "scale_m": 1.2,
+    "origin": "grip, barrel pointing +Z",
+    "rig": "rigid parts as separate named nodes: barrel, chamber, rings, grip (the game grows the barrel and spins the rings in code)"
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/cannon.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-004",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "model",
+   "prompt": "Ancient cracked umber timber balcony / gallery section: irregular pegged planks, two posts and diagonal braces, like the wooden beams leaning against the cave wall in the image. Palette from the image: warm ochre and honey sandstone, umber shadows, weathered dark timber, golden dusty daylight shafts.",
+   "reference_image": "ARCHIVE/UnderworldExcavator-60593e9d/reference/inspiration-60593e9d.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 4.0,
+    "origin": "bottom center of the posts, front facing +Z",
+    "rig": "pieces as separate named nodes (planks, posts, braces) so they can break apart"
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/timber_gallery.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-005",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "texture",
+   "prompt": "Rough ochre sandstone cave wall: fine pitted grain, faint wavy sediment lines and soft chisel marks, flat even lighting, no baked shadows or seams.",
+   "reference_image": "ARCHIVE/UnderworldExcavator-60593e9d/reference/inspiration-60593e9d.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sandstone_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-006",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: the first chamber: slow warm low percussion, resonant plucked strings, dust drifting through light shafts, quiet wonder.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-007",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: the residential warren: curious, a little playful, hand drums and plucked oud-like strings stepping through tight corridors.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-008",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: breakthrough: a heavy rhythmic pulse building as walls crack and fall, deep frame drums.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-009",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: the cistern: echoing water-drip textures, deep cool drones, a calm, reverberant pause.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-010",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: the market hall: busier layered percussion, bright plucked strings, momentum and treasure.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-011",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: collapse chain: thunderous low drums, tension and release, stone giving way.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-012",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: golden shafts: serene, warm sustained strings in sunlight beams, slow and beautiful.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-013",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: the deep vault: dark, low, ancient, a slow pulse, mystery without fear.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-014",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: the forge: confident, driving and steady, upgrade power growing.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-015",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Underworld Excavator score (tactile low percussion, warm resonant plucked strings, earthy Anatolian-cave mood, no vocals). This one: the long descent: wide, hopeful and earthy, a slow climb to a full layered pulse.",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/music_underworld_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-016",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "sfx",
+   "prompt": "foley: a deep charging resonance hum rising into a heavy sub-bass launch thump, dry stone reverb, no gunshot crack",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.7
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_seismic_shot.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-017",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "sfx",
+   "prompt": "foley: a sandstone wall cracking and crumbling, big rock fracture followed by cascading grit and settling dust, enclosed cavern",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.8
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_1.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-018",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "sfx",
+   "prompt": "foley: a large stone pillar giving way, deep groan then heavy tumbling blocks, cave echo",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 2.0
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_2.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-019",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "sfx",
+   "prompt": "foley: an old timber beam snapping and splintering, then dropping onto stone",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_timber_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderworldExcavator-60593e9d-020",
+   "game": "ARCHIVE/UnderworldExcavator-60593e9d",
+   "type": "sfx",
+   "prompt": "pickup: a soft warm stony chime as gathered stone streams into the collector",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_stone_pickup.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
   }
  ]
 }
