@@ -1,0 +1,1 @@
+{"name":"downtown-downfall","private":true,"type":"module","scripts":{"build":"node build.mjs","start":"python3 -m http.server 8080"},"devDependencies":{"playwright":"1.56.1"}}

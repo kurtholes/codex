@@ -1,0 +1,62 @@
+{
+  "loadToFirstActionMs": 6338.5,
+  "wallMs": 208502,
+  "first": {
+    "time": 13.208099999999256,
+    "cash": 338,
+    "score": 2935,
+    "levels": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "hp": 100,
+    "fps": 20.15145312224273,
+    "firstAction": 6338.5,
+    "kills": 0,
+    "collapsed": 3,
+    "position": [
+      -48,
+      12.007407347622136,
+      129.08574974827675
+    ],
+    "shells": 4,
+    "quick": false,
+    "ended": false,
+    "paused": false
+  },
+  "averageFPS": 7.433638436115469,
+  "minFPS": 4.99212752073187,
+  "last": {
+    "time": 180.02610000000024,
+    "cash": 6489,
+    "score": 153330,
+    "levels": [
+      4,
+      3,
+      3,
+      4,
+      3,
+      2
+    ],
+    "hp": 96,
+    "fps": 8.208302269009684,
+    "firstAction": 6338.5,
+    "kills": 1,
+    "collapsed": 23,
+    "position": [
+      0,
+      12.216757477488349,
+      151.79763367838467
+    ],
+    "shells": 6,
+    "quick": true,
+    "ended": true,
+    "paused": false
+  },
+  "errors": [],
+  "productionHooksStripped": true
+}
