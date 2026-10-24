@@ -834,9 +834,9 @@
     "length_s": 1.8
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_1.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "alia-runner: reopened (was failed): foley lane built: H3 audio (Kurt's A/B pick) for foley: asks; 5 failed for no CHIRP preset, 019+020 shipped as the wrong CHIRP preset"
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:06:17Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_017_2e699f_261024-035554; onset 0.630s into the 4.48s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.8s from the onset; trimmed 3.850s -> 1.800s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -12.0 -> -14.0 dB, peak -0.5 -> -2.5 dBFS (gain -2.0 dB; target -14 dB RMS); ogg/vorbis q6"
   },
   {
    "id": "UnderworldExcavator-60593e9d-018",
