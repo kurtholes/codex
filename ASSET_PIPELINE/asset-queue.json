@@ -13776,9 +13776,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_energy.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Route energy."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:40Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 521174 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.264s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "ManyPaths-01e1599d-022",
@@ -13791,9 +13791,9 @@
     "length_s": 6.0
    },
    "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_sky_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped quietly as ambience, so an even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:40Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 332682 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.861s -> 6.000s with silence; ogg/vorbis q6"
   }
  ]
 }
