@@ -1,0 +1,31 @@
+{
+  "durationSeconds": 208.167,
+  "timeToFirstActionSeconds": 8.91189999999851,
+  "averageFpsLow": 1.3518191998129605,
+  "minFpsLow": 0.3333333333333317,
+  "state": {
+    "grain": 2145,
+    "total": 2230,
+    "levels": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "fallCount": 78,
+    "fps": 2.250056251406305,
+    "firstAction": 8.91189999999851,
+    "quick": false,
+    "health": 100,
+    "position": [
+      0.46202357082723544,
+      0.6,
+      -44.221104979465416
+    ],
+    "buildings": 48
+  },
+  "quickModeEntered": true,
+  "saveRestored": true,
+  "productionDevStripped": true,
+  "errors": []
+}
