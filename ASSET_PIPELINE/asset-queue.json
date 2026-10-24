@@ -256,9 +256,9 @@
     "rig": "none (single rigid mesh; game animates it in code)"
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/ship.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Pin-it-on-the-wall bar applies. This is the hero object the player flies."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T07:07:37Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 e42561b9; Pixal3D crown 696,974 tris -> crowned low-poly door (decimate+bake) 7,984 tris, re-counted <= max_tris 12,000; origin 'center of mass, nose facing +Z' not understood; not applied; scaled so the largest extent = 12.0 m (x14.06)"
   },
   {
    "id": "Moonfall-ee7b1ff3-002",
