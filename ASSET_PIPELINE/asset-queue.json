@@ -79,9 +79,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/sfx_perfect_dodge.ogg",
-   "status": "open",
+   "status": "failed",
    "delivered_at": null,
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 696501; trimmed 2.136s -> 0.700s with a 20 ms fade; ogg/vorbis q6 | Forge: sent back 2026-10-24, not integrated. The CHIRP wind clip only swells: it starts near silent (rms 0.01) and is still rising at its loudest when the 0.7 s trim cuts it off, so it plays as a lagging breeze that ends abruptly rather than a snap on the dodge moment. Re-asked in the foley: lane with the hit at the start; the old file stays in place but is not wired. (Previous prompt: \"wind: a sharp cape-snap whoosh into a deep wind whomp, for a perfect last-second dodge\".)"
+   "notes": "alia-runner: failed: music suspect: loud 87% of the clip with a steady beat (envelope autocorrelation 0.63 > 0.6)"
   },
   {
    "id": "StormDodger-1542e36e-006",
@@ -290,9 +290,9 @@
     "origin": "center"
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/moonstone.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Used instanced, many at once, so keep it light."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T07:28:13Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 8cdb65b0; Pixal3D crown 699,268 tris -> crowned low-poly door (decimate+bake) 1,500 tris, re-counted <= max_tris 1,500; scaled so the largest extent = 4.0 m (x3.976); origin = centre"
   },
   {
    "id": "Moonfall-ee7b1ff3-004",
