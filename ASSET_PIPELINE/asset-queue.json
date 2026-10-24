@@ -13421,9 +13421,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_upgrade.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Each blueprint upgrade."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:27Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 882768 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.647s -> 0.800s with silence; ogg/vorbis q6"
   },
   {
    "id": "IronTide-ec7037a3-022",
@@ -13436,9 +13436,9 @@
     "length_s": 6.0
    },
    "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_harbor_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped quietly as ambience, so an even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:27Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 890728 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.845s -> 6.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "ManyPaths-01e1599d-001",
@@ -13716,9 +13716,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_leap.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:27Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset jump seed 279107 (rule a: explicit '<preset>:' tag ('jump:')); padded 0.294s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "ManyPaths-01e1599d-018",
@@ -13731,9 +13731,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_crystal_shatter.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Crystal fans shattering, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:27Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 760441 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.187s -> 0.600s with silence; ogg/vorbis q6"
   },
   {
    "id": "ManyPaths-01e1599d-019",
@@ -13746,9 +13746,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_slam.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Slam landings."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:27Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 37889 (rule a: explicit '<preset>:' tag ('explosion:')); padded 1.140s -> 1.200s with silence; ogg/vorbis q6"
   },
   {
    "id": "ManyPaths-01e1599d-020",
@@ -13761,9 +13761,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/ManyPaths-01e1599d/assets/sfx_bank.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Banking at a crossroads halo."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:14:27Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 521136 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.643s -> 0.700s with silence; ogg/vorbis q6"
   },
   {
    "id": "ManyPaths-01e1599d-021",
