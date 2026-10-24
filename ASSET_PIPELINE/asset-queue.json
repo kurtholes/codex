@@ -3487,6 +3487,379 @@
    "status": "open",
    "delivered_at": null,
    "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-001",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "model",
+   "prompt": "The last roadside American diner: a long low building with rounded black metal trim, a wide strip of warm amber-yellow glass windows with booths and a counter inside, a layered flat roof with a glowing orange sign frame on top (blank panel, no letters), a small entrance door in the middle, a concrete apron. Palette from the image: blood-red and scarlet cloud sky, near-black desert, oxblood and black metal, warm amber-yellow window light, glowing orange OPEN sign.",
+   "reference_image": "ARCHIVE/UnderTheRedSky-195f7cae/reference/inspiration-195f7cae.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 20000,
+    "scale_m": 32.0,
+    "origin": "ground center, front windows facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/diner.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The safe haven and the most important object. The game keeps its own OPEN text sign, so leave the sign panel blank. Footprint about 32 x 16 m, roof at about 9 m."
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-002",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "model",
+   "prompt": "A weathered dark oxblood 1970s desert coupe with a huge plasma mortar mounted on the roof, amber headlights, chrome bumpers, rear jet nozzles, dust and scratches. Palette from the image: blood-red and scarlet cloud sky, near-black desert, oxblood and black metal, warm amber-yellow window light, glowing orange OPEN sign.",
+   "reference_image": "ARCHIVE/UnderTheRedSky-195f7cae/reference/inspiration-195f7cae.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 4.6,
+    "origin": "ground center between wheels, nose facing -Z",
+    "rig": "none (rigid; the game turns the turret by aiming the whole cannon group)"
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/cannon_car.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player car. If the four wheels and the roof cannon can be separate meshes named wheel_* and cannon, the game can spin and aim them; otherwise a single mesh is fine."
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-003",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "model",
+   "prompt": "A low-slung black volcanic six-legged scavenger creature, rocky plated back, two glowing amber eyes. Palette from the image: blood-red and scarlet cloud sky, near-black desert, oxblood and black metal, warm amber-yellow window light, glowing orange OPEN sign.",
+   "reference_image": "ARCHIVE/UnderTheRedSky-195f7cae/reference/inspiration-195f7cae.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1000,
+    "scale_m": 2.0,
+    "origin": "belly center, facing +Z",
+    "rig": "none (rigid)"
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/scavenger.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The swarm: up to 100 instanced at once, so keep it low-poly with a clear silhouette."
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-004",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "model",
+   "prompt": "An abandoned roadside gas station: a flat canopy on posts, three old fuel pumps, a small kiosk, rust and dust. Palette from the image: blood-red and scarlet cloud sky, near-black desert, oxblood and black metal, warm amber-yellow window light, glowing orange OPEN sign.",
+   "reference_image": "ARCHIVE/UnderTheRedSky-195f7cae/reference/inspiration-195f7cae.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 24.0,
+    "origin": "ground center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/gas_station.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Destructible compound; if parts are separate meshes the game can break them piece by piece."
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-005",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "model",
+   "prompt": "A low desert motel block of five rooms: stucco walls, doors and amber-lit windows, a flat roof and a tall roadside pole sign (blank). Palette from the image: blood-red and scarlet cloud sky, near-black desert, oxblood and black metal, warm amber-yellow window light, glowing orange OPEN sign.",
+   "reference_image": "ARCHIVE/UnderTheRedSky-195f7cae/reference/inspiration-195f7cae.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 6000,
+    "scale_m": 36.0,
+    "origin": "ground center, doors facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/motel.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-006",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "texture",
+   "prompt": "Dark red desert gravel and dry dirt seen from above, a few dead tufts, restrained colour, flat lighting, no baked shadows. Palette from the image: blood-red and scarlet cloud sky, near-black desert, oxblood and black metal, warm amber-yellow window light, glowing orange OPEN sign.",
+   "reference_image": "ARCHIVE/UnderTheRedSky-195f7cae/reference/inspiration-195f7cae.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/red_gravel_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-007",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "texture",
+   "prompt": "Old black highway asphalt seen from above with a branching web of cracks, faded, flat lighting, no lane lines. Palette from the image: blood-red and scarlet cloud sky, near-black desert, oxblood and black metal, warm amber-yellow window light, glowing orange OPEN sign.",
+   "reference_image": "ARCHIVE/UnderTheRedSky-195f7cae/reference/inspiration-195f7cae.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/cracked_asphalt_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The highway (lane paint is drawn by the game)."
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-008",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "texture",
+   "prompt": "A turbulent near-black crimson cloud ceiling with incandescent red seams, a flat distant desert horizon glowing scarlet, no stars, no sun disc, equirectangular panorama.",
+   "reference_image": "ARCHIVE/UnderTheRedSky-195f7cae/reference/inspiration-195f7cae.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/sky_equirect.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "2048x1024 equirectangular sky."
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-009",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: engine idling by the diner: lonely twangy guitar and wind-like drone",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-010",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: on the highway: steady brushed groove, a long open road",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-011",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: the swarm: darker drone, rattlesnake shaker, tension",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-012",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: plasma mortar: heavy slow drums and fuzz guitar",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-013",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: neon OPEN: warm, nostalgic, jukebox-like chords",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-014",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: red storm: dramatic, rolling toms, big echo",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-015",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: the canyon road: wide, cinematic, building",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-016",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: night siege: urgent, driving rhythm",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-017",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: quiet on the asphalt: sparse, a single guitar line",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-018",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Under the Red Sky score (slow desert western noir, reverb electric baritone guitar, low analog drones, brushed drums, warm roadside glow, no vocals). This one: dawn never comes: warm defiant resolution",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/music_redsky_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-019",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "sfx",
+   "prompt": "foley: a thunderous heavy mortar ignition, sub bass thump followed by a descending hot electric fizz",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/sfx_plasma_mortar.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-020",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "sfx",
+   "prompt": "foley: dry concrete bursting and a metal canopy buckling, debris scattering",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.5
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/sfx_collapse.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-021",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "sfx",
+   "prompt": "foley: a vintage V8 engine idling with a low rumble, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 2.0
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/sfx_engine_loop.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as the car engine."
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-022",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "sfx",
+   "prompt": "wind: a vast low desert wind",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 4.0
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/sfx_desert_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Ambience."
+  },
+  {
+   "id": "UnderTheRedSky-195f7cae-023",
+   "game": "ARCHIVE/UnderTheRedSky-195f7cae",
+   "type": "sfx",
+   "prompt": "pickup: a metallic clink as scrap is collected",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/UnderTheRedSky-195f7cae/assets/sfx_scrap.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
   }
  ]
 }
