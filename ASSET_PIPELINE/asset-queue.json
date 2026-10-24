@@ -1312,9 +1312,9 @@
     "rig": "none (single rigid mesh; game bobs and tilts it in code)"
    },
    "output_path": "ARCHIVE/SmokeRing-5a1da71e/assets/crawler.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "The enemy; also scaled up to 8 m for the giant at the end of a siege."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T14:57:40Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 360ead32; Pixal3D crown 694,494 tris -> crowned low-poly door (decimate+bake) 2,000 tris, re-counted <= max_tris 2,000; origin 'ground center between the legs, head facing +Z' not understood; not applied; scaled so the largest extent = 3.0 m (x3.334)"
   },
   {
    "id": "SmokeRing-5a1da71e-005",
