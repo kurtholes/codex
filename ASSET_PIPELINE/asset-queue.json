@@ -897,9 +897,9 @@
     "rig": "none (single rigid mesh; game leans and tilts it in code)"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/astronaut.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Hero character, seen from behind the whole run. Pin-it-on-the-wall bar applies. The game adds oxygen tanks and wings per upgrade tier in code, so leave those off."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T11:34:28Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 c87afb9d; Pixal3D crown 697,193 tris -> crowned low-poly door (decimate+bake) 7,982 tris, re-counted <= max_tris 12,000; origin 'feet, facing +Z' not understood; not applied; scaled so the largest extent = 1.8 m (x2.111)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-002",
