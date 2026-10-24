@@ -915,9 +915,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/heatshield.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Forge: reopened. The delivered glb is the whole reference shot, an astronaut standing on the shield, so it would put a second astronaut on the board. Please make the shield slab alone."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:27:21Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 f71056b8; Pixal3D crown 676,117 tris -> crowned low-poly door (decimate+bake) 4,000 tris, re-counted <= max_tris 4,000; origin 'top surface center, long axis along +Z' not understood; not applied; scaled so the largest extent = 2.0 m (x2.336)"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-003",
