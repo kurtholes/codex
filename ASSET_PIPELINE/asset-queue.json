@@ -15,9 +15,9 @@
     "rig": "none (single rigid mesh; game animates it in code)"
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/matador.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Pin-it-on-the-wall bar applies."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T04:42:41Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 c4579966; Pixal3D crown 697,666 tris -> crowned low-poly door (decimate+bake) 7,986 tris, re-counted <= max_tris 8,000; origin 'feet, facing +Z' not understood; not applied; scaled so the largest extent = 1.8 m (x2.045)"
   },
   {
    "id": "StormDodger-1542e36e-002",
@@ -32,9 +32,9 @@
     "origin": "ground center"
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/barn.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Pin-it-on-the-wall bar applies."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T04:42:41Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 fe0fa59b; Pixal3D crown 699,333 tris -> crowned low-poly door (decimate+bake) 6,000 tris, re-counted <= max_tris 6,000; origin 'ground center' not understood; not applied; scaled so the largest extent = 9.0 m (x9.945)"
   },
   {
    "id": "StormDodger-1542e36e-003",
