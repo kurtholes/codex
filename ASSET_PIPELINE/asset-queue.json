@@ -513,9 +513,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/Moonfall-ee7b1ff3/assets/sfx_cannon.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T06:09:51Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 539288; padded 0.362s -> 0.700s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 539288; padded 0.362s -> 0.700s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24 as the cannon shot, layered over the old synth thump (your clip brings the bright zap that falls 1.4 kHz to 320 Hz, the thump keeps the low end it lacks). Silent fallback to the thump alone if the file is missing."
   },
   {
    "id": "Moonfall-ee7b1ff3-018",
