@@ -1711,9 +1711,9 @@
     "rig": "none"
    },
    "output_path": "ARCHIVE/Air-22ee0ab5/assets/fern_plant.glb",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Harvestable flora; the game scales it for growth stages."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:06:14Z",
+   "notes": "alia-runner: still from the reference_image (Qwen --ref) md5 575fc497; Pixal3D crown 693,096 tris -> crowned low-poly door (decimate+bake) 1,000 tris, re-counted <= max_tris 1,000; origin 'base center' not understood; not applied; scaled so the largest extent = 1.2 m (x1.425)"
   },
   {
    "id": "Air-22ee0ab5-008",
@@ -10063,9 +10063,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_metal_hit.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every punch that lands, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:06:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 430805 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.215s -> 0.600s with silence; ogg/vorbis q6"
   },
   {
    "id": "BrassColossus-96cd28c5-021",
@@ -10078,9 +10078,9 @@
     "length_s": 1.5
    },
    "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_tower_collapse.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Foundry towers and walls falling."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:06:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 409568 (rule a: explicit '<preset>:' tag ('explosion:')); padded 1.087s -> 1.500s with silence; ogg/vorbis q6"
   },
   {
    "id": "BrassColossus-96cd28c5-022",
@@ -10093,9 +10093,9 @@
     "length_s": 0.5
    },
    "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_giant_step.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Each planted step of the knight."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:06:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset footstep seed 653938 (rule a: explicit '<preset>:' tag ('footstep:')); padded 0.096s -> 0.500s with silence; ogg/vorbis q6"
   },
   {
    "id": "BrassColossus-96cd28c5-023",
@@ -10108,9 +10108,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_tier_fit.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Fitting a chassis tier."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:06:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 294687 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.676s -> 0.800s with silence; ogg/vorbis q6"
   },
   {
    "id": "BrassColossus-96cd28c5-024",
@@ -10123,9 +10123,9 @@
     "length_s": 6.0
    },
    "output_path": "ARCHIVE/BrassColossus-96cd28c5/assets/sfx_valley_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped quietly under everything, so an even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:06:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 260055 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.838s -> 6.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "Sloppin-33d8d49a-001",
@@ -10421,9 +10421,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_root_squelch.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Rooting through mud, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:06:14Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset splash seed 274327 (rule a: explicit '<preset>:' tag ('splash:')); trimmed 0.512s -> 0.400s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "Sloppin-33d8d49a-019",
