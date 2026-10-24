@@ -5034,6 +5034,366 @@
    "status": "open",
    "delivered_at": null,
    "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-001",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "model",
+   "prompt": "The flower-hatted showman: an exaggerated Victorian street magician with an angular expressive face and wide eyes, ragged black tailcoat with tattered tails, ochre waistcoat, red bow tie, dark trousers and boots, a towering black top hat with a crimson ribbon and a wild bouquet of sunflowers, purple and red flowers bursting out of it. Crouched in a theatrical balancing pose. Palette from the image: warm dusty gold and ochre masonry, amber lantern glow, teal fog, soot black, crimson ribbon, purple-yellow-red flowers, theatrical storybook carving.",
+   "reference_image": "ARCHIVE/HatHavoc-a5d8e4f8/reference/inspiration-a5d8e4f8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 18000,
+    "scale_m": 3.0,
+    "origin": "feet center, facing +Z",
+    "rig": "none (rigid; the game leans and bobs him)"
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/showman.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind on his slab. The bouquet silhouette is the most important part. Draw him from the original image first."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-002",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "model",
+   "prompt": "A broken irregular round paving slab floating in the air: ochre cobblestones on top, layered chipped edges, a jagged fractured rock underside, a few flower vines peeking through. Palette from the image: warm dusty gold and ochre masonry, amber lantern glow, teal fog, soot black, crimson ribbon, purple-yellow-red flowers, theatrical storybook carving.",
+   "reference_image": "ARCHIVE/HatHavoc-a5d8e4f8/reference/inspiration-a5d8e4f8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 3.8,
+    "origin": "center of the top surface",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/floating_slab.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The board he surfs on; 3.8 m across."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-003",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "model",
+   "prompt": "A crooked narrow Victorian market house front: dusty gold masonry, a dark timber balcony, a torn striped canvas awning over a shop opening, a hanging basket, two warm amber lanterns, leaning slightly. Palette from the image: warm dusty gold and ochre masonry, amber lantern glow, teal fog, soot black, crimson ribbon, purple-yellow-red flowers, theatrical storybook carving.",
+   "reference_image": "ARCHIVE/HatHavoc-a5d8e4f8/reference/inspiration-a5d8e4f8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2500,
+    "scale_m": 12.0,
+    "origin": "base center, shopfront facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/market_house.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Modular 4 m wide bays lining the streets (12 m tall); the game breaks them into chunks."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-004",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "model",
+   "prompt": "A small market stall: a wooden counter with crates of fruit and flowers, a striped torn awning on two poles, a lantern hanging from it. Palette from the image: warm dusty gold and ochre masonry, amber lantern glow, teal fog, soot black, crimson ribbon, purple-yellow-red flowers, theatrical storybook carving.",
+   "reference_image": "ARCHIVE/HatHavoc-a5d8e4f8/reference/inspiration-a5d8e4f8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 3.0,
+    "origin": "base center, front facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/market_stall.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The fragile stalls you start on."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-005",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "model",
+   "prompt": "A carved theatrical Victorian market spectator: astonished face looking up, mouth open, worn brown coat and flat cap, hands half raised. Palette from the image: warm dusty gold and ochre masonry, amber lantern glow, teal fog, soot black, crimson ribbon, purple-yellow-red flowers, theatrical storybook carving.",
+   "reference_image": "ARCHIVE/HatHavoc-a5d8e4f8/reference/inspiration-a5d8e4f8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 1.75,
+    "origin": "feet center, facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/spectator.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The crowd; instanced about 96 times, so low poly matters. Storybook style like the photo."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-006",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "model",
+   "prompt": "A hanging brass street lantern with warm amber glass and a curled iron bracket. Palette from the image: warm dusty gold and ochre masonry, amber lantern glow, teal fog, soot black, crimson ribbon, purple-yellow-red flowers, theatrical storybook carving.",
+   "reference_image": "ARCHIVE/HatHavoc-a5d8e4f8/reference/inspiration-a5d8e4f8.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 600,
+    "scale_m": 0.7,
+    "origin": "hanging point at top",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/lantern.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Hung along every street; amber glass as emissive."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-007",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "texture",
+   "prompt": "Warm ochre dusty masonry seen straight on: irregular stone blocks, soot staining near the bottom, flat even lighting, no directional light baked in. Palette from the image: warm dusty gold and ochre masonry, amber lantern glow, teal fog, soot black, crimson ribbon, purple-yellow-red flowers, theatrical storybook carving.",
+   "reference_image": "ARCHIVE/HatHavoc-a5d8e4f8/reference/inspiration-a5d8e4f8.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/masonry_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Buildings, world-space triplanar."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-008",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "texture",
+   "prompt": "Irregular worn cobblestones seen from above: warm ochre and grey stones, dark soot in the gaps, a few fallen petals, flat even lighting, no baked shadows. Palette from the image: warm dusty gold and ochre masonry, amber lantern glow, teal fog, soot black, crimson ribbon, purple-yellow-red flowers, theatrical storybook carving.",
+   "reference_image": "ARCHIVE/HatHavoc-a5d8e4f8/reference/inspiration-a5d8e4f8.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/cobblestone_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Street floor."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-009",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: curtain up: a sly detuned piano waltz, the market holds its breath",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-010",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: the first stall falls: pizzicato giggles and bassoon",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-011",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: slab surfing: a quick, swaying 3/4 with accordion",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-012",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: the crowd gasps: tense tremolo strings, building",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-013",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: pollen storm: full chamber band, fastest waltz",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-014",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: lantern-lit side streets: soft, dusty, music-box intimacy",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-015",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: the auctioneer is not amused: grumpy low brass, comic menace",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-016",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: bell-tower airspace: soaring, whimsical, high clarinet",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-017",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: encore: a grand, ridiculous, triumphant finale",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-018",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Hat Havoc score (mischievous theatrical chamber waltz, detuned piano, pizzicato bass, bassoon, clarinet, accordion, no vocals). This one: after the show: tired, sweet, slowing piano under the fog",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/music_hathavoc_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-019",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "sfx",
+   "prompt": "foley: a heavy woody crunch with a low rounded thump and a bright floral shimmer tail",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/sfx_pollen_impact.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every pollen hit; hard hit at the start."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-020",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "sfx",
+   "prompt": "powerup: an organic flower unfurling with a rising glassy shimmer",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/sfx_bloom.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Bloom cascades and upgrades."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-021",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "sfx",
+   "prompt": "pickup: bright glassy coin chimes",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/sfx_coins.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Coins magnetising to you, with pitch variation."
+  },
+  {
+   "id": "HatHavoc-a5d8e4f8-022",
+   "game": "ARCHIVE/HatHavoc-a5d8e4f8",
+   "type": "sfx",
+   "prompt": "foley: wind through a narrow old market street, loose wooden signs creaking, a distant bell, soft crowd murmur with no words, quiet, even sustain",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 8.0
+   },
+   "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/sfx_market_ambience.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped as ambience, so an even sustain with no hard start or end."
   }
  ]
 }
