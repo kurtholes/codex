@@ -13083,6 +13083,362 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped quietly as ambience (the game has none yet), so an even sustain."
+  },
+  {
+   "id": "IronTide-ec7037a3-001",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "model",
+   "prompt": "A silent iron-crowned woman sculpture: a corroded floor-length riveted gown, flowing wire hair, an elongated realistic face, moss-black iron with an oxidized brass crown. Dark industrial beauty. Palette from the image: sulfur-green fog, soot-black riveted iron, moss, corroded brass, cyan foundry glow, oily dark water.",
+   "reference_image": "ARCHIVE/IronTide-ec7037a3/reference/inspiration-ec7037a3.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 25000,
+    "scale_m": 40.0,
+    "origin": "base center, facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/iron_queen.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The monumental landmark over the whole harbor. Draw from the original image first."
+  },
+  {
+   "id": "IronTide-ec7037a3-002",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "model",
+   "prompt": "A brutal compact soot-black harbor steam tug: a brass boiler, an articulated front winch, a riveted hull, a cyan-lit cabin, tyre fenders along the sides. Palette from the image: sulfur-green fog, soot-black riveted iron, moss, corroded brass, cyan foundry glow, oily dark water.",
+   "reference_image": "ARCHIVE/IronTide-ec7037a3/reference/inspiration-ec7037a3.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 12000,
+    "scale_m": 8.0,
+    "origin": "center at the waterline, bow facing +Z",
+    "rig": "separate named nodes for the winch and the hull"
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/steam_tug.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind; always on screen. Cyan cabin as emissive."
+  },
+  {
+   "id": "IronTide-ec7037a3-003",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "model",
+   "prompt": "A rust-black nineteenth-century wreck ship being broken up: exposed ribs, three bare masts, dangling rigging, moss and oily metal, no sails. Palette from the image: sulfur-green fog, soot-black riveted iron, moss, corroded brass, cyan foundry glow, oily dark water.",
+   "reference_image": "ARCHIVE/IronTide-ec7037a3/reference/inspiration-ec7037a3.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 15000,
+    "scale_m": 70.0,
+    "origin": "center at the waterline, bow facing +Z",
+    "rig": "separate named nodes for hull sections and masts"
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/wreck_ship.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The skeletal ships you tow and tear apart."
+  },
+  {
+   "id": "IronTide-ec7037a3-004",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "model",
+   "prompt": "A corroded Victorian dock crane with brass hydraulic joints and a brittle lattice boom. Palette from the image: sulfur-green fog, soot-black riveted iron, moss, corroded brass, cyan foundry glow, oily dark water.",
+   "reference_image": "ARCHIVE/IronTide-ec7037a3/reference/inspiration-ec7037a3.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 18.0,
+    "origin": "base center",
+    "rig": "separate named nodes for base, tower and boom"
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/dock_crane.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The first thing you pull down; the boom falls."
+  },
+  {
+   "id": "IronTide-ec7037a3-005",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "model",
+   "prompt": "A horizontal riveted pressure boiler with glowing cyan gauges and brass valves. Palette from the image: sulfur-green fog, soot-black riveted iron, moss, corroded brass, cyan foundry glow, oily dark water.",
+   "reference_image": "ARCHIVE/IronTide-ec7037a3/reference/inspiration-ec7037a3.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 4000,
+    "scale_m": 6.0,
+    "origin": "bottom center",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/boiler.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Towed loads that rupture. Gauges as emissive."
+  },
+  {
+   "id": "IronTide-ec7037a3-006",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "texture",
+   "prompt": "Seamless mossy riveted black iron plates seen straight on, corroded brass streaks, oily patches, flat even lighting, no baked shadows. Palette from the image: sulfur-green fog, soot-black riveted iron, moss, corroded brass, cyan foundry glow, oily dark water.",
+   "reference_image": "ARCHIVE/IronTide-ec7037a3/reference/inspiration-ec7037a3.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/riveted_iron_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Hulls, cranes and piers, world-space triplanar."
+  },
+  {
+   "id": "IronTide-ec7037a3-007",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: the harbor wakes: a slow pulse under sulfur fog",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-008",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: first tow: the cable strains, rising bowed metal",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-009",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: under the iron queen: vast, solemn brass drone",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-010",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: shipbreaking: heavy rhythmic anvil hits",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-011",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: the foundry mouths glow: warmer, steadier drive",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-012",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: deeper districts: dark, tense, sparse",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-013",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: full overdrive: the fastest, loudest pulse",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-014",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: a hull torn free: crashing percussion, triumph",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-015",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: fog bank: eerie, quiet, distant creaks in the music",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-016",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Iron Tide score (oppressive industrial score: slow mechanical pulse, deep bowed metal, restrained low brass drones, distant anvils, no vocals). This one: the tug at rest: low, weary, slow fade",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/music_irontide_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-017",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "sfx",
+   "prompt": "explosion: a violent boiler rupture",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_boiler_burst.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-018",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "sfx",
+   "prompt": "hit: a grinding heavy steel collision",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_hull_hit.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Loads smashing into things."
+  },
+  {
+   "id": "IronTide-ec7037a3-019",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "sfx",
+   "prompt": "splash: a heavy load dropping into water",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_heavy_splash.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "IronTide-ec7037a3-020",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "sfx",
+   "prompt": "pickup: a deep salvage clank chime",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_delivered.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Banking cargo at the foundry."
+  },
+  {
+   "id": "IronTide-ec7037a3-021",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "sfx",
+   "prompt": "powerup: a rising engine surge",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_upgrade.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Each blueprint upgrade."
+  },
+  {
+   "id": "IronTide-ec7037a3-022",
+   "game": "ARCHIVE/IronTide-ec7037a3",
+   "type": "sfx",
+   "prompt": "wind: a low cold harbor wind",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/IronTide-ec7037a3/assets/sfx_harbor_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly as ambience, so an even sustain."
   }
  ]
 }
