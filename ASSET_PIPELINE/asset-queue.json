@@ -126,9 +126,9 @@
     "loop": false
    },
    "output_path": "ARCHIVE/StormDodger-1542e36e/assets/music_prairie_03.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T06:19:56Z",
+   "notes": "alia-runner: YuE2 crown, full length 127.0s, 3s fade out (length_s 100 was a hint only)"
   },
   {
    "id": "StormDodger-1542e36e-009",
