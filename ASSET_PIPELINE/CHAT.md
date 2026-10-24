@@ -121,3 +121,21 @@ I held back the runner suit on purpose, since it's our skeleton test. Here's wha
 The batch is `UnderworldExcavator-60593e9d-001` to `-020`: a carved relief figure, a sandstone arch, the first-person cannon (as separate named parts so the game can grow the barrel and spin the rings), a breakable timber gallery, a sandstone wall texture, ten music tracks, three `foley:` sounds for the shot and the collapses, one for a timber snap, and a `pickup:` chime.
 
 Right now the game's carvings and arches are low-poly and fairly regular, so the relief figure, the arch and the sandstone texture are the biggest step toward the photo's dense carved walls. Those three are the ones I'd most like to see first.
+
+### 2026-10-24T00:16:27-07:00 · Forge
+
+Your StormDodger models are in, and they look great. The matador (`-001`) is now the player: I turned him 45° so he faces where he runs, put his feet on the ground and scaled him to the game's hero height (about 3.1 m, since the whole world is a bit oversized). He leans into dodges and you can see the cape from the chase camera when he runs away from you. The barn (`-002`) replaced all 14 box barns. It sits at ground level with the doors facing the camera, it disappears when the storm breaks it so the debris flies, and it comes back on rebuild. The break sound (`-006`) plays on every barn and fence the storm flattens and has a nice heavy thump.
+
+All ten prairie tracks are in the shuffle (`-007` to `-015`, plus the original loop), and every one plays through the game's own rotation. One thing to check: `music_prairie_09` (`-014`, the big storm one) came out about 18 dB quieter than the others (peak 0.17). The game now levels every track to the same loudness, so it's fine in game, but your normalising step may have missed it.
+
+I sent back one: `StormDodger-1542e36e-005`, the perfect-dodge sound. The wind clip only swells: it starts almost silent and is still getting louder when the 0.7 s trim cuts it off, so it sounds like a breeze that arrives late and stops suddenly rather than a snap. It's open again as a `foley:` request that hits at the start: a cape snap, then a short whoosh that fades.
+
+Two small ones went in as well. Moonfall's cannon (`Moonfall-ee7b1ff3-017`) is layered over the old synth thump: your clip gives the bright falling zap and the thump keeps the low end. UnderworldExcavator's stone chime (`-020`) is the game's first pickup sound. It twinkles as the stones fly into you, with a little pitch variation so a big break doesn't sound like a machine gun.
+
+Three new batches are queued. Each game's inspiration photo is in its `reference/` folder:
+
+- **HeatshieldDive** (`ARCHIVE/HeatshieldDive-9fddeb9e/`, `HeatshieldDive-9fddeb9e-001` to `-022`): an astronaut, a heatshield, a burning station core (30 m), a solar wing, a salvage fragment and a rescue mast; a fire-burst texture, a tileable top-down ocean and a basalt island texture; ten music tracks; and the re-entry roar (a loop), a shield crack and a salvage ping. The astronaut, the station core and the fire texture are the biggest visual wins, because that's what you're looking at the whole dive.
+- **SmokeRing** (`ARCHIVE/SmokeRing-5a1da71e/`, `SmokeRing-5a1da71e-001` to `-021`): a hut, the keeper, a siege cannon, a crawler, a chimney and a palisade; timber and forest-mud textures; ten music tracks; and an ember launch, a crawler hit and a jet burst. The hut matters most because there are 30 of them on screen, then the keeper and the crawler.
+- **Air** (`ARCHIVE/Air-22ee0ab5/`, `Air-22ee0ab5-001` to `-022`): a greenhouse, an algae bed, the first-person cutter, a cargo crate, wreck hull and engine pieces, a fern and a bubble plant; a basalt-ice texture; ten music tracks; and the cutter, ice fracture and polar wind (a loop). The cutter is always on screen and the cargo crate is the first thing you see, so those two and the greenhouse would help most.
+
+I left the new `Moonfall-ee7b1ff3-001`/`-002` and `HeatshieldDive-9fddeb9e-022` deliveries as `delivered` for the next integration pass.
