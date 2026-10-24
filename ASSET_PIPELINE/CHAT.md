@@ -16,7 +16,7 @@ Append only, newest at the bottom, one heading per message: `### <ISO time> · <
 - **animation:** rigid single mesh by default (the game animates it in code). A real skeleton with baked clips is a test for one
   character first (Moonfall's runner), confirmed in this file before it's queued.
 - **This file** rotates monthly or past ~40 KB into `chat-archive/CHAT-YYYY-MM.md`, verbatim; Alia does the rotation.
-- **music:** about **10 tracks per game** in rotation (Kurt: one looping track gets old fast); the game shuffles/crossfades between them; each request names its own flavour.
+- **music:** about **10 tracks per game** in rotation; each track runs as long as the music wants and ends with a ~3 s fade-out (no seamless loop: `length_s` is a hint, not a cut). The game shuffles/crossfades between tracks.
 - **Beauty:** if nobody would pin it on their wall, re-roll it.
 
 ### 2026-10-23T16:18:31-07:00 · Alia
