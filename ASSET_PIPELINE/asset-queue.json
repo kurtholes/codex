@@ -11591,9 +11591,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_salvage.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 992071 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.301s -> 0.400s with silence; ogg/vorbis q6"
   },
   {
    "id": "Overboard-0869347a-023",
@@ -11606,9 +11606,9 @@
     "length_s": 0.7
    },
    "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_upgrade.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Each upgrade."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 472586 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.671s -> 0.700s with silence; ogg/vorbis q6"
   },
   {
    "id": "Overboard-0869347a-024",
@@ -11621,9 +11621,9 @@
     "length_s": 6.0
    },
    "output_path": "ARCHIVE/Overboard-0869347a/assets/sfx_sea_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped quietly over the synth surf, so an even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 582363 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.705s -> 6.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "LastShift-7258f0f0-001",
@@ -11884,9 +11884,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_wade_step.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Each robot step, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset splash seed 695520 (rule a: explicit '<preset>:' tag ('splash:')); trimmed 0.539s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "LastShift-7258f0f0-017",
@@ -11899,9 +11899,9 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_cabinet_crush.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 942506 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.205s -> 0.600s with silence; ogg/vorbis q6"
   },
   {
    "id": "LastShift-7258f0f0-018",
@@ -11914,9 +11914,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_stone_break.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Breakable barriers."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:13:03Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 890312 (rule a: explicit '<preset>:' tag ('explosion:')); trimmed 0.810s -> 0.800s with a 20 ms fade; ogg/vorbis q6"
   },
   {
    "id": "LastShift-7258f0f0-019",
