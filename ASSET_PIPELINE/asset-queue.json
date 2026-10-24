@@ -10126,6 +10126,379 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped quietly under everything, so an even sustain."
+  },
+  {
+   "id": "Sloppin-33d8d49a-001",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "model",
+   "prompt": "An enormous mud-soaked black farm pig: low heavy shoulders, sagging jowls, folded ears, tiny eyes, cloven hooves, curled tail, coarse charcoal bristles caked in wet brown-black slurry. Realistic heavy silhouette, standing. Palette from the image: silver storm-grey sky, black-brown wet churned mud, charcoal pig bristles, pale olive cabbage, a few muted rotting reds, dark distant tree line.",
+   "reference_image": "ARCHIVE/Sloppin-33d8d49a/reference/inspiration-33d8d49a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 18000,
+    "scale_m": 3.0,
+    "origin": "feet center, snout facing -Z",
+    "rig": "none (rigid; the game animates it in code)"
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/pig.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind and low; 3 m nose to tail (the game scales it as it grows). Draw it from the original image first."
+  },
+  {
+   "id": "Sloppin-33d8d49a-002",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "model",
+   "prompt": "A rotten pale olive cabbage: ragged wet outer leaves, a dirty cream heart, mud on the base. Palette from the image: silver storm-grey sky, black-brown wet churned mud, charcoal pig bristles, pale olive cabbage, a few muted rotting reds, dark distant tree line.",
+   "reference_image": "ARCHIVE/Sloppin-33d8d49a/reference/inspiration-33d8d49a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 0.45,
+    "origin": "base center at soil",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/cabbage.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Food, instanced hundreds of times."
+  },
+  {
+   "id": "Sloppin-33d8d49a-003",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "model",
+   "prompt": "A storm-battered weathered timber fence section: two crooked posts and three split rails, grey wet wood. Palette from the image: silver storm-grey sky, black-brown wet churned mud, charcoal pig bristles, pale olive cabbage, a few muted rotting reds, dark distant tree line.",
+   "reference_image": "ARCHIVE/Sloppin-33d8d49a/reference/inspiration-33d8d49a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 400,
+    "scale_m": 3.0,
+    "origin": "bottom center, running along X",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/fence.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Splinters when rooted through."
+  },
+  {
+   "id": "Sloppin-33d8d49a-004",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "model",
+   "prompt": "A collapsing plank farm shed: sagging corrugated roof, gappy dark weathered planks, a half-open door. Palette from the image: silver storm-grey sky, black-brown wet churned mud, charcoal pig bristles, pale olive cabbage, a few muted rotting reds, dark distant tree line.",
+   "reference_image": "ARCHIVE/Sloppin-33d8d49a/reference/inspiration-33d8d49a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1500,
+    "scale_m": 5.0,
+    "origin": "base center, door facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/shed.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Bigger wreck target."
+  },
+  {
+   "id": "Sloppin-33d8d49a-005",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "model",
+   "prompt": "A neglected fruit tree with black twisted bark and a sparse dull olive canopy. Palette from the image: silver storm-grey sky, black-brown wet churned mud, charcoal pig bristles, pale olive cabbage, a few muted rotting reds, dark distant tree line.",
+   "reference_image": "ARCHIVE/Sloppin-33d8d49a/reference/inspiration-33d8d49a.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 2400,
+    "scale_m": 6.0,
+    "origin": "base of the trunk",
+    "rig": "separate named nodes for trunk and crown"
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/orchard_tree.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Uprooted in the orchard."
+  },
+  {
+   "id": "Sloppin-33d8d49a-006",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "texture",
+   "prompt": "Black-brown churned wet farm slurry seen from above with a few torn cabbage leaf scraps, puddled earth, flat even lighting, no baked shadows. Palette from the image: silver storm-grey sky, black-brown wet churned mud, charcoal pig bristles, pale olive cabbage, a few muted rotting reds, dark distant tree line.",
+   "reference_image": "ARCHIVE/Sloppin-33d8d49a/reference/inspiration-33d8d49a.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/mud_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The whole field, world-space triplanar."
+  },
+  {
+   "id": "Sloppin-33d8d49a-007",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "texture",
+   "prompt": "Oppressive silver storm clouds over flat dark farmland with a distant broken tree line, no sun disk. Palette from the image: silver storm-grey sky, black-brown wet churned mud, charcoal pig bristles, pale olive cabbage, a few muted rotting reds, dark distant tree line.",
+   "reference_image": "ARCHIVE/Sloppin-33d8d49a/reference/inspiration-33d8d49a.jpg",
+   "spec": {
+    "format": "png",
+    "size": 2048,
+    "tileable": false,
+    "projection": "equirectangular 2:1"
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/storm_sky.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The sky dome; 2048x1024 equirectangular, horizon on the middle line."
+  },
+  {
+   "id": "Sloppin-33d8d49a-008",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: rain on the cabbage patch: slow, lazy slide guitar",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-009",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: rooting begins: a stompy tuba groove",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-010",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: the first fence goes: jaunty washboard shuffle",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-011",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: belly surfing: fast, slippery, gleeful",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-012",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: thunder rolls in: darker, heavier stomp",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-013",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: the orchard: swaggering, harmonica lead",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-014",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: growing bigger: proud brass-band swagger",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-015",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: the piggery: a full rowdy barnyard romp",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-016",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: grey afternoon: a slow, contented wallow",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-017",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Sloppin score (muddy comic farmyard blues: slide guitar, tuba, washboard, stomping kick drum, harmonica, no vocals). This one: storm clearing: warm, sleepy, satisfied finish",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/music_sloppin_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-018",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "sfx",
+   "prompt": "splash: a deep wet mud squelch",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.4
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_root_squelch.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Rooting through mud, with pitch variation."
+  },
+  {
+   "id": "Sloppin-33d8d49a-019",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "sfx",
+   "prompt": "pickup: a crunchy cabbage bite",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_cabbage_eat.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Every cabbage eaten."
+  },
+  {
+   "id": "Sloppin-33d8d49a-020",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "sfx",
+   "prompt": "hit: a dry timber fence splintering",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.5
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_fence_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Fences and troughs."
+  },
+  {
+   "id": "Sloppin-33d8d49a-021",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "sfx",
+   "prompt": "explosion: a plank shed collapsing into mud",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.2
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_shed_collapse.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "Sloppin-33d8d49a-022",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "sfx",
+   "prompt": "powerup: a big bellowing growth surge",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_grow.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Each anatomy upgrade."
+  },
+  {
+   "id": "Sloppin-33d8d49a-023",
+   "game": "ARCHIVE/Sloppin-33d8d49a",
+   "type": "sfx",
+   "prompt": "wind: steady fine rain and bleak farm wind",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_rain_wind.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly as ambience, so an even sustain."
   }
  ]
 }
