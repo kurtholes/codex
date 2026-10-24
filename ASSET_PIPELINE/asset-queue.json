@@ -11624,6 +11624,344 @@
    "status": "open",
    "delivered_at": null,
    "notes": "Looped quietly over the synth surf, so an even sustain."
+  },
+  {
+   "id": "LastShift-7258f0f0-001",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "model",
+   "prompt": "A chipped ivory service robot: a box head with an inset black face and two glowing amber square eyes, rusty rivets, a cable spool on its back, small articulated legs, apocalypse office worker. Palette from the image: near-black gothic stone, dark teal floodwater, cold cyan window light, chipped ivory paint, glowing amber eyes, brown rust.",
+   "reference_image": "ARCHIVE/LastShift-7258f0f0/reference/inspiration-7258f0f0.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 8000,
+    "scale_m": 1.0,
+    "origin": "feet center, facing +Z",
+    "rig": "separate named nodes for head, each arm and each leg"
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/office_robot.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The player, seen from behind wading. Amber eyes as emissive. Draw it from the original image first."
+  },
+  {
+   "id": "LastShift-7258f0f0-002",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "model",
+   "prompt": "A battered ivory three-drawer filing cabinet with brown rust streaks and bent handles. Palette from the image: near-black gothic stone, dark teal floodwater, cold cyan window light, chipped ivory paint, glowing amber eyes, brown rust.",
+   "reference_image": "ARCHIVE/LastShift-7258f0f0/reference/inspiration-7258f0f0.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 1000,
+    "scale_m": 1.3,
+    "origin": "bottom center, drawers facing +Z",
+    "rig": "separate named nodes for each drawer"
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/filing_cabinet.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Floating office debris you winch and smash."
+  },
+  {
+   "id": "LastShift-7258f0f0-003",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "model",
+   "prompt": "An enormous near-black gothic nave bay: two bundled columns, a pointed rib vault between them, a narrow tall cyan-lit clerestory window, damp eroded stone. Palette from the image: near-black gothic stone, dark teal floodwater, cold cyan window light, chipped ivory paint, glowing amber eyes, brown rust.",
+   "reference_image": "ARCHIVE/LastShift-7258f0f0/reference/inspiration-7258f0f0.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 3000,
+    "scale_m": 12.0,
+    "origin": "floor center of the bay",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/nave_bay.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Modular 12 m bays repeated down the cathedral."
+  },
+  {
+   "id": "LastShift-7258f0f0-004",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "model",
+   "prompt": "An amber-lit office inbox tray on a rusted metal pedestal, a stack of cyan papers inside. Palette from the image: near-black gothic stone, dark teal floodwater, cold cyan window light, chipped ivory paint, glowing amber eyes, brown rust.",
+   "reference_image": "ARCHIVE/LastShift-7258f0f0/reference/inspiration-7258f0f0.jpg",
+   "spec": {
+    "format": "glb",
+    "max_tris": 800,
+    "scale_m": 1.6,
+    "origin": "base center, tray facing +Z",
+    "rig": "none"
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/inbox.glb",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "The delivery point you return to. Amber as emissive."
+  },
+  {
+   "id": "LastShift-7258f0f0-005",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "texture",
+   "prompt": "Damp charcoal limestone blocks seen straight on with blue-green staining, fine pits and mortar lines, flat even lighting, no baked shadows. Palette from the image: near-black gothic stone, dark teal floodwater, cold cyan window light, chipped ivory paint, glowing amber eyes, brown rust.",
+   "reference_image": "ARCHIVE/LastShift-7258f0f0/reference/inspiration-7258f0f0.jpg",
+   "spec": {
+    "format": "png",
+    "size": 1024,
+    "tileable": true
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/limestone_albedo.png",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "All cathedral stone, world-space triplanar."
+  },
+  {
+   "id": "LastShift-7258f0f0-006",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 1 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: clocking in: a small music-box theme in the dark",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_01.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-007",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 2 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: wading the nave: slow pads, dripping echoes",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_02.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-008",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 3 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: the first delivery: a warm little lift",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_03.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-009",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 4 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: the winch strains: tense, pulsing, low",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_04.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-010",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 5 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: archive courtyard: cold, airy, cyan light",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_05.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-011",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 6 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: the industrial quay: heavier beat, rusted metal",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_06.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-012",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 7 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: a stronger chassis: hopeful, steadier rhythm",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_07.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-013",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 8 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: boost through the flood: the fastest, brightest track",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_08.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-014",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 9 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: the great nave at night: vast organ drone, tiny melody",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_09.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-015",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "music",
+   "prompt": "Track 10 of 10 in the Last Shift score (melancholy ambient electronica: soft analog pads, a tiny music-box motif, distant cathedral organ, a slow muffled beat, no vocals). This one: overtime: tender, tired, still working",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 100,
+    "loop": false
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/music_lastshift_10.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-016",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "sfx",
+   "prompt": "splash: a small heavy wading step in deep water",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_wade_step.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Each robot step, with pitch variation."
+  },
+  {
+   "id": "LastShift-7258f0f0-017",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "sfx",
+   "prompt": "hit: a metal cabinet crumpling",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.6
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_cabinet_crush.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": ""
+  },
+  {
+   "id": "LastShift-7258f0f0-018",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "sfx",
+   "prompt": "explosion: wet stone cracking and rubble falling",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.8
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_stone_break.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Breakable barriers."
+  },
+  {
+   "id": "LastShift-7258f0f0-019",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "sfx",
+   "prompt": "powerup: a satisfying stamp with a warm rising chord",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 1.0
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_delivery_stamp.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Delivering at the inbox."
+  },
+  {
+   "id": "LastShift-7258f0f0-020",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "sfx",
+   "prompt": "pickup: a small coin chime",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 0.3
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_wages.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Salvage and wages."
+  },
+  {
+   "id": "LastShift-7258f0f0-021",
+   "game": "ARCHIVE/LastShift-7258f0f0",
+   "type": "sfx",
+   "prompt": "wind: a quiet cold draft through a vast flooded hall",
+   "reference_image": null,
+   "spec": {
+    "format": "ogg",
+    "length_s": 6.0
+   },
+   "output_path": "ARCHIVE/LastShift-7258f0f0/assets/sfx_nave_draft.ogg",
+   "status": "open",
+   "delivered_at": null,
+   "notes": "Looped quietly as ambience, so an even sustain."
   }
  ]
 }
