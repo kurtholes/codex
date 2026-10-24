@@ -10436,9 +10436,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_cabbage_eat.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every cabbage eaten."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:25Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 437801 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.299s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "Sloppin-33d8d49a-020",
@@ -10451,9 +10451,9 @@
     "length_s": 0.5
    },
    "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_fence_break.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Fences and troughs."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:25Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset hit seed 536053 (rule a: explicit '<preset>:' tag ('hit:')); padded 0.207s -> 0.500s with silence; ogg/vorbis q6"
   },
   {
    "id": "Sloppin-33d8d49a-021",
@@ -10466,9 +10466,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_shed_collapse.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": ""
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:25Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset explosion seed 811931 (rule a: explicit '<preset>:' tag ('explosion:')); padded 1.010s -> 1.200s with silence; ogg/vorbis q6"
   },
   {
    "id": "Sloppin-33d8d49a-022",
@@ -10481,9 +10481,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_grow.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Each anatomy upgrade."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:25Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 773442 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.683s -> 0.800s with silence; ogg/vorbis q6"
   },
   {
    "id": "Sloppin-33d8d49a-023",
@@ -10496,9 +10496,9 @@
     "length_s": 6.0
    },
    "output_path": "ARCHIVE/Sloppin-33d8d49a/assets/sfx_rain_wind.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Looped quietly as ambience, so an even sustain."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:25Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 195550 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.702s -> 6.000s with silence; ogg/vorbis q6"
   },
   {
    "id": "InfiniteLibrarian-bdb16bea-001",
@@ -10793,9 +10793,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/InfiniteLibrarian-bdb16bea/assets/sfx_book_scoop.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "Every book scooped, with pitch variation."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T18:12:25Z",
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 339445 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.296s -> 0.300s with silence; ogg/vorbis q6"
   },
   {
    "id": "InfiniteLibrarian-bdb16bea-019",
