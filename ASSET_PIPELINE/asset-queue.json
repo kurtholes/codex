@@ -6520,7 +6520,7 @@
     "length_s": 0.35
    },
    "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_energy_pickup.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:17Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 532446 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.326s -> 0.350s with silence; ogg/vorbis q6"
   },
@@ -6535,7 +6535,7 @@
     "length_s": 0.6
    },
    "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_shell_launch.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:17Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 244202 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.334s -> 0.600s with silence; ogg/vorbis q6"
   },
@@ -6550,7 +6550,7 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/TheSleepingOnes-3fbe3bda/assets/sfx_night_wind.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T13:11:17Z",
    "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset wind seed 598585 (rule a: explicit '<preset>:' tag ('wind:')); padded 2.740s -> 4.000s with silence; ogg/vorbis q6"
   },
