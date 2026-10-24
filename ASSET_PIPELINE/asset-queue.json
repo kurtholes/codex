@@ -827,31 +827,29 @@
    "id": "UnderworldExcavator-60593e9d-017",
    "game": "ARCHIVE/UnderworldExcavator-60593e9d",
    "type": "sfx",
-   "prompt": "foley: a sandstone wall cracking and crumbling, big rock fracture followed by cascading grit and settling dust, enclosed cavern",
+   "prompt": "foley: a sandstone wall cracking and crumbling: one sharp rock fracture right at the start, then cascading grit that fades out to silence, enclosed cavern",
    "reference_image": null,
    "spec": {
     "format": "ogg",
-    "length_s": 1.8
+    "length_s": 3.0
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_1.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T11:06:17Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_017_2e699f_261024-035554; onset 0.630s into the 4.48s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.8s from the onset; trimmed 3.850s -> 1.800s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -12.0 -> -14.0 dB, peak -0.5 -> -2.5 dBFS (gain -2.0 dB; target -14 dB RMS); ogg/vorbis q6"
+   "status": "open",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_017_2e699f_261024-035554; onset 0.630s into the 4.48s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.8s from the onset; trimmed 3.850s -> 1.800s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -12.0 -> -14.0 dB, peak -0.5 -> -2.5 dBFS (gain -2.0 dB; target -14 dB RMS); ogg/vorbis q6 | Forge: reopened 2026-10-24. The delivered take starts quiet (-33 dB), builds up, and is still at its loudest (-7 dB) when the 1.8 s cut lands, so it ends in a hard chop and has no crack at the front. Please give it the big fracture first and let the grit decay to silence; length_s raised to 3.0 so the tail fits."
   },
   {
    "id": "UnderworldExcavator-60593e9d-018",
    "game": "ARCHIVE/UnderworldExcavator-60593e9d",
    "type": "sfx",
-   "prompt": "foley: a large stone pillar giving way, deep groan then heavy tumbling blocks, cave echo",
+   "prompt": "foley: a large stone pillar giving way: a heavy crack, a few big blocks tumbling, then the rumble dying away into cave echo",
    "reference_image": null,
    "spec": {
     "format": "ogg",
-    "length_s": 2.0
+    "length_s": 3.0
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_collapse_2.ogg",
-   "status": "delivered",
-   "delivered_at": "2026-10-24T11:13:59Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_018_40e696_261024-035834; onset 0.490s into the 4.48s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 2s from the onset; trimmed 3.990s -> 2.000s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -13.3 -> -14.0 dB, peak -5.3 -> -6.0 dBFS (gain -0.7 dB; target -14 dB RMS); ogg/vorbis q6"
+   "status": "open",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_018_40e696_261024-035834; onset 0.490s into the 4.48s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 2s from the onset; trimmed 3.990s -> 2.000s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -13.3 -> -14.0 dB, peak -5.3 -> -6.0 dBFS (gain -0.7 dB; target -14 dB RMS); ogg/vorbis q6 | Forge: reopened 2026-10-24. The delivered take is a flat -8 to -12 dB rumble wall for the whole 2.0 s and is cut while still loud, so it has no impact and no ending. Please put the crack up front and let it settle and fade; length_s raised to 3.0."
   },
   {
    "id": "UnderworldExcavator-60593e9d-019",
@@ -864,9 +862,9 @@
     "length_s": 1.2
    },
    "output_path": "ARCHIVE/UnderworldExcavator-60593e9d/assets/sfx_timber_break.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:22:47Z",
-   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_019_cde34a_261024-040625; onset 0.530s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.2s from the onset; trimmed 3.246s -> 1.200s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -15.7 -> -16.7 dB, peak -0.0 -> -1.0 dBFS (gain -1.0 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6"
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_underworldexcavator_60593e9d_019_cde34a_261024-040625; onset 0.530s into the 3.78s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 1.2s from the onset; trimmed 3.246s -> 1.200s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -15.7 -> -16.7 dB, peak -0.0 -> -1.0 dBFS (gain -1.0 dB; capped by the -1 dBFS peak ceiling); ogg/vorbis q6 | Forge: integrated 2026-10-24. Wooden props snap with sfx_timber_break.ogg when broken. Only the first 0.95 s is played (with a 100 ms fade) because the second knock at 1.0 s gets cut off at 1.2 s; vol .55, ±7% pitch."
   },
   {
    "id": "UnderworldExcavator-60593e9d-020",
@@ -4591,9 +4589,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/NeonRoot-6170a9ab/assets/sfx_ember_pickup.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:06:27Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 296942 (rule a: explicit '<preset>:' tag ('pickup:')); trimmed 0.302s -> 0.300s with a 20 ms fade; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 296942 (rule a: explicit '<preset>:' tag ('pickup:')); trimmed 0.302s -> 0.300s with a 20 ms fade; ogg/vorbis q6 | Forge: integrated 2026-10-24. sfx_ember_pickup.ogg when an ember reaches the cat (vol .32, ±6% pitch, 70 ms gap); expiring embers stay silent."
   },
   {
    "id": "NeonRoot-6170a9ab-023",
@@ -5031,9 +5029,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/HectorRising-0c8672a9/assets/sfx_salvage.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:06:27Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 215936 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.314s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 215936 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.314s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. sfx_salvage.ogg on salvage pickup (vol .35, ±6% pitch, 70 ms gap); synth fallback kept."
   },
   {
    "id": "HatHavoc-a5d8e4f8-001",
@@ -5361,9 +5359,9 @@
     "length_s": 0.8
    },
    "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/sfx_bloom.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:06:27Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 792892 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.630s -> 0.800s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset powerup seed 792892 (rule a: explicit '<preset>:' tag ('powerup:')); padded 0.630s -> 0.800s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. sfx_bloom.ogg plays when a bloom goes off (vol .5, ±6% pitch, 60 ms gap); synth fallback kept."
   },
   {
    "id": "HatHavoc-a5d8e4f8-021",
@@ -5376,9 +5374,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/HatHavoc-a5d8e4f8/assets/sfx_coins.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:06:41Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 173424 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.305s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 173424 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.305s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. sfx_coins.ogg on every coin pickup (vol .3, ±5% pitch, rate-limited to one per 90 ms); old sparse synth blip is the fallback."
   },
   {
    "id": "HatHavoc-a5d8e4f8-022",
@@ -5723,9 +5721,9 @@
     "length_s": 0.4
    },
    "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_blade_slash.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:06:41Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 100234 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.360s -> 0.400s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 100234 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.360s -> 0.400s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. sfx_blade_slash.ogg on melee swings (vol .45, ±5% pitch); gun shots keep the synth."
   },
   {
    "id": "Heartbreaker-9e39585f-021",
@@ -5768,9 +5766,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_reflect.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:06:41Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 401548 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.300s -> 0.300s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset laser seed 401548 (rule a: explicit '<preset>:' tag ('laser:')); padded 0.300s -> 0.300s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. sfx_reflect.ogg layered on 'RETURN TO SENDER' parries (vol .5)."
   },
   {
    "id": "Heartbreaker-9e39585f-024",
@@ -5783,9 +5781,9 @@
     "length_s": 1.0
    },
    "output_path": "ARCHIVE/Heartbreaker-9e39585f/assets/sfx_vent_heal.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:06:41Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset heartbeat seed 696135 (rule a: explicit '<preset>:' tag ('heartbeat:')); padded 0.888s -> 1.000s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset heartbeat seed 696135 (rule a: explicit '<preset>:' tag ('heartbeat:')); padded 0.888s -> 1.000s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. sfx_vent_heal.ogg pulses about every 1.15 s while you stand in a vent and are below max HP (vol .55); silent at full HP."
   },
   {
    "id": "Heartbreaker-9e39585f-025",
@@ -6144,9 +6142,9 @@
     "length_s": 0.5
    },
    "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sfx_swim_burst.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:06:41Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset splash seed 674380 (rule a: explicit '<preset>:' tag ('splash:')); trimmed 0.548s -> 0.500s with a 20 ms fade; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset splash seed 674380 (rule a: explicit '<preset>:' tag ('splash:')); trimmed 0.548s -> 0.500s with a 20 ms fade; ogg/vorbis q6 | Forge: integrated 2026-10-24. sfx_swim_burst.ogg on the dash/ripple (vol .5, ±6% pitch); synth fallback kept."
   },
   {
    "id": "RippleBeast-350d9041-022",
@@ -6159,9 +6157,9 @@
     "length_s": 0.3
    },
    "output_path": "ARCHIVE/RippleBeast-350d9041/assets/sfx_bite.ogg",
-   "status": "delivered",
+   "status": "integrated",
    "delivered_at": "2026-10-24T11:06:41Z",
-   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 34345 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.291s -> 0.300s with silence; ogg/vorbis q6"
+   "notes": "alia-runner: CHIRP v1.1 (sha256 67d24820) preset pickup seed 34345 (rule a: explicit '<preset>:' tag ('pickup:')); padded 0.291s -> 0.300s with silence; ogg/vorbis q6 | Forge: integrated 2026-10-24. sfx_bite.ogg on bites (vol .35, ±8% pitch, 70 ms gap); synth fallback kept."
   },
   {
    "id": "RippleBeast-350d9041-023",
