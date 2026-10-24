@@ -1210,9 +1210,9 @@
     "length_s": 4.0
    },
    "output_path": "ARCHIVE/HeatshieldDive-9fddeb9e/assets/sfx_reentry_roar.ogg",
-   "status": "open",
-   "delivered_at": null,
-   "notes": "The game loops this and raises its volume with speed, so an even sustain without a hard start or end is ideal."
+   "status": "delivered",
+   "delivered_at": "2026-10-24T13:51:25Z",
+   "notes": "alia-runner: FOLEY: H3 t2v native audio (rule b: explicit 'foley:' tag ('foley:')), take codex_foley_heatshielddive_9fddeb9e_020_aebe14_261024-064430; onset 0.610s into the 6.59s take (first 10 ms window >= 0.3 x peak, 10 ms pre-roll); length_s 4s from the onset; trimmed 5.982s -> 4.000s with a 20 ms fade; speech check: STT heard 0 words; level: RMS -12.1 -> -14.0 dB, peak -5.0 -> -6.9 dBFS (gain -1.9 dB; target -14 dB RMS); ogg/vorbis q6"
   },
   {
    "id": "HeatshieldDive-9fddeb9e-021",
